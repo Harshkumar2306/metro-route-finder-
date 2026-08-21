@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi Metro Route Finder | Classic Transit Edition</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Classic Transit Header -->
+    <header class="classic-header">
+      <div class="header-left">
+        <div class="dmrc-emblem">
+          <div class="metro-circle-badge">
+            <span class="m-letter">M</span>
+          </div>
+          <div class="brand-text">
+            <h1>DELHI METRO ROUTE FINDER</h1>
+            <span class="sub-brand">DMRC CLASSIC TRANSIT SYSTEM &bull; SINCE 2002</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <nav class="classic-nav-tabs">
+          <button class="nav-tab active" data-tab="route-tab">
+            <span class="tab-icon">🚇</span>
+            <span>Route Finder & Map</span>
+          </button>
+          <button class="nav-tab" data-tab="tourist-tab">
+            <span class="tab-icon">🏛️</span>
+            <span>Tourist Guide</span>
+          </button>
+          <button class="nav-tab" data-tab="recharge-tab">
+            <span class="tab-icon">💳</span>
+            <span>Smart Card (Paisa)</span>
+          </button>
+          <button class="nav-tab" data-tab="terminal-tab">
+            <span class="tab-icon">📟</span>
+            <span>Retro C++ Terminal</span>
+          </button>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span id="current-time">19:45 IST</span>
+        </div>
+        <div class="peak-status" id="peak-indicator">
+          <span class="peak-badge">Off-Peak (20% Off)</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+      
+      <!-- TAB 1: Route Finder & Interactive Map -->
+      <section id="route-tab" class="tab-pane active">
+        <div class="route-finder-layout">
+          
+          <!-- Left Control Panel -->
+          <aside class="planner-sidebar">
+            <div class="kiosk-card">
+              <div class="kiosk-card-header">
+                <span class="kiosk-title">🎫 Plan Your Journey</span>
+                <span class="system-tag">Dijkstra / BFS</span>
+              </div>
+
+              <div class="planner-form">
+                <!-- Origin Input -->
+                <div class="input-group">
+                  <label for="origin-select">
+                    <span class="dot origin-dot"></span>
+                    <span>Origin Station</span>
+                  </label>
+                  <div class="select-wrapper">
+                    <select id="origin-select" class="metro-select">
+                      <option value="">Select origin station...</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Swap Button -->
+                <div class="swap-row">
+                  <button id="swap-btn" class="classic-btn-icon" title="Swap Stations">
+                    <span>⇅</span>
+                  </button>
+                  <div class="divider-line"></div>
+                </div>
+
+                <!-- Destination Input -->
+                <div class="input-group">
+                  <label for="dest-select">
+                    <span class="dot dest-dot"></span>
+                    <span>Destination Station</span>
+                  </label>
+                  <div class="select-wrapper">
+                    <select id="dest-select" class="metro-select">
+                      <option value="">Select destination station...</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Route Preference -->
+                <div class="route-options">
+                  <label class="radio-label">
+                    <input type="radio" name="route-mode" value="shortest" checked>
+                    <span class="radio-custom"></span>
+                    <span>Shortest Route (Time)</span>
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="route-mode" value="min_interchange">
+                    <span class="radio-custom"></span>
+                    <span>Minimum Interchanges</span>
+                  </label>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons">
+                  <button id="find-route-btn" class="classic-btn primary">
+                    <span>🔍 Find Route</span>
+                  </button>
+                  <button id="reset-route-btn" class="classic-btn secondary">
+                    <span>Reset</span>
+                  </button>
+                </div>
+
+                <!-- Quick Route Shortcuts -->
+                <div class="quick-routes">
+                  <span class="quick-title">Popular Routes:</span>
+                  <div class="quick-chips">
+                    <button class="quick-chip" data-from="Rajiv Chowk" data-to="Airport">CP → Airport</button>
+                    <button class="quick-chip" data-from="Chandni Chowk" data-to="Qutub Minar">Red Fort → Qutub</button>
+                    <button class="quick-chip" data-from="Noida City Centre" data-to="Dwarka Sector 21">Noida → Dwarka</button>
+                    <button class="quick-chip" data-from="Rithala" data-to="HUDA City Centre">Rithala → Gurgaon</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Route Result Container -->
+            <div id="route-result-container" class="route-result-card hidden">
+              <!-- Route Stats Grid -->
+              <div class="stats-grid">
+                <div class="stat-box">
+                  <span class="stat-label">Total Time</span>
+                  <span class="stat-value" id="res-time">--</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-label">Stations</span>
+                  <span class="stat-value" id="res-stations">--</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-label">Interchanges</span>
+                  <span class="stat-value" id="res-interchanges">--</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-label">Distance</span>
+                  <span class="stat-value" id="res-distance">--</span>
+                </div>
+              </div>
+
+              <!-- Fare Calculator Box -->
+              <div class="fare-slab-box">
+                <div class="fare-row">
+                  <span class="fare-name">🎟️ Regular Token:</span>
+                  <span class="fare-amt" id="res-token-fare">₹0</span>
+                </div>
+                <div class="fare-row smart">
+                  <span class="fare-name">💳 Smart Card (10% Off):</span>
+                  <span class="fare-amt highlight" id="res-card-fare">₹0</span>
+                </div>
+                <div class="fare-row offpeak">
+                  <span class="fare-name">🌙 Off-Peak / Weekend:</span>
+                  <span class="fare-amt" id="res-offpeak-fare">₹0</span>
+                </div>
+              </div>
+
+              <!-- Itinerary Steps -->
+              <div class="itinerary-wrapper">
+                <h4>Route Itinerary & Transfers</h4>
+                <div id="itinerary-steps" class="itinerary-steps">
+                  <!-- Injected via JS -->
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Right Interactive Map Area -->
+          <div class="map-viewport-wrapper">
+            <div class="map-toolbar">
+              <div class="line-legend">
+                <span class="legend-item"><span class="legend-dot" style="background:#0072CE"></span>Blue Line</span>
+                <span class="legend-item"><span class="legend-dot" style="background:#F4B400"></span>Yellow Line</span>
+                <span class="legend-item"><span class="legend-dot" style="background:#E31837"></span>Red Line</span>
+                <span class="legend-item"><span class="legend-dot" style="background:#009A44"></span>Green Line</span>
+                <span class="legend-item"><span class="legend-dot" style="background:#702082"></span>Violet Line</span>
+                <span class="legend-item"><span class="legend-dot" style="background:#FF6F00"></span>Airport Express</span>
+              </div>
+
+              <div class="zoom-controls">
+                <button id="zoom-in-btn" class="map-btn" title="Zoom In">+</button>
+                <button id="zoom-out-btn" class="map-btn" title="Zoom Out">−</button>
+                <button id="zoom-reset-btn" class="map-btn" title="Reset View">Reset</button>
+              </div>
+            </div>
+
+            <!-- SVG Delhi Metro Schematic Map -->
+            <div id="map-container" class="map-canvas-container">
+              <svg id="metro-svg" viewBox="0 0 1150 820" preserveAspectRatio="xMidYMid meet">
+                <defs>
+                  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feGaussianBlur stdDeviation="3" result="blur" />
+                    <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                  </filter>
+                  <linearGradient id="routeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00f0ff" />
+                    <stop offset="100%" stop-color="#ff0055" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Background Grid -->
+                <g class="grid-layer" opacity="0.15">
+                  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#4a5568" stroke-width="0.5"/>
+                  </pattern>
+                  <rect width="100%" height="100%" fill="url(#grid)" />
+                </g>
+
+                <!-- Metro Lines Layer (Paths) -->
+                <g id="svg-lines-layer"></g>
+
+                <!-- Active Highlighted Route Layer -->
+                <g id="svg-route-layer"></g>
+
+                <!-- Station Nodes Layer -->
+                <g id="svg-stations-layer"></g>
+              </svg>
+            </div>
+
+            <div class="map-instructions">
+              <span>💡 Tip: Click any station node on the map to set Origin or Destination directly!</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: Tourist Places Guide -->
+      <section id="tourist-tab" class="tab-pane">
+        <div class="tourist-header">
+          <div class="tourist-intro">
+            <h2>🏛️ Delhi Tourist Places & Heritage Guide</h2>
+            <p>Direct from <span class="badge">tourplace.txt</span> &bull; Discover the nearest metro station to popular monuments and heritage sites.</p>
+          </div>
+          <div class="tourist-search-box">
+            <input type="text" id="tourist-search-input" placeholder="Search monument or attraction..." class="metro-input">
+          </div>
+        </div>
+
+        <div id="tourist-grid" class="tourist-grid">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- TAB 3: Smart Card / Paisa Recharge -->
+      <section id="recharge-tab" class="tab-pane">
+        <div class="recharge-layout">
+          <!-- Visual Card Display -->
+          <div class="card-visual-wrapper">
+            <div class="metro-smart-card" id="smart-card-preview">
+              <div class="card-top">
+                <div class="card-chip"></div>
+                <div class="card-logo">DELHI METRO SMART CARD</div>
+              </div>
+              <div class="card-middle">
+                <div class="card-balance-display">
+                  <span class="bal-label">CURRENT BALANCE</span>
+                  <span class="bal-val" id="card-balance-display">₹1000.00</span>
+                </div>
+              </div>
+              <div class="card-bottom">
+                <div class="card-holder-info">
+                  <span class="holder-name" id="card-holder-name">Harsh Kumar</span>
+                  <span class="card-id-num" id="card-id-display">CARD #100001</span>
+                </div>
+                <div class="contactless-icon">📶</div>
+              </div>
+            </div>
+
+            <!-- Saved Records from paisa.txt -->
+            <div class="saved-cards-box">
+              <h3>📁 Smart Cards in System (paisa.txt)</h3>
+              <div id="cards-list-table" class="cards-table">
+                <!-- Populated via JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Recharge Form -->
+          <div class="recharge-form-wrapper kiosk-card">
+            <div class="kiosk-card-header">
+              <span class="kiosk-title">⚡ Smart Card Instant Recharge</span>
+              <span class="system-tag">paisa.txt</span>
+            </div>
+
+            <form id="recharge-form" class="recharge-form">
+              <div class="input-group">
+                <label for="recharge-card-id">Smart Card ID</label>
+                <input type="number" id="recharge-card-id" class="metro-input" placeholder="e.g. 100001" value="100001" required>
+              </div>
+
+              <div class="input-group">
+                <label for="recharge-amount">Recharge Amount (₹)</label>
+                <input type="number" id="recharge-amount" class="metro-input" placeholder="e.g. 200" min="10" max="5000" value="200" required>
+              </div>
+
+              <div class="quick-amounts">
+                <button type="button" class="quick-amt-btn" data-amt="100">+₹100</button>
+                <button type="button" class="quick-amt-btn" data-amt="200">+₹200</button>
+                <button type="button" class="quick-amt-btn" data-amt="500">+₹500</button>
+                <button type="button" class="quick-amt-btn" data-amt="1000">+₹1000</button>
+              </div>
+
+              <button type="submit" class="classic-btn primary full-width">
+                <span>💳 Proceed to Recharge</span>
+              </button>
+            </form>
+
+            <div id="recharge-message" class="recharge-alert hidden"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: Retro C++ Terminal Emulator -->
+      <section id="terminal-tab" class="tab-pane">
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <div class="term-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="term-title">metro.exe &bull; C++ Console Simulator</div>
+            <div class="term-actions">
+              <button id="term-clear-btn" class="term-btn">Clear</button>
+            </div>
+          </div>
+          
+          <div id="terminal-screen" class="terminal-screen">
+            <div class="term-welcome">
+              =======================================================<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DELHI METRO ROUTE FINDER (C++ CLI)<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Developed by Harsh Kumar &bull; Classic Edition<br>
+              =======================================================<br>
+              Loaded stations from list.txt... OK<br>
+              Loaded line connections (blue, yellow, red, green, violet, orange)... OK<br>
+              Loaded tourist places from tourplace.txt... OK<br>
+              Loaded cards from paisa.txt... OK<br><br>
+            </div>
+            <div id="terminal-output"></div>
+            <div class="terminal-prompt-row">
+              <span class="prompt-symbol">metro&gt;</span>
+              <input type="text" id="terminal-input" class="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="classic-footer">
+      <div class="footer-left">
+        <span>🚇 Delhi Metro Route Finder &bull; Built with C++ & Classic Web</span>
+      </div>
+      <div class="footer-right">
+        <span>Author: <strong>Harsh Kumar</strong> (<a href="https://github.com/Harshkumar2306/metro-route-finder-" target="_blank">GitHub Repository</a>)</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>

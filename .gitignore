@@ -1,0 +1,15 @@
+# Binaries & Object Files
+metro
+metro.exe
+*.o
+*.out
+*.app
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / Web dependencies (if any)
+node_modules/
+dist/
+.env.local
