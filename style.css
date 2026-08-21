@@ -37,21 +37,34 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE & Edge */
 }
 
-body {
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Edge, Opera */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+html, body {
+  height: 100%;
+  max-height: 100vh;
+  max-height: 100dvh;
+  overflow: hidden;
   font-family: var(--font-sans);
   background-color: var(--bg-main);
   color: var(--text-primary);
   line-height: 1.5;
-  min-height: 100vh;
-  overflow-x: hidden;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -196,10 +209,14 @@ body {
    ========================================================================== */
 .main-content {
   flex: 1;
-  padding: 20px;
-  max-width: 1600px;
+  min-height: 0;
+  padding: 12px 18px;
+  max-width: 1700px;
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .tab-pane {
@@ -207,7 +224,12 @@ body {
 }
 
 .tab-pane.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
   animation: fadeIn 0.3s ease;
 }
 
@@ -221,15 +243,23 @@ body {
    ========================================================================== */
 .route-finder-layout {
   display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 20px;
-  align-items: start;
+  grid-template-columns: 390px 1fr;
+  gap: 16px;
+  height: 100%;
+  min-height: 0;
+  flex: 1;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 .planner-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
+  height: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 2px;
 }
 
 .kiosk-card {
@@ -626,7 +656,9 @@ body {
   box-shadow: var(--shadow-md);
   display: flex;
   flex-direction: column;
-  height: 720px;
+  height: 100%;
+  min-height: 0;
+  flex: 1;
 }
 
 .map-toolbar {
@@ -854,22 +886,31 @@ body {
 /* ==========================================================================
    TAB 2: TOURIST GUIDE
    ========================================================================== */
+#tourist-tab {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .tourist-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  flex-shrink: 0;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 12px;
 }
 
 .tourist-intro h2 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 
 .tourist-intro p {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-secondary);
 }
 
@@ -887,9 +928,14 @@ body {
 }
 
 .tourist-grid {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
+  padding-bottom: 12px;
+  padding-right: 4px;
 }
 
 .tourist-card {
@@ -988,12 +1034,25 @@ body {
 /* ==========================================================================
    TAB 3: RECHARGE & SMART CARD
    ========================================================================== */
+#recharge-tab {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .recharge-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   max-width: 960px;
   margin: 0 auto;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 12px;
 }
 
 .card-visual-wrapper {
@@ -1202,6 +1261,14 @@ body {
 /* ==========================================================================
    TAB 4: RETRO C++ TERMINAL EMULATOR
    ========================================================================== */
+#terminal-tab {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .terminal-card {
   background: #0d1117;
   border: 1px solid #30363d;
@@ -1209,7 +1276,12 @@ body {
   overflow: hidden;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
   max-width: 900px;
+  width: 100%;
   margin: 0 auto;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .terminal-bar {
@@ -1219,6 +1291,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .term-dots {
@@ -1259,8 +1332,8 @@ body {
   font-size: 0.85rem;
   color: #4ade80;
   background: #090d13;
-  min-height: 480px;
-  max-height: 600px;
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
   line-height: 1.6;
 }
