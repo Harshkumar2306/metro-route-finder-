@@ -31,19 +31,19 @@ Developed by **[Harsh Kumar](https://github.com/Harshkumar2306)**.
 3. **💰 Accurate DMRC Fare Calculator**:
    - Real-time calculation based on official DMRC distance slabs.
    - **Regular Token Fare**
-   - **Smart Card Fare (10% Discount)**
+   - **⚡ HarshPay Fare (10% Discount)**
    - **Off-Peak & Weekend Fare (20% Discount)**
 
 4. **🏛️ Tourist Destinations Guide (`tourplace.txt`)**:
    - Curated list of 20+ iconic Delhi landmarks (India Gate, Red Fort, Qutub Minar, Akshardham, Lotus Temple, Connaught Place, Bangla Sahib, etc.).
    - Displays description, heritage tags, and nearest metro station with a 1-click **"Plan Route"** button.
 
-5. **💳 Smart Card & Paisa Simulator (`paisa.txt`)**:
-   - Holographic virtual Delhi Metro smart card with live balance display and cardholder info.
+5. **💳 ⚡ HarshPay Transit Wallet & Paisa Simulator (`paisa.txt`)**:
+   - Holographic virtual **HarshPay Transit Card** with live balance display and cardholder info.
    - Instant recharge simulation with balance persistence and transaction logging.
 
 6. **📟 Retro C++ Terminal Emulator**:
-   - In-browser interactive console that simulates the nostalgic original C++ CLI experience (`1. Route`, `2. Tourist place`, `3. Smart card recharge`).
+   - In-browser interactive console that simulates the nostalgic original C++ CLI experience (`1. Route`, `2. Tourist place`, `3. HarshPay recharge`).
 
 ---
 

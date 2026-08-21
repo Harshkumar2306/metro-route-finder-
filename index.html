@@ -37,7 +37,7 @@
           </button>
           <button class="nav-tab" data-tab="recharge-tab">
             <span class="tab-icon">💳</span>
-            <span>Smart Card (Paisa)</span>
+            <span>HarshPay (Paisa)</span>
           </button>
           <button class="nav-tab" data-tab="terminal-tab">
             <span class="tab-icon">📟</span>
@@ -173,7 +173,7 @@
                   <span class="fare-amt" id="res-token-fare">₹0</span>
                 </div>
                 <div class="fare-row smart">
-                  <span class="fare-name">💳 Smart Card (10% Off):</span>
+                  <span class="fare-name">⚡ HarshPay (10% Off):</span>
                   <span class="fare-amt highlight" id="res-card-fare">₹0</span>
                 </div>
                 <div class="fare-row offpeak">
@@ -268,7 +268,7 @@
         </div>
       </section>
 
-      <!-- TAB 3: Smart Card / Paisa Recharge -->
+      <!-- TAB 3: HarshPay / Paisa Recharge -->
       <section id="recharge-tab" class="tab-pane">
         <div class="recharge-layout">
           <!-- Visual Card Display -->
@@ -276,18 +276,18 @@
             <div class="metro-smart-card" id="smart-card-preview">
               <div class="card-top">
                 <div class="card-chip"></div>
-                <div class="card-logo">DELHI METRO SMART CARD</div>
+                <div class="card-logo">⚡ HARSHPAY TRANSIT WALLET</div>
               </div>
               <div class="card-middle">
                 <div class="card-balance-display">
-                  <span class="bal-label">CURRENT BALANCE</span>
+                  <span class="bal-label">HARSHPAY BALANCE</span>
                   <span class="bal-val" id="card-balance-display">₹1000.00</span>
                 </div>
               </div>
               <div class="card-bottom">
                 <div class="card-holder-info">
                   <span class="holder-name" id="card-holder-name">Harsh Kumar</span>
-                  <span class="card-id-num" id="card-id-display">CARD #100001</span>
+                  <span class="card-id-num" id="card-id-display">HARSHPAY #100001</span>
                 </div>
                 <div class="contactless-icon">📶</div>
               </div>
@@ -295,7 +295,7 @@
 
             <!-- Saved Records from paisa.txt -->
             <div class="saved-cards-box">
-              <h3>📁 Smart Cards in System (paisa.txt)</h3>
+              <h3>📁 HarshPay Wallets in System (paisa.txt)</h3>
               <div id="cards-list-table" class="cards-table">
                 <!-- Populated via JS -->
               </div>
@@ -305,13 +305,13 @@
           <!-- Recharge Form -->
           <div class="recharge-form-wrapper kiosk-card">
             <div class="kiosk-card-header">
-              <span class="kiosk-title">⚡ Smart Card Instant Recharge</span>
+              <span class="kiosk-title">⚡ HarshPay Instant Wallet Recharge</span>
               <span class="system-tag">paisa.txt</span>
             </div>
 
             <form id="recharge-form" class="recharge-form">
               <div class="input-group">
-                <label for="recharge-card-id">Smart Card ID</label>
+                <label for="recharge-card-id">HarshPay Wallet / Card ID</label>
                 <input type="number" id="recharge-card-id" class="metro-input" placeholder="e.g. 100001" value="100001" required>
               </div>
 
@@ -328,7 +328,7 @@
               </div>
 
               <button type="submit" class="classic-btn primary full-width">
-                <span>💳 Proceed to Recharge</span>
+                <span>⚡ Proceed to Recharge HarshPay</span>
               </button>
             </form>
 

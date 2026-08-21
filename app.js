@@ -547,7 +547,7 @@ function initSmartCard() {
 
     const card = state.smartCards.find(c => c.id === id);
     if (!card) {
-      showRechargeMessage(`Card ID ${id} not found in the system (paisa.txt).`, false);
+      showRechargeMessage(`HarshPay Wallet ID ${id} not found in the system (paisa.txt).`, false);
       return;
     }
 
@@ -557,7 +557,7 @@ function initSmartCard() {
     updateCardPreview(id);
     renderSmartCardsTable();
 
-    showRechargeMessage(`Recharge of ₹${amount} successful! New Balance: ₹${card.balance}`, true);
+    showRechargeMessage(`⚡ HarshPay recharge of ₹${amount} successful! New Balance: ₹${card.balance}`, true);
   });
 }
 
@@ -567,7 +567,7 @@ function updateCardPreview(cardId) {
 
   if (elements.cardBalDisplay) elements.cardBalDisplay.textContent = `₹${card.balance}.00`;
   if (elements.cardHolderName) elements.cardHolderName.textContent = card.holder;
-  if (elements.cardIdDisplay) elements.cardIdDisplay.textContent = `CARD #${card.id}`;
+  if (elements.cardIdDisplay) elements.cardIdDisplay.textContent = `HARSHPAY #${card.id}`;
   if (elements.rechargeCardId) elements.rechargeCardId.value = card.id;
 }
 
@@ -580,7 +580,7 @@ function renderSmartCardsTable() {
     row.className = 'card-record-row';
     row.innerHTML = `
       <div class="card-record-info">
-        <span class="card-record-id">ID: ${c.id}</span>
+        <span class="card-record-id">⚡ HarshPay ID: ${c.id}</span>
         <span class="card-record-holder">${c.holder}</span>
       </div>
       <div class="card-record-bal">₹${c.balance}</div>
@@ -640,7 +640,7 @@ function printMenu() {
   printTermLine(`
 1.To Route between two stations
 2.To check nearest metro station to a tourist place
-3.To Recharge your Smart Card
+3.To Recharge your HarshPay Wallet
 Enter choice (1-3):`, '#38bdf8');
 }
 
@@ -657,7 +657,7 @@ function handleTerminalCommand(cmd) {
         printTermLine('Enter a place name (e.g. India Gate, Red Fort):', '#facc15');
       } else if (cmd === '3') {
         state.termState = 'RECHARGE_ID';
-        printTermLine('=== Smart Card Recharge ===\nEnter your Smart Card ID:', '#facc15');
+        printTermLine('=== HarshPay Wallet Recharge ===\nEnter your HarshPay ID:', '#facc15');
       } else {
         printTermLine('Invalid choice. Please enter 1, 2, or 3.', '#ef4444');
         printMenu();
@@ -689,7 +689,7 @@ function handleTerminalCommand(cmd) {
         });
         routeOutput += `\nNo of stations = ${res.stationCount}\n`;
         routeOutput += `No of interchange stations = ${res.interchangeCount}\n`;
-        routeOutput += `Estimated fare = Rs.${res.fare.token} (Smart Card: Rs.${res.fare.smartCard})\n`;
+        routeOutput += `Estimated fare = Rs.${res.fare.token} (HarshPay: Rs.${res.fare.smartCard})\n`;
         printTermLine(routeOutput, '#4ade80');
       }
       printMenu();
@@ -709,7 +709,7 @@ function handleTerminalCommand(cmd) {
       const cardId = parseInt(cmd, 10);
       const card = state.smartCards.find(c => c.id === cardId);
       if (!card) {
-        printTermLine(`Error: Card ID ${cmd} not found in the system.`, '#ef4444');
+        printTermLine(`Error: HarshPay ID ${cmd} not found in the system.`, '#ef4444');
         printMenu();
         return;
       }
@@ -724,7 +724,7 @@ function handleTerminalCommand(cmd) {
         printTermLine('Invalid amount. Recharge cancelled.', '#ef4444');
       } else {
         state.termBuffer.card.balance += amt;
-        printTermLine(`\nRecharge successful!\nCard ID: ${state.termBuffer.card.id}\nRecharge Amount: Rs.${amt}\nNew Balance: Rs.${state.termBuffer.card.balance}\n`, '#4ade80');
+        printTermLine(`\nHarshPay recharge successful!\nHarshPay ID: ${state.termBuffer.card.id}\nRecharge Amount: Rs.${amt}\nNew Balance: Rs.${state.termBuffer.card.balance}\n`, '#4ade80');
         renderSmartCardsTable();
         updateCardPreview(state.termBuffer.card.id);
       }
