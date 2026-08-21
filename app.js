@@ -447,24 +447,59 @@ function executeRouteCalculation() {
   const dest = elements.destSelect.value || state.destStation;
 
   if (!origin || !dest) {
-    alert('Please select both Origin and Destination stations.');
+    showToast('Please select both Origin and Destination stations.', 'error');
     return;
   }
 
   if (origin === dest) {
-    alert('Origin and Destination cannot be the same station.');
+    showToast('Origin and Destination cannot be the same station.', 'error');
     return;
   }
 
   const result = metroGraph.findRoute(origin, dest, state.routeMode);
   if (!result) {
-    alert('No route found between selected stations.');
+    showToast('No route found between selected stations.', 'error');
     return;
   }
 
   state.currentRoute = result;
   renderRouteResult(result);
   highlightRouteOnMap(result);
+}
+
+// Custom Toast Notification UI
+function showToast(message, type = 'info') {
+  let container = document.getElementById('ui-toast-container');
+  if (!container) {
+    container = document.createElement('div');
+    container.id = 'ui-toast-container';
+    container.className = 'ui-toast-container';
+    document.body.appendChild(container);
+  }
+
+  const toast = document.createElement('div');
+  toast.className = `ui-toast ui-toast-${type}`;
+  toast.innerHTML = `
+    <span class="ui-toast-icon">${type === 'error' ? '⚠️' : 'ℹ️'}</span>
+    <span class="ui-toast-msg">${message}</span>
+  `;
+
+  container.appendChild(toast);
+  playBeep(type === 'error' ? 300 : 600, 'square', 0.1);
+
+  // Trigger animation
+  requestAnimationFrame(() => {
+    toast.style.transform = 'translateY(0)';
+    toast.style.opacity = '1';
+  });
+
+  setTimeout(() => {
+    toast.style.transform = 'translateY(-20px)';
+    toast.style.opacity = '0';
+    setTimeout(() => {
+      if (toast.parentNode) toast.parentNode.removeChild(toast);
+    }, 300);
+  }, 3500);
 }
 
 function renderRouteResult(res) {
