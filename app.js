@@ -156,6 +156,18 @@ function renderSvgMap() {
   elements.linesLayer.innerHTML = '';
   elements.stationsLayer.innerHTML = '';
 
+  const tooltip = document.getElementById('map-tooltip');
+  const container = elements.mapContainer;
+
+  // Compute lines for each station to detect interchanges
+  const stationLinesMap = new Map();
+  Object.values(LINES).forEach(line => {
+    line.stations.forEach(st => {
+      if (!stationLinesMap.has(st)) stationLinesMap.set(st, []);
+      stationLinesMap.get(st).push(line);
+    });
+  });
+
   // 1. Draw Lines
   Object.values(LINES).forEach(line => {
     const points = [];
@@ -168,7 +180,7 @@ function renderSvgMap() {
       const polyline = document.createElementNS('http://www.w3.org/2000/svg', 'polyline');
       polyline.setAttribute('points', points.join(' '));
       polyline.setAttribute('stroke', line.color);
-      polyline.setAttribute('stroke-width', '5');
+      polyline.setAttribute('stroke-width', '6');
       polyline.setAttribute('class', 'svg-metro-line');
       polyline.setAttribute('id', `line-path-${line.id}`);
       elements.linesLayer.appendChild(polyline);
@@ -177,25 +189,78 @@ function renderSvgMap() {
 
   // 2. Draw Stations
   Object.entries(STATION_COORDINATES).forEach(([name, coord]) => {
+    const lines = stationLinesMap.get(name) || [];
+    const isInterchange = lines.length > 1;
+
     const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-    g.setAttribute('class', 'svg-station-node');
+    g.setAttribute('class', `svg-station-node ${isInterchange ? 'is-interchange' : ''}`);
     g.setAttribute('data-station', name);
     g.setAttribute('transform', `translate(${coord.x}, ${coord.y})`);
 
-    // Circle
+    // Circle Marker
     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    circle.setAttribute('r', '4');
+    circle.setAttribute('r', isInterchange ? '5.5' : '4');
     circle.setAttribute('fill', '#ffffff');
-    circle.setAttribute('stroke', '#1e293b');
-    circle.setAttribute('stroke-width', '1.5');
+    circle.setAttribute('stroke', isInterchange ? '#f59e0b' : '#1e293b');
+    circle.setAttribute('stroke-width', isInterchange ? '2.5' : '1.5');
     g.appendChild(circle);
 
-    // Label
+    // Smart Label Orientation:
+    // Angle horizontal line stations (Red, Green, Blue) at -38deg to eliminate overlap completely
+    const isVerticalYellow = coord.x === 850 && coord.y <= 1000;
+    const isBottomCurve = coord.y > 1000;
+    
     const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    text.setAttribute('x', '6');
-    text.setAttribute('y', '3');
+    if (isVerticalYellow) {
+      // Alternate left & right on Yellow line for crystal clarity
+      const isLeft = (coord.y % 56 < 28);
+      if (isLeft) {
+        text.setAttribute('x', '-10');
+        text.setAttribute('y', '3.5');
+        text.setAttribute('text-anchor', 'end');
+      } else {
+        text.setAttribute('x', '10');
+        text.setAttribute('y', '3.5');
+        text.setAttribute('text-anchor', 'start');
+      }
+    } else if (isBottomCurve) {
+      text.setAttribute('x', '0');
+      text.setAttribute('y', '16');
+      text.setAttribute('text-anchor', 'middle');
+    } else {
+      // Diagonal angled labels (classic transit map design)
+      text.setAttribute('transform', 'rotate(-38) translate(8, -1)');
+      text.setAttribute('text-anchor', 'start');
+    }
+    
     text.textContent = name;
     g.appendChild(text);
+
+    // Hover Tooltip events
+    g.addEventListener('mouseenter', (e) => {
+      if (!tooltip) return;
+      const lineBadges = lines.map(l => 
+        `<span class="tooltip-line-badge" style="background:${l.color}">${l.name}</span>`
+      ).join('');
+
+      tooltip.innerHTML = `
+        <span class="tooltip-st-name">${name}</span>
+        <div class="tooltip-lines">${lineBadges}</div>
+        <div class="tooltip-action">${isInterchange ? '🔄 Interchange Station &bull; ' : ''}Click to Select</div>
+      `;
+      tooltip.classList.remove('hidden');
+    });
+
+    g.addEventListener('mousemove', (e) => {
+      if (!tooltip || !container) return;
+      const rect = container.getBoundingClientRect();
+      tooltip.style.left = `${e.clientX - rect.left}px`;
+      tooltip.style.top = `${e.clientY - rect.top}px`;
+    });
+
+    g.addEventListener('mouseleave', () => {
+      if (tooltip) tooltip.classList.add('hidden');
+    });
 
     // Click handler: Set Origin or Destination
     g.addEventListener('click', (e) => {
