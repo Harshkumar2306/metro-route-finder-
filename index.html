@@ -47,6 +47,10 @@
       </div>
 
       <div class="header-right">
+        <button id="sound-toggle-btn" class="classic-sound-btn" title="Toggle Kiosk Audio">
+          <span id="sound-icon">🔊</span>
+          <span id="sound-label">Audio ON</span>
+        </button>
         <div class="status-pill">
           <span class="pulse-dot"></span>
           <span id="current-time">19:45 IST</span>
@@ -56,6 +60,14 @@
         </div>
       </div>
     </header>
+
+    <!-- Retro Amber LED Marquee Ticker -->
+    <div class="kiosk-led-ticker-wrapper">
+      <div class="led-ticker-label">STATUS:</div>
+      <div class="led-ticker-track">
+        <span class="led-ticker-text">⚡ DMRC TRANSIT ROUTE SYSTEM &bull; WELCOME TO DELHI METRO KIOSK &bull; ALL 6 LINES OPERATIONAL &bull; HARSHPAY SMART CARDS ACCEPTED &bull; NEXT TRAIN IN 2 MINS ⚡</span>
+      </div>
+    </div>
 
     <!-- Main Content Container -->
     <main class="main-content">
@@ -180,6 +192,28 @@
                   <span class="fare-name">🌙 Off-Peak / Weekend:</span>
                   <span class="fare-amt" id="res-offpeak-fare">₹0</span>
                 </div>
+              </div>
+
+              <!-- Vintage Transit Ticket Receipt -->
+              <div class="vintage-ticket-slip">
+                <div class="ticket-top-punch"></div>
+                <div class="ticket-header">
+                  <div class="ticket-logo">DELHI METRO RAIL CORP.</div>
+                  <div class="ticket-sub">SINGLE JOURNEY TRANSIT PASS</div>
+                </div>
+                <div class="ticket-body">
+                  <div class="t-row"><span class="t-label">FROM:</span> <span class="t-val" id="t-from">---</span></div>
+                  <div class="t-row"><span class="t-label">TO:</span> <span class="t-val" id="t-to">---</span></div>
+                  <div class="t-row-inline">
+                    <div><span class="t-label">TIME:</span> <span class="t-val" id="t-time">-- min</span></div>
+                    <div><span class="t-label">STOPS:</span> <span class="t-val" id="t-stops">--</span></div>
+                  </div>
+                  <div class="t-row"><span class="t-label">PAY VIA:</span> <span class="t-val highlight">HARSHPAY WALLET</span></div>
+                </div>
+                <div class="ticket-barcode">
+                  ||| | |||| || ||||| | |||| ||| || |||
+                </div>
+                <div class="ticket-bottom-tear"></div>
               </div>
 
               <!-- Itinerary Steps -->
