@@ -37,21 +37,33 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scrollbar-width: none !important; /* Hide scrollbars for Firefox */
+  -ms-overflow-style: none !important; /* Hide scrollbars for IE & Edge */
 }
 
-body {
+*::-webkit-scrollbar {
+  display: none !important; /* Hide scrollbars for WebKit (Chrome, Safari, Opera) */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+html, body {
   font-family: var(--font-sans);
   background-color: var(--bg-main);
   color: var(--text-primary);
   line-height: 1.5;
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100%;
+  max-height: 100vh;
+  max-height: 100dvh;
+  overflow: hidden; /* Fully locks the page layout to the frame */
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 /* ==========================================================================
@@ -192,14 +204,18 @@ body {
 }
 
 /* ==========================================================================
+/* ==========================================================================
    MAIN CONTENT & TABS
    ========================================================================== */
 .main-content {
   flex: 1;
-  padding: 20px;
-  max-width: 1600px;
+  min-height: 0; /* Important for nested flex scroll */
+  padding: 16px;
+  max-width: 1700px;
   margin: 0 auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .tab-pane {
@@ -207,7 +223,10 @@ body {
 }
 
 .tab-pane.active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
   animation: fadeIn 0.3s ease;
 }
 
@@ -220,16 +239,22 @@ body {
    TAB 1: ROUTE FINDER & MAP LAYOUT
    ========================================================================== */
 .route-finder-layout {
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 20px;
-  align-items: start;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .planner-sidebar {
+  width: 380px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow-y: auto; /* Internal scrolling for sidebar */
+  padding-right: 4px;
 }
 
 .kiosk-card {
@@ -626,7 +651,9 @@ body {
   box-shadow: var(--shadow-md);
   display: flex;
   flex-direction: column;
-  height: 720px;
+  flex: 1;
+  height: 100%;
+  min-height: 0;
 }
 
 .map-toolbar {
@@ -1319,22 +1346,30 @@ body {
 /* Tablet Landscape & Medium Desktops (<= 1024px) */
 @media (max-width: 1024px) {
   .main-content {
-    padding: 16px;
+    padding: 12px;
   }
 
   .route-finder-layout {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .planner-sidebar {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
   }
 
   .map-viewport-wrapper {
-    height: 520px;
-    order: -1; /* Show map at the top or toggle smoothly */
+    flex: 1.2;
+    min-height: 0;
+    order: -1; /* Map on top */
   }
 
   .recharge-layout {
     grid-template-columns: 1fr;
     max-width: 580px;
+    margin: 0 auto;
   }
 
   .tourist-grid {
@@ -1388,10 +1423,6 @@ body {
     width: 100%;
   }
 
-  .map-viewport-wrapper {
-    height: 420px;
-  }
-
   .map-toolbar {
     padding: 8px 12px;
     gap: 8px;
@@ -1443,8 +1474,6 @@ body {
   }
 
   .terminal-screen {
-    min-height: 340px;
-    max-height: 450px;
     font-size: 0.78rem;
     padding: 12px;
   }
@@ -1491,7 +1520,6 @@ body {
   }
 
   .map-viewport-wrapper {
-    height: 360px;
     border-radius: var(--radius-md);
   }
 
