@@ -18,44 +18,10 @@ const state = {
   mapPan: { x: 0, y: 0 },
   isPanning: false,
   startPan: { x: 0, y: 0 },
-  soundEnabled: true,
   // Terminal state machine
   termState: 'MENU', // 'MENU', 'ROUTE_SRC', 'ROUTE_DEST', 'TOUR_INPUT', 'RECHARGE_ID', 'RECHARGE_AMT'
   termBuffer: {}
 };
-
-// Retro Web Audio Synthesizer (Zero External Dependencies)
-function playBeep(freq = 580, type = 'sine', duration = 0.07) {
-  if (!state.soundEnabled) return;
-  try {
-    const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    if (!AudioCtx) return;
-    const ctx = new AudioCtx();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-    osc.type = type;
-    osc.frequency.setValueAtTime(freq, ctx.currentTime);
-    gain.gain.setValueAtTime(0.08, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + duration);
-  } catch (e) {}
-}
-
-function playRechargeSound() {
-  if (!state.soundEnabled) return;
-  playBeep(523.25, 'triangle', 0.1);
-  setTimeout(() => playBeep(659.25, 'triangle', 0.1), 90);
-  setTimeout(() => playBeep(783.99, 'triangle', 0.18), 180);
-}
-
-function playTicketPrintSound() {
-  if (!state.soundEnabled) return;
-  playBeep(440, 'sine', 0.05);
-  setTimeout(() => playBeep(880, 'sine', 0.08), 80);
-}
 
 // DOM Elements
 const elements = {
@@ -114,7 +80,6 @@ const elements = {
 // ==========================================================================
 function init() {
   initClock();
-  initAudioToggle();
   initTabs();
   populateStationSelects();
   renderSvgMap();
@@ -124,20 +89,6 @@ function init() {
   initTouristSearch();
   initSmartCard();
   initTerminal();
-}
-
-function initAudioToggle() {
-  const soundBtn = document.getElementById('sound-toggle-btn');
-  const soundIcon = document.getElementById('sound-icon');
-  const soundLabel = document.getElementById('sound-label');
-
-  soundBtn?.addEventListener('click', () => {
-    state.soundEnabled = !state.soundEnabled;
-    if (soundBtn) soundBtn.classList.toggle('muted', !state.soundEnabled);
-    if (soundIcon) soundIcon.textContent = state.soundEnabled ? '🔊' : '🔇';
-    if (soundLabel) soundLabel.textContent = state.soundEnabled ? 'Audio ON' : 'Audio OFF';
-    if (state.soundEnabled) playBeep(880, 'sine', 0.1);
-  });
 }
 
 // Clock & Time
@@ -165,8 +116,6 @@ function initTabs() {
 
 function switchTab(tabId) {
   state.activeTab = tabId;
-  playBeep(640, 'sine', 0.05);
-
   elements.navTabs.forEach(t => {
     if (t.getAttribute('data-tab') === tabId) t.classList.add('active');
     else t.classList.remove('active');
@@ -482,7 +431,6 @@ function executeRouteCalculation() {
 
 function renderRouteResult(res) {
   elements.resultCard.classList.remove('hidden');
-  playTicketPrintSound();
 
   // Stats
   elements.resTime.textContent = `${res.estimatedTimeMinutes} min`;
@@ -494,16 +442,6 @@ function renderRouteResult(res) {
   elements.resTokenFare.textContent = `₹${res.fare.token}`;
   elements.resCardFare.textContent = `₹${res.fare.smartCard}`;
   elements.resOffpeakFare.textContent = `₹${res.fare.offPeak}`;
-
-  // Vintage Ticket Slip Fields
-  const tFrom = document.getElementById('t-from');
-  const tTo = document.getElementById('t-to');
-  const tTime = document.getElementById('t-time');
-  const tStops = document.getElementById('t-stops');
-  if (tFrom) tFrom.textContent = res.path[0];
-  if (tTo) tTo.textContent = res.path[res.path.length - 1];
-  if (tTime) tTime.textContent = `${res.estimatedTimeMinutes} min`;
-  if (tStops) tStops.textContent = `${res.stationCount} stations (${res.interchangeCount} transfers)`;
 
   // Itinerary
   elements.itinerarySteps.innerHTML = '';
@@ -683,7 +621,6 @@ function initSmartCard() {
     state.selectedCardId = id;
     updateCardPreview(id);
     renderSmartCardsTable();
-    playRechargeSound();
 
     showRechargeMessage(`⚡ HarshPay recharge of ₹${amount} successful! New Balance: ₹${card.balance}`, true);
   });
