@@ -1313,37 +1313,224 @@ body {
 }
 
 /* ==========================================================================
-   RESPONSIVE DESIGN
+   MULTI-DEVICE RESPONSIVE & ADAPTIVE DESIGN
    ========================================================================== */
+
+/* Tablet Landscape & Medium Desktops (<= 1024px) */
 @media (max-width: 1024px) {
+  .main-content {
+    padding: 16px;
+  }
+
   .route-finder-layout {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .map-viewport-wrapper {
     height: 520px;
+    order: -1; /* Show map at the top or toggle smoothly */
   }
 
   .recharge-layout {
     grid-template-columns: 1fr;
+    max-width: 580px;
+  }
+
+  .tourist-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 }
 
+/* Tablet Portrait & Large Phones (<= 768px) */
 @media (max-width: 768px) {
   .classic-header {
     flex-direction: column;
     align-items: stretch;
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-center {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .header-center::-webkit-scrollbar {
+    display: none;
   }
 
   .classic-nav-tabs {
+    display: flex;
+    width: max-content;
+    min-width: 100%;
+    gap: 4px;
+  }
+
+  .nav-tab {
+    padding: 8px 12px;
+    font-size: 0.78rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .map-viewport-wrapper {
+    height: 420px;
+  }
+
+  .map-toolbar {
+    padding: 8px 12px;
+    gap: 8px;
+  }
+
+  .line-legend {
     overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 2px;
+    width: 100%;
+    scrollbar-width: none;
+  }
+
+  .line-legend::-webkit-scrollbar {
+    display: none;
+  }
+
+  .metro-select, .metro-input {
+    font-size: 16px; /* Prevents auto-zoom on iOS safari / Chrome mobile */
+    min-height: 44px;
+  }
+
+  .classic-btn {
+    min-height: 44px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+
+  .stat-value {
+    font-size: 0.88rem;
+  }
+
+  .tourist-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
   }
 
   .tourist-search-box {
     width: 100%;
   }
 
-  .stats-grid {
+  .tourist-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+
+  .terminal-screen {
+    min-height: 340px;
+    max-height: 450px;
+    font-size: 0.78rem;
+    padding: 12px;
+  }
+
+  .terminal-input {
+    font-size: 16px; /* Prevents mobile input zoom */
+  }
+
+  .classic-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+    padding: 12px 16px;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+}
+
+/* Small Mobile Phones (<= 480px) */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  .brand-text h1 {
+    font-size: 0.98rem;
+  }
+
+  .brand-text .sub-brand {
+    font-size: 0.62rem;
+  }
+
+  .metro-circle-badge {
+    width: 32px;
+    height: 32px;
+  }
+
+  .metro-circle-badge .m-letter {
+    font-size: 16px;
+  }
+
+  .kiosk-card {
+    padding: 14px;
+    border-radius: var(--radius-md);
+  }
+
+  .map-viewport-wrapper {
+    height: 360px;
+    border-radius: var(--radius-md);
+  }
+
+  .map-instructions {
+    font-size: 0.65rem;
+    padding: 4px 8px;
+  }
+
+  .action-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-chips {
+    gap: 4px;
+  }
+
+  .quick-chip {
+    padding: 5px 8px;
+    font-size: 0.68rem;
+  }
+
+  .metro-smart-card {
+    padding: 16px;
+  }
+
+  .card-balance-display .bal-val {
+    font-size: 1.6rem;
+  }
+
+  .card-chip {
+    width: 36px;
+    height: 26px;
+  }
+
+  .quick-amounts {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tourist-grid {
+    grid-template-columns: 1fr;
   }
 }

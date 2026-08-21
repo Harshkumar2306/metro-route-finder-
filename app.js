@@ -314,6 +314,44 @@ function initMapInteractions() {
     state.isPanning = false;
   });
 
+  // Mobile / Tablet Touch Gestures (Single finger Pan, Two finger Pinch-to-Zoom)
+  let initialPinchDistance = null;
+  let initialPinchZoom = 1;
+
+  container.addEventListener('touchstart', (e) => {
+    if (e.target.closest('.svg-station-node')) return;
+    if (e.touches.length === 1) {
+      state.isPanning = true;
+      state.startPan = { x: e.touches[0].clientX - state.mapPan.x, y: e.touches[0].clientY - state.mapPan.y };
+    } else if (e.touches.length === 2) {
+      state.isPanning = false;
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      initialPinchDistance = Math.hypot(dx, dy);
+      initialPinchZoom = state.mapZoom;
+    }
+  }, { passive: true });
+
+  container.addEventListener('touchmove', (e) => {
+    if (e.touches.length === 1 && state.isPanning) {
+      state.mapPan.x = e.touches[0].clientX - state.startPan.x;
+      state.mapPan.y = e.touches[0].clientY - state.startPan.y;
+      applyMapTransform();
+    } else if (e.touches.length === 2 && initialPinchDistance) {
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const currentDistance = Math.hypot(dx, dy);
+      const scale = currentDistance / initialPinchDistance;
+      state.mapZoom = Math.min(Math.max(0.5, initialPinchZoom * scale), 3.5);
+      applyMapTransform();
+    }
+  }, { passive: true });
+
+  container.addEventListener('touchend', (e) => {
+    if (e.touches.length < 2) initialPinchDistance = null;
+    if (e.touches.length === 0) state.isPanning = false;
+  }, { passive: true });
+
   // Mouse wheel zoom
   container.addEventListener('wheel', (e) => {
     e.preventDefault();
