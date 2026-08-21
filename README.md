@@ -141,8 +141,3 @@ metro-route-finder/
 - Repository: [metro-route-finder-](https://github.com/Harshkumar2306/metro-route-finder-)
 - Live Website: [metro-route-finder-beige.vercel.app](https://metro-route-finder-beige.vercel.app/)
 
----
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
