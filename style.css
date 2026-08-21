@@ -37,14 +37,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scrollbar-width: none !important; /* Hide scrollbars for Firefox */
-  -ms-overflow-style: none !important; /* Hide scrollbars for IE & Edge */
+  scrollbar-width: thin; /* Firefox: thin scrollbars */
+  scrollbar-color: var(--border-color) transparent;
 }
 
+/* Custom sleek scrollbars for inner containers */
 *::-webkit-scrollbar {
-  display: none !important; /* Hide scrollbars for WebKit (Chrome, Safari, Opera) */
-  width: 0 !important;
-  height: 0 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--border-color) !important;
+  border-radius: 4px !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue) !important;
 }
 
 html, body {
@@ -917,6 +930,10 @@ html, body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 16px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  padding-right: 8px;
 }
 
 .tourist-card {
