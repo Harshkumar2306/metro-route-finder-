@@ -1,127 +1,136 @@
-# 🚇 Delhi Metro Route Finder — Classic Edition
+# 🚇 Delhi Metro Route Finder — HKRC Classic Transit Edition
 
+<div align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://metro-route-finder-beige.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshkumar2306/metro-route-finder-)
 [![C++](https://img.shields.io/badge/C%2B%2B-14%2F17-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-Classic-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-Modern_Transit-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **"My First C++ Project" — Elevated with a Classic Delhi Metro Interactive Web Frontend, Route Pathfinder, Smart Card Simulator, and Retro CLI.**
+**[🔗 Open Live Application](https://metro-route-finder-beige.vercel.app/)**
 
-Developed by **[Harsh Kumar](https://github.com/Harshkumar2306)**.
+*HKRC CLASSIC TRANSIT SYSTEM • SINCE 2024*
 
----
-
-## 🌟 Overview & Features
-
-**Delhi Metro Route Finder** is a transit journey planner and network graph explorer designed for the Delhi Metro (DMRC) system. It combines the nostalgic charm of the original C++ terminal application with a modern, interactive web frontend.
-
-### ✨ Key Features
-
-1. **🗺️ Interactive Delhi Metro Schematic Map (SVG)**:
-   - Complete multi-line network: **Blue Line**, **Yellow Line**, **Red Line**, **Green Line**, **Violet Line**, and **Airport Express (Orange Line)**.
-   - Interactive zoom & pan controls, station hover tooltips, and clickable station nodes to set origin/destination.
-   - Glowing animated route highlight showing the exact travel path and station stops.
-
-2. **🧭 Smart Route Engine & Navigation**:
-   - Computes path using **Breadth-First Search (BFS)** and **Dijkstra** graph traversal.
-   - Support for **Shortest Travel Time** and **Minimum Line Interchanges** routing modes.
-   - Detailed step-by-step itinerary with boarding lines, transfer instructions, and destination arrival notes.
-
-3. **💰 Accurate DMRC Fare Calculator**:
-   - Real-time calculation based on official DMRC distance slabs.
-   - **Regular Token Fare**
-   - **⚡ HarshPay Fare (10% Discount)**
-   - **Off-Peak & Weekend Fare (20% Discount)**
-
-4. **🏛️ Tourist Destinations Guide (`tourplace.txt`)**:
-   - Curated list of 20+ iconic Delhi landmarks (India Gate, Red Fort, Qutub Minar, Akshardham, Lotus Temple, Connaught Place, Bangla Sahib, etc.).
-   - Displays description, heritage tags, and nearest metro station with a 1-click **"Plan Route"** button.
-
-5. **💳 ⚡ HarshPay Transit Wallet & Paisa Simulator (`paisa.txt`)**:
-   - Holographic virtual **HarshPay Transit Card** with live balance display and cardholder info.
-   - Instant recharge simulation with balance persistence and transaction logging.
-
-6. **📟 Retro C++ Terminal Emulator**:
-   - In-browser interactive console that simulates the nostalgic original C++ CLI experience (`1. Route`, `2. Tourist place`, `3. HarshPay recharge`).
+</div>
 
 ---
 
-## 🚀 Quick Start
+## 📖 About The Project
 
-### 1. Run the Classic Web Interface
-No dependencies or build steps required! Simply open `index.html` in your browser or run a local HTTP server:
+**Delhi Metro Route Finder** is a transit journey planner and network graph pathfinder built with a classic retro aesthetic. Originally conceived as a C++ graph theory project, it has been elevated into a full-fledged, multi-device web application with an interactive schematic SVG map, real-time fare calculator, tourist heritage explorer, virtual **HarshPay** wallet system, and an in-browser retro C++ CLI terminal emulator.
+
+---
+
+## 🌟 Key Features
+
+### 🗺️ 1. Interactive Delhi Metro Schematic Map (SVG)
+- **Multi-Line Visualization**: Includes the **Blue Line**, **Yellow Line**, **Red Line**, **Green Line**, **Violet Line**, and the high-speed **Airport Express (Orange Line)**.
+- **Pan & Zoom Controls**: Smooth multi-touch pinch-to-zoom, drag-to-pan, and desktop zoom button controls.
+- **Interactive Nodes**: Click any station on the map to automatically set it as Origin or Destination.
+- **Dynamic Route Glow**: Highlights the exact calculated route with animated glowing lines and station markers.
+
+### 🧭 2. Smart Pathfinding Engine
+- **Graph Traversal Algorithms**:
+  - **Breadth-First Search (BFS)**: Computes the shortest travel time and minimum station hops in $\mathcal{O}(V + E)$ time complexity.
+  - **Interchange Penalty Routing (Dijkstra)**: Optimized traversal that minimizes physical line switches for passenger convenience.
+- **Detailed Journey Breakdown**: Displays boarding lines, interchange junctions, station counts, and estimated travel time.
+
+### 💰 3. Dynamic Fare Engine
+- Calculates standard token fares according to official DMRC distance slabs.
+- **HarshPay Discount**: Automated 10% discount for smart card holders.
+- **Off-Peak / Weekend Rebates**: Automatic 20% discount detection based on system clock time.
+
+### 🏛️ 4. Delhi Tourist & Heritage Guide (`tourplace.txt`)
+- Explores 20+ historical monuments and tourist hotspots (India Gate, Red Fort, Qutub Minar, Akshardham, Lotus Temple, Connaught Place, Bangla Sahib, Rashtrapati Bhavan, etc.).
+- 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
+
+### 💳 5. ⚡ HarshPay Transit Wallet (`paisa.txt`)
+- Interactive digital smart card with live balance indicator.
+- Instant wallet recharge simulation with balance persistence and local database tracking.
+
+### 📟 6. Retro C++ Terminal Console
+- An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend:
+  1. Route between two stations
+  2. Nearest metro station to tourist places
+  3. HarshPay wallet recharge
+
+---
+
+## 🌐 Live Deployment
+
+The web application is deployed and hosted on **Vercel**:
+👉 **[https://metro-route-finder-beige.vercel.app/](https://metro-route-finder-beige.vercel.app/)**
+
+---
+
+## 💻 Running Locally
+
+### Option A: Web Application
+No build steps or package managers required. Simply clone and run with any local HTTP server:
 
 ```bash
-# Option A: Run with Python
-python3 -m http.server 8000
+# Clone the repository
+git clone https://github.com/Harshkumar2306/metro-route-finder-.git
+cd metro-route-finder-
 
-# Option B: Run with Node npx
+# Start a local server (Python)
+python3 -m http.server 8080
+
+# Or using Node
 npx serve .
-
-# Option C: Open directly in your browser
-open index.html
 ```
-
-Visit `http://localhost:8000` in your browser.
+Visit `http://localhost:8080` in your web browser.
 
 ---
 
-### 2. Compile & Run the Original C++ CLI
-
-Compile on macOS / Linux / Windows using `make` or `g++`:
+### Option B: Original C++ Command Line Program
+Compile and execute the native C++ engine directly:
 
 ```bash
-# Using Makefile
+# Compile using Makefile
 make
 
-# Or compiling directly with g++ / clang++
+# Or compile directly with g++ / clang++
 clang++ -std=c++14 -O2 metro.cpp -o metro
 
-# Run the C++ CLI application
+# Run the executable
 ./metro
 ```
 
-#### CLI Interactive Menu:
-```text
-1. To Route between two stations
-2. To check nearest metro station to a tourist place
-3. To Recharge your Smart Card
-```
-
 ---
 
-## 🏗️ Project Architecture & Data Structure
+## 📂 Project Structure
 
 ```text
 metro-route-finder/
-├── index.html         # Classic Delhi Metro Web UI & Interactive Kiosk
-├── style.css          # Modern transit stylesheet & retro CRT console styling
-├── app.js             # Frontend controller, SVG renderer, and event handlers
-├── router.js          # Graph data structure (BFS / Dijkstra) & fare engine
-├── data.js            # Metro lines, stations, SVG coordinates, tourist spots
+├── index.html         # Main dashboard, interactive UI, and SVG layout
+├── style.css          # Classic transit styling, dark theme, and responsive flex frame
+├── app.js             # UI controller, map event handlers, and terminal simulator
+├── router.js          # Graph data structure (MetroGraph, BFS, Dijkstra, Fare logic)
+├── data.js            # Metro station coordinates, line sequences, and tourist data
 ├── metro.cpp          # Original C++ source code with BFS pathfinding
-├── Makefile           # Multi-platform build configuration
+├── Makefile           # Multi-platform C++ compilation script
 ├── list.txt           # Master station list
 ├── blueline.txt       # Blue Line station sequence
-├── bluext.txt         # Blue Line Vaishali extension sequence
+├── bluext.txt         # Blue Line extension sequence
 ├── yellowline.txt     # Yellow Line station sequence
 ├── redline.txt        # Red Line station sequence
 ├── greenline.txt      # Green Line station sequence
 ├── violetline.txt     # Violet Line station sequence
 ├── orangeline.txt     # Airport Express Line station sequence
 ├── tourplace.txt      # Tourist destinations and nearest stations
-├── paisa.txt          # Smart Card balances database
-└── README.md          # Project documentation
+├── paisa.txt          # HarshPay wallet records
+└── README.md          # Comprehensive project documentation
 ```
 
 ---
 
-## 🧠 Algorithms & Graph Theory
+## 🧠 Algorithmic Foundation
 
-- **Graph Representation**: Represented as an Adjacency List where each vertex is a metro station and each undirected edge represents a direct rail connection with associated line color data.
-- **Shortest Path (BFS / Dijkstra)**: Unweighted BFS finds the minimum station hops between any two arbitrary stations in \(O(V + E)\) time.
-- **Transfer Penalty Routing**: A weighted Dijkstra implementation adds a transfer penalty weight when changing between line colors, finding routes that minimize physical line interchanges.
+- **Graph Model**: Represented as an undirected graph $G = (V, E)$, where vertices $V$ represent metro stations and edges $E$ represent direct tracks between adjacent stations.
+- **Shortest Path**: Standard unweighted BFS guarantees the optimal hop-count path in $\mathcal{O}(|V| + |E|)$.
+- **Transfer Optimization**: Incorporates edge weights penalizing line transitions to calculate minimum-interchange paths.
 
 ---
 
@@ -130,9 +139,10 @@ metro-route-finder/
 **Harsh Kumar**
 - GitHub: [@Harshkumar2306](https://github.com/Harshkumar2306)
 - Repository: [metro-route-finder-](https://github.com/Harshkumar2306/metro-route-finder-)
+- Live Website: [metro-route-finder-beige.vercel.app](https://metro-route-finder-beige.vercel.app/)
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to explore, learn, and build upon it!
+This project is open source and available under the [MIT License](LICENSE).
