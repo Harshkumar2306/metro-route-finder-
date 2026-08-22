@@ -390,6 +390,11 @@ Designed with full desktop accessibility and rapid navigation shortcuts:
 | <kbd>Double Click</kbd> | SVG Map | Instant zoom toggle onto hovered station cluster |
 | <kbd>Click + Drag</kbd>| SVG Map | Smooth pan navigation across the Delhi transit layout |
 
+#### ♿ Accessibility (A11y) Highlights
+- **High-Contrast Dark Theme**: WCAG AAA compliant text contrast ratios for readability against dark subway maps.
+- **ARIA Landmark Navigation**: Semantic HTML5 `<header>`, `<main>`, `<aside>`, `<nav>`, and `<section>` tags for assistive technologies.
+- **Auditory Feedback**: Non-intrusive Web Audio API beeps accompanying route calculations and validation messages.
+
 ---
 
 ## 📂 Project Directory Structure
