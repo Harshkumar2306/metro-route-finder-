@@ -274,6 +274,30 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ) & Troubleshooting
+
+<details>
+<summary><b>1. Does the web application require an active Internet connection?</b></summary>
+<p>No. The web frontend is 100% self-contained using vanilla HTML5, CSS3, and ES6 JavaScript. Once loaded (or opened via local HTTP server), all graph pathfinding and fare computations run client-side in your browser.</p>
+</details>
+
+<details>
+<summary><b>2. How do I add a new metro station or line?</b></summary>
+<p>Add the station name to <code>list.txt</code>, define its line sequence inside the corresponding <code>*line.txt</code> file, and add its SVG (X, Y) layout coordinates in <code>data.js</code>.</p>
+</details>
+
+<details>
+<summary><b>3. How are HarshPay wallet balances persisted?</b></summary>
+<p>Recharges in the web app update your active session state in real time. For the native C++ CLI, balances are persisted directly by updating <code>paisa.txt</code>.</p>
+</details>
+
+<details>
+<summary><b>4. Why use both BFS and Dijkstra?</b></summary>
+<p>BFS guarantees the shortest path with minimum station hops. Dijkstra introduces weight penalties on interchange stations, allowing commuters to choose routes that prioritize staying on the same train over minor distance savings.</p>
+</details>
+
+---
+
 ## 👨‍💻 Author & Connect
 
 **Harsh Kumar**
