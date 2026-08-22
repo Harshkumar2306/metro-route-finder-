@@ -534,6 +534,15 @@ Contributions, issues, and feature suggestions are welcome!
    ```
 5. **Open a Pull Request**: Submit a PR describing your algorithmic improvements or UI enhancements!
 
+#### 📏 Code Style & Commit Conventions
+
+| Aspect | Preferred Standard | Notes |
+| :--- | :--- | :--- |
+| **JavaScript Style** | Standard ES6+ / Prettier | 2 spaces indentation, camelCase naming |
+| **C++ Standard** | ISO C++14/17 | Clean memory management, explicit includes |
+| **Git Commit Style** | Conventional Commits | `feat:`, `fix:`, `docs:`, `perf:`, `refactor:` |
+| **CSS Formatting** | Custom Property Variables | Theme colors defined via `:root` variables |
+
 ---
 
 ## 👨‍💻 Author & Connect
