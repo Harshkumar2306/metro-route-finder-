@@ -101,6 +101,7 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **Vector Graphics & Viewport Control**: Features responsive SVG rendering, desktop zoom/reset controls, and mobile multi-touch pinch-to-zoom / drag-to-pan.
 - **Interactive Stations**: Click station nodes directly on the canvas to set Origin/Destination or inspect line affiliations.
 - **Dynamic Route Glow**: Highlights computed paths with glowing neon overlays and animated transit paths.
+- **ViewBox Coordinate Grid**: Scaled on a high-precision `1600 × 1120` canvas with standardized $45^\circ$ diagonal rail lines, text halos, and dynamic station node collision avoidance.
 
 ### 🧭 2. Smart Journey Pathfinder
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
