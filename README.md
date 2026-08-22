@@ -108,8 +108,17 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **Step-by-Step Itinerary**: Boarding notifications, interchange stations, arrival station tracking, and cumulative travel time.
 
 ### 💰 3. Fare Calculation Engine
-- Computes standard distance-slab token pricing.
-- **HarshPay Card Benefit**: Automatic 10% discount on journeys.
+- Computes standard distance-slab token pricing implemented in `router.js` and `metro.cpp`.
+- **HarshPay Card Benefit**: Automatic 10% discount applied to all calculated fares.
+
+| Distance Travelled (km / Hops) | Token Fare (₹) | HarshPay Smart Card (₹) | Applicable Route Category |
+| :--- | :---: | :---: | :--- |
+| **0 – 2 km** (1–2 stations) | ₹10 | ₹9 | Minimum short-hop journey |
+| **2 – 5 km** (3–4 stations) | ₹20 | ₹18 | Local neighborhood transit |
+| **5 – 12 km** (5–8 stations) | ₹30 | ₹27 | Medium cross-city transit |
+| **12 – 21 km** (9–14 stations) | ₹40 | ₹36 | Extended corridor travel |
+| **21 – 32 km** (15–20 stations) | ₹50 | ₹45 | Suburban transit |
+| **> 32 km** (21+ stations) | ₹60 | ₹54 | Maximum network distance |
 
 ### 🏛️ 4. Delhi Tourist & Heritage Guide (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots (India Gate, Red Fort, Qutub Minar, Akshardham, Lotus Temple, Connaught Place, Bangla Sahib, Rashtrapati Bhavan, etc.).
