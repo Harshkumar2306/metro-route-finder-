@@ -323,11 +323,17 @@ Deploy or run the lightweight static web interface with no npm packages or compi
 git clone https://github.com/Harshkumar2306/metro-route-finder-.git
 cd metro-route-finder-
 
-# Start local server (Python 3)
+# Option A: Python 3 HTTP Server
 python3 -m http.server 8080
 
-# Or using Node npx
-npx serve .
+# Option B: Node.js npx serve
+npx serve -l 8080 .
+
+# Option C: PHP Built-in Server
+php -S localhost:8080
+
+# Option D: VS Code Live Server Extension
+# Open index.html and click "Go Live" in the status bar
 ```
 Access the application at `http://localhost:8080`.
 
