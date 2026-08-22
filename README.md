@@ -18,6 +18,15 @@
 
 **[🌐 Experience the Live Web App](https://metro-route-finder-beige.vercel.app/)** • **[📂 View GitHub Source](https://github.com/Harshkumar2306/metro-route-finder-)**
 
+<p align="center">
+  <a href="#-quick-start--installation"><b>⚡ Get Started</b></a> •
+  <a href="#-visual-ui-showcase--user-flow"><b>📸 UI Showcase</b></a> •
+  <a href="#-system-architecture"><b>🏗️ Architecture</b></a> •
+  <a href="#-graph-theory--algorithms"><b>🧠 Algorithms</b></a> •
+  <a href="#-delhi-metro-network--line-directory"><b>🚇 Metro Lines</b></a> •
+  <a href="#-frequently-asked-questions-faq--troubleshooting"><b>❓ FAQ</b></a>
+</p>
+
 ---
 
 </div>
