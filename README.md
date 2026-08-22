@@ -545,6 +545,17 @@ Contributions, issues, and feature suggestions are welcome!
 
 ---
 
+## 📜 Changelog & Release History
+
+| Version | Release Milestone | Key Highlights & Architectural Additions |
+| :--- | :--- | :--- |
+| **v2.5** (Current) | HKRC Classic Transit Web Edition | Modern zero-dependency web UI, SVG interactive map, Dijkstra minimum interchange routing, HarshPay virtual wallet |
+| **v2.0** | Web UI Port & Vercel Deployment | Live global cloud hosting, retro C++ in-browser console emulator, dynamic SVG layout |
+| **v1.5** | Multi-Platform C++ Support | Cross-platform build configurations, portable standard headers, Makefile integration |
+| **v1.0** | Initial C++ Terminal Core | Original BFS pathfinding CLI, file stream ingestion (`list.txt`, `*line.txt`, `paisa.txt`) |
+
+---
+
 ## 👨‍💻 Author & Connect
 
 **Harsh Kumar**
