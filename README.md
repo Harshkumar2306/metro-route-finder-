@@ -416,6 +416,15 @@ metro-route-finder/
 └── README.md            # Project technical documentation & architecture
 ```
 
+### 📄 Data File Syntax & Parsing Grammar
+
+| File Name | Record Structure / Format | Example Entry | Parsing Logic |
+| :--- | :--- | :--- | :--- |
+| `list.txt` | Single station name per line | `Rajiv Chowk` | Trimmed string mapped to vertex $v \in V$ |
+| `*line.txt` | Sequential station stops in line order | `Dwarka Sector 21`<br>`Dwarka Sector 8` | Adjacent lines create bidirectional graph edges $(u, v) \in E$ |
+| `tourplace.txt` | Landmark name followed by nearest station | `India Gate`<br>`Central Secretariat` | 2-line pairs mapped to landmark objects |
+| `paisa.txt` | Card integer ID and float balance | `100001 1000.0` | Whitespace-delimited pair loaded into Smart Card registry |
+
 ---
 
 ## 💳 HarshPay Transit Wallet Specification
