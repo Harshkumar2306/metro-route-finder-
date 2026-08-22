@@ -254,6 +254,19 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Violet Line (Line 6)** | `#702082` | Kashmere Gate ↔ Raja Nahar Singh (Ballabhgarh) | Kashmere Gate, Mandi House, Central Secretariat, Kalkaji Mandir | `violetline.txt` |
 | **Airport Express (Orange)**| `#FF6F00` | New Delhi Railway Station ↔ Dwarka Sector 21 | New Delhi, Dhaula Kuan, Delhi Aerocity, Airport (T3) | `orangeline.txt` |
 
+### 🔄 Key Interchange Junctions Matrix
+
+| Interchange Hub | Connected Metro Lines | Passenger Transfer Features |
+| :--- | :--- | :--- |
+| **Rajiv Chowk (CP)** | 🔵 Blue Line ↔ 🟡 Yellow Line | Central Delhi transit hub, direct Connaught Place access |
+| **Kashmere Gate** | 🔴 Red Line ↔ 🟡 Yellow Line ↔ 🟣 Violet Line | Northern inter-state transit terminal & 3-line junction |
+| **Central Secretariat**| 🟡 Yellow Line ↔ 🟣 Violet Line | Government ministry corridor & Kartavya Path access |
+| **Mandi House** | 🔵 Blue Line ↔ 🟣 Violet Line | Cultural & theatrical district transfer point |
+| **Inderlok** | 🔴 Red Line ↔ 🟢 Green Line | West-North connectivity bypass |
+| **Kirti Nagar** | 🔵 Blue Line ↔ 🟢 Green Line | Industrial and western suburban link |
+| **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
+| **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
+
 ---
 
 ## 🚀 Quick Start & Installation
