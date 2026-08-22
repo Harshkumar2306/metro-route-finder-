@@ -24,15 +24,20 @@
 
 ## 📌 Table of Contents
 - [📖 Overview](#-overview)
+- [📸 Visual UI Showcase & User Flow](#-visual-ui-showcase--user-flow)
 - [✨ Key Features](#-key-features)
 - [🏗️ System Architecture](#️-system-architecture)
 - [🧠 Graph Theory & Algorithms](#-graph-theory--algorithms)
 - [📊 Feature Comparison: Web UI vs. C++ CLI](#-feature-comparison-web-ui-vs-c-cli)
+- [🚇 Delhi Metro Network & Line Directory](#-delhi-metro-network--line-directory)
 - [🚀 Quick Start & Installation](#-quick-start--installation)
   - [1. Web Interface (Zero Dependencies)](#1-web-interface-zero-dependencies)
   - [2. Native C++ Core](#2-native-c-core)
 - [📂 Project Directory Structure](#-project-directory-structure)
 - [💳 HarshPay Transit Wallet Specification](#-harshpay-transit-wallet-specification)
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq--troubleshooting)
+- [🗺️ Future Roadmap & Enhancements](#️-future-roadmap--enhancements)
+- [🤝 Contributing Guidelines](#-contributing-guidelines)
 - [👨‍💻 Author & Connect](#-author--connect)
 - [📜 License](#-license)
 
@@ -295,6 +300,37 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 <summary><b>4. Why use both BFS and Dijkstra?</b></summary>
 <p>BFS guarantees the shortest path with minimum station hops. Dijkstra introduces weight penalties on interchange stations, allowing commuters to choose routes that prioritize staying on the same train over minor distance savings.</p>
 </details>
+
+---
+
+## 🗺️ Future Roadmap & Enhancements
+
+- [ ] **Phase IV Expansion**: Integrate **Pink Line (Ring Road)** and **Magenta Line (Botanical Garden ↔ Janakpuri West)** corridors.
+- [ ] **Live Train Simulator**: Animated SVG train beacons traversing along lines with simulated arrival times.
+- [ ] **QR Code Ticketing**: Downloadable digital journey tokens with QR codes for mobile boarding.
+- [ ] **Multi-language Localization**: Support for Hindi (हिन्दी), Punjabi (ਪੰਜਾਬੀ), and English.
+- [ ] **PWA Offline Support**: Progressive Web App service workers for full offline installation on iOS and Android.
+
+---
+
+## 🤝 Contributing Guidelines
+
+Contributions, issues, and feature suggestions are welcome!
+
+1. **Fork the Repository**: Click the `Fork` button at the top right of this repository.
+2. **Create a Feature Branch**:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit your Changes**:
+   ```bash
+   git commit -m "feat: add support for Magenta line stations"
+   ```
+4. **Push to Branch**:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open a Pull Request**: Submit a PR describing your algorithmic improvements or UI enhancements!
 
 ---
 
