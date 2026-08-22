@@ -410,6 +410,33 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 - **Fare Discount**: Automatic 10% reduction applied to all calculated journey fares.
 - **Top-up System**: Instant digital recharge with visual holographic card feedback and receipt confirmation.
 
+```text
+[ Passenger Journey Request ]
+            │
+            ▼
+┌───────────────────────────────┐
+│ Fare Calculation Engine       │ ──> Token Fare (Base Rate)
+└───────────────────────────────┘
+            │
+            ▼
+┌───────────────────────────────┐
+│ HarshPay 10% Discount Applied │ ──> Discounted Fare = Math.round(Base * 0.9)
+└───────────────────────────────┘
+            │
+            ▼
+┌───────────────────────────────┐
+│ Sufficient Balance Check      │
+└───────────────────────────────┘
+      │                   │
+  [ Yes ]              [ No ]
+      │                   │
+      ▼                   ▼
+┌──────────────┐   ┌───────────────────────────┐
+│ Board Train  │   │ Prompt Instant Top-up Box │
+│ Deduct Fare  │   │ (+₹100, +₹200, +₹500)     │
+└──────────────┘   └───────────────────────────┘
+```
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ) & Troubleshooting
