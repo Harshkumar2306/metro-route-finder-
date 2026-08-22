@@ -403,6 +403,15 @@ Designed with full desktop accessibility and rapid navigation shortcuts:
 | <kbd>Double Click</kbd> | SVG Map | Instant zoom toggle onto hovered station cluster |
 | <kbd>Click + Drag</kbd>| SVG Map | Smooth pan navigation across the Delhi transit layout |
 
+#### 📱 Mobile Touch & Gesture Interactions
+
+| Touch Gesture | Canvas Response | Mobile Behavior |
+| :--- | :--- | :--- |
+| **Two-Finger Pinch** | Dynamic SVG Zoom In/Out | Smooth geometric scaling centered at focal pinch point |
+| **Single-Finger Drag** | Viewport Pan | Fluid pan across all metro corridors without page scrolling |
+| **Tap Station Node** | Set Station | Automatically populates Origin/Destination selectors |
+| **Double Tap** | Zoom Reset | Centers network back to default overview coordinates |
+
 #### ♿ Accessibility (A11y) Highlights
 - **High-Contrast Dark Theme**: WCAG AAA compliant text contrast ratios for readability against dark subway maps.
 - **ARIA Landmark Navigation**: Semantic HTML5 `<header>`, `<main>`, `<aside>`, `<nav>`, and `<section>` tags for assistive technologies.
