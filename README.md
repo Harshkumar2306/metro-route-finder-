@@ -173,6 +173,20 @@ flowchart TD
 
 ---
 
+## 🛠️ Technology Stack & Dependencies
+
+| Layer / Component | Technology | Version / Standard | Role & Responsibilities |
+| :--- | :--- | :--- | :--- |
+| **Frontend Core** | Vanilla JavaScript | ECMAScript 2020+ (ES11) | Client-side routing engine, DOM manipulation, state management |
+| **Styling & Theme** | Modern CSS3 | CSS Grid & Flexbox | Dark mode transit theme, responsive frame layout, animations |
+| **Vector Mapping** | Scalable Vector Graphics | SVG 1.1 / W3C | Responsive schematic Delhi Metro network map & interactive nodes |
+| **Audio Effects** | Web Audio API | W3C Standard | Interactive retro transit audio beeps and tactile UI feedback |
+| **Native Core Engine** | C++ | C++14 / C++17 | Original CLI application, BFS graph traversal, file stream parsing |
+| **Build Automation** | GNU Make | 3.81+ | Multi-platform compilation script for native binary |
+| **Hosting & CI/CD** | Vercel Edge Network | Global CDN | Zero-config static deployment with automatic Git triggers |
+
+---
+
 ## 🧠 Graph Theory & Algorithms
 
 The Delhi Metro rail network is modeled as an **undirected weighted graph** $G = (V, E)$:
