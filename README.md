@@ -579,3 +579,12 @@ Contributions, issues, and feature suggestions are welcome!
 - **GitHub**: [@Harshkumar2306](https://github.com/Harshkumar2306)
 - **Project Repo**: [metro-route-finder-](https://github.com/Harshkumar2306/metro-route-finder-)
 - **Live Demo**: [https://metro-route-finder-beige.vercel.app/](https://metro-route-finder-beige.vercel.app/)
+
+<div align="center">
+
+⭐ **If you found this project helpful, please consider giving it a star on GitHub!** ⭐
+
+[![Follow @Harshkumar2306](https://img.shields.io/github/followers/Harshkumar2306?label=Follow%20%40Harshkumar2306&style=social)](https://github.com/Harshkumar2306)
+[![Star on GitHub](https://img.shields.io/github/stars/Harshkumar2306/metro-route-finder-?style=social)](https://github.com/Harshkumar2306/metro-route-finder-/stargazers)
+
+</div>
