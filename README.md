@@ -269,6 +269,11 @@ Engineered for zero bloat, instant graph lookups, and minimal resource footprint
 | **Initial First Contentful Paint (FCP)**| `< 0.3 s` | Static edge caching hosted on Vercel Edge Network |
 | **Memory Footprint** | `< 12 MB RAM` | Efficient client-side state machine and canvas-based SVG |
 
+#### 🏎️ Key Optimization Techniques
+- **Zero-Dependency Architecture**: No heavy bundle baggage (no React, Webpack, or external runtime libraries).
+- **CSS GPU Offloading**: Utilizes `transform: translate3d()` and `will-change` hints for smooth 60fps pan/zoom.
+- **Layered SVG Canvas**: Separates static background grids, rail lines, and dynamic station node highlights to prevent unnecessary repaints.
+
 ---
 
 ## 📊 Feature Comparison: Web UI vs. C++ CLI
