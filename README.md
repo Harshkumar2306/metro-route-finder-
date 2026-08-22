@@ -228,9 +228,3 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 - **GitHub**: [@Harshkumar2306](https://github.com/Harshkumar2306)
 - **Project Repo**: [metro-route-finder-](https://github.com/Harshkumar2306/metro-route-finder-)
 - **Live Demo**: [https://metro-route-finder-beige.vercel.app/](https://metro-route-finder-beige.vercel.app/)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE) — feel free to explore, learn, and build upon it!
