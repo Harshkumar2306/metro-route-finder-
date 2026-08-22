@@ -125,10 +125,41 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
 
 ### 📟 5. Retro C++ Terminal Console
-- An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend:
+- An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend (`metro.cpp`):
   1. Route between two stations
   2. Nearest metro station to tourist places
   3. HarshPay wallet recharge
+
+```text
+=======================================================
+        DELHI METRO ROUTE FINDER (C++ CLI)
+        Developed by Harsh Kumar • Classic Edition
+=======================================================
+Loaded stations from list.txt... OK
+Loaded line connections (blue, yellow, red, green, violet, orange)... OK
+Loaded tourist places from tourplace.txt... OK
+Loaded cards from paisa.txt... OK
+
+1. To Route between two stations
+2. To check nearest metro station to a tourist place
+3. To Recharge your HarshPay Wallet
+Enter choice (1-3): 1
+
+Enter station 1 (Source): Rajiv Chowk
+Enter station 2 (Destination): Airport
+
+--- ROUTE CALCULATED (BFS) ---
+[1] Rajiv Chowk
+[2] New Delhi
+[3] Shivaji Stadium
+[4] Dhaula Kuan
+[5] Delhi Aerocity
+[6] Airport
+
+No of stations = 6
+No of interchange stations = 1
+Estimated fare = Rs.30 (HarshPay: Rs.27)
+```
 
 ---
 
