@@ -353,6 +353,15 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 ./metro
 ```
 
+#### ⚙️ Compiler Flags & Target Specifications
+
+| Compiler Flag | Purpose & Function | Benefit in Transit Engine |
+| :--- | :--- | :--- |
+| `-std=c++14` | C++14 Language Standard | Modern STL containers (`std::vector`, `std::map`, `std::queue`) |
+| `-O2` | Level 2 Compiler Optimization | Inlining BFS iterations and optimizing graph edge traversal loops |
+| `-Wall -Wextra` | Enable Comprehensive Warnings | Code safety, type checking, and boundary condition validation |
+| `g++ / clang++ / MSVC`| Cross-Platform Compatibility | Compiles natively on macOS (Apple Silicon/Intel), Linux, and Windows |
+
 ---
 
 ## 🌐 Browser & Multi-Device Compatibility
