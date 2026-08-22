@@ -73,41 +73,49 @@ Originally built as a foundational C++ data structures and algorithms project, i
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart TB
-    subgraph DataLayer [Data Ingestion & Persistent Text Files]
-        L[list.txt - Master Stations]
-        Lines[blueline.txt, yellowline.txt, redline.txt, greenline.txt, violetline.txt, orangeline.txt]
-        T[tourplace.txt - Heritage Sites]
-        P[paisa.txt - HarshPay Wallets]
+flowchart TD
+    subgraph DataLayer["Data Layer (Text Files)"]
+        L["list.txt (Master Stations)"]
+        Lines["Network Lines (*line.txt)"]
+        T["tourplace.txt (Tourist Sites)"]
+        P["paisa.txt (HarshPay Wallets)"]
     end
 
-    subgraph CoreEngine [Graph & Routing Engine]
-        MG[MetroGraph Adjacency List]
-        BFS[BFS Shortest Path Algorithm]
-        DIJ[Dijkstra Minimum Interchange Engine]
-        FC[DMRC Fare Calculator]
+    subgraph CoreEngine["Core Routing & Graph Engine"]
+        MG["MetroGraph (Adjacency List)"]
+        BFS["BFS (Shortest Route Engine)"]
+        DIJ["Dijkstra (Minimum Interchange)"]
+        FC["DMRC Fare Engine"]
     end
 
-    subgraph Interfaces [Application Presentation Interfaces]
-        direction TB
-        subgraph WebApp [Classic Transit Web App]
-            SVG[Interactive SVG Map Renderer]
-            Sidebar[Journey Planner & Fare Dashboard]
-            TG[Tourist Heritage Explorer]
-            HP[HarshPay Virtual Wallet]
-        end
-        subgraph CLI [Console Interfaces]
-            CPP[Native C++ Executable]
-            TERM[In-Browser Retro CRT Simulator]
-        end
+    subgraph WebApp["Web Application Interface"]
+        SVG["Interactive SVG Metro Map"]
+        Sidebar["Route Planner & Dashboard"]
+        TG["Tourist Guide Explorer"]
+        HP["HarshPay Virtual Wallet"]
     end
 
-    L & Lines --> MG
-    T --> TG & TERM & CPP
-    P --> HP & TERM & CPP
-    MG --> BFS & DIJ
-    BFS & DIJ --> FC
-    FC --> Sidebar & SVG & TERM & CPP
+    subgraph CLI["Terminal Interfaces"]
+        CPP["Native C++ Executable"]
+        TERM["Retro In-Browser Console"]
+    end
+
+    L --> MG
+    Lines --> MG
+    MG --> BFS
+    MG --> DIJ
+    BFS --> FC
+    DIJ --> FC
+    FC --> Sidebar
+    FC --> SVG
+    FC --> TERM
+    FC --> CPP
+    T --> TG
+    T --> TERM
+    T --> CPP
+    P --> HP
+    P --> TERM
+    P --> CPP
 ```
 
 ---
