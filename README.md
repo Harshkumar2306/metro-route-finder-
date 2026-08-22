@@ -5,6 +5,11 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://metro-route-finder-beige.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshkumar2306/metro-route-finder-)
+[![Stars](https://img.shields.io/github/stars/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=gold)](https://github.com/Harshkumar2306/metro-route-finder-/stargazers)
+[![Forks](https://img.shields.io/github/forks/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=blue)](https://github.com/Harshkumar2306/metro-route-finder-/network/members)
+[![Issues](https://img.shields.io/github/issues/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=red)](https://github.com/Harshkumar2306/metro-route-finder-/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=brightgreen)](https://github.com/Harshkumar2306/metro-route-finder-/commits/main)
+
 [![C++](https://img.shields.io/badge/C%2B%2B-14%2F17-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
 [![HTML5](https://img.shields.io/badge/HTML5-Classic-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
