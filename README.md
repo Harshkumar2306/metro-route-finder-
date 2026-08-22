@@ -34,6 +34,7 @@
 - [🚀 Quick Start & Installation](#-quick-start--installation)
   - [1. Web Interface (Zero Dependencies)](#1-web-interface-zero-dependencies)
   - [2. Native C++ Core](#2-native-c-core)
+- [⌨️ Keyboard Shortcuts & Accessibility](#️-keyboard-shortcuts--accessibility)
 - [📂 Project Directory Structure](#-project-directory-structure)
 - [💳 HarshPay Transit Wallet Specification](#-harshpay-transit-wallet-specification)
 - [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq--troubleshooting)
@@ -256,6 +257,20 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 # Run the binary
 ./metro
 ```
+
+---
+
+## ⌨️ Keyboard Shortcuts & Accessibility
+
+Designed with full desktop accessibility and rapid navigation shortcuts:
+
+| Shortcut | Scope | Action Performed |
+| :---: | :--- | :--- |
+| <kbd>Tab</kbd> | Global | Sequential focus navigation through inputs, buttons, and tabs |
+| <kbd>Enter</kbd> | Terminal Simulator | Submit console command or menu selection |
+| <kbd>+</kbd> / <kbd>-</kbd> | SVG Map | Zoom into or out of the interactive metro network canvas |
+| <kbd>Double Click</kbd> | SVG Map | Instant zoom toggle onto hovered station cluster |
+| <kbd>Click + Drag</kbd>| SVG Map | Smooth pan navigation across the Delhi transit layout |
 
 ---
 
