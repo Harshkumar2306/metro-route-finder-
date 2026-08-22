@@ -473,6 +473,14 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 
 ---
 
+## 🔒 Security, Privacy & Client-Side Execution
+
+- **100% Client-Side Processing**: Zero user queries, routing origins, or destination telemetry are logged or transmitted to external third-party servers.
+- **No Cookies or Ad Trackers**: Strict privacy-first design with no cookies, tracking beacons, or fingerprinting scripts.
+- **XSS & Injection Protection**: User input stations are strictly validated and matched against in-memory station hash sets before path computation.
+
+---
+
 ## ❓ Frequently Asked Questions (FAQ) & Troubleshooting
 
 <details>
