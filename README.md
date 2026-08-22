@@ -246,14 +246,22 @@ The Delhi Metro rail network is modeled as an **undirected weighted graph** $G =
 - **Vertices ($V$)**: Metro stations ($|V| \approx 250+$ across all corridors).
 - **Edges ($E$)**: Direct rail tracks between adjacent stations, tagged with line metadata (Color, Line Name).
 
-### Algorithmic Breakdown:
+### 📐 Mathematical Formulation of Transfer Penalty
 
-| Metric | BFS (Shortest Distance) | Dijkstra (Minimum Interchanges) |
-| :--- | :--- | :--- |
-| **Primary Goal** | Minimize number of station hops / travel time | Minimize physical train changes (transfers) |
-| **Edge Weights** | Uniform ($w = 1$) | Dynamic ($w = 1$ same line, $w = 10$ on line transfer) |
-| **Time Complexity** | $\mathcal{O}(\|V\| + \|E\|)$ | $\mathcal{O}(\|E\| + \|V\| \log \|V\|)$ |
-| **Space Complexity**| $\mathcal{O}(\|V\|)$ | $\mathcal{O}(\|V\|)$ |
+To compute paths with minimum transfers, an augmented edge weight function $W(u, v, \text{prevLine})$ is defined:
+
+$$
+W(u, v, L_{\text{prev}}) = \begin{cases} 
+1 & \text{if } \text{Line}(u, v) = L_{\text{prev}} \text{ (Same Line Continuance)} \\
+1 + \lambda & \text{if } \text{Line}(u, v) \neq L_{\text{prev}} \text{ (Line Interchange Penalty, } \lambda = 10)
+\end{cases}
+$$
+
+The path cost $C(P)$ over a sequence of vertices $P = \langle v_0, v_1, \dots, v_k \rangle$ is minimized:
+
+$$
+C(P) = \sum_{i=1}^{k} W(v_{i-1}, v_i, L_{i-1})
+$$
 
 ---
 
