@@ -188,6 +188,21 @@ The Delhi Metro rail network is modeled as an **undirected weighted graph** $G =
 
 ---
 
+## 🚇 Delhi Metro Network & Line Directory
+
+The application models the core backbone of the Delhi Metro transit network:
+
+| Line Name | Color Hex | Terminus A ↔ Terminus B | Major Interchange Hubs | Data File |
+| :--- | :---: | :--- | :--- | :--- |
+| **Blue Line (Line 3/4)** | `#0072CE` | Dwarka Sector 21 ↔ Noida City Centre / Vaishali | Rajiv Chowk, Mandi House, Kirti Nagar, Yamuna Bank | `blueline.txt`, `bluext.txt` |
+| **Yellow Line (Line 2)** | `#F4B400` | Samaypur Badli ↔ HUDA City Centre (Gurugram) | Rajiv Chowk, Kashmere Gate, Central Secretariat, Hauz Khas | `yellowline.txt` |
+| **Red Line (Line 1)** | `#E31837` | Rithala ↔ Dilshad Garden / Shaheed Sthal | Kashmere Gate, Inderlok, Welcome | `redline.txt` |
+| **Green Line (Line 5)** | `#009A44` | Inderlok / Kirti Nagar ↔ Brig. Hoshiar Singh | Inderlok, Kirti Nagar, Ashok Park Main | `greenline.txt` |
+| **Violet Line (Line 6)** | `#702082` | Kashmere Gate ↔ Raja Nahar Singh (Ballabhgarh) | Kashmere Gate, Mandi House, Central Secretariat, Kalkaji Mandir | `violetline.txt` |
+| **Airport Express (Orange)**| `#FF6F00` | New Delhi Railway Station ↔ Dwarka Sector 21 | New Delhi, Dhaula Kuan, Delhi Aerocity, Airport (T3) | `orangeline.txt` |
+
+---
+
 ## 🚀 Quick Start & Installation
 
 ### 1. Web Interface (Zero Dependencies)
