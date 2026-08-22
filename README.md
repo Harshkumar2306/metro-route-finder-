@@ -588,3 +588,17 @@ Contributions, issues, and feature suggestions are welcome!
 [![Star on GitHub](https://img.shields.io/github/stars/Harshkumar2306/metro-route-finder-?style=social)](https://github.com/Harshkumar2306/metro-route-finder-/stargazers)
 
 </div>
+
+---
+
+## 💖 Acknowledgments & Dedication
+
+- **Delhi Metro Rail Corporation (DMRC)** for operating one of the world's most efficient public mass transit networks.
+- The **Classic C++ & Open Source Community** for keeping terminal algorithms and graph theory timeless and powerful.
+- Built with passion by **Harsh Kumar**.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) — feel free to explore, fork, learn, and build upon it!
