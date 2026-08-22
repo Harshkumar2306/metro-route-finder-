@@ -46,6 +46,38 @@ Originally built as a foundational C++ data structures and algorithms project, i
 
 ---
 
+## 📸 Visual UI Showcase & User Flow
+
+```text
++---------------------------------------------------------------------------------------+
+|  🚇 DELHI METRO ROUTE FINDER  [ HKRC CLASSIC TRANSIT ]             [ 20:45:00 IST ]  |
++---------------------------------------------------------------------------------------+
+|  [🚇 Route Finder & Map]   [🏛️ Tourist Guide]   [💳 HarshPay]   [📟 Retro C++ Terminal] |
++---------------------------------------------------------------------------------------+
+|  SIDEBAR PLANNER            |  INTERACTIVE SCHEMATIC SVG MAP CANVAS                    |
+|  * Origin: [ Rajiv Chowk  ] |    (Rithala) -------- (Kashmere Gate) ---- (Dilshad Gdn) |
+|  * Dest:   [ Airport      ] |        \                    |                      /     |
+|                             |         \              (Rajiv Chowk)              /      |
+|  (*) Shortest Route (Time)  |          \             /     |     \             /       |
+|  ( ) Min Interchanges       |      (Dwarka 21) ----+       |      +--- (Noida CC)     |
+|                             |                       \      |                           |
+|  [ 🔍 Find Route ] [ Reset] |                   (Airport)  |                           |
+|  -------------------------- |                              |                           |
+|  FARE & ITINERARY:          |                     (HUDA City Centre)                   |
+|  * Stations: 6 | Interch: 1 |                                                          |
+|  * Token Fare: ₹30          |  [+] [-] [Reset View]     💡 Click station to set Origin |
+|  * HarshPay Fare: ₹27 (-10%)|  [🔵 Blue] [🟡 Yellow] [🔴 Red] [🟢 Green] [🟣 Violet]  |
++---------------------------------------------------------------------------------------+
+```
+
+### 🚶 End-to-End User Flow
+1. **Select Stations**: Pick Origin and Destination from the intuitive dropdowns or click station nodes directly on the interactive SVG canvas.
+2. **Choose Strategy**: Toggle between **Shortest Route (Time)** using BFS or **Minimum Interchanges** using Dijkstra.
+3. **Inspect Path**: View glowing neon path highlights on the map and check detailed step-by-step transfer instructions.
+4. **HarshPay Integration**: Check discounted fares, top-up digital smart cards, or run live commands inside the Retro C++ terminal emulator.
+
+---
+
 ## ✨ Key Features
 
 ### 🗺️ 1. Interactive Delhi Metro Schematic Map (SVG)
