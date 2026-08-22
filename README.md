@@ -121,8 +121,20 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **> 32 km** (21+ stations) | ₹60 | ₹54 | Maximum network distance |
 
 ### 🏛️ 4. Delhi Tourist & Heritage Guide (`tourplace.txt`)
-- Explores 20+ historical monuments and tourist hotspots (India Gate, Red Fort, Qutub Minar, Akshardham, Lotus Temple, Connaught Place, Bangla Sahib, Rashtrapati Bhavan, etc.).
+- Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
+
+| Tourist Destination / Monument | Landmark Category | Nearest Metro Station | Line Affiliation |
+| :--- | :--- | :--- | :--- |
+| **India Gate** | National War Memorial | 🚇 Central Secretariat | 🟡 Yellow / 🟣 Violet |
+| **Red Fort (Lal Qila)** | Mughal Heritage Fortress | 🚇 Chandni Chowk | 🟡 Yellow Line |
+| **Qutab Minar** | UNESCO World Heritage Minaret | 🚇 Qutub Minar | 🟡 Yellow Line |
+| **Lotus Temple** | Baháʼí House of Worship | 🚇 Kalkaji Mandir | 🟣 Violet / 🌸 Magenta |
+| **Akshardham Temple** | Vedic Spiritual & Cultural Campus | 🚇 Akshardham | 🔵 Blue Line |
+| **Gurdwara Bangla Sahib** | Historic Sikh Shrine & Sarovar | 🚇 Rajiv Chowk | 🔵 Blue / 🟡 Yellow |
+| **Jama Masjid** | 17th-Century Mughal Grand Mosque | 🚇 Chandni Chowk | 🟡 Yellow Line |
+| **Rashtrapati Bhavan** | Official Presidential Residence | 🚇 Central Secretariat | 🟡 Yellow / 🟣 Violet |
+| **National Rail Museum** | Heritage Locomotives & Royal Cars | 🚇 Mandi House | 🔵 Blue / 🟣 Violet |
 
 ### 📟 5. Retro C++ Terminal Console
 - An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend (`metro.cpp`):
