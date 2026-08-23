@@ -303,6 +303,12 @@ function findShortestRoute(source, destination) {
 }
 ```
 
+#### 🛡️ Edge Cases & Graph Robustness Mechanisms
+- **Same-Station Source/Destination**: Fast-path circuit breaker returning 0 fare, 0 hops, and displaying a helpful validation toast.
+- **Disconnected Subgraph Detection**: Graceful fallback if query stations lack a path (e.g. during simulated line maintenance).
+- **Cycle & Loop Prevention**: In-memory `visited` hash sets prevent infinite oscillation between bidirectional loops.
+- **Bi-Directional Track Traversal**: Undirected edges allow forward and reverse path computation with equal accuracy.
+
 ---
 
 ## ⚡ Performance Benchmarks & Runtime Specs
