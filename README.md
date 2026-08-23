@@ -358,14 +358,14 @@ Engineered for zero bloat, instant graph lookups, and minimal resource footprint
 
 The application models the core backbone of the Delhi Metro transit network:
 
-| Line Name | Color Hex | Terminus A ↔ Terminus B | Major Interchange Hubs | Data File |
-| :--- | :---: | :--- | :--- | :--- |
-| **Blue Line (Line 3/4)** | `#0072CE` | Dwarka Sector 21 ↔ Noida City Centre / Vaishali | Rajiv Chowk, Mandi House, Kirti Nagar, Yamuna Bank | `blueline.txt`, `bluext.txt` |
-| **Yellow Line (Line 2)** | `#F4B400` | Samaypur Badli ↔ HUDA City Centre (Gurugram) | Rajiv Chowk, Kashmere Gate, Central Secretariat, Hauz Khas | `yellowline.txt` |
-| **Red Line (Line 1)** | `#E31837` | Rithala ↔ Dilshad Garden / Shaheed Sthal | Kashmere Gate, Inderlok, Welcome | `redline.txt` |
-| **Green Line (Line 5)** | `#009A44` | Inderlok / Kirti Nagar ↔ Brig. Hoshiar Singh | Inderlok, Kirti Nagar, Ashok Park Main | `greenline.txt` |
-| **Violet Line (Line 6)** | `#702082` | Kashmere Gate ↔ Raja Nahar Singh (Ballabhgarh) | Kashmere Gate, Mandi House, Central Secretariat, Kalkaji Mandir | `violetline.txt` |
-| **Airport Express (Orange)**| `#FF6F00` | New Delhi Railway Station ↔ Dwarka Sector 21 | New Delhi, Dhaula Kuan, Delhi Aerocity, Airport (T3) | `orangeline.txt` |
+| Line Name | Color Hex | Stations | Terminus A ↔ Terminus B | Major Interchange Hubs | Data File |
+| :--- | :---: | :---: | :--- | :--- | :--- |
+| **Blue Line (Line 3/4)** | `#0072CE` | 44 + 7 | Dwarka Sector 21 ↔ Noida City Centre / Vaishali | Rajiv Chowk, Mandi House, Kirti Nagar, Yamuna Bank | `blueline.txt`, `bluext.txt` |
+| **Yellow Line (Line 2)** | `#F4B400` | 37 | Samaypur Badli ↔ HUDA City Centre (Gurugram) | Rajiv Chowk, Kashmere Gate, Central Secretariat, Hauz Khas | `yellowline.txt` |
+| **Red Line (Line 1)** | `#E31837` | 21 | Rithala ↔ Dilshad Garden / Shaheed Sthal | Kashmere Gate, Inderlok, Welcome | `redline.txt` |
+| **Green Line (Line 5)** | `#009A44` | 21 | Inderlok / Kirti Nagar ↔ Brig. Hoshiar Singh | Inderlok, Kirti Nagar, Ashok Park Main | `greenline.txt` |
+| **Violet Line (Line 6)** | `#702082` | 32 | Kashmere Gate ↔ Raja Nahar Singh (Ballabhgarh) | Kashmere Gate, Mandi House, Central Secretariat, Kalkaji Mandir | `violetline.txt` |
+| **Airport Express (Orange)**| `#FF6F00` | 6 | New Delhi Railway Station ↔ Dwarka Sector 21 | New Delhi, Dhaula Kuan, Delhi Aerocity, Airport (T3) | `orangeline.txt` |
 
 ### 🔄 Key Interchange Junctions Matrix
 
