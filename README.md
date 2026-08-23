@@ -582,6 +582,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 - **No Cookies or Ad Trackers**: Strict privacy-first design with no cookies, tracking beacons, or fingerprinting scripts.
 - **XSS & Injection Protection**: User input stations are strictly validated and matched against in-memory station hash sets before path computation.
 
+#### 🛡️ Input Validation & Error Handling Matrix
+
+| User Input Scenario | Validation Check | Handled Behavior | System Response |
+| :--- | :--- | :--- | :--- |
+| **Missing Origin or Destination** | `!origin \|\| !destination` | Prevents graph execution | Displays non-blocking UI warning toast |
+| **Same Source & Destination** | `origin === destination` | Short-circuit evaluation | Informs user origin equals destination |
+| **Non-existent Station in CLI** | `!stations.has(stationName)` | Station name lookup | Prompts user with nearest valid station examples |
+| **Invalid HarshPay Recharge ID** | `!smartCards.find(id)` | ID integrity verification | Displays invalid ID alert with registered options |
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ) & Troubleshooting
