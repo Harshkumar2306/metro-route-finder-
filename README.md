@@ -244,6 +244,15 @@ flowchart TD
 | **Build Automation** | GNU Make | 3.81+ | Multi-platform compilation script for native binary |
 | **Hosting & CI/CD** | Vercel Edge Network | Global CDN | Zero-config static deployment with automatic Git triggers |
 
+#### 🎛️ Web Audio API Sound Synthesizer Specifications
+
+| UI Trigger Event | Waveform Type | Frequency (Hz) | Duration (s) | Audio Purpose |
+| :--- | :---: | :---: | :---: | :--- |
+| **Tab / Station Selection** | `sine` | 440 Hz (A4) | 0.05s | Subtle tactile click response |
+| **Route Calculation Success** | `triangle` | 880 Hz (A5) | 0.12s | Harmonic route computation chime |
+| **HarshPay Top-up Confirmed** | `sine` | 1046 Hz (C6) | 0.18s | Positive payment confirmation ding |
+| **Validation / Error Alert** | `square` | 300 Hz (D4) | 0.10s | Low-frequency transit gate rejection buzz |
+
 ---
 
 ## 🧠 Graph Theory & Algorithms
