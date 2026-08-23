@@ -705,6 +705,8 @@ Contributions, issues, and feature suggestions are welcome!
 
 [![Follow @Harshkumar2306](https://img.shields.io/github/followers/Harshkumar2306?label=Follow%20%40Harshkumar2306&style=social)](https://github.com/Harshkumar2306)
 [![Star on GitHub](https://img.shields.io/github/stars/Harshkumar2306/metro-route-finder-?style=social)](https://github.com/Harshkumar2306/metro-route-finder-/stargazers)
+[![Fork on GitHub](https://img.shields.io/github/forks/Harshkumar2306/metro-route-finder-?style=social)](https://github.com/Harshkumar2306/metro-route-finder-/network/members)
+[![Report Issue](https://img.shields.io/badge/GitHub-Discussions_%26_Issues-brightgreen?style=social&logo=github)](https://github.com/Harshkumar2306/metro-route-finder-/issues)
 
 </div>
 
