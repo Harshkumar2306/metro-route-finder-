@@ -269,6 +269,31 @@ $$
 C(P) = \sum_{i=1}^{k} W(v_{i-1}, v_i, L_{i-1})
 $$
 
+### 🔍 Core Pathfinding Logic (BFS & Dijkstra)
+
+```javascript
+// BFS: Minimum Hop Count Traversal
+function findShortestRoute(source, destination) {
+  const queue = [[source]];
+  const visited = new Set([source]);
+
+  while (queue.length > 0) {
+    const path = queue.shift();
+    const current = path[path.length - 1];
+
+    if (current === destination) return path;
+
+    for (const neighbor of graph.getNeighbors(current)) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push([...path, neighbor]);
+      }
+    }
+  }
+  return null;
+}
+```
+
 ---
 
 ## ⚡ Performance Benchmarks & Runtime Specs
