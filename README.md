@@ -319,6 +319,16 @@ function findShortestRoute(source, destination) {
 - **Cycle & Loop Prevention**: In-memory `visited` hash sets prevent infinite oscillation between bidirectional loops.
 - **Bi-Directional Track Traversal**: Undirected edges allow forward and reverse path computation with equal accuracy.
 
+#### 📈 Asymptotic Time & Space Bounds
+
+| Operation / Procedure | Algorithm Used | Worst-Case Time Complexity | Auxiliary Space Complexity |
+| :--- | :--- | :---: | :---: |
+| **Shortest Route Search** | Breadth-First Search (BFS) | $\mathcal{O}(\|V\| + \|E\|)$ | $\mathcal{O}(\|V\|)$ |
+| **Min-Interchange Traversal** | Weighted Dijkstra Priority Queue | $\mathcal{O}(\|E\| + \|V\| \log \|V\|)$ | $\mathcal{O}(\|V\|)$ |
+| **Station Name Autocomplete** | In-Memory Substring Filtering | $\mathcal{O}(\|V\| \cdot k)$ | $\mathcal{O}(1)$ |
+| **Fare Slab Calculation** | Lookup Distance Table | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ |
+| **File Stream Ingestion** | Linear Line Tokenizer | $\mathcal{O}(N)$ | $\mathcal{O}(\|V\| + \|E\|)$ |
+
 ---
 
 ## ⚡ Performance Benchmarks & Runtime Specs
