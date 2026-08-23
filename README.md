@@ -253,6 +253,16 @@ flowchart TD
 | **HarshPay Top-up Confirmed** | `sine` | 1046 Hz (C6) | 0.18s | Positive payment confirmation ding |
 | **Validation / Error Alert** | `square` | 300 Hz (D4) | 0.10s | Low-frequency transit gate rejection buzz |
 
+#### 🎨 CSS Theme Design Tokens
+
+| CSS Variable Token | Color Value | Hex Code | Visual Application |
+| :--- | :--- | :---: | :--- |
+| `--bg-main` | Deep Navy Black | `#0B111E` | Global fixed frame background |
+| `--bg-surface` | Dark Subway Slate | `#121C2D` | Nav bars, header, and toolbar surfaces |
+| `--bg-card` | Midnight Card Blue | `#182438` | Interactive kiosk cards and sidebar forms |
+| `--accent-cyan` | Cyber Transit Cyan | `#00F0FF` | Active route glow and interactive highlights |
+| `--border-color` | Slate Border Line | `#263852` | Grid dividers and card outlines |
+
 ---
 
 ## 🧠 Graph Theory & Algorithms
