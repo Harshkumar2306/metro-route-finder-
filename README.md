@@ -60,6 +60,12 @@
 
 Originally built as a foundational C++ data structures and algorithms project, it has been transformed into an interactive web application that preserves the retro charm of CLI tools while delivering a fixed-frame interactive dashboard with schematic SVG mapping, real-time fare calculations, tourist destination routing, virtual wallet simulations, and an in-browser console emulator.
 
+### 🎯 Core Engineering Principles
+- **Zero Runtime Overhead**: No heavyweight frameworks or virtual DOM layers — pure vanilla web standards.
+- **Deterministic Graph Modeling**: Accurate vertex-edge adjacency lists matching physical Delhi Metro corridors.
+- **Retro Transit Aesthetic**: Inspired by classic early-2000s railway displays, combining CRT terminal consoles with clean vector graphics.
+- **Fixed-Frame Responsiveness**: Smart `100dvh` layout locking the UI neatly inside any viewport without outer window scrollbars.
+
 ---
 
 ## 📸 Visual UI Showcase & User Flow
