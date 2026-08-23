@@ -380,6 +380,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
 | **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
 
+### 🕒 Network Operating Schedule
+
+| Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
+| :--- | :---: | :---: |
+| **Morning Peak Hours (08:00 – 11:00)** | 2 to 3 minutes | Mon – Sat |
+| **Evening Peak Hours (17:00 – 20:00)** | 2 to 4 minutes | Mon – Sat |
+| **Standard Non-Peak Hours** | 4 to 6 minutes | Daily (06:00 – 23:00) |
+| **Airport Express Line** | 10 to 15 minutes | Daily (04:45 – 23:30) |
+
 ---
 
 ## 🚀 Quick Start & Installation
