@@ -417,6 +417,18 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 
 ---
 
+## 🧪 Verification & Test Suite Matrix
+
+| Test Suite Category | Target Tested | Verification Methodology | Expected Assertion |
+| :--- | :--- | :--- | :--- |
+| **Graph Connectivity Test** | All 138 stations in `list.txt` | Breadth-First Search traversal | 100% Reachability across all 6 lines |
+| **Interchange Calculation** | Rajiv Chowk to Central Secretariat | Path interchange counter | Exactly 0 interchanges (Direct Yellow Line) |
+| **Bifurcation Test** | Vaishali to Rajiv Chowk | Extension branch edge lookup | Exactly 1 interchange at Yamuna Bank |
+| **Fare Boundary Test** | Single-hop journey (e.g. CP to NDLS) | Fare slab lookup function | Returns minimum token slab (₹10 / ₹9 HarshPay) |
+| **Data Integrity Check** | `paisa.txt` vs. session cards | Float conversion & regex parsing | No NaN values, exact balance matching |
+
+---
+
 ## 🌐 Browser & Multi-Device Compatibility
 
 The web application is engineered with pure standard web APIs, ensuring seamless responsiveness without polyfills:
