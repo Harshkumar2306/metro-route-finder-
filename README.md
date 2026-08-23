@@ -396,6 +396,15 @@ php -S localhost:8080
 ```
 Access the application at `http://localhost:8080`.
 
+#### 🌐 Target Deployment Platforms
+
+| Platform / Host | Build Command | Publish Directory | SSL & CDN Setup |
+| :--- | :--- | :---: | :--- |
+| **Vercel** *(Live)* | *(None - Static)* | `.` (Root) | Automated Global Edge Network & HTTPS |
+| **GitHub Pages** | *(None - Static)* | `/ (root)` on `main` | Free `github.io` hosting |
+| **Render** | *(None - Static Site)* | `.` (Root) | Fast `.onrender.com` deployment |
+| **Docker / Nginx** | `docker run -p 80:80 ...` | `/usr/share/nginx/html` | Containerized static web serving |
+
 ---
 
 ### 2. Native C++ Core
