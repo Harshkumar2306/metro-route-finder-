@@ -513,6 +513,11 @@ Designed with full desktop accessibility and rapid navigation shortcuts:
 - **ARIA Landmark Navigation**: Semantic HTML5 `<header>`, `<main>`, `<aside>`, `<nav>`, and `<section>` tags for assistive technologies.
 - **Auditory Feedback**: Non-intrusive Web Audio API beeps accompanying route calculations and validation messages.
 
+#### 💡 Transit Power-User Pro Tips
+- **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
+- **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
+- **Terminal Hotkeys**: Inside the Retro C++ Terminal tab, press `1`, `2`, or `3` to instantly navigate menus without mouse interaction.
+
 ---
 
 ## 📂 Project Directory Structure
