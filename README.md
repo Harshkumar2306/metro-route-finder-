@@ -574,6 +574,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 └──────────────┘   └───────────────────────────┘
 ```
 
+#### 💾 State Management & Data Persistence Architecture
+
+| Data Entity | In-Memory Representation | Web Interface Lifecycle | Native C++ CLI Lifecycle |
+| :--- | :--- | :--- | :--- |
+| **Active Route State** | `state.currentRoute` object | Reactive DOM render & SVG highlight | Instant stdout print & stream flush |
+| **HarshPay Balances** | `state.smartCards` array | In-memory session sync & live badge update | Direct atomic write-back to `paisa.txt` |
+| **Active Tab Context** | `state.activeTab` string | Dynamic pane switching with CSS fade | Interactive switch-case loop state machine |
+| **Map Viewport Transform** | `state.transform` (scale, x, y)| Real-time SVG `<g>` matrix transformation | N/A (Terminal UI) |
+
 ---
 
 ## 🔒 Security, Privacy & Client-Side Execution
