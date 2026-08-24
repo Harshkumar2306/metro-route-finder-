@@ -427,6 +427,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Standard Non-Peak Hours** | 4 to 6 minutes | Daily (06:00 – 23:00) |
 | **Airport Express Line** | 10 to 15 minutes | Daily (04:45 – 23:30) |
 
+#### ⏱️ Inter-Station Transit Duration & Dwell Model
+
+| Metric / Journey Parameter | Default Value | Calculation Model |
+| :--- | :---: | :--- |
+| **Average Inter-Station Travel Time** | `2.0 minutes` | Standard rail transit cruising speed between adjacent nodes |
+| **Standard Platform Dwell Time** | `30 seconds` | Regular passenger boarding and alighting stop duration |
+| **Interchange Junction Transfer Time**| `4.0 – 5.0 minutes` | Platform change walking time across concourses (e.g. at Rajiv Chowk) |
+| **Airport Express High-Speed Speed** | `~80 – 120 km/h` | Rapid direct express travel between NDLS and T3 Airport |
+
 ---
 
 ## 🚀 Quick Start & Installation
