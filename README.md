@@ -685,6 +685,11 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 <p>BFS guarantees the shortest path with minimum station hops. Dijkstra introduces weight penalties on interchange stations, allowing commuters to choose routes that prioritize staying on the same train over minor distance savings.</p>
 </details>
 
+<details>
+<summary><b>5. Can I install this as an App on my phone?</b></summary>
+<p>Yes! Because the app uses responsive viewport meta tags and zero external asset dependencies, you can tap <b>"Add to Home Screen"</b> in Safari (iOS) or Chrome (Android) to install and launch it as a full-screen standalone application.</p>
+</details>
+
 ---
 
 ## 🗺️ Future Roadmap & Enhancements
