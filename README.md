@@ -284,6 +284,21 @@ The Delhi Metro rail network is modeled as an **undirected weighted graph** $G =
 - **Vertices ($V$)**: Metro stations ($|V| \approx 250+$ across all corridors).
 - **Edges ($E$)**: Direct rail tracks between adjacent stations, tagged with line metadata (Color, Line Name).
 
+```javascript
+// Graph Data Structure Definition (router.js & metro.cpp)
+class MetroGraph {
+  constructor() {
+    this.adjacencyList = new Map(); // Map<StationName, Set<{ node: string, line: string }>>
+    this.stations = new Set();
+  }
+
+  addEdge(u, v, line) {
+    this.adjacencyList.get(u).add({ node: v, line: line });
+    this.adjacencyList.get(v).add({ node: u, line: line });
+  }
+}
+```
+
 ### 📐 Mathematical Formulation of Transfer Penalty
 
 To compute paths with minimum transfers, an augmented edge weight function $W(u, v, \text{prevLine})$ is defined:
