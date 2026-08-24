@@ -602,6 +602,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Active Tab Context** | `state.activeTab` string | Dynamic pane switching with CSS fade | Interactive switch-case loop state machine |
 | **Map Viewport Transform** | `state.transform` (scale, x, y)| Real-time SVG `<g>` matrix transformation | N/A (Terminal UI) |
 
+#### 🛡️ HarshPay Wallet Business Logic & Integrity Invariants
+
+| Invariant Rule | Mathematical Constraint | Enforcement Mechanism | Failure Action |
+| :--- | :---: | :--- | :--- |
+| **Non-Negative Balance** | $\text{Balance} \ge 0$ | Checked before fare deduction | Prompts instant top-up card modal |
+| **Minimum Recharge Unit** | $\Delta B \ge ₹10$ | Quick-amount buttons (+₹100, +₹200, +₹500) | Rejects custom amounts $< ₹10$ |
+| **Maximum Wallet Balance** | $\text{Balance} \le ₹50,000$ | Upper ceiling boundary check | Prevents overflow and displays ceiling alert |
+| **Card Registration Lookup** | $\text{ID} \in \text{Registry}$ | In-memory ID array validation | Prompts valid test card IDs (e.g. `100001`) |
+
 ---
 
 ## 🔒 Security, Privacy & Client-Side Execution
