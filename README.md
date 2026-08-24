@@ -508,6 +508,15 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 | **Fare Boundary Test** | Single-hop journey (e.g. CP to NDLS) | Fare slab lookup function | Returns minimum token slab (₹10 / ₹9 HarshPay) |
 | **Data Integrity Check** | `paisa.txt` vs. session cards | Float conversion & regex parsing | No NaN values, exact balance matching |
 
+#### 🔬 Canonical Route Verification Scenarios
+
+| Test Route | Departure Station ➔ Arrival Station | BFS Hops | Optimal Interchanges | Standard Token Fare |
+| :--- | :--- | :---: | :---: | :---: |
+| **Direct Line Route** | Rajiv Chowk ➔ HUDA City Centre | 27 stations | 0 transfers | ₹50 |
+| **Single Transfer Route** | Dilshad Garden ➔ Airport | 16 stations | 1 transfer (New Delhi) | ₹60 |
+| **Cross-City Multi-Line**| Rithala ➔ Botanical Garden | 26 stations | 1 transfer (Kashmere Gate) | ₹50 |
+| **Branch Extension Route** | Vaishali ➔ Dwarka Sector 21 | 30 stations | 1 transfer (Yamuna Bank) | ₹60 |
+
 ---
 
 ## 🌐 Browser & Multi-Device Compatibility
