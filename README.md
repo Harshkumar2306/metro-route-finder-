@@ -66,6 +66,9 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **Retro Transit Aesthetic**: Inspired by classic early-2000s railway displays, combining CRT terminal consoles with clean vector graphics.
 - **Fixed-Frame Responsiveness**: Smart `100dvh` layout locking the UI neatly inside any viewport without outer window scrollbars.
 
+> [!NOTE]
+> **🚇 Delhi Metro Transit Facts**: The real-world Delhi Metro network spans 390+ km with 280+ stations across Delhi NCR. This application focuses on the core backbone corridors (Blue, Yellow, Red, Green, Violet, and Orange Airport Express) connecting Delhi, Noida, Gurugram, Ghaziabad, and Faridabad.
+
 ---
 
 ## 📸 Visual UI Showcase & User Flow
