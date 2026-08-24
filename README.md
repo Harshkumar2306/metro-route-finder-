@@ -111,6 +111,7 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **Interactive Stations**: Click station nodes directly on the canvas to set Origin/Destination or inspect line affiliations.
 - **Dynamic Route Glow**: Highlights computed paths with glowing neon overlays and animated transit paths.
 - **ViewBox Coordinate Grid**: Scaled on a high-precision `1600 × 1120` canvas with standardized $45^\circ$ diagonal rail lines, text halos, and dynamic station node collision avoidance.
+- **Matrix Transformation & Node Caching**: Station node geometry in `data.js` uses pre-computed SVG path strings and cached DOM element lookups for instant line-switch animations without re-rendering the full DOM tree.
 
 ### 🧭 2. Smart Journey Pathfinder
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
