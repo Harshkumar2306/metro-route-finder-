@@ -778,6 +778,8 @@ Contributions, issues, and feature suggestions are welcome!
 - The **Classic C++ & Open Source Community** for keeping terminal algorithms and graph theory timeless and powerful.
 - Built with passion by **Harsh Kumar**.
 
+> *"From a humble C++ console program to an interactive cloud-deployed transit navigation platform — dedicated to all daily commuters navigating the Delhi Metro."*
+
 ---
 
 ## 📜 License
