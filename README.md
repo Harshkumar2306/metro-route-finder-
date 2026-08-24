@@ -184,6 +184,15 @@ No of interchange stations = 1
 Estimated fare = Rs.30 (HarshPay: Rs.27)
 ```
 
+#### 📟 Simulated Terminal Command Reference
+
+| Menu Option | CLI Prompt Command | Action & Algorithm Executed |
+| :---: | :--- | :--- |
+| `1` | Route Planner | Prompts for Source & Destination; runs BFS pathfinder and prints station itinerary |
+| `2` | Tourist Guide | Prompts for Landmark; matches name against `tourplace.txt` and outputs nearest station |
+| `3` | HarshPay Wallet | Prompts for Card ID & Top-up Amount; simulates balance recharge |
+| `clear` | Screen Reset | Clears the CRT terminal buffer and re-prints the classic retro header |
+
 ---
 
 ## 🏗️ System Architecture
