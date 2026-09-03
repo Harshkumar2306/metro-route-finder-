@@ -1,30 +1,35 @@
 <div align="center">
 
 # 🚇 Delhi Metro Route Finder
-### *HKRC Classic Transit Edition • Graph Theory & Pathfinding System*
+### *HKRC Classic Transit Edition • High-Performance Graph Theory & Pathfinding System*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://metro-route-finder-beige.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harshkumar2306/metro-route-finder-)
 [![Stars](https://img.shields.io/github/stars/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=gold)](https://github.com/Harshkumar2306/metro-route-finder-/stargazers)
 [![Forks](https://img.shields.io/github/forks/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=blue)](https://github.com/Harshkumar2306/metro-route-finder-/network/members)
 [![Issues](https://img.shields.io/github/issues/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=red)](https://github.com/Harshkumar2306/metro-route-finder-/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/Harshkumar2306/metro-route-finder-?style=for-the-badge&color=brightgreen)](https://github.com/Harshkumar2306/metro-route-finder-/commits/main)
-
-[![C++](https://img.shields.io/badge/C%2B%2B-14%2F17-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-Classic-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-Modern_Transit-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-**[🌐 Experience the Live Web App](https://metro-route-finder-beige.vercel.app/)** • **[📂 View GitHub Source](https://github.com/Harshkumar2306/metro-route-finder-)**
+[![C++](https://img.shields.io/badge/C%2B%2B-14%2F17-00599C?style=flat-square&logo=c%2B%2B)](https://isocpp.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=flat-square&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-Modern_Transit-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![Web Audio API](https://img.shields.io/badge/Audio-Web_Audio_API-9B51E0?style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-0%20(Pure_Vanilla)-success?style=flat-square)](https://github.com/Harshkumar2306/metro-route-finder-)
+
+<br/>
+
+**[🌐 Experience the Live Web App](https://metro-route-finder-beige.vercel.app/)** • **[📂 Explore Source Code](https://github.com/Harshkumar2306/metro-route-finder-)** • **[🐛 Report an Issue](https://github.com/Harshkumar2306/metro-route-finder-/issues)**
 
 <p align="center">
-  <a href="#-quick-start--installation"><b>⚡ Get Started</b></a> •
+  <a href="#-overview"><b>📖 Overview</b></a> •
   <a href="#-visual-ui-showcase--user-flow"><b>📸 UI Showcase</b></a> •
+  <a href="#-key-features"><b>✨ Key Features</b></a> •
   <a href="#-system-architecture"><b>🏗️ Architecture</b></a> •
-  <a href="#-graph-theory--algorithms"><b>🧠 Algorithms</b></a> •
-  <a href="#-delhi-metro-network--line-directory"><b>🚇 Metro Lines</b></a> •
-  <a href="#-frequently-asked-questions-faq--troubleshooting"><b>❓ FAQ</b></a>
+  <a href="#-graph-theory--pathfinding-algorithms"><b>🧠 Algorithms</b></a> •
+  <a href="#-delhi-metro-network--line-directory"><b>🚇 Line Directory</b></a> •
+  <a href="#-quick-start--installation"><b>⚡ Quick Start</b></a> •
+  <a href="#-frequently-asked-questions-faq"><b>❓ FAQ</b></a>
 </p>
 
 ---
@@ -32,39 +37,70 @@
 </div>
 
 ## 📌 Table of Contents
+
 - [📖 Overview](#-overview)
+  - [🎯 Core Engineering Principles](#-core-engineering-principles)
 - [📸 Visual UI Showcase & User Flow](#-visual-ui-showcase--user-flow)
+  - [🚶 End-to-End User Flow](#-end-to-end-user-flow)
 - [✨ Key Features](#-key-features)
+  - [🗺️ 1. Interactive Schematic SVG Map](#️-1-interactive-schematic-svg-map)
+  - [🧭 2. Dual Graph Pathfinding Engine](#-2-dual-graph-pathfinding-engine)
+  - [💰 3. DMRC Distance-Slab Fare Engine](#-3-dmrc-distance-slab-fare-engine)
+  - [🏛️ 4. Delhi Tourist & Heritage Explorer](#️-4-delhi-tourist--heritage-explorer)
+  - [📟 5. Retro C++ CRT Terminal Console](#-5-retro-c-crt-terminal-console)
 - [🏗️ System Architecture](#️-system-architecture)
-- [🧠 Graph Theory & Algorithms](#-graph-theory--algorithms)
+- [🛠️ Technology Stack & Dependencies](#️-technology-stack--dependencies)
+  - [🎛️ Web Audio API Sound Synthesizer Specifications](#️-web-audio-api-sound-synthesizer-specifications)
+  - [🎨 CSS Theme Design Tokens](#-css-theme-design-tokens)
+- [🧠 Graph Theory & Pathfinding Algorithms](#-graph-theory--pathfinding-algorithms)
+  - [📐 Mathematical Formulation of Transfer Penalty](#-mathematical-formulation-of-transfer-penalty)
+  - [🔍 Pathfinding Implementation Logic (BFS & Dijkstra)](#-pathfinding-implementation-logic-bfs--dijkstra)
+  - [🛡️ Edge Cases & Graph Robustness Mechanisms](#️-edge-cases--graph-robustness-mechanisms)
+  - [📈 Asymptotic Time & Space Bounds](#-asymptotic-time--space-bounds)
 - [⚡ Performance Benchmarks & Runtime Specs](#-performance-benchmarks--runtime-specs)
 - [📊 Feature Comparison: Web UI vs. C++ CLI](#-feature-comparison-web-ui-vs-c-cli)
 - [🚇 Delhi Metro Network & Line Directory](#-delhi-metro-network--line-directory)
+  - [🔄 Key Interchange Junctions Matrix](#-key-interchange-junctions-matrix)
+  - [🕒 Network Operating Schedule & Headways](#-network-operating-schedule--headways)
+  - [⏱️ Inter-Station Travel & Dwell Time Model](#️-inter-station-travel--dwell-time-model)
 - [🚀 Quick Start & Installation](#-quick-start--installation)
   - [1. Web Interface (Zero Dependencies)](#1-web-interface-zero-dependencies)
   - [2. Native C++ Core](#2-native-c-core)
+  - [⚙️ Compiler Flags & Optimization Specs](#️-compiler-flags--optimization-specs)
+- [🧪 Verification & Test Suite Matrix](#-verification--test-suite-matrix)
+  - [🔬 Canonical Route Verification Scenarios](#-canonical-route-verification-scenarios)
+- [🌐 Browser & Multi-Device Compatibility](#-browser-multi-device-compatibility)
+- [📱 Mobile Responsiveness & Touch Controls](#-mobile-responsiveness--touch-controls)
 - [⌨️ Keyboard Shortcuts & Accessibility](#️-keyboard-shortcuts--accessibility)
 - [📂 Project Directory Structure](#-project-directory-structure)
+  - [📄 Data File Syntax & Parsing Grammar](#-data-file-syntax--parsing-grammar)
 - [💳 HarshPay Transit Wallet Specification](#-harshpay-transit-wallet-specification)
-- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq--troubleshooting)
+  - [💾 State Management & Data Persistence Architecture](#-state-management--data-persistence-architecture)
+  - [🛡️ HarshPay Wallet Business Logic & Integrity Invariants](#️-harshpay-wallet-business-logic--integrity-invariants)
+- [🔒 Security, Privacy & Zero-Tracking Policy](#-security-privacy--zero-tracking-policy)
+  - [🛡️ Input Validation & Error Handling Matrix](#️-input-validation--error-handling-matrix)
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 - [🗺️ Future Roadmap & Enhancements](#️-future-roadmap--enhancements)
 - [🤝 Contributing Guidelines](#-contributing-guidelines)
+  - [📏 Code Style & Commit Conventions](#-code-style--commit-conventions)
+- [📜 Changelog & Release History](#-changelog--release-history)
 - [👨‍💻 Author & Connect](#-author--connect)
+- [💖 Acknowledgments & Dedication](#-acknowledgments--dedication)
 - [📜 License](#-license)
 
 ---
 
 ## 📖 Overview
 
-**Delhi Metro Route Finder** is a transit journey planner and network pathfinder for the Delhi Metro (HKRC/DMRC) system. 
+**Delhi Metro Route Finder** is a mass transit pathfinding and journey planning suite engineered for the Delhi Metro (HKRC / DMRC) network. 
 
-Originally built as a foundational C++ data structures and algorithms project, it has been transformed into an interactive web application that preserves the retro charm of CLI tools while delivering a fixed-frame interactive dashboard with schematic SVG mapping, real-time fare calculations, tourist destination routing, virtual wallet simulations, and an in-browser console emulator.
+Originally built as a foundational C++ data structures and algorithms project, it has been modernized into an interactive web application that preserves the retro charm of terminal tools while delivering a fixed-frame dashboard featuring schematic SVG mapping, real-time DMRC fare calculations, tourist heritage routing, virtual smart card ticketing, and an in-browser console emulator.
 
 ### 🎯 Core Engineering Principles
-- **Zero Runtime Overhead**: No heavyweight frameworks or virtual DOM layers — pure vanilla web standards.
+- **Zero Runtime Overhead**: No bloated frameworks, no virtual DOM layers, and 0 external JavaScript packages — pure standard web APIs.
 - **Deterministic Graph Modeling**: Accurate vertex-edge adjacency lists matching physical Delhi Metro corridors.
 - **Retro Transit Aesthetic**: Inspired by classic early-2000s railway displays, combining CRT terminal consoles with clean vector graphics.
-- **Fixed-Frame Responsiveness**: Smart `100dvh` layout locking the UI neatly inside any viewport without outer window scrollbars.
+- **Fluid Multi-Device Ergonomics**: Fluid desktop layout with dedicated responsive mobile views, pinch-to-zoom gestures, and single-row controls.
 
 > [!NOTE]
 > **🚇 Delhi Metro Transit Facts**: The real-world Delhi Metro network spans 390+ km with 280+ stations across Delhi NCR. This application focuses on the core backbone corridors (Blue, Yellow, Red, Green, Violet, and Orange Airport Express) connecting Delhi, Noida, Gurugram, Ghaziabad, and Faridabad.
@@ -75,7 +111,7 @@ Originally built as a foundational C++ data structures and algorithms project, i
 
 ```text
 +---------------------------------------------------------------------------------------+
-|  🚇 DELHI METRO ROUTE FINDER  [ HKRC CLASSIC TRANSIT ]             [ 20:45:00 IST ]  |
+|  [H] DELHI METRO ROUTE FINDER  [ HKRC CLASSIC TRANSIT ]             [ 20:45:00 IST ]  |
 +---------------------------------------------------------------------------------------+
 |  [🚇 Route Finder & Map]   [🏛️ Tourist Guide]   [💳 HarshPay]   [📟 Retro C++ Terminal] |
 +---------------------------------------------------------------------------------------+
@@ -96,16 +132,16 @@ Originally built as a foundational C++ data structures and algorithms project, i
 ```
 
 ### 🚶 End-to-End User Flow
-1. **Select Stations**: Pick Origin and Destination from the intuitive dropdowns or click station nodes directly on the interactive SVG canvas.
+1. **Select Stations**: Pick Origin and Destination from the searchable dropdowns or click station nodes directly on the interactive SVG canvas.
 2. **Choose Strategy**: Toggle between **Shortest Route (Time)** using BFS or **Minimum Interchanges** using Dijkstra.
-3. **Inspect Path**: View glowing neon path highlights on the map and check detailed step-by-step transfer instructions.
+3. **Inspect Path**: View glowing neon path highlights on the map and check step-by-step transfer instructions.
 4. **HarshPay Integration**: Check discounted fares, top-up digital smart cards, or run live commands inside the Retro C++ terminal emulator.
 
 ---
 
 ## ✨ Key Features
 
-### 🗺️ 1. Interactive Delhi Metro Schematic Map (SVG)
+### 🗺️ 1. Interactive Schematic SVG Map
 - **Comprehensive Network Coverage**: Visualizes active routes across the **Blue Line**, **Yellow Line**, **Red Line**, **Green Line**, **Violet Line**, and the high-speed **Airport Express Line**.
 - **Vector Graphics & Viewport Control**: Features responsive SVG rendering, desktop zoom/reset controls, and mobile multi-touch pinch-to-zoom / drag-to-pan.
 - **Interactive Stations**: Click station nodes directly on the canvas to set Origin/Destination or inspect line affiliations.
@@ -113,12 +149,12 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **ViewBox Coordinate Grid**: Scaled on a high-precision `1600 × 1120` canvas with standardized $45^\circ$ diagonal rail lines, text halos, and dynamic station node collision avoidance.
 - **Matrix Transformation & Node Caching**: Station node geometry in `data.js` uses pre-computed SVG path strings and cached DOM element lookups for instant line-switch animations without re-rendering the full DOM tree.
 
-### 🧭 2. Smart Journey Pathfinder
+### 🧭 2. Dual Graph Pathfinding Engine
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
 - **Minimum Interchanges Mode**: Weighted Dijkstra routing applying transfer penalties to minimize physical line transitions.
 - **Step-by-Step Itinerary**: Boarding notifications, interchange stations, arrival station tracking, and cumulative travel time.
 
-### 💰 3. Fare Calculation Engine
+### 💰 3. DMRC Distance-Slab Fare Engine
 - Computes standard distance-slab token pricing implemented in `router.js` and `metro.cpp`.
 - **HarshPay Card Benefit**: Automatic 10% discount applied to all calculated fares.
 
@@ -131,7 +167,7 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **21 – 32 km** (15–20 stations) | ₹50 | ₹45 | Suburban transit |
 | **> 32 km** (21+ stations) | ₹60 | ₹54 | Maximum network distance |
 
-### 🏛️ 4. Delhi Tourist & Heritage Guide (`tourplace.txt`)
+### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
 
@@ -147,7 +183,7 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Rashtrapati Bhavan** | Official Presidential Residence | 🚇 Central Secretariat | 🟡 Yellow / 🟣 Violet |
 | **National Rail Museum** | Heritage Locomotives & Royal Cars | 🚇 Mandi House | 🔵 Blue / 🟣 Violet |
 
-### 📟 5. Retro C++ Terminal Console
+### 📟 5. Retro C++ CRT Terminal Console
 - An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend (`metro.cpp`):
   1. Route between two stations
   2. Nearest metro station to tourist places
@@ -278,7 +314,7 @@ flowchart TD
 
 ---
 
-## 🧠 Graph Theory & Algorithms
+## 🧠 Graph Theory & Pathfinding Algorithms
 
 The Delhi Metro rail network is modeled as an **undirected weighted graph** $G = (V, E)$:
 - **Vertices ($V$)**: Metro stations ($|V| \approx 250+$ across all corridors).
@@ -316,7 +352,7 @@ $$
 C(P) = \sum_{i=1}^{k} W(v_{i-1}, v_i, L_{i-1})
 $$
 
-### 🔍 Core Pathfinding Logic (BFS & Dijkstra)
+### 🔍 Pathfinding Implementation Logic (BFS & Dijkstra)
 
 ```javascript
 // BFS: Minimum Hop Count Traversal
@@ -418,7 +454,7 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
 | **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
 
-### 🕒 Network Operating Schedule
+### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
 | :--- | :---: | :---: |
@@ -427,7 +463,7 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Standard Non-Peak Hours** | 4 to 6 minutes | Daily (06:00 – 23:00) |
 | **Airport Express Line** | 10 to 15 minutes | Daily (04:45 – 23:30) |
 
-#### ⏱️ Inter-Station Transit Duration & Dwell Model
+#### ⏱️ Inter-Station Travel & Dwell Time Model
 
 | Metric / Journey Parameter | Default Value | Calculation Model |
 | :--- | :---: | :--- |
@@ -444,11 +480,12 @@ The application models the core backbone of the Delhi Metro transit network:
 Deploy or run the lightweight static web interface with no npm packages or compilers required:
 
 ```bash
-# Clone repository
+# 1. Clone repository
 git clone https://github.com/Harshkumar2306/metro-route-finder-.git
 cd metro-route-finder-
 
-# Option A: Python 3 HTTP Server
+# 2. Run with any local HTTP server:
+# Option A: Python 3
 python3 -m http.server 8080
 
 # Option B: Node.js npx serve
@@ -458,9 +495,9 @@ npx serve -l 8080 .
 php -S localhost:8080
 
 # Option D: VS Code Live Server Extension
-# Open index.html and click "Go Live" in the status bar
+# Open index.html and click "Go Live"
 ```
-Access the application at `http://localhost:8080`.
+Access the application in your browser at `http://localhost:8080`.
 
 #### 🌐 Target Deployment Platforms
 
@@ -487,7 +524,7 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 ./metro
 ```
 
-#### ⚙️ Compiler Flags & Target Specifications
+#### ⚙️ Compiler Flags & Optimization Specs
 
 | Compiler Flag | Purpose & Function | Benefit in Transit Engine |
 | :--- | :--- | :--- |
@@ -533,6 +570,21 @@ The web application is engineered with pure standard web APIs, ensuring seamless
 
 ---
 
+## 📱 Mobile Responsiveness & Touch Controls
+
+The interface features dedicated mobile enhancements ensuring complete map visibility and fluid touch interaction:
+
+| Touch Gesture | Canvas Response | Mobile Behavior |
+| :--- | :--- | :--- |
+| **Two-Finger Pinch** | Dynamic SVG Zoom In/Out | Smooth geometric scaling centered at focal pinch point |
+| **Single-Finger Drag** | Viewport Pan | Fluid pan across all metro corridors without page scrolling |
+| **Tap Station Node** | Set Station | Automatically populates Origin/Destination selectors |
+| **Double Tap** | Zoom Reset | Centers network back to default overview coordinates |
+| **Dedicated Canvas Height** | Responsive Minimum Height | Ensures map displays at 340px–380px without collapsing |
+| **Single-Row Ribbon** | Horizontal Legend Bar | Legend items scroll smoothly in a compact 38px toolbar |
+
+---
+
 ## ⌨️ Keyboard Shortcuts & Accessibility
 
 Designed with full desktop accessibility and rapid navigation shortcuts:
@@ -544,15 +596,6 @@ Designed with full desktop accessibility and rapid navigation shortcuts:
 | <kbd>+</kbd> / <kbd>-</kbd> | SVG Map | Zoom into or out of the interactive metro network canvas |
 | <kbd>Double Click</kbd> | SVG Map | Instant zoom toggle onto hovered station cluster |
 | <kbd>Click + Drag</kbd>| SVG Map | Smooth pan navigation across the Delhi transit layout |
-
-#### 📱 Mobile Touch & Gesture Interactions
-
-| Touch Gesture | Canvas Response | Mobile Behavior |
-| :--- | :--- | :--- |
-| **Two-Finger Pinch** | Dynamic SVG Zoom In/Out | Smooth geometric scaling centered at focal pinch point |
-| **Single-Finger Drag** | Viewport Pan | Fluid pan across all metro corridors without page scrolling |
-| **Tap Station Node** | Set Station | Automatically populates Origin/Destination selectors |
-| **Double Tap** | Zoom Reset | Centers network back to default overview coordinates |
 
 #### ♿ Accessibility (A11y) Highlights
 - **High-Contrast Dark Theme**: WCAG AAA compliant text contrast ratios for readability against dark subway maps.
@@ -655,7 +698,7 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 
 ---
 
-## 🔒 Security, Privacy & Client-Side Execution
+## 🔒 Security, Privacy & Zero-Tracking Policy
 
 - **100% Client-Side Processing**: Zero user queries, routing origins, or destination telemetry are logged or transmitted to external third-party servers.
 - **No Cookies or Ad Trackers**: Strict privacy-first design with no cookies, tracking beacons, or fingerprinting scripts.
@@ -672,7 +715,7 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ) & Troubleshooting
+## ❓ Frequently Asked Questions (FAQ)
 
 <details>
 <summary><b>1. Does the web application require an active Internet connection?</b></summary>
@@ -707,7 +750,7 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 - [ ] **Live Train Simulator**: Animated SVG train beacons traversing along lines with simulated arrival times.
 - [ ] **QR Code Ticketing**: Downloadable digital journey tokens with QR codes for mobile boarding.
 - [ ] **Multi-language Localization**: Support for Hindi (हिन्दी), Punjabi (ਪੰਜਾਬੀ), and English.
-- [ ] **PWA Offline Support**: Progressive Web App service workers for full offline installation on iOS and Android.
+- [ ] **PWA Offline Service Worker**: Full caching worker for offline journey planning without internet access.
 
 ---
 
@@ -745,7 +788,7 @@ Contributions, issues, and feature suggestions are welcome!
 
 | Version | Release Milestone | Key Highlights & Architectural Additions |
 | :--- | :--- | :--- |
-| **v2.5** (Current) | HKRC Classic Transit Web Edition | Modern zero-dependency web UI, SVG interactive map, Dijkstra minimum interchange routing, HarshPay virtual wallet |
+| **v2.5** (Current) | HKRC Classic Transit Web Edition | Modern zero-dependency web UI, SVG interactive map, Dijkstra minimum interchange routing, HarshPay virtual wallet, mobile view optimization |
 | **v2.0** | Web UI Port & Vercel Deployment | Live global cloud hosting, retro C++ in-browser console emulator, dynamic SVG layout |
 | **v1.5** | Multi-Platform C++ Support | Cross-platform build configurations, portable standard headers, Makefile integration |
 | **v1.0** | Initial C++ Terminal Core | Original BFS pathfinding CLI, file stream ingestion (`list.txt`, `*line.txt`, `paisa.txt`) |
