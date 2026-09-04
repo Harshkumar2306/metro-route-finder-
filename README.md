@@ -524,8 +524,14 @@ npx serve -l 8080 .
 # Option C: PHP Built-in Server
 php -S localhost:8080
 
-# Option D: VS Code Live Server Extension
-# Open index.html and click "Go Live"
+# Option D: Ruby Built-in Web Server
+ruby -run -ehttpd . -p8080
+
+# Option E: Docker Light-Nginx Container
+docker run --rm -d -p 8080:80 -v "$PWD":/usr/share/nginx/html nginx:alpine
+
+# Option F: VS Code Live Server Extension
+# Open index.html and click "Go Live" in status bar
 ```
 Access the application in your browser at `http://localhost:8080`.
 
