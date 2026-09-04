@@ -862,6 +862,10 @@ Contributions, issues, and feature suggestions are welcome!
 [![Fork on GitHub](https://img.shields.io/github/forks/Harshkumar2306/metro-route-finder-?style=social)](https://github.com/Harshkumar2306/metro-route-finder-/network/members)
 [![Report Issue](https://img.shields.io/badge/GitHub-Discussions_%26_Issues-brightgreen?style=social&logo=github)](https://github.com/Harshkumar2306/metro-route-finder-/issues)
 
+<br/>
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Harshkumar2306/metro-route-finder-&type=Date)](https://star-history.com/#Harshkumar2306/metro-route-finder-&Date)
+
 </div>
 
 ---
