@@ -149,6 +149,17 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - **ViewBox Coordinate Grid**: Scaled on a high-precision `1600 × 1120` canvas with standardized $45^\circ$ diagonal rail lines, text halos, and dynamic station node collision avoidance.
 - **Matrix Transformation & Node Caching**: Station node geometry in `data.js` uses pre-computed SVG path strings and cached DOM element lookups for instant line-switch animations without re-rendering the full DOM tree.
 
+#### 🎚️ Interactive Map Viewport Actions & Hotspots
+
+| User Gesture / Control | Target Canvas Element | System Action & Behavioral Response |
+| :--- | :--- | :--- |
+| **Node Click (First)** | Station Marker Circle | Designates node as Journey Origin; triggers green pulsing marker |
+| **Node Click (Second)** | Station Marker Circle | Designates node as Journey Destination; auto-calculates route & glows path |
+| **Hover / Mouseover** | Station Node & Label | Renders dynamic floating tooltip with line badges and interchange status |
+| **Double Click / Tap** | SVG Canvas | Fast-zooms into clicked sector at `1.8x` magnification |
+| **Drag & Pan** | Canvas Background | Fluid Cartesian translation keeping schematic view centered |
+| **Zoom Reset Button** | Top Toolbar Button | Restores default scale `1.0` and repositions network to origin `(0, 0)` |
+
 ### 🧭 2. Dual Graph Pathfinding Engine
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
 - **Minimum Interchanges Mode**: Weighted Dijkstra routing applying transfer penalties to minimize physical line transitions.
