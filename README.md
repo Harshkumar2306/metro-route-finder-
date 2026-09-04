@@ -342,10 +342,10 @@ The Delhi Metro rail network is modeled as an **undirected weighted graph** $G =
 - **Edges ($E$)**: Direct rail tracks between adjacent stations, tagged with line metadata (Color, Line Name).
 
 ```javascript
-// Graph Data Structure Definition (router.js & metro.cpp)
+// JavaScript In-Memory Adjacency List (router.js)
 class MetroGraph {
   constructor() {
-    this.adjacencyList = new Map(); // Map<StationName, Set<{ node: string, line: string }>>
+    this.adjacencyList = new Map(); // Map<string, Set<{ node: string, line: string }>>
     this.stations = new Set();
   }
 
@@ -354,6 +354,21 @@ class MetroGraph {
     this.adjacencyList.get(v).add({ node: u, line: line });
   }
 }
+```
+
+```cpp
+// C++ STL Memory Representation (metro.cpp)
+class MetroGraph {
+public:
+    // Station -> vector of pairs <NeighborStation, LineColor>
+    std::unordered_map<std::string, std::vector<std::pair<std::string, std::string>>> adj;
+    std::unordered_set<std::string> stationList;
+
+    void addEdge(const std::string& u, const std::string& v, const std::string& line) {
+        adj[u].push_back({v, line});
+        adj[v].push_back({u, line});
+    }
+};
 ```
 
 ### 📐 Mathematical Formulation of Transfer Penalty
