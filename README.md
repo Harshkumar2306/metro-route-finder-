@@ -191,17 +191,18 @@ Originally built as a foundational C++ data structures and algorithms project, i
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
 
-| Tourist Destination / Monument | Landmark Category | Nearest Metro Station | Line Affiliation |
-| :--- | :--- | :--- | :--- |
-| **India Gate** | National War Memorial | 🚇 Central Secretariat | 🟡 Yellow / 🟣 Violet |
-| **Red Fort (Lal Qila)** | Mughal Heritage Fortress | 🚇 Chandni Chowk | 🟡 Yellow Line |
-| **Qutab Minar** | UNESCO World Heritage Minaret | 🚇 Qutub Minar | 🟡 Yellow Line |
-| **Lotus Temple** | Baháʼí House of Worship | 🚇 Kalkaji Mandir | 🟣 Violet / 🌸 Magenta |
-| **Akshardham Temple** | Vedic Spiritual & Cultural Campus | 🚇 Akshardham | 🔵 Blue Line |
-| **Gurdwara Bangla Sahib** | Historic Sikh Shrine & Sarovar | 🚇 Rajiv Chowk | 🔵 Blue / 🟡 Yellow |
-| **Jama Masjid** | 17th-Century Mughal Grand Mosque | 🚇 Chandni Chowk | 🟡 Yellow Line |
-| **Rashtrapati Bhavan** | Official Presidential Residence | 🚇 Central Secretariat | 🟡 Yellow / 🟣 Violet |
-| **National Rail Museum** | Heritage Locomotives & Royal Cars | 🚇 Mandi House | 🔵 Blue / 🟣 Violet |
+| Tourist Destination / Monument | Landmark Category | Nearest Metro Station | Exit Gate | Heritage Status |
+| :--- | :--- | :--- | :---: | :---: |
+| **India Gate** | National War Memorial | 🚇 Central Secretariat | Gate 3 | National Monument |
+| **Red Fort (Lal Qila)** | Mughal Heritage Fortress | 🚇 Chandni Chowk | Gate 1 | 🏛️ UNESCO World Heritage |
+| **Qutab Minar** | Minaret & Complex | 🚇 Qutub Minar | Gate 2 | 🏛️ UNESCO World Heritage |
+| **Humayun's Tomb** | Mughal Garden Tomb | 🚇 JLN Stadium | Gate 2 | 🏛️ UNESCO World Heritage |
+| **Lotus Temple** | Baháʼí House of Worship | 🚇 Kalkaji Mandir | Gate 1 | Modern Architectural Icon |
+| **Akshardham Temple** | Cultural Campus | 🚇 Akshardham | Gate 1 | World Cultural Heritage |
+| **Gurdwara Bangla Sahib** | Historic Sikh Shrine | 🚇 Rajiv Chowk | Gate 1 | Spiritual Landmark |
+| **Jama Masjid** | 17th-Century Grand Mosque | 🚇 Jama Masjid / Chandni Chowk | Gate 2 | Historic Monument |
+| **Rashtrapati Bhavan** | Presidential Estate | 🚇 Central Secretariat | Gate 4 | Sovereign Landmark |
+| **National Rail Museum** | Railway Heritage | 🚇 Dhaula Kuan / Sir M.V. | Gate 1 | National Museum |
 
 ### 📟 5. Retro C++ CRT Terminal Console
 - An authentic, in-browser CRT console simulator reproducing the exact command-line menu interface from the original C++ backend (`metro.cpp`):
