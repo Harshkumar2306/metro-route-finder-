@@ -178,6 +178,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **21 – 32 km** (15–20 stations) | ₹50 | ₹45 | Suburban transit |
 | **> 32 km** (21+ stations) | ₹60 | ₹54 | Maximum network distance |
 
+#### 🎫 Official Transit Rules & Smart Card Concessions
+
+| Ticketing Rule | Policy Standard | System Enforcement |
+| :--- | :--- | :--- |
+| **Smart Card Discount** | Flat 10% reduction on all journeys | Automatically deducted via HarshPay virtual wallet |
+| **Maximum Network Time** | 180 Minutes (3 Hours) | Prevents excessive loitering inside paid transit area |
+| **Same-Station Entry/Exit**| 20 Minutes grace period | ₹10 base fee for accidental entry and exit at same station |
+| **Luggage Weight Limit** | Up to 15 kg per passenger | Free of charge within standard dimensions (60cm x 45cm x 25cm) |
+
 ### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
