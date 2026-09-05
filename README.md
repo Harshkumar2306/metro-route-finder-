@@ -427,6 +427,7 @@ function findShortestRoute(source, destination) {
 - **Disconnected Subgraph Detection**: Graceful fallback if query stations lack a path (e.g. during simulated line maintenance).
 - **Cycle & Loop Prevention**: In-memory `visited` hash sets prevent infinite oscillation between bidirectional loops.
 - **Bi-Directional Track Traversal**: Undirected edges allow forward and reverse path computation with equal accuracy.
+- **Dynamic Track Closure Resilience**: If an edge $(u, v)$ is flagged as under maintenance, the Dijkstra engine automatically penalizes the blocked corridor with infinite weight ($W(u, v) = \infty$) and computes the nearest multi-line detour (e.g. rerouting via Pink/Magenta corridors) in sub-millisecond time.
 
 #### 📈 Asymptotic Time & Space Bounds
 
