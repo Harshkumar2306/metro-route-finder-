@@ -662,6 +662,13 @@ Designed with full desktop accessibility and rapid navigation shortcuts:
 - **ARIA Landmark Navigation**: Semantic HTML5 `<header>`, `<main>`, `<aside>`, `<nav>`, and `<section>` tags for assistive technologies.
 - **Auditory Feedback**: Non-intrusive Web Audio API beeps accompanying route calculations and validation messages.
 
+| Accessibility Provision | Physical Infrastructure | Digital UI Counterpart |
+| :--- | :--- | :--- |
+| **Visual Impairment** | Tactile pathway tiles on platform edges & Braille elevator buttons | High-contrast neon vector paths & text-to-speech ARIA labels |
+| **Mobility Assistance** | Wheelchair ramps, wide automatic fare gates & dedicated coach areas | Keyboard-only complete focus management (<kbd>Tab</kbd> & <kbd>Enter</kbd>) |
+| **Auditory Cues** | Bi-lingual station arrival chimes & safety warning beeps | Web Audio synthesizer feedback on button click & route discovery |
+| **Cognitive Simplicity** | Color-coded line wayfinding overhead signage | Distinct line color ribbons with high-visibility station badges |
+
 #### 💡 Transit Power-User Pro Tips
 - **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
 - **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
