@@ -865,6 +865,15 @@ Contributions, issues, and feature suggestions are welcome!
 | **Git Commit Style** | Conventional Commits | `feat:`, `fix:`, `docs:`, `perf:`, `refactor:` |
 | **CSS Formatting** | Custom Property Variables | Theme colors defined via `:root` variables |
 
+#### 💬 Discussion Categories & Issue Pathways
+
+| Inquiry Category | Primary Destination | Suggested Prefix / Label |
+| :--- | :--- | :--- |
+| **Algorithm Optimizations** | [GitHub Discussions](https://github.com/Harshkumar2306/metro-route-finder-/discussions) | `rfc: algorithm-enhancement` |
+| **Station Coordinates Correction** | [GitHub Issues](https://github.com/Harshkumar2306/metro-route-finder-/issues) | `bug: station-data-discrepancy` |
+| **New Tourist Destination Proposal**| [GitHub Discussions](https://github.com/Harshkumar2306/metro-route-finder-/discussions) | `proposal: heritage-destination` |
+| **Mobile & Touch UI Glitches** | [GitHub Issues](https://github.com/Harshkumar2306/metro-route-finder-/issues) | `bug: mobile-viewport-touch` |
+
 ---
 
 ## 📜 Changelog & Release History
