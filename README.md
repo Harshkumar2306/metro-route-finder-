@@ -710,6 +710,21 @@ metro-route-finder/
 | `tourplace.txt` | Landmark name followed by nearest station | `India Gate`<br>`Central Secretariat` | 2-line pairs mapped to landmark objects |
 | `paisa.txt` | Card integer ID and float balance | `100001 1000.0` | Whitespace-delimited pair loaded into Smart Card registry |
 
+#### 📦 Internal Station Data Object Schema (`data.js`)
+
+```javascript
+// Canonical Station Object Model
+{
+  "Rajiv Chowk": {
+    "x": 850,
+    "y": 470,
+    "lines": ["blue", "yellow"],
+    "isInterchange": true,
+    "accessible": true
+  }
+}
+```
+
 ---
 
 ## 💳 HarshPay Transit Wallet Specification
