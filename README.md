@@ -187,6 +187,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Same-Station Entry/Exit**| 20 Minutes grace period | ₹10 base fee for accidental entry and exit at same station |
 | **Luggage Weight Limit** | Up to 15 kg per passenger | Free of charge within standard dimensions (60cm x 45cm x 25cm) |
 
+#### 🌿 Eco-Transit & Carbon Footprint Offset Analysis
+
+| Transit Corridor | Approx Distance | Private Car Emissions ($\approx 140\text{g CO}_2/\text{km}$) | Metro Transit ($\approx 22\text{g CO}_2/\text{km}$) | Net $\text{CO}_2$ Prevented |
+| :--- | :---: | :---: | :---: | :---: |
+| **Rajiv Chowk ➔ Airport (T3)** | 21.5 km | ~3,010 g | ~473 g | **-2,537 g (84.3% reduction)** |
+| **Dwarka Sec 21 ➔ Noida City Centre** | 49.2 km | ~6,888 g | ~1,082 g | **-5,806 g (84.3% reduction)** |
+| **Rithala ➔ HUDA City Centre** | 48.0 km | ~6,720 g | ~1,056 g | **-5,664 g (84.3% reduction)** |
+| **Dilshad Garden ➔ Central Secretariat** | 15.8 km | ~2,212 g | ~348 g | **-1,864 g (84.3% reduction)** |
+
 ### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
