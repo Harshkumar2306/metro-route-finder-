@@ -351,6 +351,15 @@ flowchart TD
 | `--accent-cyan` | Cyber Transit Cyan | `#00F0FF` | Active route glow and interactive highlights |
 | `--border-color` | Slate Border Line | `#263852` | Grid dividers and card outlines |
 
+#### 📶 Progressive Web App & Offline Service Worker Architecture
+
+| Asset Type | Caching Strategy | Storage Location | Offline Transit Availability |
+| :--- | :--- | :--- | :--- |
+| **Core Layout & Shell** (`index.html`, `style.css`) | **Cache-First** | CacheStorage API | 100% Offline Accessible |
+| **Graph Datasets** (`data.js`, `list.txt`, `*line.txt`) | **Stale-While-Revalidate** | IndexedDB / Memory Cache | Complete offline routing engine |
+| **Monuments & Guide** (`tourplace.txt`) | **Cache-First** | Static Asset Cache | Instant landmark searches without internet |
+| **HarshPay Wallet State** (`paisa.txt`) | **Network-First (Local Fallback)** | LocalStorage Session Store | Balances update and persist locally |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
