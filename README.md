@@ -907,6 +907,14 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 - [ ] **Multi-language Localization**: Support for Hindi (हिन्दी), Punjabi (ਪੰਜਾਬੀ), and English.
 - [ ] **PWA Offline Service Worker**: Full caching worker for offline journey planning without internet access.
 
+### 🏗️ Phase IV Network Expansion Corridors
+
+| Proposed Corridor | Line Identifier | Terminus A ↔ Terminus B | Planned Stations | Interchanges Added |
+| :--- | :--- | :--- | :---: | :--- |
+| **Silver Line (Line 10)** | `#C0C0C0` | Delhi Aerocity ↔ Tughlakabad | 15 stations | Aerocity (Orange), Chhatarpur (Yellow), Tughlakabad (Violet) |
+| **Golden Line (Line 11)** | `#FFD700` | Lajpat Nagar ↔ Saket G-Block | 8 stations | Lajpat Nagar (Pink/Violet), Saket (Yellow) |
+| **Magenta Line Ext.** | `#D81B60` | Janakpuri West ↔ RK Ashram Marg | 22 stations | Peeragarhi (Green), Pitampura (Red), RK Ashram (Blue) |
+
 ---
 
 ## 🤝 Contributing Guidelines
