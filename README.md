@@ -137,6 +137,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 3. **Inspect Path**: View glowing neon path highlights on the map and check step-by-step transfer instructions.
 4. **HarshPay Integration**: Check discounted fares, top-up digital smart cards, or run live commands inside the Retro C++ terminal emulator.
 
+#### ⚡ 1-Click Popular Route Presets
+
+| Preset Chip | Origin Station | Destination Station | Primary Transit Corridor | Typical Journey Time |
+| :--- | :--- | :--- | :--- | :---: |
+| **CP → Airport** | Rajiv Chowk | Airport (T3) | 🟡 Yellow ➔ 🟠 Airport Express | ~22 mins |
+| **Red Fort → Qutub** | Chandni Chowk | Qutub Minar | 🟡 Yellow Line (Direct) | ~34 mins |
+| **Noida → Dwarka** | Noida City Centre | Dwarka Sector 21 | 🔵 Blue Line (Direct Cross-City) | ~68 mins |
+| **Rithala → Gurgaon** | Rithala | HUDA City Centre | 🔴 Red ➔ 🟡 Yellow (Kashmere Gate) | ~62 mins |
+
 ---
 
 ## ✨ Key Features
