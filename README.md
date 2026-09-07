@@ -823,6 +823,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Maximum Wallet Balance** | $\text{Balance} \le ₹50,000$ | Upper ceiling boundary check | Prevents overflow and displays ceiling alert |
 | **Card Registration Lookup** | $\text{ID} \in \text{Registry}$ | In-memory ID array validation | Prompts valid test card IDs (e.g. `100001`) |
 
+#### 📲 AFC Turnstile Gate Tap-In / Tap-Out Transaction State Machine
+
+| Journey Stage | Gate Interaction | State Machine Validation | Balance Action |
+| :--- | :--- | :--- | :--- |
+| **1. Origin Entry** | Tap Card at Entry Turnstile | Verifies $\text{Balance} \ge ₹10$ minimum threshold | Flags session as `IN_TRANSIT`; records entry timestamp |
+| **2. Interchange** | Platform Footbridge / Tunnel | No AFC barrier crossing; track routing only | Internal line switch state recorded; ₹0 deducted |
+| **3. Terminus Exit** | Tap Card at Exit Turnstile | Computes distance slab fare from entry node | Deducts calculated fare with -10% discount applied |
+| **4. Overstay / Excess** | Delay $> 180\text{ mins}$ | Exceeded paid area allowable duration | Applies standard DMRC penalty slab (₹10/hr overstay) |
+
 ---
 
 ## 🔒 Security, Privacy & Zero-Tracking Policy
