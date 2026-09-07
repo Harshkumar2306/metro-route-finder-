@@ -529,6 +529,17 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
 | **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
 
+### 🚇 Subterranean vs. Elevated Civil Infrastructure
+
+| Metro Corridor | Alignment Breakdown | Tunnel / Viaduct Characteristics | Key Underground Sections |
+| :--- | :---: | :--- | :--- |
+| **Yellow Line** | 20 Underground / 17 Elevated | Cut-and-cover & NATM bored tunnels under Old & New Delhi | GTB Nagar ➔ Saket (heritage tunnel zone) |
+| **Blue Line** | 4 Underground / 47 Elevated | Longest elevated viaduct across Delhi NCR | Mandi House ➔ RK Ashram Marg (central tunnel) |
+| **Red Line** | 0 Underground / 21 Elevated | Fully elevated viaduct with grade-separated road crossings | All stations elevated on concrete box girders |
+| **Green Line** | 0 Underground / 21 Elevated | Standard-gauge elevated track corridor | All stations elevated along Rohtak Road |
+| **Violet Line** | 11 Underground / 21 Elevated | Heritage subterranean alignment through Lutyens' Delhi | Kashmere Gate ➔ JLN Stadium (historic core) |
+| **Airport Express**| 5 Underground / 1 At-Grade | High-speed tunnel designed for $120\text{ km/h}$ rolling stock | New Delhi ➔ Delhi Aerocity & Airport (T3) |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
