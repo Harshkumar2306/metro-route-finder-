@@ -105,6 +105,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 > [!NOTE]
 > **🚇 Delhi Metro Transit Facts**: The real-world Delhi Metro network spans 390+ km with 280+ stations across Delhi NCR. This application focuses on the core backbone corridors (Blue, Yellow, Red, Green, Violet, and Orange Airport Express) connecting Delhi, Noida, Gurugram, Ghaziabad, and Faridabad.
 
+#### 🚨 24x7 Commuter Safety & Emergency Directory
+
+| Support Service | Official Helpline / Contact | Operational Hours | Coverage & Scope |
+| :--- | :---: | :---: | :--- |
+| **DMRC 24x7 Helpline** | `155370` | 24 Hours / 365 Days | Passenger journey queries, token issues, complaints |
+| **Women Passenger Helpline** | `011-23415480` / `8800001091` | 24x7 Active Monitoring | Dedicated ladies coach safety & station escort support |
+| **CISF Security Control Room** | `011-22185555` | 24x7 Quick Response | Station perimeter security, baggage inspection, anti-theft |
+| **Lost & Found Office** | Kashmere Gate Metro Station | 08:00 – 20:00 (Mon–Sat) | Centralized retrieval office for lost passenger property |
+
 ---
 
 ## 📸 Visual UI Showcase & User Flow
