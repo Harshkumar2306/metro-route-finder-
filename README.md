@@ -611,6 +611,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Interchange Junction Transfer Time**| `4.0 – 5.0 minutes` | Platform change walking time across concourses (e.g. at Rajiv Chowk) |
 | **Airport Express High-Speed Speed** | `~80 – 120 km/h` | Rapid direct express travel between NDLS and T3 Airport |
 
+#### 👥 Trainset Passenger Capacity & Crush Load Density
+
+| Train Car Formation | Seated Passengers | Nominal Standees ($6\text{ pax/m}^2$) | Crush Density ($8\text{ pax/m}^2$) | Max Capacity Per Coach |
+| :--- | :---: | :---: | :---: | :---: |
+| **Driving Motor Car (DMC)** | 42 seated | 240 standees | 350 standees (Peak) | ~392 commuters |
+| **Trailer / Motor Car (TC/MC)**| 50 seated | 270 standees | 380 standees (Peak) | ~430 commuters |
+| **Complete 6-Car Standard Rake**| 284 seated | 1,560 standees | 2,210 standees (Peak) | **~2,494 commuters** |
+| **Complete 8-Car Broad Rake** | 384 seated | 2,060 standees | 2,920 standees (Peak) | **~3,304 commuters** |
+
 #### 🅿️ Multi-Level Station Parking Tariff Structure
 
 | Vehicle Classification | Up to 6 Hours | 6 to 12 Hours | Day Pass (> 12 Hours) | Monthly Smart Card Pass |
