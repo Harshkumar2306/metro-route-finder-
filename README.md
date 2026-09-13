@@ -369,6 +369,14 @@ flowchart TD
 | **Monuments & Guide** (`tourplace.txt`) | **Cache-First** | Static Asset Cache | Instant landmark searches without internet |
 | **HarshPay Wallet State** (`paisa.txt`) | **Network-First (Local Fallback)** | LocalStorage Session Store | Balances update and persist locally |
 
+#### 🚆 Rolling Stock Specifications & Electrification Infrastructure
+
+| Metro Corridor | Rolling Stock Manufacturer | Track Gauge | Traction Power System | Train Composition | Max Service Speed |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Red, Yellow, Blue** | Hyundai Rotem & BEML | `1676 mm` (Broad Gauge) | 25 kV AC Overhead Catenary (OHE) | 8-Car Rakes | 80 km/h |
+| **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
+| **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
