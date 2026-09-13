@@ -986,6 +986,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Golden Line (Line 11)** | `#FFD700` | Lajpat Nagar ↔ Saket G-Block | 8 stations | Lajpat Nagar (Pink/Violet), Saket (Yellow) |
 | **Magenta Line Ext.** | `#D81B60` | Janakpuri West ↔ RK Ashram Marg | 22 stations | Peeragarhi (Green), Pitampura (Red), RK Ashram (Blue) |
 
+#### 📅 Phase IV Commissioning Milestones & Delivery Schedule
+
+| Expansion Milestone | Anticipated Target | Civil Engineering Status | Expected Transit Impact |
+| :--- | :---: | :--- | :--- |
+| **Magenta Line Ext. (Phase IV-A)** | Q4 2026 | Underground tunneling & viaduct work in progress | Direct West-to-Central bypass connecting Blue & Green |
+| **Silver Line Corridors (Phase IV-B)**| Q2 2027 | Station box excavation & track laying underway | Direct South-East Delhi connection to IGI Airport |
+| **Golden Line Spur (Phase IV-C)** | Q4 2027 | Architectural planning & land acquisition phase | South Delhi business corridor decongestion link |
+| **Full Phase IV Network Integration**| Q2 2028 | Signaling synchronization & dynamic simulator | Network grows to 450+ km with 330+ operational stations |
+
 ---
 
 ## 🤝 Contributing Guidelines
