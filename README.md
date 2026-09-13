@@ -611,6 +611,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Interchange Junction Transfer Time**| `4.0 – 5.0 minutes` | Platform change walking time across concourses (e.g. at Rajiv Chowk) |
 | **Airport Express High-Speed Speed** | `~80 – 120 km/h` | Rapid direct express travel between NDLS and T3 Airport |
 
+#### 🅿️ Multi-Level Station Parking Tariff Structure
+
+| Vehicle Classification | Up to 6 Hours | 6 to 12 Hours | Day Pass (> 12 Hours) | Monthly Smart Card Pass |
+| :--- | :---: | :---: | :---: | :---: |
+| **Cars / Four-Wheelers (MLCP)** | ₹30 | ₹50 | ₹60 | ₹1,200 |
+| **Two-Wheelers (Bikes/Scooters)** | ₹15 | ₹25 | ₹30 | ₹600 |
+| **Bicycles / Eco-Bikes** | ₹5 | ₹10 | ₹15 | ₹150 |
+| **Overnight Parking (23:00–05:00)** | ₹60 (Car) | ₹30 (Bike) | Normal Day Rate + ₹60 | Included in Pass |
+
 ---
 
 ## 🚀 Quick Start & Installation
