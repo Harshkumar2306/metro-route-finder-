@@ -696,6 +696,15 @@ clang++ -std=c++14 -O2 metro.cpp -o metro
 | `-Wall -Wextra` | Enable Comprehensive Warnings | Code safety, type checking, and boundary condition validation |
 | `g++ / clang++ / MSVC`| Cross-Platform Compatibility | Compiles natively on macOS (Apple Silicon/Intel), Linux, and Windows |
 
+#### 🔧 Native C++ Troubleshooting & Portability Reference
+
+| Diagnostic Issue | Underlying Root Cause | Verified Resolution / Fix |
+| :--- | :--- | :--- |
+| **Trailing `\r` in `list.txt`** | Windows git checkout auto-converts line endings to CRLF | Strip carriage returns: `dos2unix *.txt` or `tr -d '\r'` |
+| **Older Compiler Standard** | Defaulting to pre-C++11 dialect causing auto deduction failures | Explicitly compile with `-std=c++14` or `-std=c++17` |
+| **Missing `<algorithm>` Header**| Explicit inclusion required for `std::find` on GCC 11+ | Add `#include <algorithm>` to compilation unit |
+| **Terminal Clear Mismatch** | `system("clear")` failing on cmd.exe / PowerShell | Built-in `#ifdef _WIN32 system("cls")` macro handles OS detection |
+
 ---
 
 ## 🧪 Verification & Test Suite Matrix
