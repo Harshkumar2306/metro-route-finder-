@@ -494,6 +494,15 @@ function findShortestRoute(source, destination) {
 | **Fare Slab Calculation** | Lookup Distance Table | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ |
 | **File Stream Ingestion** | Linear Line Tokenizer | $\mathcal{O}(N)$ | $\mathcal{O}(\|V\| + \|E\|)$ |
 
+#### 💾 Memory Allocation & Queue Growth Dynamics
+
+| Auxiliary Data Structure | Stored Element Type | Maximum Bounded Capacity | Peak Runtime Heap Footprint |
+| :--- | :--- | :---: | :---: |
+| **BFS Traversal Queue** | Path String Arrays `string[]` | $\le 44$ vertices (Network Diameter) | `~3.8 KB` |
+| **Visited Hash Set** | Canonical Station Identifiers | $\le 138$ nodes (Total Station Count) | `~4.5 KB` |
+| **Dijkstra Priority Queue** | Min-Heap Priority Nodes `(Cost, Node, Line)` | $\le 145$ edges (Edge Boundary) | `~6.2 KB` |
+| **Complete Adjacency List** | Node Neighbors & Line Affinity Strings | 138 vertices, 290 directed edges | `~18.4 KB` |
+
 ---
 
 ## ⚡ Performance Benchmarks & Runtime Specs
