@@ -575,6 +575,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Violet Line** | 11 Underground / 21 Elevated | Heritage subterranean alignment through Lutyens' Delhi | Kashmere Gate ➔ JLN Stadium (historic core) |
 | **Airport Express**| 5 Underground / 1 At-Grade | High-speed tunnel designed for $120\text{ km/h}$ rolling stock | New Delhi ➔ Delhi Aerocity & Airport (T3) |
 
+### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
+
+| Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
+| :--- | :--- | :--- | :--- |
+| **Kashmere Gate** | Route `ML-01` & `ML-02` (ISBT / Mori Gate) | 9m Zero-Emission AC Electric Buses | HarshPay / DMRC Smart Card Accepted |
+| **Shastri Park** | Route `ML-10` (Yamuna Vihar / Khajuri Khas) | DMRC e-Bus Feeder Network | Dynamic QR Code & Metro Smart Card |
+| **Chhatarpur** | Route `ML-33` (Mehrauli / Vasant Kunj) | High-Frequency EV Minibuses & E-Rickshaws | Unified DMRC Transit Fare Slabs |
+| **Botanical Garden** | Route `ML-45` (Noida Sector 62 / Expressway) | Air-Conditioned Electric Feeder Shuttles | Digital Ticketing & HarshPay Tap-in |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
