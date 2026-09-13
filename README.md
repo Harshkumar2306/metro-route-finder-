@@ -205,6 +205,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Same-Station Entry/Exit**| 20 Minutes grace period | ₹10 base fee for accidental entry and exit at same station |
 | **Luggage Weight Limit** | Up to 15 kg per passenger | Free of charge within standard dimensions (60cm x 45cm x 25cm) |
 
+#### 🎒 Baggage Security & Prohibited Items Protocol
+
+| Baggage Category | Permissible Standard | CISF Checkpoint Protocol | Regulatory Basis |
+| :--- | :--- | :--- | :--- |
+| **Standard Passenger Luggage** | Max 15 kg (60 cm × 45 cm × 25 cm) | Mandatory X-ray conveyor scanner inspection | DMRC Passenger Baggage Rule |
+| **Packaged Alcohol Bottles** | Max 2 sealed bottles per adult | Physical seal verification by on-duty CISF personnel | Updated DMRC Transit Directive |
+| **Flammables & Cylinders** | Strictly Prohibited (LPG, petrol, fireworks) | Trace detector & manual physical pat-down | Railway Security Act (Section 67) |
+| **Pets & Live Animals** | Not Permitted (Guide dogs exempted) | Turnstile visual gate check refusal | Urban Mass Transit Hygiene Norms |
+
 #### 🌿 Eco-Transit & Carbon Footprint Offset Analysis
 
 | Transit Corridor | Approx Distance | Private Car Emissions ($\approx 140\text{g CO}_2/\text{km}$) | Metro Transit ($\approx 22\text{g CO}_2/\text{km}$) | Net $\text{CO}_2$ Prevented |
