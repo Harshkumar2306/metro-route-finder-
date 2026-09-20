@@ -922,6 +922,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **3. Terminus Exit** | Tap Card at Exit Turnstile | Computes distance slab fare from entry node | Deducts calculated fare with -10% discount applied |
 | **4. Overstay / Excess** | Delay $> 180\text{ mins}$ | Exceeded paid area allowable duration | Applies standard DMRC penalty slab (₹10/hr overstay) |
 
+#### 💳 Auto-Top-Up (ATU) Facility & Contactless Bank Gateway Integration
+
+| System Parameter | Operational Threshold | Banking Protocol & Routing | Cardholder Safeguard |
+| :--- | :--- | :--- | :--- |
+| **Auto-Debit Trigger** | Balance drops below `₹100` | Automated webhook trigger via linked UPI / RuPay transit mandate | Real-time SMS & UI notification |
+| **Standard Top-Up Unit** | Flat `₹200` per cycle | Tokenized payment gateway transaction ($< 250\text{ ms}$) | Daily limit capped at 2 recharges (`₹400/day`) |
+| **Turnstile Fast-Pass** | Low balance at entry gate | Gate executes seamless background recharge | Zero commuter hesitation at AFC barrier |
+| **Account De-linking** | User-initiated withdrawal | Instant bank balance restitution within 48 hours | Zero cancellation surcharge |
+
 ---
 
 ## 🔒 Security, Privacy & Zero-Tracking Policy
