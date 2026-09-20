@@ -656,6 +656,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Bicycles / Eco-Bikes** | ₹5 | ₹10 | ₹15 | ₹150 |
 | **Overnight Parking (23:00–05:00)** | ₹60 (Car) | ₹30 (Bike) | Normal Day Rate + ₹60 | Included in Pass |
 
+#### 🚦 Train Signaling Infrastructure: CBTC vs. Distance-To-Go
+
+| Signaling Paradigm | Technology Architecture | Achievable Train Headway | Automation Standard | Line Implementations |
+| :--- | :--- | :---: | :---: | :--- |
+| **CBTC (Moving Block)** | Continuous two-way radio RF communication | `90–110 seconds` | GoA 3 / GoA 4 (Driverless UTO) | Pink Line, Magenta Line & Phase IV |
+| **Distance-To-Go (DTG)**| Audio-frequency fixed-block cab signaling | `150–180 seconds` | GoA 2 (ATO / ATP with Driver) | Red, Yellow, Blue, Green, Violet |
+| **Automatic Protection (ATP)** | Onboard computer enforces electronic dynamic braking profile | Continuous fail-safe | Automatic overspeed prevention | 100% active on all passenger trains |
+| **Solid-State Interlocking** | Microprocessor-based dual-redundant SSI logic | Real-time switch control | OCC centralized computer control | All terminal crossovers & junctions |
+
 ---
 
 ## 🚀 Quick Start & Installation
