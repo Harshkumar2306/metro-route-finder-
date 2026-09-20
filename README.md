@@ -178,6 +178,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Drag & Pan** | Canvas Background | Fluid Cartesian translation keeping schematic view centered |
 | **Zoom Reset Button** | Top Toolbar Button | Restores default scale `1.0` and repositions network to origin `(0, 0)` |
 
+#### 🛡️ Automated Platform Screen Doors (PSD) & Crowd Barrier Specs
+
+| Barrier Architecture | Height Profile | Network Line Deployment | Safety & Engineering Advantage |
+| :--- | :---: | :--- | :--- |
+| **Full-Height Platform Screen Doors** | `2.15 m` (Floor-to-Ceiling) | Airport Express & core underground hubs | Prevents track intrusion and cuts HVAC cooling leakage by **20%** |
+| **Half-Height Platform Gates (APG)** | `1.50 m` (Chest-Height) | High-footfall elevated Yellow & Blue hubs | Protects platform crowds from surging during peak commuter hours |
+| **Optical Beam Door Interlock** | Optical infrared sensors | Train doors synchronize with PSDs ($\pm 0.3\text{s}$) | Failsafe obstacle detection system halts train dispatch on obstruction |
+| **NFPA 130 Emergency Egress** | Bi-directional push bars | Platform-facing track egress gates | Rapid manual passenger evacuation during unexpected power outages |
+
 ### 🧭 2. Dual Graph Pathfinding Engine
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
 - **Minimum Interchanges Mode**: Weighted Dijkstra routing applying transfer penalties to minimize physical line transitions.
