@@ -241,6 +241,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Rewa Solar PPA Integration** | Dedicated green power feed from Rewa Ultra Mega Solar Park | Powers **~24%** of daily daytime operations | Pioneering utility-scale solar transit adoption |
 | **Smart Inverter Station HVAC** | Variable refrigerant flow (VRF) and dynamic chiller staging | Cuts terminal cooling energy by **25%** | Saves $> 30\text{ million kWh}$ auxiliary electricity |
 
+#### 💧 Water Conservation & Rainwater Harvesting Infrastructure
+
+| Ecological Water Measure | Engineering Mechanism | Network Implementation | Resource Conservation Metric |
+| :--- | :--- | :--- | :--- |
+| **Aquifer Recharge Pits** | `600+` percolation pits along viaduct drainage down-pipes | Elevated Red, Blue & Green lines | Recharges **$> 1.2\text{ billion litres}$** rainwater annually |
+| **Depot Effluent Treatment (STP)**| Decentralized biological wastewater treatment plants | Khyber Pass, Sultanpur, Najafgarh | 100% treated recycled water used for depot landscaping |
+| **Zero Liquid Discharge (ZLD)**| Closed-loop automated train coach washing plants (ACWP) | All 15 maintenance rolling-stock depots | Cuts freshwater coach wash consumption by **80%** |
+| **Sensor Water Aerators** | Low-flow dual-flush sensors & pressure-reducing nozzles | Station passenger restrooms | Reduces public concourse potable water draw by **40%** |
+
 ### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
