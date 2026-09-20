@@ -223,6 +223,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Rithala ➔ HUDA City Centre** | 48.0 km | ~6,720 g | ~1,056 g | **-5,664 g (84.3% reduction)** |
 | **Dilshad Garden ➔ Central Secretariat** | 15.8 km | ~2,212 g | ~348 g | **-1,864 g (84.3% reduction)** |
 
+#### ⚡ Regenerative Braking & Solar Power Grid Integration
+
+| Clean Energy Initiative | Engineering Mechanism | Power Recovery / Generation | Annual Environmental Impact |
+| :--- | :--- | :---: | :--- |
+| **Regenerative Braking (RBS)** | Traction motors invert into dynamos during deceleration | Recovers **~30–35%** kinetic energy into catenary | Conserves millions of kWh of traction grid draw |
+| **Depot & Station Rooftop Solar** | Solar PV panels deployed across 140+ roofs and depot sheds | **~50 MWp** installed network capacity | Offsets ~55,000 metric tonnes of $\text{CO}_2$ yearly |
+| **Rewa Solar PPA Integration** | Dedicated green power feed from Rewa Ultra Mega Solar Park | Powers **~24%** of daily daytime operations | Pioneering utility-scale solar transit adoption |
+| **Smart Inverter Station HVAC** | Variable refrigerant flow (VRF) and dynamic chiller staging | Cuts terminal cooling energy by **25%** | Saves $> 30\text{ million kWh}$ auxiliary electricity |
+
 ### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
