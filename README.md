@@ -386,6 +386,15 @@ flowchart TD
 | **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
 | **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
 
+#### 📡 Station Telecom, Optical Fiber Network & Public Wi-Fi Infrastructure
+
+| Telecom Layer | Technical Architecture | Deployment Scope | Commuter & Operational Impact |
+| :--- | :--- | :--- | :--- |
+| **High-Speed Public Wi-Fi** | Wi-Fi 6 (802.11ax) dual-band access points | All underground & interchange stations | Free high-bandwidth passenger internet access |
+| **OFC Dark Fiber Backbone** | 144-core single-mode fiber optic cabling along track viaducts | Network-wide link to OCC Shastri Park | Real-time signaling telemetry & zero-packet-loss control |
+| **Tunnel Leaky Coaxial (LCX)**| Multi-carrier 4G/5G radiating cables in bored tunnels | Yellow, Violet & Airport subterranean sectors | Continuous mobile carrier reception during underground transit |
+| **TETRA Emergency Radio** | 380–400 MHz encrypted digital trunked radio | Train drivers, station controllers, CISF security | Mission-critical voice communications with 99.999% uptime |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
