@@ -1066,6 +1066,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **ISO 27001:2022**| Information Security & Data Privacy | 100% client-side processing with zero cookies or tracking beacons | Complete zero-telemetry local sandboxing |
 | **ISO 50001:2018**| Energy Management System (EnMS) | Regenerative braking recovery models & rooftop solar grid specs | Clean traction energy accounting |
 
+#### 📹 IP CCTV Surveillance Grid & Edge Video AI Analytics
+
+| Surveillance Architecture | Camera & Sensor Profile | Hardware Scale | Operational Security Function |
+| :--- | :--- | :---: | :--- |
+| **High-Definition IP CCTV** | 1080p / 4K H.265 low-light dome & bullet cameras | `> 18,000` cameras | Complete continuous coverage of platforms, escalators & trains |
+| **Crowd Density AI Heatmapping**| Edge-computed real-time computer vision flow | All interchange platforms | Instant surge detection & automatic turnstile throttling |
+| **Unattended Baggage Analytics**| Object dwell-time threshold tracking ($> 90\text{ s}$) | Concourse scanner cameras | Automated visual alert dispatch to CISF quick-reaction teams |
+| **Virtual Track Tripwires** | Infrared perimeter tripwires on trackbed approaches | Platform end-gate boundaries | Failsafe warning alert to driver cab if track intrusion detected |
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
