@@ -449,6 +449,15 @@ flowchart TD
 | **Auxiliary Substations (ASS)**| 33 kV stepped down to 415 V / 240 V | Dual-bus ring-main topology at every passenger station | Uninterrupted power for signaling, escalators, lifts & TVS |
 | **Emergency Diesel GenSets** | 415 V standby backup power | Auto-Mains Failure (AMF) synchronized within **10 seconds** | Guarantees emergency lighting, smoke extraction & AFC gates |
 
+#### ⚡ Overhead Equipment (OHE) Stagger & Pantograph Dynamics
+
+| Electrification Component | Structural Engineering Specification | Mechanical Dynamics | Commuter Reliability & Lifespan |
+| :--- | :--- | :--- | :--- |
+| **Catenary Wire Stagger** | Alternating `±200 mm` zig-zag mast alignment | Mast spacing `45m–60m` along tracks | Avoids single-point friction grooves on carbon strips |
+| **Pantograph Carbon Strips**| Metal-impregnated high-purity carbon collector strips | Constant vertical uplift force `70 N ± 10 N` | Spark-free, arc-free current pickup up to **120 km/h** |
+| **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
+| **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
