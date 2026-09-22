@@ -1039,6 +1039,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Turnstile Fast-Pass** | Low balance at entry gate | Gate executes seamless background recharge | Zero commuter hesitation at AFC barrier |
 | **Account De-linking** | User-initiated withdrawal | Instant bank balance restitution within 48 hours | Zero cancellation surcharge |
 
+#### 📲 Mobile NFC Host Card Emulation (HCE) & Dynamic QR Ticketing
+
+| Mobile Ticketing Standard | Transmission Architecture | Validation Latency | Anti-Fraud & Security Mechanism |
+| :--- | :--- | :---: | :--- |
+| **NFC Host Card Emulation (HCE)** | ISO/IEC 14443 Type A contactless protocol | $< 180\text{ ms}$ | Tokenized virtual card key secured in device Secure Element |
+| **Dynamic Rolling QR Code** | Cryptographic time-based HMAC-SHA256 payload | $< 200\text{ ms}$ | Rotating 60-second token prevents screen mirroring or sharing |
+| **UPI 2.0 Autopay Journey** | Direct bank mandate transit deduction at exit turnstile | Real-time | Zero processing convenience surcharge for commuters |
+| **Offline Cryptographic Token** | Asymmetrically signed ECDSA offline transit pass | $< 150\text{ ms}$ | Valid for 180 minutes during cellular or gateway outages |
+
 ---
 
 ## 🔒 Security, Privacy & Zero-Tracking Policy
