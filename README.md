@@ -114,6 +114,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **CISF Security Control Room** | `011-22185555` | 24x7 Quick Response | Station perimeter security, baggage inspection, anti-theft |
 | **Lost & Found Office** | Kashmere Gate Metro Station | 08:00 – 20:00 (Mon–Sat) | Centralized retrieval office for lost passenger property |
 
+#### 🚰 Station Passenger Amenities & Essential Utilities Directory
+
+| Concourse Amenity | Facility Details & Tariff | Physical Station Location | Accessibility Standard |
+| :--- | :--- | :--- | :--- |
+| **RO Drinking Water Kiosks** | Multi-stage RO filtration (`₹1/300ml`, `₹2/500ml`, `₹5/1L`) | Platform levels & paid concourses | Universal height push taps & coin/UPI slots |
+| **Public Restrooms (Sulabh)** | Hygienic sanitation units with dedicated baby-care stations | Paid and unpaid concourses | Extra-wide wheelchair cubicles with grab bars |
+| **Medical First-Aid & AED** | Automated External Defibrillators & trauma response kits | Station Controller (SC) Control Booth | 24x7 trained first-responder certified staff |
+| **Mobile Charging Kiosks** | Free surge-protected USB-A & USB-C rapid charging outlets | Commuter waiting bench areas | Regulated 5V/2.4A protected power rail |
+
 ---
 
 ## 📸 Visual UI Showcase & User Flow
