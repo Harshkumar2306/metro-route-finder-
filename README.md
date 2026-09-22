@@ -645,6 +645,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
 | **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
 
+### 📦 Station Platform Typology: Island vs. Side Platform Schematics
+
+| Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
+| :--- | :---: | :--- | :--- |
+| **Central Island Platform** | `10 m – 14 m` single central slab | Rajiv Chowk (Yellow), New Delhi, Chandni Chowk | Bidirectional train boarding from single platform deck |
+| **Twin Side Platforms** | `4.5 m – 6 m` separate outer decks | Rajiv Chowk (Blue), elevated Red & Green stations | Direction-segregated passenger flow via upper concourse |
+| **Spanish Solution (3-Platform)**| Center boarding deck + dual alighting side decks | Planned high-density Phase IV terminus hubs | Simultaneous door opening cuts dwell time to **20 seconds** |
+| **Elevated Cantilever Viaduct** | Single central RCC pier carrying twin cantilever wings | Elevated Blue, Red & Violet road-median stations | Leaves street-level roadway completely unobstructed |
+
 ### 🚇 Subterranean vs. Elevated Civil Infrastructure
 
 | Metro Corridor | Alignment Breakdown | Tunnel / Viaduct Characteristics | Key Underground Sections |
