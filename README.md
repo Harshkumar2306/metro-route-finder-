@@ -620,6 +620,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Violet Line** | 11 Underground / 21 Elevated | Heritage subterranean alignment through Lutyens' Delhi | Kashmere Gate ➔ JLN Stadium (historic core) |
 | **Airport Express**| 5 Underground / 1 At-Grade | High-speed tunnel designed for $120\text{ km/h}$ rolling stock | New Delhi ➔ Delhi Aerocity & Airport (T3) |
 
+#### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
+
+| Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
+| :--- | :--- | :---: | :--- |
+| **Tunnel Ventilation (TVS)** | Reversible high-thrust jet fans & station plenum dampers | Station headwalls & mid-tunnel shafts | Directional smoke purging conforming to **NFPA 130** |
+| **Cross-Passage Passageways** | Pressurized connecting corridors between twin bored tubes | Every **250 metres** along underground tracks | 2-hour fire-rated self-closing airtight blast doors |
+| **Subterranean Walkways** | Continuous 800mm raised concrete pedestrian pathway | 100% of underground running tunnels | Photoluminescent directional arrows & emergency lights |
+| **Tunnel Invert Sump Pumps** | Heavy-duty dual submersible pumps with float transducers | Sump pits located at tunnel dip points | Rapid monsoon flood clearance up to **20,000 L/min** |
+
 ### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
 
 | Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
