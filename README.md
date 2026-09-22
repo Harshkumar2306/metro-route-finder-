@@ -386,6 +386,15 @@ flowchart TD
 | **HarshPay Top-up Confirmed** | `sine` | 1046 Hz (C6) | 0.18s | Positive payment confirmation ding |
 | **Validation / Error Alert** | `square` | 300 Hz (D4) | 0.10s | Low-frequency transit gate rejection buzz |
 
+#### 🎧 Station Ambient Acoustic Standards & Psychoacoustic Chime Profiles
+
+| Acoustic Environment | Target Sound Pressure | Psychoacoustic Frequency Bands | Commuter Wayfinding & Auditory Function |
+| :--- | :---: | :--- | :--- |
+| **Concourse Background Ambient** | `~65 dBA` | Reverberation decay time $RT_{60} < 1.2\text{ s}$ | Sound-absorbing ceiling baffles prevent echo build-up |
+| **Train Approaching Chime** | `~80 dBA` | Dual-harmonic `587 Hz` (D5) & `880 Hz` (A5) | Penetrates ambient noise to alert waiting passengers |
+| **Platform Gate Warning Tone** | `~85 dBA` | Intermittent `1,000 Hz` pulsed square wave | Unambiguous sensory cue for passengers with visual impairment |
+| **Bilingual Public Address (PA)**| `~75 dBA` (AGC) | Telecom speech band (`300 Hz – 3,400 Hz`) | High speech transmission index (STI $> 0.6$) for clarity |
+
 #### 🎨 CSS Theme Design Tokens
 
 | CSS Variable Token | Color Value | Hex Code | Visual Application |
