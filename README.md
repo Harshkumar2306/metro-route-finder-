@@ -922,6 +922,15 @@ metro-route-finder/
 }
 ```
 
+#### 📑 Open Transit Data (GTFS) Feed Architecture Mapping
+
+| GTFS Specification File | Codebase Counterpart | Core Data Fields Mapped | Transit Interoperability Role |
+| :--- | :--- | :--- | :--- |
+| **`agency.txt`** | System Metadata Banner | `agency_id, agency_name, agency_url, agency_timezone` | Authoritative transit operator identity (HKRC/DMRC) |
+| **`routes.txt`** | Line Files (`*line.txt`) | `route_id, route_short_name, route_color, route_type` | Corridors with hex colors (`#0072CE`, `#F4B400`) |
+| **`stops.txt`** | `list.txt` & `data.js` | `stop_id, stop_name, stop_lat, stop_lon, wheelchair_boarding` | Coordinate projection and station platform access |
+| **`fare_attributes.txt`** | `router.js` Fare Engine | `fare_id, price, currency_type, payment_method` | Slabs (`₹10–₹60`) & HarshPay 10% discount |
+
 ---
 
 ## 💳 HarshPay Transit Wallet Specification
