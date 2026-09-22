@@ -422,6 +422,15 @@ flowchart TD
 | **Tunnel Leaky Coaxial (LCX)**| Multi-carrier 4G/5G radiating cables in bored tunnels | Yellow, Violet & Airport subterranean sectors | Continuous mobile carrier reception during underground transit |
 | **TETRA Emergency Radio** | 380–400 MHz encrypted digital trunked radio | Train drivers, station controllers, CISF security | Mission-critical voice communications with 99.999% uptime |
 
+#### 🛰️ SCADA Traction Power Telemetry & Receiving Substation (RSS) Grid
+
+| Power Distribution Tier | Voltage Profile | Redundancy Architecture | SCADA Telemetry & Protection |
+| :--- | :--- | :--- | :--- |
+| **Receiving Substations (RSS)** | 66 kV / 33 kV incoming utility grid | `N+1` transformer redundancy across 12 intake substations | Remote voltage & phase angle telemetry via IEC 60870-5-104 |
+| **Traction Substations (TSS)** | 25 kV AC 50 Hz single-phase | Dual-feed overlapping catenary sectorization | Automated circuit breaker trip reporting within **15 ms** |
+| **Auxiliary Substations (ASS)**| 33 kV stepped down to 415 V / 240 V | Dual-bus ring-main topology at every passenger station | Uninterrupted power for signaling, escalators, lifts & TVS |
+| **Emergency Diesel GenSets** | 415 V standby backup power | Auto-Mains Failure (AMF) synchronized within **10 seconds** | Guarantees emergency lighting, smoke extraction & AFC gates |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
