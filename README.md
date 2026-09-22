@@ -656,6 +656,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Subterranean Walkways** | Continuous 800mm raised concrete pedestrian pathway | 100% of underground running tunnels | Photoluminescent directional arrows & emergency lights |
 | **Tunnel Invert Sump Pumps** | Heavy-duty dual submersible pumps with float transducers | Sump pits located at tunnel dip points | Rapid monsoon flood clearance up to **20,000 L/min** |
 
+#### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
+
+| Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
+| :--- | :---: | :--- | :--- |
+| **Central Station Air Handling (AHU)**| `25°C ± 1°C` / `55% RH` | Water-cooled centrifugal chillers & variable frequency drives | Conforms to **ASHRAE 55** thermal standard |
+| **Indoor $\text{CO}_2$ Mitigation** | $< 800\text{ ppm}$ peak | NDIR optical sensors modulate fresh air intake dampers | Prevents commuter fatigue and carbon buildup |
+| **Particulate Smog Filtration** | $< 35\ \mu\text{g/m}^3$ ($\text{PM}_{2.5}$) | MERV 14 filters & two-stage electrostatic precipitators | Cleans Delhi winter smog & brake lining dust |
+| **Pathogen & Germicidal Scrubbing** | Zero aerosol accumulation | UV-C germicidal irradiation coils inside AHU plenums | Neutralizes airborne viruses and bacterial microbes |
+
 ### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
 
 | Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
