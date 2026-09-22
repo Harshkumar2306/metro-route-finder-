@@ -647,6 +647,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Chhatarpur** | Route `ML-33` (Mehrauli / Vasant Kunj) | High-Frequency EV Minibuses & E-Rickshaws | Unified DMRC Transit Fare Slabs |
 | **Botanical Garden** | Route `ML-45` (Noida Sector 62 / Expressway) | Air-Conditioned Electric Feeder Shuttles | Digital Ticketing & HarshPay Tap-in |
 
+### 🛠️ Permanent Way (P-Way) Track Engineering & Ultrasonic Testing (USFD)
+
+| Track Engineering System | Material & Structural Standard | Inspection / Maintenance Protocol | Commuter Safety & Ride Comfort |
+| :--- | :--- | :--- | :--- |
+| **Continuously Welded Rail (CWR)**| `UIC-60` (60 kg/m) head-hardened (1080 grade) | Flash-butt automated welding eliminating joints | Smooth ride dynamics & noise reduction |
+| **Ultrasonic Testing (USFD)** | Digital multi-channel pulse-echo NDT trolleys | Non-destructive scanning every **30 operating days** | Early detection of subsurface fatigue cracks |
+| **Ballastless Slab Plinth** | Reinforced concrete plinths with Vossloh fastenings | Fastener torque auditing & elastomeric pad checks | Zero ballast fly-away on viaducts & tunnels |
+| **Rail Profile Grinding (RCF)** | Heavy-duty 16-stone rail profile grinding trains | Scheduled acoustic reprofiling & corrugation removal | Minimizes wheel-rail squeal & vibrations |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
