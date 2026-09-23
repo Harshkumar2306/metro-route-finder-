@@ -692,6 +692,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Particulate Smog Filtration** | $< 35\ \mu\text{g/m}^3$ ($\text{PM}_{2.5}$) | MERV 14 filters & two-stage electrostatic precipitators | Cleans Delhi winter smog & brake lining dust |
 | **Pathogen & Germicidal Scrubbing** | Zero aerosol accumulation | UV-C germicidal irradiation coils inside AHU plenums | Neutralizes airborne viruses and bacterial microbes |
 
+#### 🛡️ Seismic Engineering & Structural Vibration Damping (Zone-IV)
+
+| Structural Defense System | Design Benchmark | Engineering Mechanism | Resilience & Protection Standard |
+| :--- | :---: | :--- | :--- |
+| **Zone-IV Seismic Ductility** | Peak ground acceleration `0.24g` | Circular spiral ties & ductile reinforcement detailing | Structural integrity during Richter $7.0+$ seismic events |
+| **Laminated Neoprene Bearings**| High-Damping Rubber Bearings (**HDRB**) | Positioned atop pier caps supporting viaduct U-girders | Dampens lateral shear shocks & thermal expansion |
+| **Floating Slab Track (FST)** | Attenuates vibration by **$> 18\text{ dB}$** | Polyurethane elastomeric boot pads under concrete slab | Protects historic monuments (Qutub Minar, Red Fort) |
+| **Flexible Tunnel Joints** | Subterranean seismic expansion collars | EPDM double-lip gaskets between bored tunnel rings | Absorbs differential soil settlement without water leakage |
+
 ### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
 
 | Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
