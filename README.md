@@ -719,6 +719,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Ballastless Slab Plinth** | Reinforced concrete plinths with Vossloh fastenings | Fastener torque auditing & elastomeric pad checks | Zero ballast fly-away on viaducts & tunnels |
 | **Rail Profile Grinding (RCF)** | Heavy-duty 16-stone rail profile grinding trains | Scheduled acoustic reprofiling & corrugation removal | Minimizes wheel-rail squeal & vibrations |
 
+#### 🚆 Wheel-Rail Interface Lubrication & Friction Modification
+
+| Tribology Mechanism | Application Technology & Dispenser | Target Track Location | Mechanical & Acoustic Benefit |
+| :--- | :--- | :--- | :--- |
+| **Flange Lubrication** | Electronic wayside high-pressure spray applicator | Sharp curves ($R < 400\text{ m}$) high rail gauge face | Cuts wheel flange and rail side wear by **up to 60%** |
+| **Top-of-Rail (TOR) Friction Modifier**| Water-based biodegradable polymeric thin-film jet | Track braking zones & switch approaches | Controls coefficient of friction $\mu \approx 0.35–0.40$ |
+| **Curve Squeal Acoustic Damping** | Wheel-mounted tuned mass acoustic ring dampers | Tightly curved viaducts & turnouts | Suppresses high-frequency stick-slip squeal by **12–15 dBA** |
+| **Automated Axle Sensor Trigger** | Inductive wheel-detector pulse counter at rail foot | Pre-curve approach tangent track | Calibrates micro-dosing per axle count, avoiding slip |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
