@@ -123,6 +123,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Medical First-Aid & AED** | Automated External Defibrillators & trauma response kits | Station Controller (SC) Control Booth | 24x7 trained first-responder certified staff |
 | **Mobile Charging Kiosks** | Free surge-protected USB-A & USB-C rapid charging outlets | Commuter waiting bench areas | Regulated 5V/2.4A protected power rail |
 
+#### 📦 Lost & Found Property Custody Chain & Automated Ledger Tracking
+
+| Custody Lifecycle Stage | Protocol & Time Window | Custodian Authority | Security Verification & Claim Procedure |
+| :--- | :--- | :--- | :--- |
+| **Stage 1: Discovery & Digital Logging** | Within **15 minutes** of discovery | Station Controller & CISF Security | Barcoded tamper-evident evidence pouch with digital ledger entry |
+| **Stage 2: Local Station Safe-Lock** | Retained locally for **48 hours** | Station Control Room Secure Safe | On-station immediate retrieval upon photo ID and serial/PIN proof |
+| **Stage 3: Central Repository Transit** | Day 3 transfer via secure escort | Central Lost & Found (Kashmere Gate) | High-security vault intake; listed on DMRC online lost item portal |
+| **Stage 4: Legal Claim or Disposal** | Preserved for **30 calendar days** | Senior Station Manager (SSM) | Unclaimed valuables transferred to authorized public auction/treasury |
+
 ---
 
 ## 📸 Visual UI Showcase & User Flow
