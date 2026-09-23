@@ -948,6 +948,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Violet Line** | `#702082` | `4.55:1` (WCAG AA) | Deep royal purple with higher luminance station ring outlines |
 | **Airport Express**| `#FF6F00` | `7.20:1` (WCAG AAA) | Neon amber with aircraft glyph identifier (`✈`) |
 
+#### 🦯 Tactile Ground Surface Indicators (TGSI) & Universal Blind Wayfinding
+
+| Tactile Tile Architecture | Geometric Surface Profile | Station Deployment Zone | Tactile Navigation & Warning Function |
+| :--- | :--- | :--- | :--- |
+| **Directional Guiding Tiles** | Raised parallel sinusoidal bars (Canary Yellow) | Street footway ➔ Ticketing ➔ Lifts ➔ Platform | Provides continuous directional orientation for white canes |
+| **Hazard Blister Tiles** | Raised truncated hemispherical domes | `600 mm` perimeter before platform track edge & stairs | Immediate tactile tactile warning indicating drop hazard |
+| **Tactile Braille Layout Maps**| Raised Relief thermoformed maps with Braille labels | Entry concourse near Customer Care booth | Complete tactile orientation of lifts, stairs & platforms |
+| **Coach Door Target Tiles** | High-contrast tactile chevrons | Centered directly in front of automated train doors | Positions visually impaired commuters at carriage boarding zone |
+
 #### 💡 Transit Power-User Pro Tips
 - **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
 - **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
