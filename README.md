@@ -663,6 +663,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Yamuna Bank** | 🔵 Blue Line (Main) ↔ 🔵 Blue Line (Vaishali Ext.) | Trans-Yamuna bifurcation junction |
 | **New Delhi** | 🟡 Yellow Line ↔ 🟠 Airport Express Line | High-speed Indian Railways to IGI Airport terminal transfer |
 
+### 🚄 Regional Rapid Transit (RRTS Namo Bharat) & Indian Railways Multimodal Skywalks
+
+| Multimodal Junction | Transit Modes Interconnected | Seamless Transfer Infrastructure | Passenger Connectivity Benefits |
+| :--- | :--- | :--- | :--- |
+| **Anand Vihar (ISBT)** | 🔵 Blue Line + 🟣 Pink Line + 🚆 Namo Bharat RRTS + 🚂 Indian Railways | Dedicated AC elevated travelator skywalk & underpass | Direct zero-friction access to Delhi-Meerut 160 km/h rail |
+| **Sarai Kale Khan / Nizamuddin** | 🟣 Pink Line + 🚆 Namo Bharat RRTS + 🚂 Hazrat Nizamuddin Railway Station | Continuous elevated concourse & unified ticketing counters | Connects regional express spine to Southern & Central trains |
+| **New Delhi Station (NDLS)** | 🟡 Yellow Line + 🟠 Airport Express + 🚂 New Delhi Railway Station (IR) | 242-meter multi-modal skywalk with luggage conveyor belts | Direct Ajmeri Gate concourse transfer without street congestion |
+| **Old Delhi (Kashmere Gate / DLI)** | 🔴 Red + 🟡 Yellow + 🟣 Violet Lines + 🚌 ISBT Kashmere Gate | Multi-level subterranean subway network & escalators | Massive tri-line metro hub integrated with Northern inter-state buses |
+
 ### 📦 Station Platform Typology: Island vs. Side Platform Schematics
 
 | Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
