@@ -458,6 +458,15 @@ flowchart TD
 | **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
 | **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
 
+#### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
+
+| Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
+| :--- | :---: | :--- | :--- |
+| **System Power Factor ($\cos \phi$)**| $\ge 0.98$ continuous | Static Synchronous Compensators (**STATCOM**) at RSS | Eliminates reactive power surcharges from grid operators |
+| **Current Harmonics ($THD_i$)** | $< 5.0\%$ IEEE 519 compliance | Active harmonic filters (AHF) with tuned L-C shunt traps | Neutralizes 3rd & 5th harmonics produced by traction IGBTs |
+| **Phase Current Unbalance** | $< 2.0\%$ negative sequence | Scott-connected & V-connected 66/25 kV transformers | Prevents generator rotor overheating at regional power plants |
+| **Transient Surge Suppression** | Lightning impulse withstand $170\text{ kV}$ | Heavy-duty gapless metal-oxide varistor (**MOV**) arresters | Diverts atmospheric lightning strikes away from train rakes |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
