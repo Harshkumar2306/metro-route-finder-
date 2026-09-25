@@ -1038,6 +1038,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Tactile Braille Layout Maps**| Raised Relief thermoformed maps with Braille labels | Entry concourse near Customer Care booth | Complete tactile orientation of lifts, stairs & platforms |
 | **Coach Door Target Tiles** | High-contrast tactile chevrons | Centered directly in front of automated train doors | Positions visually impaired commuters at carriage boarding zone |
 
+#### 🔊 Bilingual Passenger Information System (PIS) & In-Car Acoustical Signage
+
+| PIS Communication Channel | Technical Hardware Profile | Display / Audio Protocol | Accessibility & Commuter Utility |
+| :--- | :--- | :--- | :--- |
+| **In-Coach Dynamic Route Map (DRMD)**| Synchronized multicolor LED/TFT strip displays | Real-time train location flashing indicators | Visual indication of next station, interchange line & side of door opening |
+| **Platform Info Displays (PIDS)** | High-brightness IP-rated outdoor LED matrices | Train arrival countdown & destination scroll | Instant multi-lingual ETA broadcasting synchronized with OCC ATS |
+| **Automated Speech Synthesizer**| 24-bit studio acoustic chimes with dual-voice audio | Alternate Hindi & English announcement cycle | Clear alerts for approaching stations, interchange lines & terminal cautions |
+| **Adaptive Ambient Noise Leveling**| Integrated omnidirectional cabin microphones | Dynamically modulates volume between **$55–85\text{ dBA}$** | Ensures chime clarity during loud acceleration and tunnel transit |
+
 #### 💡 Transit Power-User Pro Tips
 - **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
 - **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
