@@ -746,6 +746,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Curve Squeal Acoustic Damping** | Wheel-mounted tuned mass acoustic ring dampers | Tightly curved viaducts & turnouts | Suppresses high-frequency stick-slip squeal by **12–15 dBA** |
 | **Automated Axle Sensor Trigger** | Inductive wheel-detector pulse counter at rail foot | Pre-curve approach tangent track | Calibrates micro-dosing per axle count, avoiding slip |
 
+#### ⚡ Track Circuitry & Axle Counter Train Detection Systems
+
+| Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
+| :--- | :--- | :--- | :--- |
+| **Jointless Audio Frequency (AFTC)** | Tuned electrical LC resonant tuned end-joints | `1.7 kHz – 2.6 kHz` continuous carrier | Eliminates mechanical insulated rail joints (IRJ) in CWR track |
+| **Digital Axle Counters (DAC)** | High-frequency electromagnetic inductive sensors | Rail-web clamped dual detection heads | Dual-channel direction sensing immune to rail rust or light train shunting |
+| **Traction Current EMI Filtering** | Bandpass choke filters & earthing return bonds | Neutralizes 50 Hz & 3rd harmonic noise | Isolates high-power 25 kV return currents from microvolt signaling |
+| **Vital Logic Track Interlocking** | CENELEC SIL-4 redundant computerized microprocessors | Real-time optical fiber Ethernet loop | 100% fail-safe: automatically imposes emergency red aspect if disrupted |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
