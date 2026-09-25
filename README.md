@@ -690,6 +690,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **New Delhi Station (NDLS)** | 🟡 Yellow Line + 🟠 Airport Express + 🚂 New Delhi Railway Station (IR) | 242-meter multi-modal skywalk with luggage conveyor belts | Direct Ajmeri Gate concourse transfer without street congestion |
 | **Old Delhi (Kashmere Gate / DLI)** | 🔴 Red + 🟡 Yellow + 🟣 Violet Lines + 🚌 ISBT Kashmere Gate | Multi-level subterranean subway network & escalators | Massive tri-line metro hub integrated with Northern inter-state buses |
 
+#### 💳 National Common Mobility Card (NCMC) & RuPay Interoperability Specifications
+
+| Transit Payment Standard | Technical Protocol & Architecture | Fare Gate Interaction | Interoperable Multi-Agency Network |
+| :--- | :--- | :--- | :--- |
+| **qSPARC (Quick Specification)** | Dual-interface contactless chip (ISO/IEC 14443) | Tap latency $< 300\text{ ms}$ at AFC turnstiles | DMRC, DTC Electric Buses, RRTS Namo Bharat & Parking |
+| **Offline Balance Security** | ECDSA cryptography & certified secure element (SE) | Offline fare deduction without network lag | Prevents commuter bottleneck during cellular/grid outages |
+| **Central Clearing House (CCH)**| Automated multi-operator fare reconciliation | Nightly batch clearing via NPCI backbone | Apportions split revenues across inter-agency transit routes |
+| **Bank Account Integration** | Direct linkage to commercial bank savings accounts | Automatic top-up threshold triggers at $< ₹100$ | Eliminates physical token vending and ticket counter queues |
+
 ### 📦 Station Platform Typology: Island vs. Side Platform Schematics
 
 | Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
