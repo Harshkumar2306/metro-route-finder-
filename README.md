@@ -1228,6 +1228,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Unattended Baggage Analytics**| Object dwell-time threshold tracking ($> 90\text{ s}$) | Concourse scanner cameras | Automated visual alert dispatch to CISF quick-reaction teams |
 | **Virtual Track Tripwires** | Infrared perimeter tripwires on trackbed approaches | Platform end-gate boundaries | Failsafe warning alert to driver cab if track intrusion detected |
 
+#### 🛡️ Physical Security Screening Grid, DFMD & CISF Rapid Deployment Matrix
+
+| Screening Subsystem | Detection Technology & Physics | Passenger Flow Throughput | Contraband Interception Capability |
+| :--- | :--- | :---: | :--- |
+| **Dual-Energy X-Ray Baggage Scanners**| Multi-energy photon attenuation ($Z_{\text{eff}}$ atomic sorting) | `~1,200 bags/hour` per lane | Discourages organic explosives (orange) & weapons (blue) |
+| **Multi-Zone Door Frame Detectors (DFMD)**| Continuous low-frequency pulsed magnetic field induction | `45–50 passengers/min` | Pinpoints ferrous & non-ferrous metal location across 18 zones |
+| **Explosive Trace Detectors (ETD)**| Ion Mobility Spectrometry (**IMS**) vapor analysis | Verification within **8 seconds** | Detects microscopic picogram traces of military & commercial energetic salts |
+| **CISF Quick Reaction Teams (QRT)**| Armed tactical squads equipped with MP5 / INSAS carbines | Rapid intervention in $< 60\text{ s}$ | Secures high-density interchange plazas against physical threats |
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
