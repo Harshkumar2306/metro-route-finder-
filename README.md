@@ -449,6 +449,15 @@ flowchart TD
 | **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
 | **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
 
+#### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
+
+| Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
+| :--- | :--- | :--- | :--- |
+| **Automatic Train Protection (ATP)** | Continuous distance-to-go curve monitoring (SIL-4) | Network-wide (100% lines) | Prevents collisions by enforcing automated brake curves |
+| **Automatic Train Operation (ATO - GoA2)**| Semi-automated driving with manual door close / dispatch | Blue, Yellow, Red, Green, Violet Lines | Optimizes inter-station acceleration profiles & dwell times |
+| **Unattended Train Operation (UTO - GoA4)**| Driverless Communication-Based Train Control (**CBTC**)| Magenta, Pink & Phase-IV Corridors | Headways compressed to **90 seconds** without human intervention |
+| **Automatic Train Supervision (ATS)** | Centralized Operations Control Centre (**OCC** Shastri Park)| Network-wide master control dispatch | Dynamic headway regulation, automatic train rerouting & turnback |
+
 #### 📡 Station Telecom, Optical Fiber Network & Public Wi-Fi Infrastructure
 
 | Telecom Layer | Technical Architecture | Deployment Scope | Commuter & Operational Impact |
