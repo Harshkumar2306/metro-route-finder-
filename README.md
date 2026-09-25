@@ -719,6 +719,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Subterranean Walkways** | Continuous 800mm raised concrete pedestrian pathway | 100% of underground running tunnels | Photoluminescent directional arrows & emergency lights |
 | **Tunnel Invert Sump Pumps** | Heavy-duty dual submersible pumps with float transducers | Sump pits located at tunnel dip points | Rapid monsoon flood clearance up to **20,000 L/min** |
 
+#### 🌊 Subterranean Flood Defense Gates & Ingress Dewatering Telemetry
+
+| Flood Defense Layer | Engineering Mechanism & Capacity | Deployment Zone | Operational Trigger & Resilience |
+| :--- | :--- | :--- | :--- |
+| **Watertight Bulkhead Gates** | Hydraulic vertical/sliding stainless-steel flood barriers | Tunnel portals & Yamuna floodplain transitions | Fully closes in $< 90\text{ seconds}$ to seal tunnel tubes |
+| **Monsoon Sump Holding Pits** | High-capacity RCC cisterns ($150\text{ m}^3 – 300\text{ m}^3$) | Lowest gradient track dips under riverbeds | Holds flash storm runoff before staged evacuation pumping |
+| **Ultrasonic Level Telemetry** | Redundant non-contact ultrasonic transducers | Integrated with central SCADA system | Automated staged pump activation at $40\%$, $60\%$, and $80\%$ levels |
+| **Emergency Sump Dewatering** | Dual high-head vortex submersible pumps ($45\text{ kW}$) | Dedicated storm discharge riser pipelines | Directs water to municipal storm drains at **$30,000\text{ L/min}$** |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
