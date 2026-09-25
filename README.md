@@ -259,6 +259,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Rewa Solar PPA Integration** | Dedicated green power feed from Rewa Ultra Mega Solar Park | Powers **~24%** of daily daytime operations | Pioneering utility-scale solar transit adoption |
 | **Smart Inverter Station HVAC** | Variable refrigerant flow (VRF) and dynamic chiller staging | Cuts terminal cooling energy by **25%** | Saves $> 30\text{ million kWh}$ auxiliary electricity |
 
+#### 🔋 Wayside Energy Storage Systems (WESS) & Supercapacitor Inverters
+
+| Energy Storage Architecture | Operating Voltage & Capacitance | Charging / Discharging Dynamic | Energy Recovery Efficiency |
+| :--- | :--- | :--- | :--- |
+| **Trackside EDLC Supercapacitors**| $750\text{V DC} / 25\text{kV AC}$ DC-link bank | Rapid charge within **15–20 seconds** during brake dwell | Captures braking spikes that catenary receptivity cannot absorb |
+| **Bidirectional Traction Inverters**| Four-quadrant active IGBT pulse-width modulation | Re-injects synchronized clean AC back into auxiliary grid | Powers station lighting, ventilation fans & platform escalators |
+| **Kinetic Flywheel Storage Systems**| Carbon-composite rotors in vacuum housing ($30,000\text{ RPM}$) | Delivers high-current launch boost for departing rakes | Eliminates peak acceleration voltage sags across substations |
+| **Peak Demand Shaving Telemetry** | Real-time automated SCADA battery dispatch | Dispatches stored energy during morning/evening tariff peaks | Reduces contracted maximum demand charges from discoms by **18%** |
+
 #### 💧 Water Conservation & Rainwater Harvesting Infrastructure
 
 | Ecological Water Measure | Engineering Mechanism | Network Implementation | Resource Conservation Metric |
