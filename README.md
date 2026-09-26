@@ -449,6 +449,15 @@ flowchart TD
 | **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
 | **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
 
+#### 🛞 Train Bogie Dynamic Suspension & Air Spring Auto-Levelling Valves
+
+| Suspension Component | Structural Mechanism & Materials | Operating Pressure / Range | Ride Comfort & Safety Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Primary Elastomeric Springs** | Chevron-bonded natural rubber and steel interleaves | Direct axle box to bogie frame mount | Isolates high-frequency wheel-rail impact shocks |
+| **Secondary Pneumatic Air Springs**| Fabric-reinforced rubber toroidal air bellows | `3.5 bar – 6.8 bar` variable pressure | Absorbs low-frequency body vibrations (Sperling index $W_z < 2.0$) |
+| **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
+| **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
