@@ -717,6 +717,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Central Clearing House (CCH)**| Automated multi-operator fare reconciliation | Nightly batch clearing via NPCI backbone | Apportions split revenues across inter-agency transit routes |
 | **Bank Account Integration** | Direct linkage to commercial bank savings accounts | Automatic top-up threshold triggers at $< ₹100$ | Eliminates physical token vending and ticket counter queues |
 
+#### 🎫 Automatic Fare Collection (AFC) Gate Turnstiles & Tailgating Sensor Curtains
+
+| AFC Gate Dimension | Technical Engineering Profile | Operational Metric | Commuter Safety & Fraud Prevention |
+| :--- | :--- | :---: | :--- |
+| **Motorized Retracting Flaps** | High-speed polyurethane soft-edge bi-parting flaps | Opens in $< 200\text{ ms}$ | Rapid cycle prevents physical impact injuries to commuters |
+| **Infrared Optical Sensor Array** | 14-pair dual-height cross-beam IR light curtains | Detection grid across 1.4m aisle | Distinguishes trailing luggage from illegal tailgating passengers |
+| **Directional Dynamic Reversal** | Centralized Station Computer (SC) software trigger | Switches in $< 5\text{ seconds}$ | Dynamically flips gates from Entry to Exit during peak dispersal |
+| **Commuter Clearance Capacity** | High-throughput continuous transit throughput | **42–48 passengers/minute** | Ensures zero station concourse backlog during crush peak hours |
+
 ### 📦 Station Platform Typology: Island vs. Side Platform Schematics
 
 | Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
