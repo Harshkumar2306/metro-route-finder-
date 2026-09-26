@@ -854,6 +854,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Complete 6-Car Standard Rake**| 284 seated | 1,560 standees | 2,210 standees (Peak) | **~2,494 commuters** |
 | **Complete 8-Car Broad Rake** | 384 seated | 2,060 standees | 2,920 standees (Peak) | **~3,304 commuters** |
 
+#### 🚆 Rolling Stock Depot Maintenance & Preventive Overhaul Tiers
+
+| Maintenance Tier | Inspection Interval / Frequency | Key Mechanical & Electrical Tasks | Turnaround Dwell Time |
+| :--- | :--- | :--- | :---: |
+| **Trip Inspection (TI)** | Every **24 operating hours** (Nightly) | Pantograph wear, brake friction disc pads, pneumatic integrity | 45 minutes / rake |
+| **A-Check (Routine Service)** | Every **15 days / 5,000 km** | Flange lubrication, HVAC refrigerant pressure, door motor current | 3 hours / rake |
+| **B-Check (Intermediate Overhaul)**| Every **45 days / 15,000 km** | Ultrasonic axle testing, traction converter filters, battery cell health | 8 hours / rake |
+| **C-Check (Major Overhaul)** | Every **3 years / 400,000 km** | Full bogie dismount, traction motor rewinding, body re-lacquering | 4–6 days / rake |
+
 #### 🅿️ Multi-Level Station Parking Tariff Structure
 
 | Vehicle Classification | Up to 6 Hours | 6 to 12 Hours | Day Pass (> 12 Hours) | Monthly Smart Card Pass |
