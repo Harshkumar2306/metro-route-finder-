@@ -485,6 +485,15 @@ flowchart TD
 | **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
 | **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
 
+#### ⚡ OHE Neutral Section Phase Breaks & Automated Phase Clearing (APC)
+
+| Phase Break Component | Engineering Architecture & Materials | Physical Track Location | Grid Protection & Operation Dynamic |
+| :--- | :--- | :--- | :--- |
+| **Short Neutral Section (SNS)** | PTFE / ceramic composite insulator rods with spark horns | Mid-point between adjacent Feeding Posts (FP) | Mechanically guides pantograph without bridging out-of-phase supplies |
+| **Trackside APC Permanent Magnets**| Rare-earth neodymium trackbed magnets ($1.5\text{ Tesla}$) | Approach track $100\text{ m}$ before neutral zone | Automatically trips on-board vacuum circuit breaker (VCB) |
+| **On-Board APC Receiver** | Inductive magnetic pickup coil mounted on bogie frame | Bottom of Driving Motor Car (DMC) | Enforces zero traction draw across dead zone in $< 50\text{ ms}$ |
+| **Trailing Reset Magnet** | Reverse-polarity trackbed inductive magnet | Tangent track $30\text{ m}$ past neutral section | Recloses train VCB and restores full traction power seamlessly |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
