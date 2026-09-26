@@ -737,6 +737,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Ultrasonic Level Telemetry** | Redundant non-contact ultrasonic transducers | Integrated with central SCADA system | Automated staged pump activation at $40\%$, $60\%$, and $80\%$ levels |
 | **Emergency Sump Dewatering** | Dual high-head vortex submersible pumps ($45\text{ kW}$) | Dedicated storm discharge riser pipelines | Directs water to municipal storm drains at **$30,000\text{ L/min}$** |
 
+#### 🧯 Fire Detection & Suppression Architecture (NFPA 130 Compliance)
+
+| Fire Life-Safety Subsystem | Detection & Suppressant Agent | Target Station / Tunnel Zone | Activation & Containment Benchmark |
+| :--- | :--- | :--- | :--- |
+| **VESDA Laser Aspirating Detection**| High-sensitivity continuous air sampling laser nephelometer | Cable galleries, signaling equipment & UPS rooms | Pre-alarm warning at $0.005\%\text{ obs/m}$ before visible smoke |
+| **Clean Agent Total Flooding** | Novec 1230 / FM-200 gas fire extinguishing canisters | Unmanned telecom & SCADA control equipment rooms | Discharges in $< 10\text{ seconds}$; zero water damage, non-conductive |
+| **High-Pressure Water Mist (HPWM)**| Micro-droplet atomization nozzles ($100–140\text{ bar}$) | Traction transformer ASS bays & high-voltage rooms | Rapid thermal cooling & oxygen displacement with minimal water draw |
+| **Pressurized Fire Hydrant Ring**| Wet riser main system with dual electric jockey pumps | Station platforms, concourses & cross-passages | Maintains continuous $10\text{ bar}$ pressure for fire brigade coupling |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
