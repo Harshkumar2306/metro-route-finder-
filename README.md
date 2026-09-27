@@ -476,6 +476,15 @@ flowchart TD
 | **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
 | **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
 
+#### 🛑 Electro-Pneumatic Emergency Braking (EBS) & Wheel Slide Protection (WSP)
+
+| Braking System Layer | Engineering Architecture & Standards | Braking Rate / Response | Safety Fail-Safe & Wheel Integrity |
+| :--- | :--- | :---: | :--- |
+| **Service Blended Braking** | Regenerative motor dynamos blended with friction discs | $1.0\text{ m/s}^2$ service deceleration | Maximizes kinetic energy capture while minimizing pad wear |
+| **Emergency Braking (EBS)** | Spring-applied air-released pneumatic caliper discs | **$\ge 1.3\text{ m/s}^2$** emergency stop | Hardwired de-energize-to-trip safety loop; stops 8-car rake in $< 180\text{ m}$ |
+| **Wheel Slide Protection (WSP)**| High-speed micro-controller axle tachometers (EN 15595) | Modulates dump valves in $< 25\text{ ms}$| Prevents wheel lock-up and severe rail-wheel flat spots during wet monsoons |
+| **Parking Spring Brake Actuators**| Mechanical spring-loaded park brake cylinders | Permanent mechanical clamping | Holds fully loaded crush-rake stationary on maximum **$4.0\%$ track gradient** |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
