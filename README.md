@@ -494,6 +494,15 @@ flowchart TD
 | **Unattended Train Operation (UTO - GoA4)**| Driverless Communication-Based Train Control (**CBTC**)| Magenta, Pink & Phase-IV Corridors | Headways compressed to **90 seconds** without human intervention |
 | **Automatic Train Supervision (ATS)** | Centralized Operations Control Centre (**OCC** Shastri Park)| Network-wide master control dispatch | Dynamic headway regulation, automatic train rerouting & turnback |
 
+#### 🏢 Centralized OCC (Shastri Park) & Hot-Standby Backup Control Centre (BCC)
+
+| Control Facility | Geographic Location | Facility Architecture & Display Grid | Disaster Recovery & Redundancy |
+| :--- | :--- | :--- | :--- |
+| **Primary Operations Control Centre (OCC)**| Shastri Park Depot Complex | 100m panoramic DLP/LED rear-projection video wall | Primary real-time dispatch for all Phase I, II & III corridors |
+| **Backup Control Centre (BCC)** | Metro Bhawan (Barakhamba Road) | Hot-standby twin consoles with isolated power & fiber feeds | Zero-loss failover switchover completed in **$< 3\text{ minutes}$** |
+| **Chief Controller Dispatch Roles** | Sectioned into Traffic, Traction Power & Telecom desks | Ergonomic multi-monitor consoles with fail-safe radio | Direct override authority for train routing, speed caps & holds |
+| **Disaster Simulation Simulator** | Dedicated full-scope software simulation lab | Replicates degraded signaling & weather failure modes | Continuous certification training for traffic & OCC controllers |
+
 #### 📡 Station Telecom, Optical Fiber Network & Public Wi-Fi Infrastructure
 
 | Telecom Layer | Technical Architecture | Deployment Scope | Commuter & Operational Impact |
