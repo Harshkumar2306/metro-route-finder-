@@ -503,6 +503,15 @@ flowchart TD
 | **On-Board APC Receiver** | Inductive magnetic pickup coil mounted on bogie frame | Bottom of Driving Motor Car (DMC) | Enforces zero traction draw across dead zone in $< 50\text{ ms}$ |
 | **Trailing Reset Magnet** | Reverse-polarity trackbed inductive magnet | Tangent track $30\text{ m}$ past neutral section | Recloses train VCB and restores full traction power seamlessly |
 
+#### 🚡 Overhead Catenary System (OCS) Dropper & Wave Dynamics
+
+| OCS Mechanical Dynamic | Technical Engineering Standard | Parameter Value / Range | Operational Significance & Longevity |
+| :--- | :--- | :---: | :--- |
+| **Flexible Dropper Spacing** | Stranded copper/bronze vertical droppers | `4.5 m – 9.0 m` intervals | Suspends contact wire parallel to track with zero sag variation |
+| **Contact Wire Wave Speed ($c$)**| Transverse wave speed $c = \sqrt{T / \rho}$ | **~450 km/h** | Ensures train operating speed ($v$) stays below $0.7c$ limit |
+| **Doppler Factor ($\beta$)** | Contact reflection coefficient $\beta = 1 - v/c$ | $\beta \approx 0.73$ at $120\text{ km/h}$ | Suppresses standing wave reflections and pantograph contact arc |
+| **Stitch Wire Cantilever Damping**| Elastic auxiliary stitch wire at mast supports | `10 m – 14 m` bi-directional span | Eliminates hard-spot stiffness peaks beneath cantilevers |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
