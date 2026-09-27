@@ -449,6 +449,15 @@ flowchart TD
 | **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
 | **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
 
+#### 🔌 Traction Power Systems: 25 kV AC Overhead vs. 750 V DC Third Rail Comparative Topology
+
+| Electrification Dimension | 25 kV AC Overhead Catenary (OHE / ROCS) | 750 V DC Third Rail (Bottom-Contact) | Network System Implementation |
+| :--- | :--- | :--- | :--- |
+| **Operating Corridors** | Mainline DMRC (Red, Blue, Yellow, Violet, Airport) | Rapid Metro Gurugram (Sikandarpur Interchange) | Feeder loops with sharp radii & low tunnel profiles |
+| **Current Collection** | Roof-mounted pantograph with carbon contact strips | Bogie-mounted gravity/spring collector shoes | Bottom-contact shielded under fiberglass shroud |
+| **Substation Spacing** | Every **10 km – 15 km** (Receiving Substations) | Every **1.5 km – 2.5 km** (Traction Rectifiers) | DC systems require dense substations due to $I^2 R$ drop |
+| **Stray Current Mitigation**| Return current through bonded running rails + OPGW | Dedicated negative return rail & stray collection mats | Isolates DC leakage currents preventing structural rebar corrosion |
+
 #### 🛞 Train Bogie Dynamic Suspension & Air Spring Auto-Levelling Valves
 
 | Suspension Component | Structural Mechanism & Materials | Operating Pressure / Range | Ride Comfort & Safety Dynamic |
