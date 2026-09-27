@@ -205,6 +205,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Optical Beam Door Interlock** | Optical infrared sensors | Train doors synchronize with PSDs ($\pm 0.3\text{s}$) | Failsafe obstacle detection system halts train dispatch on obstruction |
 | **NFPA 130 Emergency Egress** | Bi-directional push bars | Platform-facing track egress gates | Rapid manual passenger evacuation during unexpected power outages |
 
+#### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
+
+| Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
+| :--- | :--- | :--- | :--- |
+| **Comb-Tooth Elastomeric Fillers** | Flexible rubber fingered edge extrusions | Platform edge along train threshold | Shrinks horizontal stepping gap to **$\le 50\text{ mm}$** |
+| **Under-Platform Refuge Recess** | Continuous $800\text{ mm} \times 600\text{ mm}$ safety trench | Sub-platform deck facing running rail | Safe refuge space for fallen commuters clear of moving train bogies |
+| **Pulsing Edge LED Illuminators** | Amber/white flush-mounted LED strips | Synchronized with train arrival / departure | Visual peripheral cue highlighting platform-to-train gap in crowd |
+| **Track Obstacle Detection (TEDS)** | Continuous infrared beam curtains below deck | Platform track area | Automatically signals emergency stop to approaching trains if fallen object |
+
 ### 🧭 2. Dual Graph Pathfinding Engine
 - **Shortest Route (Time / Hops)**: Unweighted Breadth-First Search (BFS) finding optimal hops in $\mathcal{O}(V + E)$ time.
 - **Minimum Interchanges Mode**: Weighted Dijkstra routing applying transfer penalties to minimize physical line transitions.
