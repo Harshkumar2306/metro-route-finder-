@@ -881,6 +881,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Traction Current EMI Filtering** | Bandpass choke filters & earthing return bonds | Neutralizes 50 Hz & 3rd harmonic noise | Isolates high-power 25 kV return currents from microvolt signaling |
 | **Vital Logic Track Interlocking** | CENELEC SIL-4 redundant computerized microprocessors | Real-time optical fiber Ethernet loop | 100% fail-safe: automatically imposes emergency red aspect if disrupted |
 
+#### 🚄 High-Speed Turnout Geometry & Thick-Web Switch Blades
+
+| Turnout Subsystem | Profile Standard & Metallurgy | Divergence Speed Capacity | Reliability & Maintenance Enhancement |
+| :--- | :--- | :---: | :--- |
+| **Thick-Web Switch Rails** | Asymmetric `Zu-1-60` profile head-hardened steel | Eliminates anti-derailment bolt-on studs | Prevents switch blade tip chipping during high-frequency rakes |
+| **Cast Manganese Monobloc Crossing**| Austenitic 12–14% Mn steel (explosive depth-hardened) | Crossings tested up to **65 km/h** | Monobloc casting eliminates bolted joints prone to loosening |
+| **Switch Point Roller Devices**| Sealed stainless-steel low-friction roller bearings | Switch throw force $< 2.5\text{ kN}$ | Eliminates environmental graphite grease lubricants on switch chairs |
+| **Point Machine Clamping & Lock**| Internal clamp lock with independent detector slides | Throw stroke completed in $< 2.5\text{ s}$ | Detects rail gap $< 2\text{ mm}$; prevents route locking if obstructed |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
