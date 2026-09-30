@@ -494,6 +494,15 @@ flowchart TD
 | **Wheel Slide Protection (WSP)**| High-speed micro-controller axle tachometers (EN 15595) | Modulates dump valves in $< 25\text{ ms}$| Prevents wheel lock-up and severe rail-wheel flat spots during wet monsoons |
 | **Parking Spring Brake Actuators**| Mechanical spring-loaded park brake cylinders | Permanent mechanical clamping | Holds fully loaded crush-rake stationary on maximum **$4.0\%$ track gradient** |
 
+#### 🚪 Passenger Coach Sliding Plug Doors & Sensitive Edge Interlocking
+
+| Door Safety Mechanism | Actuation & Sensing Profile | Threshold Specification | Commuter Protection & Traction Interlock |
+| :--- | :--- | :---: | :--- |
+| **Electric Sliding Plug Motion** | Direct-drive DC brushless motor with linear recirculating ballscrew | Closes and seals flush into bodyshell | Aerodynamic acoustic isolation cutting tunnel pressure pulses |
+| **Sensitive Optical Safety Edge** | Continuous infrared light path inside rubber door edge seal | Reverses on $> 10\text{ mm}$ obstruction | Retracts door within **$< 150\text{ ms}$** to free trapped bags or clothing |
+| **Motor Current Surge Detection** | Microprocessor current monitoring on door drive H-bridge | Triggers at peak load resistance | Auto-recycles door opening 3 times before locking out faulty leaf |
+| **Traction-Door Interlock (TDI)** | SIL-4 closed-loop series interlock circuit | Hardwired to traction controller | 100% prevents train acceleration if any coach door is open $> 5\text{ mm}$ |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
