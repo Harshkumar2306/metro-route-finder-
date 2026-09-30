@@ -548,6 +548,15 @@ flowchart TD
 | **Doppler Factor ($\beta$)** | Contact reflection coefficient $\beta = 1 - v/c$ | $\beta \approx 0.73$ at $120\text{ km/h}$ | Suppresses standing wave reflections and pantograph contact arc |
 | **Stitch Wire Cantilever Damping**| Elastic auxiliary stitch wire at mast supports | `10 m – 14 m` bi-directional span | Eliminates hard-spot stiffness peaks beneath cantilevers |
 
+#### 🚡 OHE Section Insulators & Air-Gap Overlap Anchors
+
+| Catenary Transition Type | Structural & Electrical Topology | Span Architecture | Electrical Isolation & Continuity Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Insulated Air-Gap Overlap** | Dual parallel contact wires with $500\text{ mm}$ air separation | 4-span mast transition corridor | Seamless pantograph crossover between distinct electrical sub-sectors |
+| **Un-Insulated Mechanical Overlap**| Parallel wires clamped with cross-bonding jumpers | 3-span tensioning overlap | Absorbs thermal wire displacement without electrical discontinuity |
+| **Resin Section Insulators** | High-grade fiberglass reinforced resin runners with arc chutes | Installed over station turnouts | Mechanically level passage while isolating crossover feeder tracks |
+| **Mid-Point Anchor (MPA)** | Rigid anti-creep longitudinal steel guy wires | Central span between ATD pulleys | Restricts catenary wire longitudinal creeping under brake reaction force |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
