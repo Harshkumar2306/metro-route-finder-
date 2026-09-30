@@ -530,6 +530,15 @@ flowchart TD
 | **Tunnel Leaky Coaxial (LCX)**| Multi-carrier 4G/5G radiating cables in bored tunnels | Yellow, Violet & Airport subterranean sectors | Continuous mobile carrier reception during underground transit |
 | **TETRA Emergency Radio** | 380–400 MHz encrypted digital trunked radio | Train drivers, station controllers, CISF security | Mission-critical voice communications with 99.999% uptime |
 
+#### 📡 Train-to-Ground Radio Communication (CBTC Wi-Fi & LTE-M 1.8 GHz)
+
+| Wireless Communication Layer | Spectrum Band & Protocol | Hardware Deployment | Redundancy & Latency Benchmark |
+| :--- | :--- | :--- | :--- |
+| **CBTC Radio Access Points (WLAN)**| `2.4 GHz / 5.8 GHz` 802.11n industrial Wi-Fi | Trackside masts spaced every $150\text{ m} – 250\text{ m}$ | Seamless handoff roaming latency **$< 30\text{ ms}$** without packet drop |
+| **Mission-Critical LTE-M** | Dedicated licensed `1.8 GHz` 3GPP spectrum | Redundant base transceiver stations (eNodeB) | Deep RF penetration immune to public ISM band interference |
+| **On-Board Mobile Radio Units**| Dual redundant transceivers (MRU-A / MRU-B) | Mounted in leading and trailing cabs | Automatic hot-failover ensures continuous movement authority (MA) |
+| **Tunnel Slotted Leaky Feeder**| Low-loss coaxial cables with periodic aperture slots | Suspended along bored tunnel crown | Uniform RF field strength $\ge -75\text{ dBm}$ throughout subterranean network |
+
 #### 🛰️ SCADA Traction Power Telemetry & Receiving Substation (RSS) Grid
 
 | Power Distribution Tier | Voltage Profile | Redundancy Architecture | SCADA Telemetry & Protection |
