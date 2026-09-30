@@ -123,6 +123,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Medical First-Aid & AED** | Automated External Defibrillators & trauma response kits | Station Controller (SC) Control Booth | 24x7 trained first-responder certified staff |
 | **Mobile Charging Kiosks** | Free surge-protected USB-A & USB-C rapid charging outlets | Commuter waiting bench areas | Regulated 5V/2.4A protected power rail |
 
+#### 🛗 Heavy-Duty Transit Escalators & Variable Speed Eco-Drives
+
+| Escalator Engineering Parameter | Transit Specification (EN 115-1) | Mechanical & Sensor Architecture | Operational Safety & Energy Dynamic |
+| :--- | :--- | :--- | :--- |
+| **Incline & Step Width** | $30^\circ$ angle of inclination / $1000\text{ mm}$ width | Die-cast aluminum non-slip grooved steps | Supports double-file passenger standing & walking flows |
+| **Variable Speed Eco-Crawl** | Dual-speed VFD drive (`0.2 m/s` crawl ↔ `0.65 m/s` rated) | Optical radar approach sensors at comb plates | Cuts standby electrical consumption by **60%** during off-peak lulls |
+| **Auxiliary Pawl Safety Brake** | Electromagnetic ratchet pawl brake on main drive shaft | Independent of service solenoid shoe brake | Prevents catastrophic reverse runaway rollback under crush crowd loads |
+| **Transit Passenger Capacity** | Continuous passenger throughput | **9,000 – 11,700 commuters/hour** | Unclogs interchange platform decks during simultaneous train arrivals |
+
 #### 📦 Lost & Found Property Custody Chain & Automated Ledger Tracking
 
 | Custody Lifecycle Stage | Protocol & Time Window | Custodian Authority | Security Verification & Claim Procedure |
