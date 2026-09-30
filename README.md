@@ -557,6 +557,15 @@ flowchart TD
 | **Phase Current Unbalance** | $< 2.0\%$ negative sequence | Scott-connected & V-connected 66/25 kV transformers | Prevents generator rotor overheating at regional power plants |
 | **Transient Surge Suppression** | Lightning impulse withstand $170\text{ kV}$ | Heavy-duty gapless metal-oxide varistor (**MOV**) arresters | Diverts atmospheric lightning strikes away from train rakes |
 
+#### ⚡ 3-Level IGBT Active Front End (AFE) Traction Inverters & Harmonic Cancellation
+
+| Inverter Technology Dimension | Circuit Architecture & Modulation | Performance Benchmark | Efficiency & Acoustic Benefits |
+| :--- | :--- | :---: | :--- |
+| **3-Level NPC Topology** | Neutral-Point Clamped (NPC) 3.3 kV IGBT bridge | Switching frequency `1.25 kHz – 2.0 kHz` | Halves motor voltage step ($\Delta V$), reducing insulation thermal stress |
+| **Selective Harmonic Elimination (SHE)**| Microprocessor synchronized PWM firing angles | Cancels 5th, 7th & 11th harmonic spikes | Total voltage distortion $THD_v < 1.5\%$ delivered to traction induction motors |
+| **Unity Power Factor Operation**| Dynamic active quadrant phase angle alignment | Bidirectional $\cos \phi = 1.0$ | Eliminates reactive current circulating back to 25 kV catenary |
+| **Acoustic Noise Mitigation**| Random frequency jitter pulse modulation (RPWM) | Spreads motor stator magnetic noise | Eliminates annoying high-pitched tonal whine inside passenger coaches |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
