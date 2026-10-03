@@ -989,6 +989,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **B-Check (Intermediate Overhaul)**| Every **45 days / 15,000 km** | Ultrasonic axle testing, traction converter filters, battery cell health | 8 hours / rake |
 | **C-Check (Major Overhaul)** | Every **3 years / 400,000 km** | Full bogie dismount, traction motor rewinding, body re-lacquering | 4–6 days / rake |
 
+#### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
+
+| Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
+| :--- | :--- | :---: | :--- |
+| **Gantry Optical Trigger** | Infrared beam sensors activate spray sequencing | Train crawl speed `3.0 km/h` | Washes an entire 8-car rake in under **7 minutes** |
+| **Rotating Foam Brushes** | Cylindrical closed-cell polyethylene foam bristles | Counter-rotating dual axes | Removes road film, brake iron dust and pigeon lime safely |
+| **Underframe Bogie Jets** | Multi-nozzle oscillating high-pressure water bars | Pressure `35 bar – 45 bar` | Strips grit, grease and mud from axles, gearboxes and air springs |
+| **Effluent Recycling Plant**| Multi-grade quartz sand & granular activated carbon beds | Recovers **$> 85\%$** wash water | Zero Liquid Discharge (ZLD); reduces fresh potable water intake |
+
 #### 🅿️ Multi-Level Station Parking Tariff Structure
 
 | Vehicle Classification | Up to 6 Hours | 6 to 12 Hours | Day Pass (> 12 Hours) | Monthly Smart Card Pass |
