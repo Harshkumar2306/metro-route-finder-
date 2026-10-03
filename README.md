@@ -503,6 +503,15 @@ flowchart TD
 | **Motor Current Surge Detection** | Microprocessor current monitoring on door drive H-bridge | Triggers at peak load resistance | Auto-recycles door opening 3 times before locking out faulty leaf |
 | **Traction-Door Interlock (TDI)** | SIL-4 closed-loop series interlock circuit | Hardwired to traction controller | 100% prevents train acceleration if any coach door is open $> 5\text{ mm}$ |
 
+#### 🪟 Coach Laminated Safety Glazing & Solar Heat Rejection Films
+
+| Glazing Component | Material Standard & Specification | Optical & Thermal Metric | Commuter Safety & Security Function |
+| :--- | :--- | :---: | :--- |
+| **Double-Glazed Panoramic Glass** | Toughened safety glass with PVB resin interlayer | `6 mm + 12 mm air + 6 mm` | BS 6853 / EN 12600 Class 1B1 ballistic impact resistance |
+| **Solar Infrared (IR) Rejection** | Multi-layer sputtering metal oxide thermal coating | Cuts solar heat gain by **$> 78\%$** | Reduces coach HVAC air conditioning compressor load by 15% |
+| **Sacrificial Anti-Vandal Film** | Multi-ply peelable optically clear polyester film | $100\ \mu\text{m}$ surface barrier | Protects against glass scratching, acid etching & spray graffiti |
+| **Emergency Window Breakout** | Tempered glass breakout panels with red striker hammer | Marked with photoluminescent rings | Provides immediate passenger egress pathway during derailment |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
