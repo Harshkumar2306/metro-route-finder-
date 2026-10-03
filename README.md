@@ -872,6 +872,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Violet Line** | 11 Underground / 21 Elevated | Heritage subterranean alignment through Lutyens' Delhi | Kashmere Gate ➔ JLN Stadium (historic core) |
 | **Airport Express**| 5 Underground / 1 At-Grade | High-speed tunnel designed for $120\text{ km/h}$ rolling stock | New Delhi ➔ Delhi Aerocity & Airport (T3) |
 
+#### 🏗️ Precast Segmental Box Girder Viaduct Erection & Launching Gantries
+
+| Viaduct Erection Subsystem | Structural Engineering Standard | Typical Dimension / Tolerance | Traffic Impact & Lifespan Standard |
+| :--- | :--- | :---: | :--- |
+| **Match-Cast Box Segments** | High-performance M50/M60 grade prestressed concrete | Width `8.5 m – 10.0 m` (Twin track) | Precast in centralized casting yards, minimizing road median footprint |
+| **Overhead Launching Gantry (LG)**| Self-propelled overhead steel truss gantry ($550\text{ t}$)| Span length `28 m – 34 m` spans | Suspends and threads segments above roadway with zero ground disruption |
+| **Epoxy Shear Key Joints** | Thixotropic structural epoxy bonding adhesive | Joint thickness `1.0 mm – 1.5 mm` | 100% watertight hermetic sealing preventing moisture ingress to steel |
+| **Internal Post-Tensioning Tendons**| High-tensile low-relaxation 7-wire steel strands | Prestressing force `1,200 kN/tendon` | Conforms to IRC:18 design codes; verified design lifespan **$> 120\text{ years}$** |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
