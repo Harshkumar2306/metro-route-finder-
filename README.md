@@ -548,6 +548,15 @@ flowchart TD
 | **On-Board Mobile Radio Units**| Dual redundant transceivers (MRU-A / MRU-B) | Mounted in leading and trailing cabs | Automatic hot-failover ensures continuous movement authority (MA) |
 | **Tunnel Slotted Leaky Feeder**| Low-loss coaxial cables with periodic aperture slots | Suspended along bored tunnel crown | Uniform RF field strength $\ge -75\text{ dBm}$ throughout subterranean network |
 
+#### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
+
+| Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
+| :--- | :--- | :--- | :--- |
+| **Central Stratum-1 Master** | Dual redundant Rubidium atomic oscillator + GPS/NavIC antenna | Central OCC Shastri Park & BCC Metro Bhawan | Provides master reference time with drift **$< 1\ \mu\text{s/month}$** |
+| **Station Sub-Master Clocks** | Oven-Controlled Crystal Oscillators (OCXO) | Station Telecom Equipment Rooms (TER) | Local autonomous timekeeping if optical fiber trunk is severed |
+| **NTP / IEEE 1588 PTP Protocol**| Sub-millisecond synchronized Ethernet packets | Real-time network-wide broadcast | Guarantees microsecond-accurate AFC gate audit timestamps |
+| **Digital Concourse Display Units**| High-visibility 7-segment green/red LED slave clocks | Platform heads, concourses & ticketing kiosks | Synchronized platform countdowns & forensic CCTV correlation |
+
 #### 🛰️ SCADA Traction Power Telemetry & Receiving Substation (RSS) Grid
 
 | Power Distribution Tier | Voltage Profile | Redundancy Architecture | SCADA Telemetry & Protection |
