@@ -602,6 +602,15 @@ flowchart TD
 | **Unity Power Factor Operation**| Dynamic active quadrant phase angle alignment | Bidirectional $\cos \phi = 1.0$ | Eliminates reactive current circulating back to 25 kV catenary |
 | **Acoustic Noise Mitigation**| Random frequency jitter pulse modulation (RPWM) | Spreads motor stator magnetic noise | Eliminates annoying high-pitched tonal whine inside passenger coaches |
 
+#### 🚊 Traction Converter Thermal Cooling: Heat Pipe vs. Forced Air Topology
+
+| Thermal Management Layer | Heat Transfer Mechanism | Coolant & Maintenance Profile | Extreme Climate Resilience ($48^\circ\text{C}$ Ambient) |
+| :--- | :--- | :--- | :--- |
+| **Boiling Heat Pipe Sink** | Two-phase evaporative cycle (fluorocarbon fluid) | Hermetically sealed aluminum vacuum tubes; 0 pumps | Passive heat rejection without auxiliary motor power |
+| **Natural Convection Air Flow**| Underframe aerodynamic ram air scoops | Completely fan-less; 0 air filters to clean | Immune to Delhi dust storm clogging & monsoon moisture |
+| **IGBT Junction Margin** | Thermal resistance $R_{th(j-a)} < 0.08\text{ K/W}$ | Maintains junction temp $T_j \le 115^\circ\text{C}$ (safe margin) | Prevents thermal derating during peak crush-load acceleration |
+| **Totally Enclosed Motors** | IP65 stator casing with internal circulation fan | Stator winding insulation Class 200 (H-grade) | Complete isolation from track iron dust and abrasive sand |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
