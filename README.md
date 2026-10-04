@@ -1254,6 +1254,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Automated Speech Synthesizer**| 24-bit studio acoustic chimes with dual-voice audio | Alternate Hindi & English announcement cycle | Clear alerts for approaching stations, interchange lines & terminal cautions |
 | **Adaptive Ambient Noise Leveling**| Integrated omnidirectional cabin microphones | Dynamically modulates volume between **$55–85\text{ dBA}$** | Ensures chime clarity during loud acceleration and tunnel transit |
 
+#### 📢 Station Public Address & Voice Alarm (PA/VA) System (EN 54-16 Standards)
+
+| Acoustic Broadcast Subsystem | Hardware Architecture & Transducers | Intelligibility Benchmark (STI) | Emergency Evacuation & Commuter Role |
+| :--- | :--- | :---: | :--- |
+| **Line-Array Column Speakers** | Digitally steerable multi-transducer column arrays | Speech Transmission Index $STI \ge 0.55$ | Channels acoustic energy directly to ear-level; cuts tile echo |
+| **Ambient Noise Sensing (ANS)** | Distributed ceiling noise sampling condenser mics | Modulates output $+6\text{ dBA}$ over ambient | Overcomes peak train arrival noise spikes without distortion |
+| **Fire Alarm Voice Override** | Redundant Class-D EN 54-16 certified amplifier racks | Automated priority preemption | Overrides regular announcements with localized evacuation directives |
+| **Bilingual Station Chimes** | Dual bell harmonious major-third synthesizer tone | Standard DMRC chime frequency | Precedes routine security alerts & approaching train advisories |
+
 #### 💡 Transit Power-User Pro Tips
 - **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
 - **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
