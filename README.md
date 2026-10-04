@@ -494,6 +494,15 @@ flowchart TD
 | **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
 | **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
 
+#### ⚙️ Traction Single-Stage Helical Gearbox & Torque Reaction Arm Dynamics
+
+| Gearbox & Drivetrain Subsystem | Mechanical Configuration & Tolerancing | Gear Ratio / Rating | Dynamic Damping & Powertrain Integrity |
+| :--- | :--- | :---: | :--- |
+| **Case-Carburized Helical Gears** | 18CrNiMo7-6 forged alloy steel, ground teeth (AGMA 12 / ISO 1328 Grade 5) | `6.24:1 – 7.07:1` single reduction | High contact ratio minimizes gear meshing acoustic noise ($< 75\text{ dBA}$) |
+| **Hollow Shaft Cardan Coupling** | Curved-tooth crowned flexible gear coupling / laminated diaphragm discs | Axle-hung motor configuration | Accommodates relative 3-axis bogie-to-wheelset vertical & angular displacement |
+| **Rubber-Bushed Torque Reaction Arm**| Spherical elastomeric silentbloc bushings on cast ductile iron torque link | $\pm 8\text{ mm}$ torsional compliance | Isolates motor stator and bogie frame from harsh acceleration/braking torque spikes |
+| **Synthetic PAO Gear Lubricant** | ISO VG 220 full synthetic polyalphaolefin with EP & anti-foaming additives | $4.5\text{ L}$ sump splash lubrication | Sustains continuous hydrodynamic film under $-10^\circ\text{C}$ to $55^\circ\text{C}$ ambient extremes |
+
 #### 🛑 Electro-Pneumatic Emergency Braking (EBS) & Wheel Slide Protection (WSP)
 
 | Braking System Layer | Engineering Architecture & Standards | Braking Rate / Response | Safety Fail-Safe & Wheel Integrity |
