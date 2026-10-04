@@ -521,6 +521,15 @@ flowchart TD
 | **Unattended Train Operation (UTO - GoA4)**| Driverless Communication-Based Train Control (**CBTC**)| Magenta, Pink & Phase-IV Corridors | Headways compressed to **90 seconds** without human intervention |
 | **Automatic Train Supervision (ATS)** | Centralized Operations Control Centre (**OCC** Shastri Park)| Network-wide master control dispatch | Dynamic headway regulation, automatic train rerouting & turnback |
 
+#### 🚦 ATS Dynamic Headway Regulation & Junction Conflict Resolution
+
+| ATS Regulation Function | Algorithmic Mechanism | Adjustment Bounds / Scope | Headway Reliability & Punctuality |
+| :--- | :--- | :---: | :--- |
+| **Dwell Time Modulation** | Predictive passenger volume feedback from AFC turnstiles | Adjusts dwell by **$\pm 15\text{ seconds}$** | Prevents train bunching during unexpected boarding delays |
+| **Junction Conflict Prediction**| Lookahead trajectory projection across interlocking nodes | $180\text{ s}$ advance horizon | Computes speed advisories preventing trains from stopping on main grade |
+| **Coasting Advisory Generation**| Gradient-profile kinetic energy coasting targets | Dispatched to onboard ATO | Saves **12–18%** traction energy without degrading timetable run time |
+| **Automated Turnback Dispatch**| Auto-selection of terminal scissors crossover paths | Turnaround cycle $< 110\text{ s}$ | Maximizes terminal platform clearance at Kashmere Gate & Rajiv Chowk |
+
 #### 🏢 Centralized OCC (Shastri Park) & Hot-Standby Backup Control Centre (BCC)
 
 | Control Facility | Geographic Location | Facility Architecture & Display Grid | Disaster Recovery & Redundancy |
