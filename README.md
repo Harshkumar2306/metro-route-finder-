@@ -295,6 +295,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Zero Liquid Discharge (ZLD)**| Closed-loop automated train coach washing plants (ACWP) | All 15 maintenance rolling-stock depots | Cuts freshwater coach wash consumption by **80%** |
 | **Sensor Water Aerators** | Low-flow dual-flush sensors & pressure-reducing nozzles | Station passenger restrooms | Reduces public concourse potable water draw by **40%** |
 
+#### 🌿 Depot Stormwater Bio-Retention Swales & Oil-Grit Interceptors
+
+| Ecological Drainage Subsystem | Engineering Mechanism & Filtering Media | Physical Deployment Location | Environmental Protection Standard |
+| :--- | :--- | :--- | :--- |
+| **Coalescing Oil Separators** | Gravity oil-water plate interceptors with coalescing filters | Stabling tracks & workshop apron drainage | Discharges effluent oil content **$< 5\text{ mg/L}$** (CPCB compliant) |
+| **Vegetated Bio-Swales** | Engineered sandy loam soil mix with native reed grass beds | Perimeters of major depot stabling yards | Traps suspended solids, heavy metals & brake lining residue |
+| **Permeable Pavement Aprons** | Porous open-graded asphalt & interlocking concrete paver blocks | Depot staff parking & maintenance walkways | Reduces peak stormwater runoff coefficient by **$45\%$** |
+| **Storm Attenuation Ponds** | Bentonite-clay lined detention basins ($5,000\text{ m}^3$) | Shastri Park & Najafgarh depot reserves | Buffers flash monsoon floods before controlled sub-surface recharge |
+
 ### 🏛️ 4. Delhi Tourist & Heritage Explorer (`tourplace.txt`)
 - Explores 20+ historical monuments and tourist hotspots loaded directly from `tourplace.txt`.
 - 1-click **"Plan Route →"** shortcut to calculate directions directly to any landmark's nearest metro station.
