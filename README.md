@@ -870,6 +870,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Directional Dynamic Reversal** | Centralized Station Computer (SC) software trigger | Switches in $< 5\text{ seconds}$ | Dynamically flips gates from Entry to Exit during peak dispersal |
 | **Commuter Clearance Capacity** | High-throughput continuous transit throughput | **42–48 passengers/minute** | Ensures zero station concourse backlog during crush peak hours |
 
+#### 📱 Dynamic Rolling QR Code Ticketing & Offline Cryptographic Verification
+
+| Mobile Ticketing Dimension | Cryptographic Specification | Security / Validity Window | Anti-Fraud & Performance Benchmark |
+| :--- | :--- | :---: | :--- |
+| **ECDSA Signed Payload** | NIST P-256 elliptic curve asymmetric signature | Offline verification in $< 180\text{ ms}$ | Turnstile validates token authenticity without cloud round-trip |
+| **Rolling TOTP Timestamp** | HMAC-based time-synced dynamic salt | Fresh QR generated every **60 seconds** | Screenshot sharing & proxy transit passes are 100% invalidated |
+| **Wide-Angle Optical Reader** | Industrial 2D CMOS imaging sensor ($1280 \times 800$) | Wide FOV $\pm 55^\circ$ reading angle | Scans phone screens instantly from low-light to maximum brightness |
+| **Token Lifecycle Invariant** | Unidirectional Entry ➔ Exit state transition | Auto-expires after **180 minutes** | Prevents station overstaying & re-entry fraud across transit network |
+
 ### 📦 Station Platform Typology: Island vs. Side Platform Schematics
 
 | Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
