@@ -575,6 +575,15 @@ flowchart TD
 | **Auxiliary Substations (ASS)**| 33 kV stepped down to 415 V / 240 V | Dual-bus ring-main topology at every passenger station | Uninterrupted power for signaling, escalators, lifts & TVS |
 | **Emergency Diesel GenSets** | 415 V standby backup power | Auto-Mains Failure (AMF) synchronized within **10 seconds** | Guarantees emergency lighting, smoke extraction & AFC gates |
 
+#### 🔋 Station Critical UPS Battery Systems & Static Transfer Switches (STS)
+
+| Power Protection Tier | Battery Cell Chemistry & Bus Voltage | Autonomy Runtime Duration | Critical Load Coverage & Failover Time |
+| :--- | :--- | :---: | :--- |
+| **Signaling & Telecom UPS** | Lithium Iron Phosphate (LiFePO4) 110 V DC bank | Full autonomy for **120 minutes** | Powers vital interlocking, ATS computers & TETRA radio |
+| **Station Emergency Inverter**| Heavy-duty 230 V AC modular PWM inverter | Online double conversion (VFI) | Supplies concourse egress illumination & fire detection sensors |
+| **Solid-State Static Transfer (STS)**| Dual SCR semiconductor transfer switches | Transfer latency **$< 4\text{ ms}$** | Seamless zero-break switchover between primary and secondary feeds |
+| **AFC Battery Buffer Backup** | Individual 24 V DC internal gate capacitor packs | Sustains **15 emergency gate cycles** | Automatically releases and parks flap barriers in open position on blackout |
+
 #### ⚡ Overhead Equipment (OHE) Stagger & Pantograph Dynamics
 
 | Electrification Component | Structural Engineering Specification | Mechanical Dynamics | Commuter Reliability & Lifespan |
