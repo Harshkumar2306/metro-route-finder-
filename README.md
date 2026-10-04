@@ -1034,6 +1034,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **B-Check (Intermediate Overhaul)**| Every **45 days / 15,000 km** | Ultrasonic axle testing, traction converter filters, battery cell health | 8 hours / rake |
 | **C-Check (Major Overhaul)** | Every **3 years / 400,000 km** | Full bogie dismount, traction motor rewinding, body re-lacquering | 4–6 days / rake |
 
+#### 🛞 In-Situ Underfloor CNC Wheel Lathe & $q_R$ Derailment Criterion Reprofiling
+
+| Wheel Geometry Dimension | Measured Standard & Nominal Spec | Permissible Wear Limit | Mechanical Safety & Derailment Prevention |
+| :--- | :--- | :---: | :--- |
+| **Wheel Diameter ($D_w$)** | New `860 mm` (Standard Gauge rakes) | Condemning limit `780 mm` | Restores concentricity without dismounting wheels or bogies |
+| **Flange Height ($Sh$)** | Standard `28 mm – 32 mm` | Max permissible `36 mm` | Reprofiled by twin-tool carbide CNC turning cutters in $< 35\text{ min/axle}$ |
+| **Flange Thickness ($Sd$)** | Standard `28 mm – 32 mm` | Min safe limit `22 mm` | Eliminates razor-sharp gauge-face edge wear on curved rails |
+| **Flange Slope Factor ($q_R$)**| Safe criterion **$q_R \ge 6.5\text{ mm}$** | Critical threshold $< 6.5\text{ mm}$ | Strictly complies with EN 15313 to prevent wheel climb derailments |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
