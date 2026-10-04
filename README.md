@@ -881,6 +881,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Epoxy Shear Key Joints** | Thixotropic structural epoxy bonding adhesive | Joint thickness `1.0 mm – 1.5 mm` | 100% watertight hermetic sealing preventing moisture ingress to steel |
 | **Internal Post-Tensioning Tendons**| High-tensile low-relaxation 7-wire steel strands | Prestressing force `1,200 kN/tendon` | Conforms to IRC:18 design codes; verified design lifespan **$> 120\text{ years}$** |
 
+#### 🚇 Tunnel Boring Machine (TBM) EPB vs. Slurry Shield Subterranean Specs
+
+| TBM Subterranean Parameter | Earth Pressure Balance (EPB) Shield | Slurry Hydro-Shield Shield | Geotechnical Application Zone |
+| :--- | :--- | :--- | :--- |
+| **Soil Mechanics Suitability** | Cohesive clay, sandy silt & Delhi quartzite gravel | Water-bearing coarse sands & high hydrostatic heads | Yamuna riverbed crossings & high water table sectors |
+| **Pressure Balance Medium** | Excavated soil conditioned with biodegradable polymer foam | Pressurized bentonite slurry suspension loop | Balances earth and water pressure at face within **$\pm 10\text{ kPa}$** |
+| **Segmental Lining Ring** | Steel-fiber reinforced concrete (SFRC) universal rings | Outer diameter `6.35 m` / thickness `280 mm` | Double-gasketed EPDM seals ensure zero water inflow |
+| **Settlement Control Standard**| Real-time laser total station gyro-navigation | Surface settlement **$< 5.0\text{ mm}$** | Protects ancient ASI monuments (Qutub Minar, Kashmere Gate) |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
