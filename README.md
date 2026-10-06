@@ -989,6 +989,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Epoxy Shear Key Joints** | Thixotropic structural epoxy bonding adhesive | Joint thickness `1.0 mm – 1.5 mm` | 100% watertight hermetic sealing preventing moisture ingress to steel |
 | **Internal Post-Tensioning Tendons**| High-tensile low-relaxation 7-wire steel strands | Prestressing force `1,200 kN/tendon` | Conforms to IRC:18 design codes; verified design lifespan **$> 120\text{ years}$** |
 
+#### 🚇 Viaduct Noise Barriers & Resilient Acoustic Absorptive Panels
+
+| Acoustic Mitigation Layer | Material Composition & Dimensions | Acoustic Insertion Loss (EN 1793) | Structural Wind Load & Urban Integration |
+| :--- | :--- | :---: | :--- |
+| **Micro-Perforated Aluminum Cassettes**| Marine-grade aluminum alloy with hydrophobic mineral wool core | Sound absorption $DL_{\alpha} \ge 12\text{ dB}$ (Class A4) | Mounted on curve tracks adjacent to residential apartment zones |
+| **Transparent PMMA Polycarbonate Sheets**| UV-stabilized polymethyl methacrylate acrylic ($15\text{ mm}$ thick) | Airborne sound insulation $DL_R \ge 32\text{ dB}$ | Preserves scenic panoramic city vistas while suppressing wheel-rail squeal |
+| **Resilient Neoprene Base Mounts** | High-damping elastomeric rubber isolation cushions | Reduces viaduct structure-borne rumble | Isolates parapet vibration from transmitting into residential structures |
+| **Aerodynamic Wind-Load Bracing** | Galvanized steel HEB-140 upright posts with anti-fall tether wires | Withstands $160\text{ km/h}$ cyclonic winds | Conforms to IRC:6 lateral gust parameters; zero debris detachment hazard |
+
 #### 🚇 Tunnel Boring Machine (TBM) EPB vs. Slurry Shield Subterranean Specs
 
 | TBM Subterranean Parameter | Earth Pressure Balance (EPB) Shield | Slurry Hydro-Shield Shield | Geotechnical Application Zone |
