@@ -132,6 +132,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Auxiliary Pawl Safety Brake** | Electromagnetic ratchet pawl brake on main drive shaft | Independent of service solenoid shoe brake | Prevents catastrophic reverse runaway rollback under crush crowd loads |
 | **Transit Passenger Capacity** | Continuous passenger throughput | **9,000 – 11,700 commuters/hour** | Unclogs interchange platform decks during simultaneous train arrivals |
 
+#### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
+
+| Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
+| :--- | :--- | :--- | :--- |
+| **Gearless PMSM Drive** | Permanent Magnet Synchronous Motor (MRL architecture) | $1.0\text{ m/s} – 1.6\text{ m/s}$ rated speed | Direct VVVF closed-loop flux vector drive, zero hoistway vibration |
+| **Through-Car Dual Doors** | Front-and-rear $1100\text{ mm}$ clear-opening telescopic doors | Glass viewing panels on both facades | Seamless pass-through for wheelchairs, stretchers & motorized prams |
+| **Regenerative Bi-Directional Drive** | 4-quadrant regenerative active front end unit | Feeds kinetic descent power to station grid | Recovers up to **$35\%$** net electrical hoisting energy |
+| **Seismic Zone-IV Recall & ARD**| Automatic Rescue Device (ARD) with backup battery bank | Drives car to nearest floor within 30s | Seismic P-wave detection automatically grounds cabin and holds doors open |
+
 #### 📦 Lost & Found Property Custody Chain & Automated Ledger Tracking
 
 | Custody Lifecycle Stage | Protocol & Time Window | Custodian Authority | Security Verification & Claim Procedure |
