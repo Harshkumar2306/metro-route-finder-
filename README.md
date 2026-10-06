@@ -665,6 +665,15 @@ flowchart TD
 | **IGBT Junction Margin** | Thermal resistance $R_{th(j-a)} < 0.08\text{ K/W}$ | Maintains junction temp $T_j \le 115^\circ\text{C}$ (safe margin) | Prevents thermal derating during peak crush-load acceleration |
 | **Totally Enclosed Motors** | IP65 stator casing with internal circulation fan | Stator winding insulation Class 200 (H-grade) | Complete isolation from track iron dust and abrasive sand |
 
+#### 🚊 Traction Auxiliary Converter (SIV / Static Inverter) & Low-Voltage Bus Architecture
+
+| Auxiliary Power Subsystem | Electrical Rating & Output Waveform | Fed Subsystems & Redundancy | Operational Reliability & Bus Protection |
+| :--- | :--- | :--- | :--- |
+| **Static Inverter (SIV)** | $180\text{ kVA}$, $415\text{ V AC} \pm 5\%$, $3\phi$, $50\text{ Hz}$ pure sine wave | Saloon HVAC compressors, air conditioning blowers, main air compressors | IGBT PWM inverter with output LC low-pass filter ($THD_v < 3\%$) |
+| **Low-Voltage DC Bus** | $110\text{ V DC}$ regulated float output ($\pm 2\%$) | Train control TCMS logic, emergency interior lighting, door actuators, radio | Backed by nickel-cadmium (Ni-Cd) $110\text{ V}$, $120\text{ Ah}$ coach battery bank |
+| **Cross-Car Bus Tie Contactor** | Motorized bidirectional tie contactor switch | Automatic cross-feed if single SIV fails | Bus-tie closes in **$< 50\text{ ms}$**; prevents HVAC loss on degraded trainsets |
+| **Galvanic Isolation Transformer** | High-frequency ferrite isolation core ($2.5\text{ kV}$ test) | Isolates high-voltage catenary surges from coach passenger equipment | Prevents ground fault propagation between $25\text{ kV}$ traction and auxiliary circuits |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
