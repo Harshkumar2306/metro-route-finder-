@@ -557,6 +557,15 @@ flowchart TD
 | **Unattended Train Operation (UTO - GoA4)**| Driverless Communication-Based Train Control (**CBTC**)| Magenta, Pink & Phase-IV Corridors | Headways compressed to **90 seconds** without human intervention |
 | **Automatic Train Supervision (ATS)** | Centralized Operations Control Centre (**OCC** Shastri Park)| Network-wide master control dispatch | Dynamic headway regulation, automatic train rerouting & turnback |
 
+#### 🚄 Automatic Train Operation (ATO) Precision Platform Docking & Creep-Control
+
+| Precision Docking Parameter | Sensing Hardware & Control Protocol | Target Performance Metric | Commuter Platform & PSD Alignment |
+| :--- | :--- | :---: | :--- |
+| **Precision Stop Transponder (PPU)**| Inductive ground balises spaced at $50\text{ m}, 10\text{ m}, 2\text{ m}$ to stop point | High-frequency transponder interrogation | Calibrates odometer slip/slide errors before final braking curve |
+| **Docking Stopping Accuracy** | Closed-loop closed-form PID decelerator | **$\pm 150\text{ mm}$** docking window | Perfect aperture alignment with half-height & full-height Platform Screen Doors |
+| **Creep-Control Phase** | Constant creep velocity regulator ($v \le 3.5\text{ km/h}$) | Final $3.0\text{ m}$ travel segment | Eliminates aggressive braking jerks while ensuring precise stopping mark |
+| **Jerk Limitation Transition** | Smooth cubic spline jerk filter ($j \le 0.75\text{ m/s}^3$) | Traction motor current ramp limits | Maximizes passenger standing balance without abrupt deceleration transitions |
+
 #### 🚦 ATS Dynamic Headway Regulation & Junction Conflict Resolution
 
 | ATS Regulation Function | Algorithmic Mechanism | Adjustment Bounds / Scope | Headway Reliability & Punctuality |
