@@ -593,6 +593,15 @@ flowchart TD
 | **On-Board Mobile Radio Units**| Dual redundant transceivers (MRU-A / MRU-B) | Mounted in leading and trailing cabs | Automatic hot-failover ensures continuous movement authority (MA) |
 | **Tunnel Slotted Leaky Feeder**| Low-loss coaxial cables with periodic aperture slots | Suspended along bored tunnel crown | Uniform RF field strength $\ge -75\text{ dBm}$ throughout subterranean network |
 
+#### 🛰️ CBTC Free-Propagation Leaky Feeder Coaxial Cable & Waveguide Antennas
+
+| RF Propagation Component | Structural Mechanics & Waveguide Spec | Operating Frequency & Polarization | Underground Signal Propagation Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Radially Slotted Coax (Leaky Coax)** | Low-loss foam dielectric copper tube with precision laser-cut slots | $2.4\text{ GHz} / 5.8\text{ GHz}$ circular mode | Radiates uniform cylindrical RF wavefronts throughout narrow curved bored tunnels |
+| **Directional Horn Waveguides** | Cast aluminum sectoral horn antennas mounted at tunnel portals | Linear vertical / horizontal diversity | Transitions signal between open-air elevated viaducts and bored subterranean tubes |
+| **Bi-Directional In-Line Line Amplifiers** | Ultra-low-noise gallium arsenide (GaAs) RF booster repeaters | Spaced every $350\text{ m} – 500\text{ m}$ in tunnels | Compensates for longitudinal attenuation, guaranteeing link margin $> 18\text{ dB}$ |
+| **Train Cab Shark-Fin Dual Diversity** | Low-profile aerodynamic rooftop antenna pods (MIMO 2x2) | Dual redundant feeds to VOBC chassis | Prevents multi-path fading nulls during high-speed $80\text{ km/h}$ tube transit |
+
 #### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
 
 | Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
