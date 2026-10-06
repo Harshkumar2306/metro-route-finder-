@@ -978,6 +978,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Wide-Angle Optical Reader** | Industrial 2D CMOS imaging sensor ($1280 \times 800$) | Wide FOV $\pm 55^\circ$ reading angle | Scans phone screens instantly from low-light to maximum brightness |
 | **Token Lifecycle Invariant** | Unidirectional Entry ➔ Exit state transition | Auto-expires after **180 minutes** | Prevents station overstaying & re-entry fraud across transit network |
 
+#### 🔐 Hardware Security Module (HSM) Key Derivation & SAM Card Encryption
+
+| Cryptographic Hardware Layer | Security Architecture & Algorithm | Physical Form Factor | Anti-Tamper & Key Derivation Protocol |
+| :--- | :--- | :--- | :--- |
+| **Central Host HSM** | FIPS 140-2 Level 3 PCIe cryptographic processor | Central Clearing House (CCH) server rack | Derives unique station & gate session keys using AES-256 DUKPT |
+| **Validator SAM Card** | Secure Access Module (ISO 7816 smart card chip) | Embedded in AFC turnstile motherboard | Performs offline mutual authentication with commuter cards in **$< 80\text{ ms}$** |
+| **Master Transport Key (MTK)** | Asymmetric elliptic curve root key (secp256r1) | Air-gapped dual-custody split keys | Regenerated quarterly under M-of-N multi-signatory officer ceremonies |
+| **Active Zeroization Mesh** | Micro-wire physical sensor enclosure grid | Onboard volatile key memory | Instantly zeroizes operational keys upon physical tamper, chassis drill or probe |
+
 ### 📦 Station Platform Typology: Island vs. Side Platform Schematics
 
 | Structural Platform Typology | Width & Geometric Configuration | Key Station Implementations | Commuter Transfer Dynamics |
