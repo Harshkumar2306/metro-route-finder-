@@ -942,6 +942,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **New Delhi Station (NDLS)** | 🟡 Yellow Line + 🟠 Airport Express + 🚂 New Delhi Railway Station (IR) | 242-meter multi-modal skywalk with luggage conveyor belts | Direct Ajmeri Gate concourse transfer without street congestion |
 | **Old Delhi (Kashmere Gate / DLI)** | 🔴 Red + 🟡 Yellow + 🟣 Violet Lines + 🚌 ISBT Kashmere Gate | Multi-level subterranean subway network & escalators | Massive tri-line metro hub integrated with Northern inter-state buses |
 
+#### 🚊 Tram-Train & Light Rail Transit (LRT) Shared-Corridor Interoperability Specs
+
+| Interoperability Parameter | Heavy Metro / RRTS Interface | Light Rail / Tram Interface | Hybrid Corridor Transition Standard |
+| :--- | :--- | :--- | :--- |
+| **Wheel Profile Compatibility** | EN 13715 S1002 heavy rail profile ($28\text{ mm}$ flange) | Grooved rail Ri60N profile ($22\text{ mm}$ flange) | Hybrid compromise profile operating on mainline switchgear & city grooved track |
+| **Traction Supply Transition** | $25\text{ kV AC}$ overhead catenary (Mainline/RRTS) | $750\text{ V DC}$ overhead line (City tram sectors) | Dual-voltage transformer with automatic on-the-fly primary phase commutation |
+| **Crashworthiness & Buffing Load**| EN 15227 C-I crashworthiness ($1,500\text{ kN}$ buffing load) | EN 15227 C-IV light urban rail ($400\text{ kN}$ buffing load) | Deformable crash boxes & honeycomb energy absorbers protecting passenger cell |
+| **Level Crossing Signalling** | Track circuit interlocked SIL-4 automatic booms | Traffic light priority transponders (VMR/PTPS) | Enforces fail-safe speed cap ($25\text{ km/h}$) across un-gated urban pedestrian zones |
+
 #### 💳 National Common Mobility Card (NCMC) & RuPay Interoperability Specifications
 
 | Transit Payment Standard | Technical Protocol & Architecture | Fare Gate Interaction | Interoperable Multi-Agency Network |
