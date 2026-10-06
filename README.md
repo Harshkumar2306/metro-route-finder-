@@ -485,6 +485,15 @@ flowchart TD
 | **Substation Spacing** | Every **10 km – 15 km** (Receiving Substations) | Every **1.5 km – 2.5 km** (Traction Rectifiers) | DC systems require dense substations due to $I^2 R$ drop |
 | **Stray Current Mitigation**| Return current through bonded running rails + OPGW | Dedicated negative return rail & stray collection mats | Isolates DC leakage currents preventing structural rebar corrosion |
 
+#### 🔌 Third Rail Shroud Insulation & Stinger System Depot Test Track Power
+
+| Subsystem Component | Electrical & Mechanical Specification | Safety Clearances & Standards | Depot Workshop & Trackside Operation |
+| :--- | :--- | :---: | :--- |
+| **Fiberglass Composite Shroud** | Pultruded glass-fiber reinforced polyester (GRP) cover | $10\text{ kV}$ dielectric breakdown (UL94 V-0) | Complete top and side insulation preventing accidental track-worker electrocution |
+| **Collector Shoe Interface** | Gravity/spring-loaded sintered cast-iron contact shoe | $120\text{ N} – 160\text{ N}$ upward contact force | Bottom-contact running surface protected against ice, debris, and ballast dust |
+| **Overhead Workshop Stinger** | Movable suspended overhead trolley conductor rail with reeling cables | $750\text{ V DC}$ isolated workshop test bays | Plugs into carbody test socket to power traction in inspection pits without live third rails |
+| **Deadman Interlock & Warning Siren** | Dual keyed Castell interlocks and flashing amber beacons | Activated during depot bay energization | Auto-trips depot substation DC feeder breakers if workshop access gates open |
+
 #### 🛞 Train Bogie Dynamic Suspension & Air Spring Auto-Levelling Valves
 
 | Suspension Component | Structural Mechanism & Materials | Operating Pressure / Range | Ride Comfort & Safety Dynamic |
