@@ -1025,6 +1025,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **High-Pressure Water Mist (HPWM)**| Micro-droplet atomization nozzles ($100–140\text{ bar}$) | Traction transformer ASS bays & high-voltage rooms | Rapid thermal cooling & oxygen displacement with minimal water draw |
 | **Pressurized Fire Hydrant Ring**| Wet riser main system with dual electric jockey pumps | Station platforms, concourses & cross-passages | Maintains continuous $10\text{ bar}$ pressure for fire brigade coupling |
 
+#### 🧯 Gas-Based Clean Agent Fire Suppression (IG-541 Inergen & Novec 1230)
+
+| Clean Agent Parameter | Inergen (IG-541 Blend) | Novec 1230 (FK-5-1-12 Fluid) | Safety & Environmental Standard |
+| :--- | :--- | :--- | :--- |
+| **Chemical Composition** | $52\%\text{ N}_2 + 40\%\text{ Ar} + 8\%\text{ CO}_2$ natural atmospheric gases | Dodecafluoro-2-methylpentan-3-one fluoroketone | Zero Ozone Depletion Potential ($\text{ODP} = 0$), non-toxic |
+| **Extinguishment Mechanism** | Lowers room oxygen to $12\%–14\%$ (supports human breathing) | Rapid heat absorption and chemical flame radical scavenging | Extinguishes Class A, B & C electrical fires in **$< 60\text{ seconds}$** |
+| **Target Enclosure Deployment** | Primary OCC/BCC Server Vaults & Relay Interlocking Rooms | Compact Station UPS Rooms & Substation Auxiliary Battery Bays | Zero conductive residue; sensitive electronic boards remain energized |
+| **Overpressure Relief Dampers**| Counter-weighted bidirectional gravity blast dampers | Pressure relief louvers venting to exterior | Prevents structural room wall rupture during high-pressure gas release |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
