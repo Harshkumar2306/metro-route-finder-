@@ -665,6 +665,15 @@ flowchart TD
 | **Phase Current Unbalance** | $< 2.0\%$ negative sequence | Scott-connected & V-connected 66/25 kV transformers | Prevents generator rotor overheating at regional power plants |
 | **Transient Surge Suppression** | Lightning impulse withstand $170\text{ kV}$ | Heavy-duty gapless metal-oxide varistor (**MOV**) arresters | Diverts atmospheric lightning strikes away from train rakes |
 
+#### ⚡ Neutral Grounding Resistor (NGR) & Earth Leakage Current Protection
+
+| Grounding Protection Layer | Electrical Topology & Components | Thermal Withstand Rating | Fault Sensing & Grid Disconnection Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Neutral Grounding Resistor (NGR)** | Stainless steel edge-wound resistor banks on transformer neutral | $400\text{ A}$ for $10\text{ s}$ ($1300^\circ\text{C}$ alloy) | Clamps transient phase-to-earth fault currents, preventing catastrophic arc flashes |
+| **Restricted Earth Fault (REF)** | High-impedance differential relay scheme (ANSI 64R) | Trips in **$< 30\text{ ms}$** | Disconnects 66 kV/25 kV traction transformer windings on internal stator puncture |
+| **Residual Current Sensor (RCT)** | Core-balance current transformers encompassing 3-phase feeders | $30\text{ mA} – 300\text{ mA}$ trip threshold | Detects creeping track insulation degradation before full dead-ground flashover |
+| **Equipotential Copper Earth Mat** | Interconnected $50 \times 6\text{ mm}$ electrolytic bare copper mesh | Grid resistance **$< 0.5\ \Omega$** | Safely drains line surge energy, maintaining step and touch potentials below IEEE 80 limits |
+
 #### ⚡ 3-Level IGBT Active Front End (AFE) Traction Inverters & Harmonic Cancellation
 
 | Inverter Technology Dimension | Circuit Architecture & Modulation | Performance Benchmark | Efficiency & Acoustic Benefits |
