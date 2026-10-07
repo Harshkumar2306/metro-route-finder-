@@ -710,6 +710,15 @@ flowchart TD
 | **Residual Current Sensor (RCT)** | Core-balance current transformers encompassing 3-phase feeders | $30\text{ mA} – 300\text{ mA}$ trip threshold | Detects creeping track insulation degradation before full dead-ground flashover |
 | **Equipotential Copper Earth Mat** | Interconnected $50 \times 6\text{ mm}$ electrolytic bare copper mesh | Grid resistance **$< 0.5\ \Omega$** | Safely drains line surge energy, maintaining step and touch potentials below IEEE 80 limits |
 
+#### ⚡ Track Ground Bonding, Spark Gaps & Voltage Limiting Devices (VLD)
+
+| Touch Voltage Protection Layer | Electrical Hardware Profile | Trip Threshold & Standard (EN 50122-1) | Commuter Safety & Stray Current Isolation |
+| :--- | :--- | :---: | :--- |
+| **Voltage Limiting Device (VLD-F)**| Bidirectional antiparallel thyristors with mechanical bypass contactor | Triggers at touch voltage $U_t > 60\text{ V}$ ($< 5\text{ ms}$) | Automatically bonds running rail to station earth mat during high short-circuit faults |
+| **Recovery Contactor Cycle** | Heavy-duty magnetic latching short-circuiting contactor | Closes within $20\text{ ms}$; auto-resets when fault clears | Extinguishes sustained touch potential while preventing permanent earth DC stray loops |
+| **Gas Discharge Spark Gaps** | Hermetically sealed ceramic spark gaps ($100\text{ kA}$ impulse) | Flashover voltage $U_{spark} \approx 650\text{ V}$ | Protects overhead mast footings and metallic bridge girders from direct flashover |
+| **Platform Edge Insulating Matting**| Synthetic dielectric epoxy composite track-side floor coating | Dielectric strength $> 30\text{ kV/mm}$ | Prevents touch voltage path between standing passenger feet and train coach carbody |
+
 #### ⚡ 3-Level IGBT Active Front End (AFE) Traction Inverters & Harmonic Cancellation
 
 | Inverter Technology Dimension | Circuit Architecture & Modulation | Performance Benchmark | Efficiency & Acoustic Benefits |
