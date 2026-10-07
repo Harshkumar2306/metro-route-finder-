@@ -1088,6 +1088,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Particulate Smog Filtration** | $< 35\ \mu\text{g/m}^3$ ($\text{PM}_{2.5}$) | MERV 14 filters & two-stage electrostatic precipitators | Cleans Delhi winter smog & brake lining dust |
 | **Pathogen & Germicidal Scrubbing** | Zero aerosol accumulation | UV-C germicidal irradiation coils inside AHU plenums | Neutralizes airborne viruses and bacterial microbes |
 
+#### 💨 Air Quality Index (AQI) Active Smog Scrubbers & Electrostatic Precipitators
+
+| Smog Mitigation Stage | Electro-Mechanical Architecture | Target Efficiency / Voltage | Winter Severe Smog Response ($> 450\text{ AQI}$) |
+| :--- | :--- | :---: | :--- |
+| **Two-Stage Ionizing ESP** | Tungsten ionizing corona wires with aluminum collector plates | $+12\text{ kV}$ ionization / $-6\text{ kV}$ collection | Captures **$99.2\%$** of ultra-fine particulate matter ($\text{PM}_{1.0} / \text{PM}_{2.5}$) |
+| **Chemisorption Carbon Bed** | Extruded virgin coconut-shell activated carbon with $\text{KMnO}_4$ | $1,050\text{ m}^2/\text{g}$ iodine number | Neutralizes urban toxic gases: $\text{NO}_x$, $\text{SO}_2$, and vehicular benzene |
+| **Dynamic Air Curtain Seals** | High-velocity laminar downdraft air knives at station portals | Discharge velocity $14.5\text{ m/s}$ | Blocks outdoor street smog infiltration at underground street-entry kiosks |
+| **Continuous AQI Telemetry** | Optical laser particle counters transmitting to station PIS | 5-second sampling cycle | Keeps concourse and platform air within **$\text{PM}_{2.5} < 25\ \mu\text{g/m}^3$** (Clean Air Zone) |
+
 #### 🛡️ Seismic Engineering & Structural Vibration Damping (Zone-IV)
 
 | Structural Defense System | Design Benchmark | Engineering Mechanism | Resilience & Protection Standard |
