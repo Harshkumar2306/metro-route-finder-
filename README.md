@@ -674,6 +674,15 @@ flowchart TD
 | **Doppler Factor ($\beta$)** | Contact reflection coefficient $\beta = 1 - v/c$ | $\beta \approx 0.73$ at $120\text{ km/h}$ | Suppresses standing wave reflections and pantograph contact arc |
 | **Stitch Wire Cantilever Damping**| Elastic auxiliary stitch wire at mast supports | `10 m – 14 m` bi-directional span | Eliminates hard-spot stiffness peaks beneath cantilevers |
 
+#### 🚊 Overhead Catenary Auto-Tensioning Device (ATD) Pulley Compensation
+
+| ATD Compensation Parameter | Mechanical Architecture & Spec | Operating Temperature Span | Catenary Dynamic Tension Stabilization |
+| :--- | :--- | :---: | :--- |
+| **3:1 / 5:1 Pulley Wheel Ratio** | Cast aluminum grooved pulleys with sealed ball bearings | $-5^\circ\text{C}$ winter to $+60^\circ\text{C}$ ambient | Translates counterweight displacement into linear wire travel |
+| **Stainless Steel Aircraft Cable** | $19 \times 7$ non-rotating stainless steel wire rope ($9.5\text{ mm}$) | Breaking tenacity $> 56\text{ kN}$ | Connects tension weight stack to catenary and contact wire anchors |
+| **Cast-Iron Balance Weights** | Modular cylindrical weights stacked inside vertical guide cage | $W = 10\text{ kN} – 12\text{ kN}$ nominal | Maintains contact wire horizontal tension within **$\pm 3\%$** tolerance |
+| **Anti-Falling Drop Brake** | Centrifugal ratchet safety cam brake on main pulley | Triggers on sudden slack / wire snap | Locks weight stack instantly; prevents catastrophic mast collapse on wire tear |
+
 #### 🚡 OHE Section Insulators & Air-Gap Overlap Anchors
 
 | Catenary Transition Type | Structural & Electrical Topology | Span Architecture | Electrical Isolation & Continuity Dynamic |
