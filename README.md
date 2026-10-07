@@ -530,6 +530,15 @@ flowchart TD
 | **Wheel Slide Protection (WSP)**| High-speed micro-controller axle tachometers (EN 15595) | Modulates dump valves in $< 25\text{ ms}$| Prevents wheel lock-up and severe rail-wheel flat spots during wet monsoons |
 | **Parking Spring Brake Actuators**| Mechanical spring-loaded park brake cylinders | Permanent mechanical clamping | Holds fully loaded crush-rake stationary on maximum **$4.0\%$ track gradient** |
 
+#### 🧲 Eddy Current Track Brakes (ECTB) & Linear Induction Deceleration Dynamics
+
+| Eddy Current Braking Layer | Electrodynamic Principle & Sizing | Operational Parameter | Adhesion-Independent Deceleration Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Lorentz Force Braking ($\mathbf{F}$)**| $\mathbf{F} = \sigma (\mathbf{v} \times \mathbf{B}) \times \mathbf{B}$ induced eddy currents | Peak retarding force $18\text{ kN/bogie}$ | Completely wear-free deceleration down to $15\text{ km/h}$ with 0 friction contact |
+| **Electromagnetic Pole Shoes** | Alternating N-S electromagnet cores suspended on bogie frame | Excitation current $150\text{ A}$ at $110\text{ V DC}$ | Lowers to **$7\text{ mm} \pm 1\text{ mm}$** working air gap over UIC-60 rail during emergency drop |
+| **Rail Skin Depth Heating** | High-frequency surface eddy current circulation | Skin depth $\delta = \sqrt{2 / (\omega \mu \sigma)}$ | Rail head temp rise strictly bounded to **$\Delta T \le 25^\circ\text{C}$** to prevent track buckling |
+| **Monsoon Adhesion Immunity** | Contact-free electrodynamic electromagnetic flux linkage | Wheel-rail friction coefficient $\mu$-independent | Delivers guaranteed $1.2\text{ m/s}^2$ braking even over wet leaf-mulch or oily rail |
+
 #### 🚪 Passenger Coach Sliding Plug Doors & Sensitive Edge Interlocking
 
 | Door Safety Mechanism | Actuation & Sensing Profile | Threshold Specification | Commuter Protection & Traction Interlock |
