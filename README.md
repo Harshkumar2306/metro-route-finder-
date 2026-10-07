@@ -1151,6 +1151,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Curve Squeal Acoustic Damping** | Wheel-mounted tuned mass acoustic ring dampers | Tightly curved viaducts & turnouts | Suppresses high-frequency stick-slip squeal by **12–15 dBA** |
 | **Automated Axle Sensor Trigger** | Inductive wheel-detector pulse counter at rail foot | Pre-curve approach tangent track | Calibrates micro-dosing per axle count, avoiding slip |
 
+#### 🛞 Wheel Flange Lubrication Sticks & Solid Polymer Compound Applicators
+
+| Solid Stick Lubricator Spec | Chemical Formulation & Matrix | Mechanical Mount & Contact Force | Tribological & Environmental Benefit |
+| :--- | :--- | :---: | :--- |
+| **Solid Polymer Matrix Stick** | High-density polyethylene carrier with micronized $\text{MoS}_2$ and graphite | Spring-loaded bracket mounted directly to bogie axle box | Transfers microscopic dry lubricative film exclusively to wheel flange root |
+| **Controlled Friction Coefficient**| Friction boundary target: $\mu_{flange} \approx 0.10 – 0.15$ | Flange contact force $20\text{ N} – 30\text{ N}$ | Eliminates wheel flange climb derailment potential ($q_R > 1.2$) |
+| **Top-of-Rail Migration Shield** | Solid-state dry-wax binder (melting point $> 180^\circ\text{C}$) | Zero centrifugal grease migration | Preserves critical wheel-tread tractive braking adhesion ($\mu_{tread} \ge 0.38$) |
+| **Curve Squeal Reduction** | Eliminates stick-slip oscillation on tight depot loops ($R \le 150\text{ m}$) | Noise reduction **$-14\text{ dBA}$** | 100% spray-free; prevents oil contamination of ballastless track plinths |
+
 #### ⚡ Track Circuitry & Axle Counter Train Detection Systems
 
 | Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
