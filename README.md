@@ -1106,6 +1106,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Target Enclosure Deployment** | Primary OCC/BCC Server Vaults & Relay Interlocking Rooms | Compact Station UPS Rooms & Substation Auxiliary Battery Bays | Zero conductive residue; sensitive electronic boards remain energized |
 | **Overpressure Relief Dampers**| Counter-weighted bidirectional gravity blast dampers | Pressure relief louvers venting to exterior | Prevents structural room wall rupture during high-pressure gas release |
 
+#### 📡 Tunnel Optical Linear Heat Detection (LHD) Fiber Sensor Cables
+
+| Fiber Sensing Parameter | Optoelectronic Technology & Principle | Measurement Resolution | Subterranean Tunnel & Cable Tray Deployment |
+| :--- | :--- | :---: | :--- |
+| **Raman OTDR Reflectometry** | Pulsed laser backscatter Stokes/Anti-Stokes ratio analysis | Temperature resolution $\pm 1.0^\circ\text{C}$ | Immune to high-voltage EMI interference from $25\text{ kV}$ catenary |
+| **Continuous Spatial Sampling** | Graded-index 50/125 $\mu\text{m}$ armored optical fiber cable | Spatial localization every **$1.0\text{ metre}$** | Pinpoints subterranean electrical cable hotspots along $10\text{ km}$ tunnels |
+| **Dynamic Rate-of-Rise Alarm** | Programmable rate-of-rise ($> 5^\circ\text{C/min}$) and fixed threshold | Alarm trigger latency **$< 5\text{ seconds}$** | Automatically alerts central SCADA and directs emergency ventilation jet fans |
+| **Stainless Steel Armor Conduit** | Heavy-duty corrugated stainless steel tape & LSZH flame-retardant outer sheath | Withstands $1000^\circ\text{C}$ for $30\text{ mins}$ | Survives structural flashover and rodent gnawing inside wet cable plenums |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
