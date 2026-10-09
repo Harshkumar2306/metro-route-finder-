@@ -557,6 +557,15 @@ flowchart TD
 | **Motor Current Surge Detection** | Microprocessor current monitoring on door drive H-bridge | Triggers at peak load resistance | Auto-recycles door opening 3 times before locking out faulty leaf |
 | **Traction-Door Interlock (TDI)** | SIL-4 closed-loop series interlock circuit | Hardwired to traction controller | 100% prevents train acceleration if any coach door is open $> 5\text{ mm}$ |
 
+#### 🛗 Automatic Train Door Obstruction Sensing & Sensitive Pneumatic Contact Strips
+
+| Door Obstruction Subsystem | Electro-Mechanical & Pneumatic Sensing | Sensitivity Threshold / Parameter | Obstacle Clearance & Safety Re-Cycle |
+| :--- | :--- | :---: | :--- |
+| **Pneumatic Wave Contact Strip** | Extruded hollow conductive EPDM profile with pressure wave switch | Triggers at dynamic pulse $\Delta P \ge 2.5\text{ mbar}$ | Immediately breaks closing circuit upon physical contact with limb or garment |
+| **Micro-Obstacle Drag Test** | Optical encoder slip detection on linear belt drive | Detects trapped flat objects **$\ge 10 \times 50\text{ mm}$** | Prevents train dispatch if trapped thin strap (backpack, sari) exceeds threshold |
+| **Partial Retraction Recycling** | Auto-reverses doors to $150\text{ mm}$ partial clearance opening | Recycles within **$< 350\text{ ms}$** | Allows passengers to free trapped items without exposing entire doorway deck |
+| **Acoustic Warning Chime Cycle** | Synchronized psychoacoustic dual-tone audio alarm + red LED flash | Pulses at $1.5\text{ Hz}$ for $3\text{ seconds}$ | Conforms to EN 14752; provides audible and visual alert before final re-closure |
+
 #### 🪟 Coach Laminated Safety Glazing & Solar Heat Rejection Films
 
 | Glazing Component | Material Standard & Specification | Optical & Thermal Metric | Commuter Safety & Security Function |
