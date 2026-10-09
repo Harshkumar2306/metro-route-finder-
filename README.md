@@ -710,6 +710,15 @@ flowchart TD
 | **Resin Section Insulators** | High-grade fiberglass reinforced resin runners with arc chutes | Installed over station turnouts | Mechanically level passage while isolating crossover feeder tracks |
 | **Mid-Point Anchor (MPA)** | Rigid anti-creep longitudinal steel guy wires | Central span between ATD pulleys | Restricts catenary wire longitudinal creeping under brake reaction force |
 
+#### 🚊 Overhead Catenary Sectionalizer Switches & Motorized Disconnectors
+
+| Switching Subsystem | Electrical Rating & Mechanical Standard | Actuation Protocol & Time | Grid Isolation & Worker Safety Interlock |
+| :--- | :--- | :---: | :--- |
+| **Motor-Operated Disconnector (MOD)**| $25\text{ kV} / 1250\text{ A}$ single-pole vertical break isolator | Remote SCADA actuation in **$< 1.5\text{ s}$** | Isolates station platform catenary zones during local emergency work |
+| **Integral Earth Blade (EB)** | Mechanical interlocked heavy-duty copper grounding blade | Closes onto isolated line in $< 0.8\text{ s}$ | Drains induced static charges to rail earth before maintenance track possession |
+| **Vacuum Interrupter Load Break** | Sealed vacuum bottle arc quenching chamber ($800\text{ A}$ break) | Rated for 10,000 full-load break cycles | Permits breaking under full train auxiliary loads without atmospheric arcing |
+| **Castell Key Mechanical Interlock**| Trapped-key interlocking system with TSS substation switchboard | Zero-bypass mechanical sequencing | 100% physically prevents closing earth switch while line disconnector is energized |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
