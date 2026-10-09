@@ -223,6 +223,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Optical Beam Door Interlock** | Optical infrared sensors | Train doors synchronize with PSDs ($\pm 0.3\text{s}$) | Failsafe obstacle detection system halts train dispatch on obstruction |
 | **NFPA 130 Emergency Egress** | Bi-directional push bars | Platform-facing track egress gates | Rapid manual passenger evacuation during unexpected power outages |
 
+#### 🛡️ Track Intrusion Detection System (TIDS) & Platform Edge Video Analytics
+
+| Intrusion Sensing Technology | Hardware & Optics Architecture | Response Latency / Threshold | Fail-Safe Train Braking Action |
+| :--- | :--- | :---: | :--- |
+| **Laser Time-of-Flight (TOF) LiDAR**| Multi-channel pulsed solid-state LiDAR scanner array | Scans $1.2\text{ m}$ track drop zone every $20\text{ ms}$ | Detects fallen person ($> 30\text{ kg}$) or luggage on ballast |
+| **AI Edge Thermal Video Analytics** | Dual-spectrum optical/LWIR thermal surveillance cameras | Neural inference edge box ($30\text{ FPS}$) | Distinguishes human fall from wind-blown debris or birds with $99.8\%$ accuracy |
+| **Emergency Traction Trip Loop** | Direct hardwired dry-contact output to CBTC track interlocking | Injects emergency brake (EB) command in **$< 150\text{ ms}$** | Immediately halts inbound train outside platform approach signal |
+| **Station Alarm & Strobe Klaxon** | Dual high-intensity pulsing red xenons + $105\text{ dBA}$ sounder | Platform headwall and station control room | Instantly alerts station master and CISF quick reaction teams |
+
 #### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
 
 | Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
