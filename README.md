@@ -782,6 +782,15 @@ flowchart TD
 | **Cross-Car Bus Tie Contactor** | Motorized bidirectional tie contactor switch | Automatic cross-feed if single SIV fails | Bus-tie closes in **$< 50\text{ ms}$**; prevents HVAC loss on degraded trainsets |
 | **Galvanic Isolation Transformer** | High-frequency ferrite isolation core ($2.5\text{ kV}$ test) | Isolates high-voltage catenary surges from coach passenger equipment | Prevents ground fault propagation between $25\text{ kV}$ traction and auxiliary circuits |
 
+#### 🚄 Traction Motor Stator VPI Insulation & Thermal Class 200 System
+
+| Motor Insulation Layer | Material Formulation & Standard | Dielectric & Thermal Rating | Inverter Stress & Overload Resilience |
+| :--- | :--- | :---: | :--- |
+| **Solventless Epoxy VPI Resin** | Single-component anhydride epoxy resin (Vacuum Pressure Impregnated) | Vacuum $< 1.0\text{ mbar}$, pressure $6.0\text{ bar}$ | 100% void-free impregnation preventing partial discharge (PD) erosion |
+| **Class 200 (Class H+) Stator Winding**| Polyimide film-backed glass-mica tape with corona shield | Hotspot limit $T_{\max} \le 220^\circ\text{C}$ | Sustains continuous crush-load acceleration and emergency empty-train towing |
+| **Inverter Surge Withstand ($dv/dt$)**| Reinforced turn-to-turn inter-strand polyimide barrier | Withstands $dv/dt \ge 5\text{ kV/\mu s}$ (IEC 60034-18-41) | Eliminates high-frequency reflected wave voltage punctures from PWM IGBTs |
+| **End-Winding Fiberglass Lacing** | High-tensile resin-saturated glass cord tied to support rings | Mechanical shear strength $> 800\text{ N}$ | Prevents stator winding mechanical splay under peak starting electromagnetic torque |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
