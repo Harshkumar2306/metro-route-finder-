@@ -1259,6 +1259,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Switch Point Roller Devices**| Sealed stainless-steel low-friction roller bearings | Switch throw force $< 2.5\text{ kN}$ | Eliminates environmental graphite grease lubricants on switch chairs |
 | **Point Machine Clamping & Lock**| Internal clamp lock with independent detector slides | Throw stroke completed in $< 2.5\text{ s}$ | Detects rail gap $< 2\text{ mm}$; prevents route locking if obstructed |
 
+#### 🚏 Turnout Heating & De-Icing Systems for Winter Operations
+
+| Switch Heating Subsystem | Electrical Heating Architecture | Power Density / Temp Range | Winter Cold Snap & Anti-Freeze Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Flat Mineral-Insulated (MI) Heaters**| Inconel 825 sheathed flat heating strips clamped to stock rail web | $300\text{ W/m} – 350\text{ W/m}$ specific load | Maintains rail steel temp at $+5^\circ\text{C}$ during dense frost & freezing rain |
+| **Slide Chair Induction Pads** | High-efficiency localized silicone heating elements under switch chairs | Surface temp $+45^\circ\text{C}$ | Prevents point machine lubrication freezing and sticky switch blade throws |
+| **Automatic Weather Sensors** | Dual ambient temperature + rail surface precipitation sensors | Auto-triggers at $T_{amb} \le 3^\circ\text{C} \land \text{Moisture}$ | Automates energy saving, cutting auxiliary power draw by **$45\%$** during dry cold |
+| **Point Machine Internal Thermostats**| Internal PTC ceramic heating elements inside drive casing | Constant $20\text{ W}$ continuous standby | Prevents internal condensation moisture short-circuiting electrical contacts |
+
 ### 🕒 Network Operating Schedule & Headways
 
 | Operational Period | Typical Frequency (Headway) | Daily Operating Hours |
