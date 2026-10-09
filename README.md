@@ -295,6 +295,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Kinetic Flywheel Storage Systems**| Carbon-composite rotors in vacuum housing ($30,000\text{ RPM}$) | Delivers high-current launch boost for departing rakes | Eliminates peak acceleration voltage sags across substations |
 | **Peak Demand Shaving Telemetry** | Real-time automated SCADA battery dispatch | Dispatches stored energy during morning/evening tariff peaks | Reduces contracted maximum demand charges from discoms by **18%** |
 
+#### ⚡ Regenerative Braking Inverters & Onboard Supercapacitor Peak-Shaving
+
+| Energy Storage Subsystem | Electrical Rating & Topology | Charge/Discharge Dynamic | Traction Energy & Peak Shaving Metric |
+| :--- | :--- | :--- | :--- |
+| **Onboard Supercapacitor Bank** | Graphene-electrode EDLC modules ($48\text{ V} / 165\text{ F}$ cells in series) | Full recharge in **$< 12\text{ seconds}$** under $1.3\text{ m/s}^2$ braking | Recovers kinetic energy when local catenary receptivity drops to 0 |
+| **Bidirectional DC-DC Converter** | High-frequency interleaved buck-boost IGBT bridge ($250\text{ kW}$) | Regulates $750\text{ V} / 1500\text{ V}$ intermediate DC link | Smooths launch current draw by injecting stored power during initial acceleration |
+| **Line Voltage Sag Stabilization** | Dynamic voltage clamping circuit preventing dips below $19\text{ kV}$ | Responds within **$< 2\text{ ms}$** to catenary sags | Eliminates nuisance undervoltage tripping when multiple rakes launch simultaneously |
+| **Brake Resistor Chopper Protection** | Heavy-duty roof-mounted braking resistor grid with thermal sensing | Absorbs excess energy only when capacitors are at $100\%$ SOC | Extends mechanical brake disc pad lifespan by **$> 40\%$** |
+
 #### 💧 Water Conservation & Rainwater Harvesting Infrastructure
 
 | Ecological Water Measure | Engineering Mechanism | Network Implementation | Resource Conservation Metric |
