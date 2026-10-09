@@ -1124,6 +1124,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Dynamic Rate-of-Rise Alarm** | Programmable rate-of-rise ($> 5^\circ\text{C/min}$) and fixed threshold | Alarm trigger latency **$< 5\text{ seconds}$** | Automatically alerts central SCADA and directs emergency ventilation jet fans |
 | **Stainless Steel Armor Conduit** | Heavy-duty corrugated stainless steel tape & LSZH flame-retardant outer sheath | Withstands $1000^\circ\text{C}$ for $30\text{ mins}$ | Survives structural flashover and rodent gnawing inside wet cable plenums |
 
+#### 🧯 Station Deluge Water Spray Systems & Transformer Fire Barriers
+
+| Fire Protection Component | Technical Engineering Standard (NFPA 15) | Operating Parameter / Metric | Substation Safety & Blast Containment |
+| :--- | :--- | :---: | :--- |
+| **High-Velocity Deluge Nozzles** | Open directional water spray projectors ($90^\circ / 120^\circ$) | Discharge density $\ge 10.2\text{ L/min/m}^2$ | Rapidly cools transformer oil casing below flashpoint ($140^\circ\text{C}$) |
+| **Pneumatic Quartzoid Bulb Pilot**| Pressurized pilot detection line with glass thermal bulbs | Shatters at $79^\circ\text{C} / 93^\circ\text{C}$ rating | Vents pilot air line; opens main deluge valve diaphragm in **$< 15\text{ s}$** |
+| **Reinforced RCC Fire Walls** | $300\text{ mm}$ reinforced concrete blast separating barrier | Fire endurance rating **$\ge 4\text{ hours}$** | Prevents projectile shrapnel and fireball spread to adjacent transformer bays |
+| **Oil Containment Soak Pits** | Pebble-filled drainage sump with flame trap grating | $150\%$ transformer oil capacity | Drains burning transformer oil safely to underground containment tanks |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
