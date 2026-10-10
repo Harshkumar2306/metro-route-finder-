@@ -1196,6 +1196,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Segmental Lining Ring** | Steel-fiber reinforced concrete (SFRC) universal rings | Outer diameter `6.35 m` / thickness `280 mm` | Double-gasketed EPDM seals ensure zero water inflow |
 | **Settlement Control Standard**| Real-time laser total station gyro-navigation | Surface settlement **$< 5.0\text{ mm}$** | Protects ancient ASI monuments (Qutub Minar, Kashmere Gate) |
 
+#### 💧 Tunnel Grouting & High-Pressure Chemical Polyurethane Leak Sealing
+
+| Subterranean Grouting Layer | Material Formulation & Chemistry | Injection Pressure / Parameters | Groundwater Barrier & Waterproofing Role |
+| :--- | :--- | :---: | :--- |
+| **Tail Void Annular Backfill Grout**| Two-component cementitious bentonite mortar (Component A + B) | Annular pressure $0.20\text{ MPa} – 0.35\text{ MPa}$ | Completely locks SFRC segment rings against ground soil within $10\text{ s}$ |
+| **Hydrophobic Polyurethane (PU)** | Fast-reacting expanding chemical resin with accelerator catalyst | Injection pressure $150\text{ bar} – 200\text{ bar}$ | Reacts with groundwater; expands **$30\times$** to form resilient dense foam |
+| **Hydrophilic Polyacrylate Gel** | Low-viscosity multi-component elastic water-swelling gel | Viscosity near water ($\approx 5\text{ mPa}\cdot\text{s}$)| Penetrates micro-fissures ($< 0.1\text{ mm}$); seals leaking segment gasket joints |
+| **Tamper-Proof Grout Check Valves**| Threaded stainless-steel internal non-return check valves | Embedded in each precast segment core | Prevents backflow of high hydrostatic pressure ($> 3.5\text{ bar}$) under Yamuna |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
