@@ -656,6 +656,15 @@ flowchart TD
 | **Bi-Directional In-Line Line Amplifiers** | Ultra-low-noise gallium arsenide (GaAs) RF booster repeaters | Spaced every $350\text{ m} – 500\text{ m}$ in tunnels | Compensates for longitudinal attenuation, guaranteeing link margin $> 18\text{ dB}$ |
 | **Train Cab Shark-Fin Dual Diversity** | Low-profile aerodynamic rooftop antenna pods (MIMO 2x2) | Dual redundant feeds to VOBC chassis | Prevents multi-path fading nulls during high-speed $80\text{ km/h}$ tube transit |
 
+#### 📡 CBTC Trackside Radio Access Unit (TAU) Spatial Diversity & MIMO Antennas
+
+| Radio Access Unit (TAU) Parameter | Hardware Profile & Antenna Mechanics | Operating Band & RF Standard | Environmental Resilience & Redundancy |
+| :--- | :--- | :---: | :--- |
+| **$2 \times 2$ MIMO Cross-Polarization**| Dual slant-polarized dipole array ($\pm 45^\circ$ polarization) | $5.8\text{ GHz}$ industrial IEEE 802.11n/ac | Cancels cross-talk interference while multiplying subterranean data throughput |
+| **Parapet Mast Spatial Diversity** | Trackside stainless-steel brackets spaced every $180\text{ m} – 220\text{ m}$ | Direct line-of-sight (LOS) coverage | Overlapping cell boundaries guarantee seamless handovers in **$< 20\text{ ms}$** |
+| **Heavy Monsoon Rain-Fade Margin**| High-gain directional beam shaping ($16\text{ dBi}$ forward gain) | Link margin reserve $> 25\text{ dB}$ | Sustains continuous vital train communications during $100\text{ mm/h}$ cloudbursts |
+| **Dual Redundant Optical Uplink** | Redundant SFP fiber Ethernet tranceivers tied to ring backbone | Dual-homed to alternating wayside switch | 0 frame loss if any single trackside switch or fiber strand is severed |
+
 #### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
 
 | Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
