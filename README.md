@@ -1403,6 +1403,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Flange Thickness ($Sd$)** | Standard `28 mm – 32 mm` | Min safe limit `22 mm` | Eliminates razor-sharp gauge-face edge wear on curved rails |
 | **Flange Slope Factor ($q_R$)**| Safe criterion **$q_R \ge 6.5\text{ mm}$** | Critical threshold $< 6.5\text{ mm}$ | Strictly complies with EN 15313 to prevent wheel climb derailments |
 
+#### 🛞 Wheelset Axle Press-Fit & Ultrasonic Non-Destructive In-Service Testing
+
+| Wheelset Assembly & NDT Dynamic | Mechanical Engineering Specification | Testing Standard & Metric | Structural Integrity & Defect Threshold |
+| :--- | :--- | :---: | :--- |
+| **Cold Hydraulic Press-Fit** | Force-displacement seating curve ($450\text{ kN} – 650\text{ kN}$) | Oil-injection groove tolerance $\pm 0.015\text{ mm}$ | Monitored by digital dynamometer; guarantees permanent interference fit |
+| **Phased Array Ultrasonic (PAUT)**| 64-element $2.25\text{ MHz} / 5.0\text{ MHz}$ annular array probes | Scans wheel seat through hollow axle bore | Detects micro-fatigue cracks as small as **$\ge 0.5\text{ mm}$** depth |
+| **Magnetic Particle Inspection (MPI)**| Fluorescent magnetic yoke magnetization under UV-A light | Sensitivity to surface cracks $\ge 10\ \mu\text{m}$ | Performed during heavy C-check overhauls on exposed axle transitions |
+| **Axle Steel Metallurgy (EA4T)**| Vacuum-degassed quenched and tempered alloy steel | Yield strength $R_{eH} \ge 420\text{ MPa}$ | Conforms to EN 13261; verified axle design lifespan **$> 30\text{ years}$** |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
