@@ -530,6 +530,15 @@ flowchart TD
 | **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
 | **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
 
+#### 🛞 Train Bogie Axle Grounding Carbon Brushes & Stray Current Pathing
+
+| Grounding Return Subsystem | Metallurgy & Spring Architecture | Contact Resistance & Ampacity | Bearing Protection & Return Path Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Silver-Graphite Earth Brushes** | Sintered metal-graphite composite ($50\% \text{ Ag} / 50\% \text{ C}$) | Contact resistance $R \le 2.5\text{ m}\Omega$ | Transmits traction return current directly to rotating axle center shaft |
+| **Constant-Force Helical Springs**| Stainless steel calibrated compression springs ($15\text{ N} – 20\text{ N}$) | Constant brush pressure $\approx 25\text{ kPa}$ | Prevents micro-sparking chatter and premature brush disintegration |
+| **Insulated Axle Bearing Housing** | Ceramic plasma-sprayed aluminum oxide ($\text{Al}_2\text{O}_3$) barrier | Breakdown voltage $U_{bd} > 3.0\text{ kV DC}$ | Prevents current flowing through roller bearings, eliminating fluting erosion |
+| **Flexible Copper Shunt Braids** | Ultra-flexible stranded electrolytic tinned copper jumpers | Ampacity $1,200\text{ A}$ continuous | Bypasses mechanical suspension joints, ensuring 100% fail-safe rail return |
+
 #### ⚙️ Traction Single-Stage Helical Gearbox & Torque Reaction Arm Dynamics
 
 | Gearbox & Drivetrain Subsystem | Mechanical Configuration & Tolerancing | Gear Ratio / Rating | Dynamic Damping & Powertrain Integrity |
