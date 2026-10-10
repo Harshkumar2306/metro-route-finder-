@@ -1187,6 +1187,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Reinforced RCC Fire Walls** | $300\text{ mm}$ reinforced concrete blast separating barrier | Fire endurance rating **$\ge 4\text{ hours}$** | Prevents projectile shrapnel and fireball spread to adjacent transformer bays |
 | **Oil Containment Soak Pits** | Pebble-filled drainage sump with flame trap grating | $150\%$ transformer oil capacity | Drains burning transformer oil safely to underground containment tanks |
 
+#### 🧯 Transformer Nitrogen Injection Fire Protection Systems (NIFPS)
+
+| NIFPS Protection Stage | Operating Electro-Pneumatic Mechanism | Trigger Threshold & Response Time | Internal Arc Quenching & Prevention Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Explosive Overpressure Sensing**| Mechanical differential pressure sensor & fast-acting rupture disc | Disruption pressure $> 0.20\text{ bar}$ | Triggers system in **$< 3\text{ ms}$** before transformer steel tank ruptures |
+| **Rapid Gravitational Oil Drain** | Large-bore motorized fast-drain valve ($150\text{ mm}$ dia) | Drains $3,000\text{ L}$ in **$< 10\text{ seconds}$** | Creates upper vapor headspace within tank for compressed inert gas injection |
+| **Bottom Nitrogen Gas Injection** | Pressurized nitrogen cylinder manifold ($150\text{ bar} \to 8\text{ bar}$) | Gas bubbling rate $120\text{ m}^3\text{/h}$ | Bubbles nitrogen through transformer core; displaces atmospheric oxygen |
+| **Cooling Oil Circulation Stirring**| Dynamic nitrogen percolation convective stirring | Reduces oil surface temp below $120^\circ\text{C}$ | Completely extinguishes active internal tank fire within **$< 30\text{ seconds}$** |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
