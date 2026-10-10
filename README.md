@@ -755,6 +755,15 @@ flowchart TD
 | **Vacuum Interrupter Load Break** | Sealed vacuum bottle arc quenching chamber ($800\text{ A}$ break) | Rated for 10,000 full-load break cycles | Permits breaking under full train auxiliary loads without atmospheric arcing |
 | **Castell Key Mechanical Interlock**| Trapped-key interlocking system with TSS substation switchboard | Zero-bypass mechanical sequencing | 100% physically prevents closing earth switch while line disconnector is energized |
 
+#### ⚡ Overhead Rigid Catenary System (ROCS) Aluminum Profile & Clamping
+
+| Rigid Catenary Component | Metallurgical & Structural Profile | Mechanical Tension & Clearance | Tunnel Integration & High-Speed Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Extruded Aluminum Conductor Bar**| 6101B-T6 aluminum alloy profile ($2,214\text{ mm}^2$ area) | $T = 0\text{ kN}$ (Zero mechanical tension) | Compact profile saves $> 450\text{ mm}$ headroom inside circular bored tunnels |
+| **Silver-Copper Contact Wire** | $150\text{ mm}^2$ CuAg 0.1% grooved contact wire | Clamped continuously by profile jaws | Eliminates catenary dropper fatigue snaps; 0 risk of dewirement |
+| **Suspension Cantilever Arms** | Articulated composite fiberglass cantilever brackets | Spacing every $10\text{ m} – 12\text{ m}$ in tunnels | Dynamic pantograph uplift strictly bounded to **$< 20\text{ mm}$** at $120\text{ km/h}$ |
+| **Rigid-to-Flexible Transition** | Tapered overlap transition span ($35\text{ m}$ length) | Smooth mechanical stiffness gradient | Seamless high-speed pantograph passage between tunnel portal and open viaduct |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
