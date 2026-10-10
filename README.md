@@ -737,6 +737,15 @@ flowchart TD
 | **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
 | **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
 
+#### 🛡️ Optical Defect Detection System (ODDS) & Pantograph Profiling Cameras
+
+| Pantograph Inspection Subsystem | Optoelectronic Sensor Architecture | Scanning Rate & Resolution | Defect Detection & Catenary Protection |
+| :--- | :--- | :---: | :--- |
+| **High-Speed 3D Laser Profilers**| Dual structured-light laser triangulation sensors | Frame rate $5,000\text{ FPS}$ at line speed | Measures carbon strip profile with depth accuracy **$\pm 0.2\text{ mm}$** |
+| **Strip Chipping & Gouge Analysis**| Multi-spectral UV-illuminated linescan cameras | Resolution $4096 \times 1\text{ pixels}$ | Detects carbon edge spalling, localized grooving and burns |
+| **Horn Pitch Angle Verification** | Dual side-view stereoscopic metric cameras | Angular accuracy $\pm 0.5^\circ$ | Flags bent or tilted pantograph collector heads before station approach |
+| **Automated Depot Gate Flagging**| Edge AI inference classifying defects in $< 1.2\text{ s}$ | Real-time wayside alert to OCC & Depot | Auto-locks train out of revenue service, preventing catenary entanglements |
+
 #### ⚡ OHE Neutral Section Phase Breaks & Automated Phase Clearing (APC)
 
 | Phase Break Component | Engineering Architecture & Materials | Physical Track Location | Grid Protection & Operation Dynamic |
