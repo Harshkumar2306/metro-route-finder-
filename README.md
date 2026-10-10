@@ -1241,6 +1241,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Ballastless Slab Plinth** | Reinforced concrete plinths with Vossloh fastenings | Fastener torque auditing & elastomeric pad checks | Zero ballast fly-away on viaducts & tunnels |
 | **Rail Profile Grinding (RCF)** | Heavy-duty 16-stone rail profile grinding trains | Scheduled acoustic reprofiling & corrugation removal | Minimizes wheel-rail squeal & vibrations |
 
+#### 🚇 Precast Ballastless Track Slab (RHEDA City / Porr Slab Track)
+
+| Track Slab Subsystem | Structural Architecture & Concrete Grade | Geometric Installation Tolerance | Vibration Damping & Lifespan Standard |
+| :--- | :--- | :---: | :--- |
+| **Precast Reinforced Slab** | High-performance C45/55 self-compacting concrete panels | Modular lengths $5.16\text{ m} \times 2.40\text{ m}$ | Completely eliminates crushed stone ballast pulverization and track churn |
+| **Top-Down Precision Spindle Alignment**| Screw spindles adjusting slab elevation and superelevation | Gauge $\pm 1.0\text{ mm}$, cross-level $\pm 1.5\text{ mm}$ | Guarantees millimetric track geometry alignment before cementitious mortar grouting |
+| **Continuous Elastic Rail Boot** | Extruded microcellular polyurethane elastomeric boot | Static bed stiffness $C_{stat} \approx 60\text{ kN/mm}$ | Attenuates structural rail vibrations by **$> 14\text{ dB}$** in underground tubes |
+| **Self-Compacting Cement Mortar** | Non-shrink high-flow cementitious asphalt grout under-layer | Compressive strength $\ge 30\text{ MPa}$ | Provides uniform monolithic load transfer to tunnel invert or viaduct deck |
+
 #### 🚆 Wheel-Rail Interface Lubrication & Friction Modification
 
 | Tribology Mechanism | Application Technology & Dispenser | Target Track Location | Mechanical & Acoustic Benefit |
