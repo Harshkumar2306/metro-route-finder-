@@ -710,6 +710,15 @@ flowchart TD
 | **Auxiliary Substations (ASS)**| 33 kV stepped down to 415 V / 240 V | Dual-bus ring-main topology at every passenger station | Uninterrupted power for signaling, escalators, lifts & TVS |
 | **Emergency Diesel GenSets** | 415 V standby backup power | Auto-Mains Failure (AMF) synchronized within **10 seconds** | Guarantees emergency lighting, smoke extraction & AFC gates |
 
+#### ⚡ Station Substation Gas Insulated Switchgear (GIS) & SF6 Gas Monitoring
+
+| GIS Switchgear Component | Electrical Rating & Insulation Medium | Footprint & Compactness Metric | SCADA Density Monitoring & Protection |
+| :--- | :--- | :---: | :--- |
+| **Indoor Metal-Enclosed GIS Bays**| $33\text{ kV} / 66\text{ kV}$ three-phase modular aluminum enclosures | Requires **$< 15\%$** volume of conventional AIS | Hermetically sealed against dust, urban pollutants & humidity extremes |
+| **Sulfur Hexafluoride ($\text{SF}_6$) Medium**| High-dielectric inert gas ($3\times$ air dielectric strength) | Operating pressure $0.55\text{ MPa}$ ($5.5\text{ bar}$) | Exceptional arc-quenching capability within vacuum/SF6 interrupter bottles |
+| **Dual-Stage Gas Density Transducers**| Temperature-compensated piezoresistive pressure transmitters | Stage 1 alarm: $0.52\text{ MPa}$; Stage 2: $0.48\text{ MPa}$ | Auto-blocks circuit breaker operation if critical gas leakage occurs |
+| **Maintenance & Operating Interval**| Completely maintenance-free gas-tight primary compartment | 10,000 mechanical switching cycles | Sealed-for-life partition barriers with service lifespan exceeding **40 years** |
+
 #### 🔋 Station Critical UPS Battery Systems & Static Transfer Switches (STS)
 
 | Power Protection Tier | Battery Cell Chemistry & Bus Voltage | Autonomy Runtime Duration | Critical Load Coverage & Failover Time |
