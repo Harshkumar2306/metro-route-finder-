@@ -764,6 +764,15 @@ flowchart TD
 | **Unity Power Factor Operation**| Dynamic active quadrant phase angle alignment | Bidirectional $\cos \phi = 1.0$ | Eliminates reactive current circulating back to 25 kV catenary |
 | **Acoustic Noise Mitigation**| Random frequency jitter pulse modulation (RPWM) | Spreads motor stator magnetic noise | Eliminates annoying high-pitched tonal whine inside passenger coaches |
 
+#### ⚡ Regenerative Braking Energy Inverter (HES / Hesop Substation Converter)
+
+| Substation Inverter Layer | Electrical Rating & Power Electronics | Grid Re-Injection Dynamic | Energy Recovery Efficiency & Benefits |
+| :--- | :--- | :---: | :--- |
+| **Bidirectional Thyristor/IGBT Bridge**| $4.0\text{ MW}$ active converter tied between traction & $33\text{ kV}$ grid | Microsecond commutation ($< 15\ \mu\text{s}$) | Seamlessly switches between rectifying mode and inverting recovery mode |
+| **Non-Receptive Energy Capture**| Captures excess braking currents when other trains cannot absorb | Inverts DC/AC back to local distribution | Eliminates trackside burn-off through inefficient rheostatic brake resistors |
+| **Harmonic Distortion Minimization**| Active LCL harmonic filtering with dynamic PWM control | Total current distortion $THD_i < 3.0\%$ | 100% conforms to CEA & IEEE 519 grid interconnect compliance |
+| **Station Net Energy Reduction**| Direct electrical feed to station auxiliary substations (ASS) | Recovers **up to 99%** of regenerable power | Lowers overall network traction electricity bill by **$12\% – 15\%$** |
+
 #### 🚊 Traction Converter Thermal Cooling: Heat Pipe vs. Forced Air Topology
 
 | Thermal Management Layer | Heat Transfer Mechanism | Coolant & Maintenance Profile | Extreme Climate Resilience ($48^\circ\text{C}$ Ambient) |
