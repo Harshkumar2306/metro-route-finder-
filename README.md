@@ -232,6 +232,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Emergency Traction Trip Loop** | Direct hardwired dry-contact output to CBTC track interlocking | Injects emergency brake (EB) command in **$< 150\text{ ms}$** | Immediately halts inbound train outside platform approach signal |
 | **Station Alarm & Strobe Klaxon** | Dual high-intensity pulsing red xenons + $105\text{ dBA}$ sounder | Platform headwall and station control room | Instantly alerts station master and CISF quick reaction teams |
 
+#### 🚪 Platform Screen Door Safety Laser Radar & Gap Monitoring Sensors
+
+| Gap Monitoring Subsystem | Optical Laser Radar / LiDAR Architecture | Resolution & Detection Zone | SIL-4 Interlock & Safety Protection |
+| :--- | :--- | :---: | :--- |
+| **2D Laser Time-of-Flight (TOF)** | Multi-layer pulsed infrared eye-safe Class 1 laser scanner | Resolution $\ge 25\text{ mm}$ cylindrical object | Scans $250\text{ mm}$ inter-door gap between coach leaf and glass PSD |
+| **Anti-Trapping Inter-Door Curtain**| Ceiling-mounted dual laser radar heads per door threshold | Scans 50 sweeps/sec ($50\text{ Hz}$) | Detects trapped commuter limbs, backpacks or pet leashes before train departure |
+| **SIL-4 Movement Authority Hold** | Closed-loop vital contact hardwired to CBTC Station Controller | Interlock response in **$< 100\text{ ms}$** | Inhibits train Movement Authority (MA); 100% prevents train roll out |
+| **Platform Audible Warning & Horn**| Directional high-penetration acoustic chime at affected doorway | Visual flashing red indicator on PSD transom | Guides station attendant directly to exact trapped door leaf for manual clearance |
+
 #### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
 
 | Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
