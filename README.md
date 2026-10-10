@@ -1677,6 +1677,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Tactile Braille Layout Maps**| Raised Relief thermoformed maps with Braille labels | Entry concourse near Customer Care booth | Complete tactile orientation of lifts, stairs & platforms |
 | **Coach Door Target Tiles** | High-contrast tactile chevrons | Centered directly in front of automated train doors | Positions visually impaired commuters at carriage boarding zone |
 
+#### 📱 BLE Beacon Wayfinding & Subterranean Pedestrian Dead Reckoning (PDR)
+
+| Subterranean Navigation Layer | Sensor Architecture & Frequency Band | Spatial Positioning Accuracy | Accessibility & GPS-Denied Wayfinding |
+| :--- | :--- | :---: | :--- |
+| **Bluetooth Low Energy (BLE 5.2)**| Battery-powered Nordic nRF52840 beacon array ($2.4\text{ GHz}$) | Spaced every $8.0\text{ m} – 10.0\text{ m}$ | Broadcasts multi-channel iBeacon / Eddystone UUIDs across concourses |
+| **Pedestrian Dead Reckoning (PDR)**| Smartphone 6-axis IMU (accelerometer + gyro) step counters | Step-length calibration $\pm 3.5\%$ | Computes user trajectory in deep underground levels lacking cellular service |
+| **Particle Filter Sensor Fusion** | Extended Kalman Filter (EKF) combining BLE RSSI and PDR | Real-time localization **$< 1.2\text{ m}$** | Provides smooth blue-dot navigation through complex multi-level interchange hubs |
+| **Accessibility Audio Haptic Cues**| Haptic vibration pulses + spatial 3D audio cues | Triggers within $1.5\text{ m}$ of stairs/lifts | Empowers visually impaired commuters with autonomous turn-by-turn routing |
+
 #### 🔊 Bilingual Passenger Information System (PIS) & In-Car Acoustical Signage
 
 | PIS Communication Channel | Technical Hardware Profile | Display / Audio Protocol | Accessibility & Commuter Utility |
