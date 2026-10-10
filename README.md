@@ -1169,6 +1169,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Subterranean Walkways** | Continuous 800mm raised concrete pedestrian pathway | 100% of underground running tunnels | Photoluminescent directional arrows & emergency lights |
 | **Tunnel Invert Sump Pumps** | Heavy-duty dual submersible pumps with float transducers | Sump pits located at tunnel dip points | Rapid monsoon flood clearance up to **20,000 L/min** |
 
+#### ❄️ Tunnel Under-Platform Exhaust (UPE) & Over-Track Exhaust (OTE) Plenums
+
+| Ventilation Exhaust Subsystem | Aerodynamic Ductwork Architecture | Air Extraction Rate / Velocity | Platform Thermal Control Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Under-Platform Exhaust (UPE)**| Continuous concrete plenum box integrated beneath platform nose | Extraction capacity $75\text{ m}^3\text{/s}$ | Directly captures underframe braking grid and traction motor thermal plumes |
+| **Over-Track Exhaust (OTE)** | Suspended overhead acoustic louvers along tunnel ceiling centerline | Extraction capacity $75\text{ m}^3\text{/s}$ | Removes hot condenser exhaust expelled upward by train rooftop HVAC units |
+| **Motorized Plenums Dampers** | Heavy-duty aerofoil blade dampers with 24 V DC modulated actuators | Closes/opens in **$< 15\text{ seconds}$** | Reconfigures automatically from heat extraction to emergency smoke purging |
+| **Platform Thermal Shielding** | Barrier aerodynamic flow isolates track thermal convection from PSDs | Cuts platform cooling load by **$30\%$** | Maintains public passenger platform concourse at stable $+25^\circ\text{C}$ comfort |
+
 #### 🌊 Subterranean Flood Defense Gates & Ingress Dewatering Telemetry
 
 | Flood Defense Layer | Engineering Mechanism & Capacity | Deployment Zone | Operational Trigger & Resilience |
