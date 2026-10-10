@@ -620,6 +620,15 @@ flowchart TD
 | **Creep-Control Phase** | Constant creep velocity regulator ($v \le 3.5\text{ km/h}$) | Final $3.0\text{ m}$ travel segment | Eliminates aggressive braking jerks while ensuring precise stopping mark |
 | **Jerk Limitation Transition** | Smooth cubic spline jerk filter ($j \le 0.75\text{ m/s}^3$) | Traction motor current ramp limits | Maximizes passenger standing balance without abrupt deceleration transitions |
 
+#### 🚄 Train Collision Avoidance System (TCAS / Kavach) Interoperability Layer
+
+| TCAS / Kavach Interop Layer | Radio Frequency & Protocol Architecture | Operational Metric / Standard | Safety Action & Cross-Network Safeguard |
+| :--- | :--- | :---: | :--- |
+| **UHF Station-to-Train Radio** | $450\text{ MHz} – 470\text{ MHz}$ duplex full-mesh digital link | Dynamic refresh period $\le 2.0\text{ seconds}$ | Continuous movement authority telemetry across shared RRTS/IR rail yards |
+| **Trackbed RFID Tag Transponders**| High-temperature passive RFID tags centered between rails | Spaced every $1,000\text{ m}$ on tangent track | Absolute track coordinate calibration independent of satellite GPS |
+| **Automatic SPAD Brake Intervention**| Vital relay driver overriding brake control unit (BCU) | Injects service/emergency brake in **$< 1.5\text{ s}$**| 100% halts train before collision point if red signal is passed at danger |
+| **SOS Emergency Broadcast** | Broadcasts collision hazard packets to all trains in $3\text{ km}$ radius | Latency $< 500\text{ ms}$ | Enforces instant automated brake clamps on all trains approaching danger sector |
+
 #### 🚦 ATS Dynamic Headway Regulation & Junction Conflict Resolution
 
 | ATS Regulation Function | Algorithmic Mechanism | Adjustment Bounds / Scope | Headway Reliability & Punctuality |
