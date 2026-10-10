@@ -512,6 +512,15 @@ flowchart TD
 | **Green & Violet** | Bombardier Movia & BEML | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Catenary (OHE) | 6-Car Rakes | 80 km/h |
 | **Airport Express (Orange)**| CAF (Construcciones y Auxiliar) | `1435 mm` (Standard Gauge) | 25 kV AC Overhead Rigid Catenary | 6-Car Dedicated Aerocity Rakes | 120 km/h |
 
+#### 🚊 Automatic Coupler (Scharfenberg Type 10) & Pneumatic Electrical Heads
+
+| Coupler Subsystem | Mechanical Architecture & Spec | Operating Pressure & Signals | Multi-Unit Rescue & Shunting Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Scharfenberg Type 10 Coupler**| Cast alloy steel cone-and-funnel self-centering latch | Tensile $1,000\text{ kN}$ / buffing $1,500\text{ kN}$ | Fully automatic mechanical coupling on impact down to $2.5\text{ km/h}$ |
+| **Pneumatic Air Line Connectors** | Integral main reservoir ($8.5\text{ bar}$) & brake pipe ($5.0\text{ bar}$) | Rubber sealing gaskets with poppet valves | Automatically connects train brake lines without manual track-level cock operation |
+| **Retractable Electrical Contact Head**| Top/side mounted gold-plated multi-pin contact blocks | $110\text{ V DC}$ control lines + 100 Mbps WTB | Auto-deploys protective dust cover when uncoupled; seals against monsoon rain |
+| **Deformable Energy Absorber** | Reversible gas-hydraulic buffer ($150\text{ kJ}$) + shear bolts | Triggers on collision force $> 800\text{ kN}$ | Absorbs low-speed yard impact shocks; protects carbody cab underframe from buckling |
+
 #### 🔌 Traction Power Systems: 25 kV AC Overhead vs. 750 V DC Third Rail Comparative Topology
 
 | Electrification Dimension | 25 kV AC Overhead Catenary (OHE / ROCS) | 750 V DC Third Rail (Bottom-Contact) | Network System Implementation |
