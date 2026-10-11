@@ -1466,6 +1466,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Magnetic Particle Inspection (MPI)**| Fluorescent magnetic yoke magnetization under UV-A light | Sensitivity to surface cracks $\ge 10\ \mu\text{m}$ | Performed during heavy C-check overhauls on exposed axle transitions |
 | **Axle Steel Metallurgy (EA4T)**| Vacuum-degassed quenched and tempered alloy steel | Yield strength $R_{eH} \ge 420\text{ MPa}$ | Conforms to EN 13261; verified axle design lifespan **$> 30\text{ years}$** |
 
+#### 🧲 Wheel Flange Solid Ceramic Induction Heating for Shrink-Fitting
+
+| Induction Heating Parameter | Technical Architecture & Electromagnetic Spec | Operating Temperature / Range | Metallurgical Safety & Shrink-Fit Precision |
+| :--- | :--- | :---: | :--- |
+| **Medium-Frequency Induction Coil**| $10\text{ kHz}$ water-cooled flexible copper inductor cables | Power rating $120\text{ kW}$ | Uniform circumferencial heating of monobloc wheel disc rim in $< 5\text{ mins}$ |
+| **Pyrometric Infrared Feedback** | Multi-point non-contact optical infrared pyrometers | Target temp $+280^\circ\text{C} – +300^\circ\text{C}$ | Enforces thermal gradient $\Delta T \le 15^\circ\text{C}$ across inner bore to outer tread |
+| **Thermal Expansion Clearance** | Diametrical bore thermal expansion $\Delta d \approx +1.8\text{ mm}$ | Shrink-fit interference $1.2\text{ mm}$ | Allows effortless zero-friction wheel mounting onto cold EA4T axle seat |
+| **Controlled Ambient Cooling** | Natural air cooling in temperature-controlled bay | Cooling rate $\le 2^\circ\text{C/min}$ | Conforms to EN 13262; prevents martensitic micro-cracking and residual stress |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
