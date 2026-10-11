@@ -584,6 +584,15 @@ flowchart TD
 | **Insulated Axle Bearing Housing** | Ceramic plasma-sprayed aluminum oxide ($\text{Al}_2\text{O}_3$) barrier | Breakdown voltage $U_{bd} > 3.0\text{ kV DC}$ | Prevents current flowing through roller bearings, eliminating fluting erosion |
 | **Flexible Copper Shunt Braids** | Ultra-flexible stranded electrolytic tinned copper jumpers | Ampacity $1,200\text{ A}$ continuous | Bypasses mechanical suspension joints, ensuring 100% fail-safe rail return |
 
+#### 🛞 Bogie Frame Structural Metallurgy & Low-Alloy High-Tensile Steel Welds
+
+| Bogie Structural Parameter | Metallurgy Standard & Fabrication | Mechanical Property / Heat Treatment | Fatigue Testing & Dynamic Longevity |
+| :--- | :--- | :---: | :--- |
+| **H-Frame Box-Type Girders** | Weathering steel (SMA490BW / EN 10025-5 S355J2W) | Yield strength $R_{eH} \ge 355\text{ MPa}$ | Continuous box section resistant to high dynamic fatigue twisting |
+| **Submerged Arc Fillet Welds**| Automated submerged arc welding (SAW) with multi-run passes | $100\%$ ultrasonic and radiographic inspection | Eliminates internal weld pore defects and undercuts in high-stress nodes |
+| **Post-Weld Stress Relief** | Thermal annealing furnace soaking at $580^\circ\text{C} \pm 15^\circ\text{C}$ | Soaking time $\ge 2.5\text{ hours}$ | Relieves residual welding stresses, preventing stress-corrosion cracking |
+| **Multi-Axial Fatigue Bench** | Full-scale hydraulic multi-actuator bogie test rig | Tested to **$> 1.0 \times 10^7\text{ cycles}$** | Complies with UIC 615-4 & EN 13749; guarantees 35-year fatigue design life |
+
 #### ⚙️ Traction Single-Stage Helical Gearbox & Torque Reaction Arm Dynamics
 
 | Gearbox & Drivetrain Subsystem | Mechanical Configuration & Tolerancing | Gear Ratio / Rating | Dynamic Damping & Powertrain Integrity |
