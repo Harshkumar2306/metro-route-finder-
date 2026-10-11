@@ -764,6 +764,15 @@ flowchart TD
 | **Doppler Factor ($\beta$)** | Contact reflection coefficient $\beta = 1 - v/c$ | $\beta \approx 0.73$ at $120\text{ km/h}$ | Suppresses standing wave reflections and pantograph contact arc |
 | **Stitch Wire Cantilever Damping**| Elastic auxiliary stitch wire at mast supports | `10 m – 14 m` bi-directional span | Eliminates hard-spot stiffness peaks beneath cantilevers |
 
+#### 🚡 Catenary Dropper Fatigue Testing & Ultrasonic Clip Scanning
+
+| Dropper Diagnostic Parameter | Material Specification & Architecture | Test Metric / Operating Threshold | Fatigue Prevention & Catenary Longevity |
+| :--- | :--- | :---: | :--- |
+| **Current-Carrying Flexible Bronze**| Stranded CuMg / bronze wire ($10\text{ mm}^2 / 16\text{ mm}^2$) | Electrical conductivity $> 80\%\text{ IACS}$ | Conducts current between catenary and contact wire without overheating |
+| **High-Cycle Vibration Fatigue** | Resonant vertical fatigue cycling bench ($10\text{ Hz}$) | Withstands **$> 2.0 \times 10^6\text{ cycles}$** | Conforms to EN 50119; prevents wind-induced aeolian vibration breakage |
+| **Ultrasonic Clip Torque Auditing**| Phased array ultrasonic clamp torque scan | Bolt clamping torque $25\text{ Nm} \pm 2\text{ Nm}$ | Identifies loose or over-torqued dropper clips along high-speed corridors |
+| **Articulated Eyelet Thimbles** | Stainless-steel reinforced teardrop thimble loops | Radius $> 15\text{ mm}$ with anti-fret sleeves | Eliminates localized bending stress concentrations and mechanical wear notches |
+
 #### 🚊 Overhead Catenary Auto-Tensioning Device (ATD) Pulley Compensation
 
 | ATD Compensation Parameter | Mechanical Architecture & Spec | Operating Temperature Span | Catenary Dynamic Tension Stabilization |
