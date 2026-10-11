@@ -1439,6 +1439,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Floating Slab Track (FST)** | Attenuates vibration by **$> 18\text{ dB}$** | Polyurethane elastomeric boot pads under concrete slab | Protects historic monuments (Qutub Minar, Red Fort) |
 | **Flexible Tunnel Joints** | Subterranean seismic expansion collars | EPDM double-lip gaskets between bored tunnel rings | Absorbs differential soil settlement without water leakage |
 
+#### 🛡️ Elevated Viaduct Expansion Joints & Finger-Plate Seismic Gap Bridges
+
+| Expansion Joint Component | Metallurgical & Structural Architecture | Displacement Capacity / Metric | Dynamic Load Transfer & Ride Continuity |
+| :--- | :--- | :---: | :--- |
+| **Cantilever Finger Plates** | Cast high-strength nodular iron / structural steel (S355) | Longitudinal travel $\pm 100\text{ mm}$ | Interlocking cantilever fingers support wheel transit without impact shock |
+| **Seismic Lateral Shear Keys** | High-tensile stainless steel guide dowels with elastomeric sleeves | Transverse shear displacement $\pm 50\text{ mm}$ | Restricts lateral track plinth misalignment during Zone-IV seismic shaking |
+| **Continuous Neoprene Drainage Trough**| Fabric-reinforced chloroprene elastomer gutter channel | Watertight gutter under joint gap | Channels roadway rainfall away from pier caps, preventing rebar corrosion |
+| **Acoustic Noise Baffle Cushions**| Under-plate polyurethane dampening strips ($20\text{ mm}$ thick) | Attenuates wheel crossing slap by **$12\text{ dBA}$** | Conforms to IRC:SP:69; eliminates structural slap vibrations into viaduct |
+
 ### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
 
 | Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
