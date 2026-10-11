@@ -1203,6 +1203,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Directional Dynamic Reversal** | Centralized Station Computer (SC) software trigger | Switches in $< 5\text{ seconds}$ | Dynamically flips gates from Entry to Exit during peak dispersal |
 | **Commuter Clearance Capacity** | High-throughput continuous transit throughput | **42–48 passengers/minute** | Ensures zero station concourse backlog during crush peak hours |
 
+#### 📱 AFC Fare Gate Contactless NFC Antenna Matching & EMV Level-1 Tuning
+
+| RF Front-End Subsystem | PCB Geometry & Matching Network | Operating Carrier & Field Metric | Contactless Transaction Standard |
+| :--- | :--- | :---: | :--- |
+| **Symmetrical PCB Loop Antenna** | 4-turn etched copper coil ($70\text{ mm} \times 70\text{ mm}$) | Carrier frequency $13.56\text{ MHz} \pm 7\text{ kHz}$ | Generates uniform magnetic field across $0\text{ mm} – 40\text{ mm}$ read zone |
+| **Differential Matching Network**| Passive capacitive-inductive matching circuit ($Q \approx 20$) | Magnetic field $H_{\min} \ge 1.5\text{ A/m}$ | Complies with EMVCo Contactless Level-1 Analog specifications |
+| **Sub-Carrier Load Modulation** | Sub-carrier amplitude modulation ($m = 10\% – 14\%$) | Data rate $106\text{ kbps} – 848\text{ kbps}$ | Ensures error-free card data recovery during aggressive commuter tap-and-go |
+| **Type A / Type B Polling Loop**| Alternating ISO/IEC 14443 & FeliCa frame interrogation | Polling cycle latency **$< 35\text{ ms}$** | Seamlessly supports NCMC smart cards, Apple Pay, Google Pay, and Paytm |
+
 #### 📱 Dynamic Rolling QR Code Ticketing & Offline Cryptographic Verification
 
 | Mobile Ticketing Dimension | Cryptographic Specification | Security / Validity Window | Anti-Fraud & Performance Benchmark |
