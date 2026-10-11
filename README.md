@@ -304,6 +304,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Rewa Solar PPA Integration** | Dedicated green power feed from Rewa Ultra Mega Solar Park | Powers **~24%** of daily daytime operations | Pioneering utility-scale solar transit adoption |
 | **Smart Inverter Station HVAC** | Variable refrigerant flow (VRF) and dynamic chiller staging | Cuts terminal cooling energy by **25%** | Saves $> 30\text{ million kWh}$ auxiliary electricity |
 
+#### ⚡ Depot Solar Microgrid & DC-Fast Charger Pantograph Depots
+
+| Depot Microgrid Layer | Infrastructure Architecture & Capacity | Power Conversion & Interface | Ecological & Feeder Bus Benefit |
+| :--- | :--- | :---: | :--- |
+| **Depot Solar Canopy Microgrid**| $1.5\text{ MWp}$ bifacial monocrystalline PERC solar sheds | $33\text{ kV}$ internal ring distribution | Powers train stabling yard lighting, washing plants & compressor bays |
+| **BESS Battery Energy Storage** | $2.0\text{ MWh}$ Lithium Iron Phosphate ($\text{LiFePO}_4$) container | Islanding switchover time $< 20\text{ ms}$ | Provides black-start capability for depot auxiliary systems during grid failure |
+| **OppCharge Inverted Pantograph**| Overhead automated descending pantograph DC chargers | $450\text{ kW}$ ultra-fast DC charge | Recharges feeder electric transit buses to $80\%$ within **$< 10\text{ mins}$** |
+| **Dynamic Demand Peak Shaving** | AI-driven microgrid energy management system (EMS) | Offsets peak grid demand spikes | Cuts depot peak electricity tariffs by **$28\%$** through solar-battery dispatch |
+
 #### 🔋 Wayside Energy Storage Systems (WESS) & Supercapacitor Inverters
 
 | Energy Storage Architecture | Operating Voltage & Capacitance | Charging / Discharging Dynamic | Energy Recovery Efficiency |
