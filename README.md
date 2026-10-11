@@ -1403,6 +1403,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Top-of-Rail Migration Shield** | Solid-state dry-wax binder (melting point $> 180^\circ\text{C}$) | Zero centrifugal grease migration | Preserves critical wheel-tread tractive braking adhesion ($\mu_{tread} \ge 0.38$) |
 | **Curve Squeal Reduction** | Eliminates stick-slip oscillation on tight depot loops ($R \le 150\text{ m}$) | Noise reduction **$-14\text{ dBA}$** | 100% spray-free; prevents oil contamination of ballastless track plinths |
 
+#### 🛑 Track Lubricant Friction Creep Curve & Top-of-Rail (TOR) Dynamics
+
+| TOR Tribological Property | Rheological Formulation & Metric | Operating Characteristic | Acoustic Damping & Rail Corrugation |
+| :--- | :--- | :---: | :--- |
+| **Positive Friction Creep Slope**| $d\mu / d\xi > 0$ under dynamic wheel slip ($\xi$) | Sustains $\mu = 0.35 \pm 0.05$ | Eliminates negative-damping stick-slip oscillations driving rail corrugation |
+| **Micro-Thin Dry Film Matrix** | Water-based suspension drying to $1.0\ \mu\text{m}$ dry solid film | Flash drying time $< 30\text{ seconds}$ | Retains traction adhesion without greasy buildup or wheel braking slip |
+| **Track-Braking Retardation** | Complies with full emergency braking rate ($a \ge 1.3\text{ m/s}^2$) | Zero stopping distance penalty | Safely applies to station approach tracks and steep viaduct grade transitions |
+| **Acoustic Curve Squeal Attenuation**| Eliminates high-frequency lateral resonance modes | Lowers tonal squeal by **$> 16\text{ dBA}$** | Drastically cuts transit noise pollution along curved residential alignments |
+
 #### ⚡ Track Circuitry & Axle Counter Train Detection Systems
 
 | Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
