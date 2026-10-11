@@ -1466,6 +1466,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Traction Current EMI Filtering** | Bandpass choke filters & earthing return bonds | Neutralizes 50 Hz & 3rd harmonic noise | Isolates high-power 25 kV return currents from microvolt signaling |
 | **Vital Logic Track Interlocking** | CENELEC SIL-4 redundant computerized microprocessors | Real-time optical fiber Ethernet loop | 100% fail-safe: automatically imposes emergency red aspect if disrupted |
 
+#### 🚊 Track Circuit Shunting Sensitivity & Rail Surface Sand Contamination Management
+
+| Track Shunting Dimension | Electrical Parameter & Standard | Operating Threshold / Limit | Train Detection Safety Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Standard Shunt Sensitivity** | Ballast shunt resistance calibration (EN 50161) | Shunting sensitivity $R_{sh} \ge 0.5\ \Omega$ | Guarantees reliable occupancy drop even with lightweight empty trainsets |
+| **High-Voltage Impulse Shunting**| High-amplitude narrow pulse sender ($> 100\text{ V}$ peak) | Pulse repetition rate $25\text{ Hz}$ | Electrically punctures high-resistance non-conductive rust and leaf film |
+| **Sanding System Dispersion Limit**| Calibrated wheel-flange pneumatic sand injectors | Micro-dosing rate $\le 400\text{ g/min}$ | Prevents thick non-conductive sand insulation layer between wheel and rail |
+| **Fail-Safe Axle Counter Backup** | Clamped multi-frequency inductive wheel sensor heads | 100% immune to rail surface contaminants | Retains vital block interlocking if high contact impedance disrupts track circuits |
+
 #### 🚄 High-Speed Turnout Geometry & Thick-Web Switch Blades
 
 | Turnout Subsystem | Profile Standard & Metallurgy | Divergence Speed Capacity | Reliability & Maintenance Enhancement |
