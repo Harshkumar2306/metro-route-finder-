@@ -349,6 +349,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Line Voltage Sag Stabilization** | Dynamic voltage clamping circuit preventing dips below $19\text{ kV}$ | Responds within **$< 2\text{ ms}$** to catenary sags | Eliminates nuisance undervoltage tripping when multiple rakes launch simultaneously |
 | **Brake Resistor Chopper Protection** | Heavy-duty roof-mounted braking resistor grid with thermal sensing | Absorbs excess energy only when capacitors are at $100\%$ SOC | Extends mechanical brake disc pad lifespan by **$> 40\%$** |
 
+#### ⚡ Regenerative Braking Crowbar Thyristor Protection & DC Overvoltage Snubbers
+
+| Overvoltage Protection Layer | Power Electronics & Clamping Hardware | Trigger Latency & Threshold | Inverter Isolation & Surge Damping |
+| :--- | :--- | :---: | :--- |
+| **Solid-State Crowbar Thyristor**| Bidirectional high-power phase-control thyristor disc | Clamps intermediate DC bus at $U_{clamp} \ge 1,950\text{ V}$ | Fires in **$< 5\ \mu\text{s}$** to short-circuit catastrophic inductive voltage spikes |
+| **Pulsed Energy Discharge Resistor**| Low-inductance alloy ribbon resistor ($0.5\ \Omega, 150\text{ kJ}$)| Peak discharge current $3,900\text{ A}$ | Safely absorbs inductive energy stored in transformer and traction filter chokes |
+| **Low-Inductance Snubber Capacitors**| Polypropylene metallized film snubber capacitors (low ESL) | Self-healing dielectric ($3.3\text{ kV DC}$ rating)| Absorbs microsecond $dv/dt$ commutation spikes across IGBT collector-emitter |
+| **Fast Gate Drive Crowbar Lockout**| Optically isolated gate drive interlock to TCMS | System shutdown within **$< 15\ \mu\text{s}$** | Prevents inverter shoot-through and catastrophic IGBT silicon rupture |
+
 #### 💧 Water Conservation & Rainwater Harvesting Infrastructure
 
 | Ecological Water Measure | Engineering Mechanism | Network Implementation | Resource Conservation Metric |
