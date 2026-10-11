@@ -818,6 +818,15 @@ flowchart TD
 | **Resin Section Insulators** | High-grade fiberglass reinforced resin runners with arc chutes | Installed over station turnouts | Mechanically level passage while isolating crossover feeder tracks |
 | **Mid-Point Anchor (MPA)** | Rigid anti-creep longitudinal steel guy wires | Central span between ATD pulleys | Restricts catenary wire longitudinal creeping under brake reaction force |
 
+#### 🚡 Catenary Cantilever Insulator Creepage Distance & Anti-Pollution Glaze
+
+| Insulator Engineering Dimension | Material Composition & Standard | Mechanical & Electrical Rating | Winter Smog & Pollution Flashover Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Composite Silicone Cantilever**| High-temperature vulcanized (HTV) silicone rubber housing | Mechanical cantilever load $\ge 16\text{ kN}$ | Hydrophobic surface prevents continuous water filming during winter fog |
+| **Specific Creepage Distance** | Creepage length $\ge 31\text{ mm/kV}$ ($1,050\text{ mm}$ total path) | IEC 60815 Class IV (Very Heavy) | Suppresses surface leakage currents under heavy Delhi dust and soot layers |
+| **RTV Anti-Pollution Glaze** | Room-Temperature Vulcanizing silicone elastomer coating | Dielectric strength $> 25\text{ kV/mm}$ | Prevents salt-mist and particulate flashovers without manual washing |
+| **Corona Discharge Ring** | Toroidal aluminum alloy corona grading ring at live end | Electric field grading $E \le 1.8\text{ kV/mm}$ | Extinguishes localized air ionization; eliminates radio & TV EMI noise |
+
 #### 🚊 Overhead Catenary Sectionalizer Switches & Motorized Disconnectors
 
 | Switching Subsystem | Electrical Rating & Mechanical Standard | Actuation Protocol & Time | Grid Isolation & Worker Safety Interlock |
