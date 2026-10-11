@@ -908,6 +908,15 @@ flowchart TD
 | **Inverter Surge Withstand ($dv/dt$)**| Reinforced turn-to-turn inter-strand polyimide barrier | Withstands $dv/dt \ge 5\text{ kV/\mu s}$ (IEC 60034-18-41) | Eliminates high-frequency reflected wave voltage punctures from PWM IGBTs |
 | **End-Winding Fiberglass Lacing** | High-tensile resin-saturated glass cord tied to support rings | Mechanical shear strength $> 800\text{ N}$ | Prevents stator winding mechanical splay under peak starting electromagnetic torque |
 
+#### 🚄 Traction Motor Carbon Fiber Rotor Sleeve & High-Speed Dynamic Balancing
+
+| Rotor Dynamics Subsystem | Material Specification & Balancing Tier | Operating Speed / Stress Rating | Dynamic Stability & PMSM Retention |
+| :--- | :--- | :---: | :--- |
+| **Filament-Wound Carbon Sleeve**| Toray T700 carbon-fiber prepreg in toughened epoxy matrix | Tensile hoop stress $> 2,200\text{ MPa}$ | Retains rare-earth permanent magnets (NdFeB) at $6,000\text{ RPM}$ peak overspeed |
+| **Dynamic Precision Balancing** | Dual-plane horizontal balancing machine (ISO 21940 Grade G1.0)| Residual unbalance **$< 1.0\text{ g}\cdot\text{mm/kg}$** | Suppresses rotor centrifugal vibration forces, protecting hybrid ceramic bearings |
+| **Interference Shrink Retainer**| Precision ground cylindrical carbon sleeve press-fit | Radial interference $\Delta r = 0.25\text{ mm}$ | Prevents rotor magnet slippage during severe dynamic braking torque reversals |
+| **Eddy Current Shielding Layer**| Micro-thin copper eddy current shielding foil ($0.2\text{ mm}$)| Minimizes high-frequency rotor losses | Clamps rotor surface temperature rise, preventing NdFeB magnet demagnetization |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
