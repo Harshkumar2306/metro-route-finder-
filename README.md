@@ -674,6 +674,15 @@ flowchart TD
 | **Tunnel Leaky Coaxial (LCX)**| Multi-carrier 4G/5G radiating cables in bored tunnels | Yellow, Violet & Airport subterranean sectors | Continuous mobile carrier reception during underground transit |
 | **TETRA Emergency Radio** | 380–400 MHz encrypted digital trunked radio | Train drivers, station controllers, CISF security | Mission-critical voice communications with 99.999% uptime |
 
+#### 📡 TETRA Mission-Critical Voice & Dispatcher Console Architecture
+
+| TETRA Subsystem Tier | Digital Standard & Spectrum Architecture | Call Setup Latency / Priority | Mission-Critical Operational Role |
+| :--- | :--- | :---: | :--- |
+| **Base Station Transceiver (TBS)** | $380\text{ MHz} – 400\text{ MHz}$ 4-slot TDMA ($25\text{ kHz}$ channels) | Redundant $N+1$ transceivers | Continuous coverage across viaducts, tunnels and underground stations |
+| **OCC Dispatcher IP Consoles** | Touchscreen multi-channel dispatcher consoles (SIP/VoIP) | Call setup latency **$< 300\text{ ms}$** | Real-time direct voice broadcast to all line drivers or specific train rakes |
+| **Preemptive Emergency Call (PEPC)**| Dedicated emergency button overriding all active traffic | Priority level 15 (Highest) | Instantly clears channel for disaster response, emergency stops & alarms |
+| **Cab Radio Man-Machine Interface**| Ruggedized fist microphone with gooseneck speaker | Hardwired silent foot-switch alarm | Enables hands-free driver communication during train operation |
+
 #### 📡 Train-to-Ground Radio Communication (CBTC Wi-Fi & LTE-M 1.8 GHz)
 
 | Wireless Communication Layer | Spectrum Band & Protocol | Hardware Deployment | Redundancy & Latency Benchmark |
