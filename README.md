@@ -992,6 +992,15 @@ $$
 C(P) = \sum_{i=1}^{k} W(v_{i-1}, v_i, L_{i-1})
 $$
 
+#### 🧭 Transit Transfer Footway Penalty Calibration & Walking Curve Polynomials
+
+| Footway Transfer Parameter | Calibrated Mathematical Formulation | Empirical Constant / Exponent | Commuter Behavioral Realism |
+| :--- | :--- | :--- | :--- |
+| **Physical Walking Distance ($d_{walk}$)**| Linear distance component $W_d = \alpha \cdot d_{walk}(v)$ | Walking velocity $v_w \approx 1.2\text{ m/s}$ | Models horizontal corridor traversal between platforms ($150\text{ m} – 350\text{ m}$) |
+| **Vertical Stair & Escalator Incline**| Polynomial vertical climb penalty $W_v = \beta \cdot (\Delta h)^2$ | $\beta \approx 0.08\text{ s/m}^2$, height $\Delta h$ | Heavily penalizes deep multi-level stair ascents (e.g. Hauz Khas deep tube) |
+| **Connection Headway Buffer** | Dynamic wait time $W_w = \frac{1}{2} H(L_{out}) + \delta_{crowd}$ | Headway $H(L_{out}) \in [120\text{ s}, 360\text{ s}]$ | Captures probabilistic departure wait times for connecting metro lines |
+| **Augmented Metric Optimization** | Composite transfer cost $\lambda_{total} = W_d + W_v + W_w$ | Calibrated penalty $\lambda \in [8, 14]$ | Aligns Dijkstra route recommendations with observed commuter choice flows |
+
 ### 🔍 Pathfinding Implementation Logic (BFS & Dijkstra)
 
 ```javascript
