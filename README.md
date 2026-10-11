@@ -1295,6 +1295,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Motorized Plenums Dampers** | Heavy-duty aerofoil blade dampers with 24 V DC modulated actuators | Closes/opens in **$< 15\text{ seconds}$** | Reconfigures automatically from heat extraction to emergency smoke purging |
 | **Platform Thermal Shielding** | Barrier aerodynamic flow isolates track thermal convection from PSDs | Cuts platform cooling load by **$30\%$** | Maintains public passenger platform concourse at stable $+25^\circ\text{C}$ comfort |
 
+#### ❄️ Tunnel Cross-Passage Pressurization & Blast Damper Aerodynamics
+
+| Cross-Passage Subsystem | Aerodynamic & Structural Architecture | Differential Pressure / Rating | Life Safety & Smoke Barrier Function |
+| :--- | :--- | :---: | :--- |
+| **Airtight Blast Refuge Doors** | Dual-leaf reinforced stainless-steel fire door sets | Resists transient piston pressure $\pm 25\text{ kPa}$ | Conforms to NFPA 130; provides 2-hour structural fire integrity |
+| **Positive Air Lock Pressurization**| Dedicated centrifugal fans supplying fresh outside air | Positive overpressure **$\Delta P \ge 50\text{ Pa}$** | Blocks smoke and toxic gases from entering cross-passage when doors open |
+| **Aerodynamic Blast Relief Dampers**| Heavy-duty counterbalanced gravity stainless-steel blades | Opens in $< 0.1\text{ s}$ on overpressure | Relieves high-speed train aerodynamic shockwaves into relief shafts |
+| **Evacuation Corridor Lighting**| Sealed IP67 low-glare LED luminaires with battery packs | Continuous illumination $\ge 150\text{ lux}$ | Features floor-level photoluminescent egress markers guiding passengers |
+
 #### 🌊 Subterranean Flood Defense Gates & Ingress Dewatering Telemetry
 
 | Flood Defense Layer | Engineering Mechanism & Capacity | Deployment Zone | Operational Trigger & Resilience |
