@@ -1340,6 +1340,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Ultrasonic Level Telemetry** | Redundant non-contact ultrasonic transducers | Integrated with central SCADA system | Automated staged pump activation at $40\%$, $60\%$, and $80\%$ levels |
 | **Emergency Sump Dewatering** | Dual high-head vortex submersible pumps ($45\text{ kW}$) | Dedicated storm discharge riser pipelines | Directs water to municipal storm drains at **$30,000\text{ L/min}$** |
 
+#### 🌊 Tunnel Subterranean Groundwater Drainage Trench & Geotextile Filter Bed
+
+| Subterranean Drainage Component | Civil Engineering Specification | Flow Rate / Slope Gradient | Filtration & Calcification Mitigation |
+| :--- | :--- | :---: | :--- |
+| **Central Invert Drain Trench** | Continuous precast concrete U-channel ($300\text{ mm} \times 400\text{ mm}$) | Self-cleansing slope $i \ge 0.3\%$ | Gravitationally channels track seepage water toward lowest dip sumps |
+| **Non-Woven Geotextile Blanket**| Needle-punched virgin polypropylene blanket ($300\text{ g/m}^2$) | Flow permeability $k \ge 10^{-3}\text{ m/s}$ | Filters micro-silt while preventing subsoil migration into drainage channel |
+| **Perforated Sub-Drain Collector**| Heavy-duty slotted corrugated HDPE pipe ($200\text{ mm}$ dia) | Slot width $1.5\text{ mm} \pm 0.2\text{ mm}$ | Depressurizes hydrostatic groundwater pressure behind bored tunnel invert |
+| **Anti-Incrustation Flushing Pits**| Stainless-steel rodding eyes and inspection cleanouts every $50\text{ m}$ | High-pressure jetting access | Prevents calcium carbonate sinter buildup and chemical calcification blockages |
+
 #### 🧯 Fire Detection & Suppression Architecture (NFPA 130 Compliance)
 
 | Fire Life-Safety Subsystem | Detection & Suppressant Agent | Target Station / Tunnel Zone | Activation & Containment Benchmark |
