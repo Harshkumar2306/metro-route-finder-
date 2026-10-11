@@ -2065,6 +2065,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Explosive Trace Detectors (ETD)**| Ion Mobility Spectrometry (**IMS**) vapor analysis | Verification within **8 seconds** | Detects microscopic picogram traces of military & commercial energetic salts |
 | **CISF Quick Reaction Teams (QRT)**| Armed tactical squads equipped with MP5 / INSAS carbines | Rapid intervention in $< 60\text{ s}$ | Secures high-density interchange plazas against physical threats |
 
+#### 📱 Station Luggage X-Ray Inspection Tunnel & Dual-Energy Dual-View Analytics
+
+| Luggage Inspection Subsystem | Generator & Detector Geometry | Throughput / Detection Metric | Material Discrimination & Threat Projection |
+| :--- | :--- | :---: | :--- |
+| **Dual-View X-Ray Generators** | Dual orthogonal X-ray beams ($160\text{ kV} / 180\text{ kV}$) | Tunnel aperture $650\text{ mm} \times 500\text{ mm}$ | Eliminates blind spots; dual perspectives capture thin concealed weapons |
+| **Atomic Number ($Z_{eff}$) Sorting**| High/low energy scintillation photodiode arrays | Effective atomic number $Z_{eff} \pm 0.2$ | Distinguishes organic explosives (orange), inorganics (blue) & metals (black) |
+| **High-Speed Conveyor Belt** | Variable frequency drum motor ($0.22\text{ m/s}$) | Throughput **$> 1,800\text{ bags/hour}$** | High-clearance continuous transit screening preventing concourse queues |
+| **Threat Image Projection (TIP)** | Automated pseudo-random threat image insertion software | Real-time screener vigilance auditing | Evaluates screener hit/miss reaction rates within $< 3.0\text{ seconds}$ |
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
