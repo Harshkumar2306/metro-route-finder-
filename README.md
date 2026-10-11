@@ -132,6 +132,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Auxiliary Pawl Safety Brake** | Electromagnetic ratchet pawl brake on main drive shaft | Independent of service solenoid shoe brake | Prevents catastrophic reverse runaway rollback under crush crowd loads |
 | **Transit Passenger Capacity** | Continuous passenger throughput | **9,000 – 11,700 commuters/hour** | Unclogs interchange platform decks during simultaneous train arrivals |
 
+#### 🛗 Heavy-Duty Transit Escalator Truss Structure & Deflection Engineering
+
+| Truss Engineering Parameter | Structural Material & Metallurgical Standard | Calculation Metric / Limit | Structural Rigidity & Crowd Safety |
+| :--- | :--- | :---: | :--- |
+| **Welded Tubular Truss** | Hot-rolled structural steel tubing (EN 10219 S275JR) | Structural safety factor $> 5.0$ | Continuous welded space frame withstanding deep-pit underground loads |
+| **Maximum Live Load Deflection** | Finite element deflection under full crush capacity | Strictly bounded to **$\le L/1000$** | Prevents drive shaft misalignment and step chain binding under 11,000 p/h |
+| **Duplex Drive Roller Chains** | Alloy steel induction-hardened link plates & pins | Breaking load tenacity $> 320\text{ kN}$ | Transmits smooth torque from planetary gearbox to top sprocket assembly |
+| **Seismic Swivel Floor Bearings**| PTFE sliding spherical bearings on concrete abutments | Dynamic displacement allowance $\pm 35\text{ mm}$ | Absorbs differential station structural shifts during Zone-IV seismic events |
+
 #### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
 
 | Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
