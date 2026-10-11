@@ -250,6 +250,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **SIL-4 Movement Authority Hold** | Closed-loop vital contact hardwired to CBTC Station Controller | Interlock response in **$< 100\text{ ms}$** | Inhibits train Movement Authority (MA); 100% prevents train roll out |
 | **Platform Audible Warning & Horn**| Directional high-penetration acoustic chime at affected doorway | Visual flashing red indicator on PSD transom | Guides station attendant directly to exact trapped door leaf for manual clearance |
 
+#### 🚪 Platform Screen Door Brushless DC Drive & Obstacle Jam Auto-Clearance
+
+| PSD Door Actuation Parameter | Electro-Mechanical Architecture & Motor | Operating Profile / Limit | Passenger Safety & Jam Clearance Protocol |
+| :--- | :--- | :---: | :--- |
+| **Brushless DC Motor (BLDC)** | 24 V DC direct-drive motor with planetary reduction gearhead | Speed profile $0.6\text{ m/s} – 0.8\text{ m/s}$ | Smooth S-curve acceleration and deceleration; zero brush carbon dust |
+| **Dynamic Current Pinch Limiting**| Microprocessor current loop sensing motor shaft back-EMF | Static pinch force strictly **$\le 150\text{ N}$** | EN 14752 compliant; eliminates risk of physical crushing injuries |
+| **Automated Jam Re-Open Sequence**| Auto-reverses door by $200\text{ mm}$ upon obstacle resistance | Re-opening response in **$< 120\text{ ms}$** | Cycles up to 3 times before entering safe acoustic alarm lockout state |
+| **Tooth-Belt Synchronous Drive**| Steel-cord reinforced polyurethane synchronous timing belt | Service life $> 1.5 \times 10^6\text{ cycles}$ | High-tensile drive guarantees synchronized movement of bi-parting glass leaves |
+
 #### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
 
 | Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
