@@ -1529,6 +1529,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Ballastless Slab Plinth** | Reinforced concrete plinths with Vossloh fastenings | Fastener torque auditing & elastomeric pad checks | Zero ballast fly-away on viaducts & tunnels |
 | **Rail Profile Grinding (RCF)** | Heavy-duty 16-stone rail profile grinding trains | Scheduled acoustic reprofiling & corrugation removal | Minimizes wheel-rail squeal & vibrations |
 
+#### 🛤️ Mobile Flash-Butt Rail Welding (FBW) & Aluminothermic Field Kit Standards
+
+| Rail Welding Parameter | Metallurgical Process & Sizing | Operating Force / Current | Structural Integrity & Defect Standard |
+| :--- | :--- | :---: | :--- |
+| **Mobile Flash-Butt Welding (FBW)**| Containerized automated rail welding head on hi-rail truck | Forge clamping force $> 650\text{ kN}$, current $40\text{ kA}$ | 100% parent metal fusion without filler metal; zero inclusions |
+| **Heat-Affected Zone (HAZ)** | Controlled narrow induction thermal tempering band | HAZ width strictly **$\le 35\text{ mm}$** | Eliminates rail head softening dips; preserves 1080 HH hardness |
+| **Aluminothermic (Thermite) Kits**| Highly-controlled iron oxide + aluminum powder charge ($\text{Al} + \text{Fe}_2\text{O}_3$)| Crucible tapping temp $\sim 2,050^\circ\text{C}$ | Utilized for in-situ field turnout closure welds and insulated joints |
+| **Slow-Bend Deflection Test** | Hydraulic 4-point bending test rig (EN 14587-2 / IRS T-19) | Min breaking deflection **$\ge 25\text{ mm}$** | Withstands $> 1,200\text{ kN}$ without rupture; guarantees CWR fatigue life |
+
 #### 🚇 Precast Ballastless Track Slab (RHEDA City / Porr Slab Track)
 
 | Track Slab Subsystem | Structural Architecture & Concrete Grade | Geometric Installation Tolerance | Vibration Damping & Lifespan Standard |
