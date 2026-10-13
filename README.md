@@ -674,6 +674,15 @@ flowchart TD
 | **Sacrificial Anti-Vandal Film** | Multi-ply peelable optically clear polyester film | $100\ \mu\text{m}$ surface barrier | Protects against glass scratching, acid etching & spray graffiti |
 | **Emergency Window Breakout** | Tempered glass breakout panels with red striker hammer | Marked with photoluminescent rings | Provides immediate passenger egress pathway during derailment |
 
+#### 🚇 Inter-Car Articulated Gangway Bellows & Passenger Walkthrough Acoustic Decoupling
+
+| Gangway Engineering Layer | Mechanical Material & Profile | Kinematic Travel / Acoustic Rating | Passenger Transit & Thermal Barrier |
+| :--- | :--- | :---: | :--- |
+| **Double-Wave Pleated Bellows** | Silicone-coated aramid fabric with aluminum clamping frames | Flame retardant to EN 45545-2 (HL3) | Hermetically sealed air chamber attenuating external wheel/rail noise |
+| **Sliding Articulated Footplates**| Textured AISI 304 stainless-steel overlapping tread plates | Accommodates yaw $\pm 8^\circ$, pitch $\pm 4^\circ$ | Level, seamless walking surface without pinch hazard during sharp switch curves |
+| **Acoustic Transmission Loss** | Dual-wall decoupling barrier ($R'_w \ge 34\text{ dB}$) | Suppresses tunnel reverberation | Drops saloon interior background noise to **$< 68\text{ dBA}$** at $80\text{ km/h}$ |
+| **HVAC Thermal Insulation** | Polyurethane microcellular foam core within bellow folds | Thermal conductance $U \le 1.8\text{ W/(m}^2\cdot\text{K)}$| Prevents conditioned cold air leakage between coaches during peak summer |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
