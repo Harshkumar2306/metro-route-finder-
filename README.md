@@ -971,6 +971,15 @@ flowchart TD
 | **Interference Shrink Retainer**| Precision ground cylindrical carbon sleeve press-fit | Radial interference $\Delta r = 0.25\text{ mm}$ | Prevents rotor magnet slippage during severe dynamic braking torque reversals |
 | **Eddy Current Shielding Layer**| Micro-thin copper eddy current shielding foil ($0.2\text{ mm}$)| Minimizes high-frequency rotor losses | Clamps rotor surface temperature rise, preventing NdFeB magnet demagnetization |
 
+#### 🚄 Traction Motor Stator RTD & Fiber Bragg Grating (FBG) Real-Time Thermometry
+
+| Thermometry Subsystem | Sensor Physics & Calibration | Sampling Rate & Precision | Thermal Protection & Torque Derating |
+| :--- | :--- | :---: | :--- |
+| **Stator Slot Pt100 RTDs** | 4-wire platinum resistance elements (EN 60751 Class A) | Embedded in winding hotspots (6 per motor) | Continuous monitoring; triggers power foldback if stator $T \ge 180^\circ\text{C}$ |
+| **Rotor Fiber Bragg Grating (FBG)**| Optical wavelength-shift fiber sensors on rotor shaft | Immune to high EMI / $25\text{ kV}$ fields | Real-time rotor magnet core temperature measurement ($\pm 0.5^\circ\text{C}$ accuracy) |
+| **TCMS CANopen Telemetry** | High-speed isolated serial CANopen bus to coach TCMS | Refresh update rate $\le 100\text{ ms}$ | Real-time thermal gradient logging & preventive fault annunciator alerts |
+| **Thermal Emergency Trip** | Vital hardware comparator circuit in traction inverter | Trip threshold $T_{trip} \ge 205^\circ\text{C}$ | Cuts IGBT gate pulses in **$< 10\ \mu\text{s}$**, preventing irreversible coil burnout |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
