@@ -782,6 +782,15 @@ flowchart TD
 | **Auxiliary Substations (ASS)**| 33 kV stepped down to 415 V / 240 V | Dual-bus ring-main topology at every passenger station | Uninterrupted power for signaling, escalators, lifts & TVS |
 | **Emergency Diesel GenSets** | 415 V standby backup power | Auto-Mains Failure (AMF) synchronized within **10 seconds** | Guarantees emergency lighting, smoke extraction & AFC gates |
 
+#### 🛰️ Substation Automation System (SAS), IEC 61850 GOOSE & PRP Redundancy
+
+| SAS Network Subsystem | Protocol & Communication Standard | Latency & Reliability Metric | Traction Protection & Fault Clearing |
+| :--- | :--- | :---: | :--- |
+| **IEC 61850 GOOSE Messaging** | Layer-2 multicast peer-to-peer tripping protocol | Ultra-low transmission time **$< 4\text{ ms}$** | Inter-trips $25\text{ kV}$ catenary breakers across sub-stations during busbar faults |
+| **Parallel Redundancy Protocol (PRP)**| Dual independent active LAN topologies (IEC 62439-3) | **Zero-millisecond failover** ($0\text{ ms}$) | Duplicate packet discarding eliminates switchover packet loss during fiber cuts |
+| **Bay Control Units (BCU/IED)** | Microprocessor Intelligent Electronic Devices (IEDs) | Optical fiber Ethernet ($100\text{BASE-FX}$) | Directly interfaces with GIS breakers, isolators, and current/voltage transformers |
+| **Phasor Measurement Unit (PMU)** | IEEE C37.118 synchrophasor telemetry | $50\text{ frames/second}$ time-stamped via GPS | Monitors real-time voltage/current phase angle stability across Delhi grid intakes |
+
 #### ⚡ Station Substation Gas Insulated Switchgear (GIS) & SF6 Gas Monitoring
 
 | GIS Switchgear Component | Electrical Rating & Insulation Medium | Footprint & Compactness Metric | SCADA Density Monitoring & Protection |
