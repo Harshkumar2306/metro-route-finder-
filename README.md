@@ -268,6 +268,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Automated Jam Re-Open Sequence**| Auto-reverses door by $200\text{ mm}$ upon obstacle resistance | Re-opening response in **$< 120\text{ ms}$** | Cycles up to 3 times before entering safe acoustic alarm lockout state |
 | **Tooth-Belt Synchronous Drive**| Steel-cord reinforced polyurethane synchronous timing belt | Service life $> 1.5 \times 10^6\text{ cycles}$ | High-tensile drive guarantees synchronized movement of bi-parting glass leaves |
 
+#### 🚪 Platform Screen Door Emergency Egress Doors (EED) & Mechanical Breakout Locks
+
+| EED Egress Parameter | Mechanical Architecture & Hardware | Opening Spec / Clearance | NFPA 130 Compliance & Vital Interlock |
+| :--- | :--- | :---: | :--- |
+| **Panic Crash Push-Bar** | Full-width 316 stainless-steel mechanical panic push-bar | Push release force strictly **$\le 70\text{ N}$** | Manual outward mechanical unlatch from trackbed side without electrical power |
+| **Track-to-Platform Swing**| High-load pivot hinge with self-closing hydraulic damper | Swing angle **$\ge 90^\circ$ outward** | Guarantees clear unobstructed egress corridor width ($\ge 1,000\text{ mm}$) |
+| **SIL-3 Closed-Loop Switch** | Redundant magnetic safety interlock contact switches | Loop interrupt latency $< 50\text{ ms}$ | Instantly reports door breakout to CBTC, holding track signals at stop |
+| **Fire-Rated Laminated Glass**| Double-laminated toughened borosilicate glass panels | Fire integrity classification **E60 / EW30** | Sustains $1,000^\circ\text{C}$ radiant tunnel flashover fires for $> 60\text{ minutes}$ |
+
 #### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
 
 | Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
