@@ -150,6 +150,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Regenerative Bi-Directional Drive** | 4-quadrant regenerative active front end unit | Feeds kinetic descent power to station grid | Recovers up to **$35\%$** net electrical hoisting energy |
 | **Seismic Zone-IV Recall & ARD**| Automatic Rescue Device (ARD) with backup battery bank | Drives car to nearest floor within 30s | Seismic P-wave detection automatically grounds cabin and holds doors open |
 
+#### 🛗 Transit Elevator Progressive Safety Gear & Counterweight Seismic Retainers
+
+| Elevator Safety Component | Standard & Mechanical Physics | Performance Threshold / Capacity | Failsafe Dynamic & Seismic Protection |
+| :--- | :--- | :---: | :--- |
+| **Progressive Clamp Safety Gear** | Dual eccentric hardened knurled rollers (EN 81-20) | Clamping threshold $v \ge 1.15 \times v_{rated}$ | Wedges onto guide rails under governor trip, arresting full car ($a \le 1.0\text{ g}$) |
+| **Counterweight Retainer Brackets**| Heavy-duty structural steel seismic snag hooks | Guide rail clearance $\le 5.0\text{ mm}$ | Prevents counterweight frame derailment and cable entanglement during Zone-IV tremors |
+| **Overspeed Centrifugal Governor** | Bi-directional weighted flyball / centrifugal pawl trigger | Trip speed $1.4\text{ m/s} – 1.8\text{ m/s}$ | Tripping rope actuates safety jaw switches, killing motor drive power instantly |
+| **Hydraulic Oil Energy Buffers** | Nitrogen-charged stroke piston cylinder | Stroke length $S \ge 0.0674 v^2$ ($180\text{ mm}$) | Absorbs terminal free-fall impact kinetic energy with controlled uniform deceleration |
+
 #### 📦 Lost & Found Property Custody Chain & Automated Ledger Tracking
 
 | Custody Lifecycle Stage | Protocol & Time Window | Custodian Authority | Security Verification & Claim Procedure |
