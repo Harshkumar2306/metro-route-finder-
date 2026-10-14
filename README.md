@@ -2001,6 +2001,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Automated Speech Synthesizer**| 24-bit studio acoustic chimes with dual-voice audio | Alternate Hindi & English announcement cycle | Clear alerts for approaching stations, interchange lines & terminal cautions |
 | **Adaptive Ambient Noise Leveling**| Integrated omnidirectional cabin microphones | Dynamically modulates volume between **$55–85\text{ dBA}$** | Ensures chime clarity during loud acceleration and tunnel transit |
 
+#### 📺 In-Car Dynamic Route Map Displays (DRMD) & Saloon Infotainment TFTs
+
+| Saloon Display Subsystem | Display Architecture & Hardware Spec | Refresh Rate & Luminance | Passenger Guidance & Ethernet Backbone |
+| :--- | :--- | :---: | :--- |
+| **Ultra-Wide Stretched TFTs** | $28.6\text{-inch}$ bar-type color LCD ($1920 \times 540$ native) | High brightness **$\ge 800\text{ cd/m}^2$** | Ultra-wide viewing angle ($178^\circ/178^\circ$ IPS) readable under sunlight |
+| **Dynamic Corridor Progress** | Synchronized animated progress bar with interchange badges | Full 60 FPS vector animation | Indicates next station, interchange line color ribbons & terminal ETA |
+| **Door Opening Side Flashers** | High-intensity dual flashing green/amber LED arrows | Flashes at $2.0\text{ Hz}$ on arrival | Visual cue directing high-density commuter deboarding to correct door |
+| **Ethernet Train Backbone (ETB)**| Redundant 100BASE-T1 automotive Ethernet loop (IEC 61375) | Network latency **$< 20\text{ ms}$** | Real-time synchronization with TCMS GPS odometer and CBTC central ATS |
+
 #### 📢 Station Public Address & Voice Alarm (PA/VA) System (EN 54-16 Standards)
 
 | Acoustic Broadcast Subsystem | Hardware Architecture & Transducers | Intelligibility Benchmark (STI) | Emergency Evacuation & Commuter Role |
