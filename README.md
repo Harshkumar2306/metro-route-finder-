@@ -1448,6 +1448,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Perforated Sub-Drain Collector**| Heavy-duty slotted corrugated HDPE pipe ($200\text{ mm}$ dia) | Slot width $1.5\text{ mm} \pm 0.2\text{ mm}$ | Depressurizes hydrostatic groundwater pressure behind bored tunnel invert |
 | **Anti-Incrustation Flushing Pits**| Stainless-steel rodding eyes and inspection cleanouts every $50\text{ m}$ | High-pressure jetting access | Prevents calcium carbonate sinter buildup and chemical calcification blockages |
 
+#### 🌊 Subterranean Sump Pump Stations & Automatic Invert Dewatering Telemetry
+
+| Dewatering Subsystem | Electro-Mechanical Sizing & Materials | Flow Capacity / Head | Duty Cycling & SCADA Inundation Telemetry |
+| :--- | :--- | :---: | :--- |
+| **Vortex Submersible Pumps** | Dual cast-iron/AISI 316 stainless-steel vortex impellers | $Q \ge 180\text{ m}^3/\text{h}$ at $45\text{ m}$ head | Handles abrasive grit, ballast wash and suspended solids up to $50\text{ mm}$ |
+| **Magnetostrictive Level Probes**| Continuous 4–20 mA magnetostrictive continuous float sensors | Level resolution $\pm 1.0\text{ mm}$ | Immune to surface froth; eliminates false float switch sticking alarms |
+| **SCADA Duty-Standby Cycling**| Lead-lag alternating starter with auto-failover contactor | Starts lag pump if level $> 75\%$ | Auto-rotates duty hours every $24\text{ hours}$ to equalize mechanical wear |
+| **Non-Return Surge Check Valves**| Resilient-seated dual-plate wafer check valves with dampers | Rated pressure $PN\ 25$ ($25\text{ bar}$) | Eliminates reverse water hammer shockwaves during sudden pump de-energization |
+
 #### 🧯 Fire Detection & Suppression Architecture (NFPA 130 Compliance)
 
 | Fire Life-Safety Subsystem | Detection & Suppressant Agent | Target Station / Tunnel Zone | Activation & Containment Benchmark |
