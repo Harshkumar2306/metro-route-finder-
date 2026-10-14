@@ -1401,6 +1401,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Directional Dynamic Reversal** | Centralized Station Computer (SC) software trigger | Switches in $< 5\text{ seconds}$ | Dynamically flips gates from Entry to Exit during peak dispersal |
 | **Commuter Clearance Capacity** | High-throughput continuous transit throughput | **42–48 passengers/minute** | Ensures zero station concourse backlog during crush peak hours |
 
+#### 🎫 AFC Turnstile Multi-Beam Optical Curtains & Anti-Tailgating Spatial Grid
+
+| Optical Curtain Parameter | Sensor Configuration & Photometrics | Sampling Frequency / Resolution | Anti-Fraud Logic & Flow Security |
+| :--- | :--- | :---: | :--- |
+| **Multi-Beam Infrared Array** | 32-pair modulated near-infrared optical beams ($880\text{ nm}$) | Scan frequency $f_{scan} \ge 100\text{ Hz}$ | Microsecond beam-break profiling; detects trailing objects $> 100\text{ mm}$ apart |
+| **Commuter Profile Classification**| State-machine tracking spatial silhouette centroid | Distinguishes passenger vs. rolling trolley | Suppresses false alarms from wheeled suitcases or strollers trailing authorized user |
+| **Anti-Tailgating Lockout** | Immediate reverse flap clamping upon unauthorized intrusion | Flap actuation response **$< 250\text{ ms}$** | Physically intercepts second passenger attempting unpaid entry on single fare tap |
+| **Directional Fraud Reversal**| Dual-direction cross-beam time-sequence verification | 100% detects counter-flow intrusion | Triggers localized audio buzzer and flags Station Control Room CCTV camera |
+
 #### 📱 AFC Fare Gate Contactless NFC Antenna Matching & EMV Level-1 Tuning
 
 | RF Front-End Subsystem | PCB Geometry & Matching Network | Operating Carrier & Field Metric | Contactless Transaction Standard |
