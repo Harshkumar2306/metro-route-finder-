@@ -629,6 +629,15 @@ flowchart TD
 | **Post-Weld Stress Relief** | Thermal annealing furnace soaking at $580^\circ\text{C} \pm 15^\circ\text{C}$ | Soaking time $\ge 2.5\text{ hours}$ | Relieves residual welding stresses, preventing stress-corrosion cracking |
 | **Multi-Axial Fatigue Bench** | Full-scale hydraulic multi-actuator bogie test rig | Tested to **$> 1.0 \times 10^7\text{ cycles}$** | Complies with UIC 615-4 & EN 13749; guarantees 35-year fatigue design life |
 
+#### 🛡️ Carbody Crashworthiness Sizing & Progressive Deformation Energy Absorbers (EN 15227)
+
+| Crashworthiness Element | Structural Material & Standards (EN 15227 / C-I) | Energy Absorption / Force | Survival Space & Collision Kinematics |
+| :--- | :--- | :---: | :--- |
+| **Front Crash Absorber Boxes** | Extruded multi-cell aluminum alloy honeycomb elements | Dissipates **$\ge 2.5\text{ MJ}$** per cab | Progressive accordion buckling limits mean collision force to $< 1,500\text{ kN}$ |
+| **Anti-Climber Ribbed Heads** | Forged interlocking serrated anti-climbing steel teeth | Vertical shear capacity $> 300\text{ kN}$ | Meshes on impact; prevents vertical ride-over and coach telescoping during crash |
+| **Driver Cab Survival Cell** | High-strength austenitic stainless-steel (EN 1.4301 / AISI 304) | Longitudinal static load $> 1,500\text{ kN}$ | Strictly preserves $> 1.8\text{ m}$ residual driver cab survival space without intrusion |
+| **Intermediate Coach Shear Pins**| Calibrated energy-absorbing tube draft links between cars | Controlled plastic stroke $\sim 150\text{ mm}$ | Evenly distributes deceleration pulse ($a_{mean} \le 5.0\text{ g}$) across all rakes |
+
 #### ⚙️ Traction Single-Stage Helical Gearbox & Torque Reaction Arm Dynamics
 
 | Gearbox & Drivetrain Subsystem | Mechanical Configuration & Tolerancing | Gear Ratio / Rating | Dynamic Damping & Powertrain Integrity |
