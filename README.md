@@ -656,6 +656,15 @@ flowchart TD
 | **Integrated Noise Shroud** | Acoustically insulated stainless-steel underframe box | Operating noise level **$< 66\text{ dBA}$** | Resilient anti-vibration rubber mounts suppress low-frequency carbody thrum |
 | **Pneumatic Condensate Purge** | Automatic solenoid drain valve with heating element | Heated against freezing at $-10^\circ\text{C}$ | Purges accumulated water droplets every compression cycle automatically |
 
+#### 🛑 Axle-Mounted Ventilated Disc Brakes & Sintered Metallic Brake Pads
+
+| Disc Brake Component | Metallurgy & Mechanical Standard | Thermal Dissipation / Friction | Braking Force & Wear Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Ventilated Disc Rotor** | Nodular cast iron (EN-GJS-400-18C) with spiral radial cooling vanes | Thermal shock limit $T \le 750^\circ\text{C}$ | Spiral internal cooling channels pump air under rotation, cutting peak temp by $35\%$ |
+| **Sintered Metallic Brake Pads**| Copper-iron powder matrix with graphite and ceramic friction modifiers | Friction coefficient $\mu = 0.36 \pm 0.04$ | High thermal stability; zero fading during high-speed emergency stops ($v = 120\text{ km/h}$) |
+| **Floating Caliper Mechanism** | Direct-acting pneumatic cylinder with internal slack adjuster | Maximum clamping force **$F_c \ge 48\text{ kN}$** | Automatic mechanical ratchet compensates pad wear, keeping stroke strictly $\le 12\text{ mm}$ |
+| **Emergency Energy Absorption**| UIC 541-3 thermal certification for rapid commuter cycles | Dissipation capacity $> 18\text{ MJ/axle}$ | Survives back-to-back emergency stops without disc surface heat cracking or warping |
+
 #### 🧲 Eddy Current Track Brakes (ECTB) & Linear Induction Deceleration Dynamics
 
 | Eddy Current Braking Layer | Electrodynamic Principle & Sizing | Operational Parameter | Adhesion-Independent Deceleration Dynamic |
