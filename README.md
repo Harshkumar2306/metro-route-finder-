@@ -1619,6 +1619,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Continuous Neoprene Drainage Trough**| Fabric-reinforced chloroprene elastomer gutter channel | Watertight gutter under joint gap | Channels roadway rainfall away from pier caps, preventing rebar corrosion |
 | **Acoustic Noise Baffle Cushions**| Under-plate polyurethane dampening strips ($20\text{ mm}$ thick) | Attenuates wheel crossing slap by **$12\text{ dBA}$** | Conforms to IRC:SP:69; eliminates structural slap vibrations into viaduct |
 
+#### 🛡️ Sub-Ballast Floating Slab Polyurethane Mats & Discrete Resilient Baseplates
+
+| Vibration Isolation Component | Material Specification & Polymer Matrix | Bed Modulus / Natural Frequency | Ground-Borne Acoustic Attenuation |
+| :--- | :--- | :---: | :--- |
+| **Microcellular Polyurethane Mats**| Continuous high-density closed-cell polyurethane (Sylomer/CDM) | Static bed modulus $C_{stat} \approx 0.03\text{ N/mm}^3$ | Lowers natural resonant frequency down to **$f_0 \le 12\text{ Hz}$** |
+| **Heritage Vibration Isolation**| Deployed under bored tunnel inverts near ASI monuments | Ground vibration velocity $v \le 1.5\text{ mm/s}$ | Protects fragile structures (Red Fort, Qutub Minar, Jama Masjid) |
+| **Discrete Rail Boot Bearings** | Continuous elastomeric rail seat pad with side flangeway boots | Dynamic vertical stiffness $k_{dyn} \approx 25\text{ kN/mm}$ | Dampens secondary wheel-rail impact harmonics across ballastless plinths |
+| **Acoustic Insertion Loss** | DIN 45673 certified subterranean dynamic load testing | Insertion loss **$\Delta L_e \ge 22\text{ dB}$** | Attenuates rumble noise transmission into nearby subterranean hospital foundations |
+
 ### 🚏 First & Last Mile Multimodal Connectivity (e-Buses & Feeder Shuttles)
 
 | Metro Transit Hub | Feeder Route Identifier | Fleet Vehicle Profile | Payment Integration |
