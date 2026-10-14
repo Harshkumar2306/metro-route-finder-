@@ -1610,6 +1610,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Aluminothermic (Thermite) Kits**| Highly-controlled iron oxide + aluminum powder charge ($\text{Al} + \text{Fe}_2\text{O}_3$)| Crucible tapping temp $\sim 2,050^\circ\text{C}$ | Utilized for in-situ field turnout closure welds and insulated joints |
 | **Slow-Bend Deflection Test** | Hydraulic 4-point bending test rig (EN 14587-2 / IRS T-19) | Min breaking deflection **$\ge 25\text{ mm}$** | Withstands $> 1,200\text{ kN}$ without rupture; guarantees CWR fatigue life |
 
+#### 🛤️ Rail Corrugation Wavelength Profiling & Preventive Acoustic Rail Grinding
+
+| Corrugation & Grinding Metric | Measurement System & Tooling | Wavelength / Roughness Limit | Acoustic Noise & Track Longevity |
+| :--- | :--- | :---: | :--- |
+| **Short-Pitch Corrugation** | Optical laser chord-offset rail roughness measuring trolley | Wavelength $\lambda = 25\text{ mm} – 80\text{ mm}$ | Eliminates pinned-pinned rail resonance wheel squeal and fastener fatigue |
+| **Acoustic Roughness Limit** | 1/3-octave band rail roughness spectrum (ISO 3095) | Spectral roughness $L_r \le 10\ \mu\text{m}$ | Lowers pass-by wayside rolling noise by **$8\text{ dBA} – 12\text{ dBA}$** |
+| **16-Stone Rail Grinder Train** | Tangential electric motor-driven vitrified grinding stones | Forward speed $8\text{ km/h} – 15\text{ km/h}$ | Reprofiles head-hardened UIC-60 rail with micro-cut depth of $0.2\text{ mm/pass}$ |
+| **Anti-Head-Check Profiling** | Asymmetric gauge-corner target grinding pattern | Target profile conformity $\pm 0.3\text{ mm}$ | Removes rolling contact fatigue (RCF) micro-cracks before spalling failure |
+
 #### 🚇 Precast Ballastless Track Slab (RHEDA City / Porr Slab Track)
 
 | Track Slab Subsystem | Structural Architecture & Concrete Grade | Geometric Installation Tolerance | Vibration Damping & Lifespan Standard |
