@@ -638,6 +638,15 @@ flowchart TD
 | **Wheel Slide Protection (WSP)**| High-speed micro-controller axle tachometers (EN 15595) | Modulates dump valves in $< 25\text{ ms}$| Prevents wheel lock-up and severe rail-wheel flat spots during wet monsoons |
 | **Parking Spring Brake Actuators**| Mechanical spring-loaded park brake cylinders | Permanent mechanical clamping | Holds fully loaded crush-rake stationary on maximum **$4.0\%$ track gradient** |
 
+#### 💨 Train Oil-Free Main Air Compressor & Dual-Tower Desiccant Air Dryer
+
+| Pneumatic Subsystem | Mechanical Architecture & Rating | Performance Metric / Pressure | Clean Air Quality & Moisture Separation |
+| :--- | :--- | :---: | :--- |
+| **Oil-Free Scroll / Piston Unit** | Direct-drive oil-free reciprocating piston/scroll compressor | Free air delivery $1,050\text{ L/min}$ at $10.0\text{ bar}$ | 100% oil-free compressed air; zero oil contamination of brake valves |
+| **Dual-Tower Desiccant Dryer** | Twin molecular sieve absorption columns with auto-cycling | Pressure dew point down to **$-40^\circ\text{C}$** | Delivers ISO 8573-1 Class 2.2.1 dry air; eliminates freezing in winter valves |
+| **Integrated Noise Shroud** | Acoustically insulated stainless-steel underframe box | Operating noise level **$< 66\text{ dBA}$** | Resilient anti-vibration rubber mounts suppress low-frequency carbody thrum |
+| **Pneumatic Condensate Purge** | Automatic solenoid drain valve with heating element | Heated against freezing at $-10^\circ\text{C}$ | Purges accumulated water droplets every compression cycle automatically |
+
 #### 🧲 Eddy Current Track Brakes (ECTB) & Linear Induction Deceleration Dynamics
 
 | Eddy Current Braking Layer | Electrodynamic Principle & Sizing | Operational Parameter | Adhesion-Independent Deceleration Dynamic |
