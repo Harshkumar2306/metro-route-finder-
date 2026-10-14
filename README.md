@@ -899,6 +899,15 @@ flowchart TD
 | **Resin Section Insulators** | High-grade fiberglass reinforced resin runners with arc chutes | Installed over station turnouts | Mechanically level passage while isolating crossover feeder tracks |
 | **Mid-Point Anchor (MPA)** | Rigid anti-creep longitudinal steel guy wires | Central span between ATD pulleys | Restricts catenary wire longitudinal creeping under brake reaction force |
 
+#### 🚡 OHE Section Insulator Dynamic Gliding Skids & Ceramic Arc Chutes
+
+| Insulator Assembly Component | Material Specification & Geometry | Mechanical & Electrical Rating | Pantograph Transition & Arc Quenching |
+| :--- | :--- | :---: | :--- |
+| **Fiberglass Core Rods** | ECR electrical grade fiberglass rod impregnated with resin | Tensile breaking strength $> 120\text{ kN}$ | Carries mechanical tension of $25\text{ kV}$ contact wire ($107\text{ mm}^2$ copper) |
+| **PTFE / Ceramic Gliding Skids**| High-density virgin PTFE runners with silicon carbide coating | Runner alignment angle $\le 1.5^\circ$ | Level gliding surface for pantograph metallized carbon strips up to $80\text{ km/h}$ |
+| **Magnetic Blowout Arc Chutes**| De-ionizing ceramic arc-quenching plates with copper horns | Arc extinction duration **$< 8\text{ ms}$** | Blows drawing arc outward into splitter plates, preventing phase-to-phase shorts |
+| **Dropper Articulation Link** | Swiveling stainless steel droppers with vibration dampers | Contact force variation $\Delta F \le \pm 15\text{ N}$ | Eliminates dynamic hard-spot bounce; suppresses spark erosion on contact strips |
+
 #### 🚡 Catenary Cantilever Insulator Creepage Distance & Anti-Pollution Glaze
 
 | Insulator Engineering Dimension | Material Composition & Standard | Mechanical & Electrical Rating | Winter Smog & Pollution Flashover Dynamic |
