@@ -1016,6 +1016,15 @@ flowchart TD
 | **Nanocrystalline Isolation Core**| High-permeability nanocrystalline planar transformer | Breakdown isolation $> 5.0\text{ kV DC}$ | Compact high-frequency step-down providing galvanic isolation to $110\text{ V DC}$ bus |
 | **Closed-Loop Voltage Regulation**| Digital DSP voltage-mode feedback with feedforward | Line/load regulation strictly **$\le \pm 0.5\%$** | Prevents voltage sag during heavy simultaneous door actuator opening surges |
 
+#### ❄️ Saloon Rooftop HVAC Microchannel Condensers & Electronic Expansion Valves (EEV)
+
+| Saloon HVAC Subsystem | Mechanical Architecture & Spec | Thermal Duty / Cooling Capacity | Refrigerant Cycle & Efficiency Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Microchannel Condenser Coils**| All-aluminum parallel-flow flat microchannel tubes | Cooling capacity $45\text{ kW/unit}$ (2 per coach) | Cuts system refrigerant charge by **$40\%$**; enhances heat transfer coefficient |
+| **Hermetic Scroll Compressors** | Dual compliant scroll compressors with vapor injection | Seasonal EER $\ge 3.45\text{ W/W}$ | Optimized for extreme Delhi summer ambient temperatures up to $+50^\circ\text{C}$ |
+| **Electronic Expansion Valve (EEV)**| 500-step stepper motor needle valve regulator | Superheat regulation $\pm 0.5\text{ K}$ | Continuously throttles refrigerant mass flow, preventing liquid floodback |
+| **Dual Centrifugal Plug Blowers**| Backward-curved centrifugal fans with EC motor drives | Saloon air circulation $> 4,800\text{ m}^3\text{/h}$ | Modulates airflow smoothly based on onboard passenger crush load sensors |
+
 #### 🚄 Traction Motor Stator VPI Insulation & Thermal Class 200 System
 
 | Motor Insulation Layer | Material Formulation & Standard | Dielectric & Thermal Rating | Inverter Stress & Overload Resilience |
