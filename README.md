@@ -989,6 +989,15 @@ flowchart TD
 | **Cross-Car Bus Tie Contactor** | Motorized bidirectional tie contactor switch | Automatic cross-feed if single SIV fails | Bus-tie closes in **$< 50\text{ ms}$**; prevents HVAC loss on degraded trainsets |
 | **Galvanic Isolation Transformer** | High-frequency ferrite isolation core ($2.5\text{ kV}$ test) | Isolates high-voltage catenary surges from coach passenger equipment | Prevents ground fault propagation between $25\text{ kV}$ traction and auxiliary circuits |
 
+#### ⚡ Auxiliary Power SIV Resonant DC-DC Converter & Soft-Switching ZVS Topology
+
+| Resonant Converter Dimension | Circuit Topology & Semiconductor Spec | Switching Frequency / Efficiency | Thermal Management & Output Regulation |
+| :--- | :--- | :---: | :--- |
+| **LLC Resonant Half-Bridge** | Zero-Voltage Switching (ZVS) resonant tank ($L_r - C_r - L_m$) | Switching frequency $f_{sw} \ge 25\text{ kHz}$ | Eliminates capacitive turn-on switching losses; electrical efficiency **$> 98.2\%$** |
+| **Silicon Carbide (SiC) MOSFETs**| $1.7\text{ kV} / 400\text{ A}$ planar SiC power modules | Junction temperature $T_j \le 175^\circ\text{C}$ | Cuts cooling heatsink mass by **$\sim 40\%$** compared to standard silicon IGBTs |
+| **Nanocrystalline Isolation Core**| High-permeability nanocrystalline planar transformer | Breakdown isolation $> 5.0\text{ kV DC}$ | Compact high-frequency step-down providing galvanic isolation to $110\text{ V DC}$ bus |
+| **Closed-Loop Voltage Regulation**| Digital DSP voltage-mode feedback with feedforward | Line/load regulation strictly **$\le \pm 0.5\%$** | Prevents voltage sag during heavy simultaneous door actuator opening surges |
+
 #### 🚄 Traction Motor Stator VPI Insulation & Thermal Class 200 System
 
 | Motor Insulation Layer | Material Formulation & Standard | Dielectric & Thermal Rating | Inverter Stress & Overload Resilience |
