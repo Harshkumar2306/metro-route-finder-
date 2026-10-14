@@ -1493,6 +1493,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Bottom Nitrogen Gas Injection** | Pressurized nitrogen cylinder manifold ($150\text{ bar} \to 8\text{ bar}$) | Gas bubbling rate $120\text{ m}^3\text{/h}$ | Bubbles nitrogen through transformer core; displaces atmospheric oxygen |
 | **Cooling Oil Circulation Stirring**| Dynamic nitrogen percolation convective stirring | Reduces oil surface temp below $120^\circ\text{C}$ | Completely extinguishes active internal tank fire within **$< 30\text{ seconds}$** |
 
+#### 🧯 Station Concourse Automated Smoke Curtains & Draft Barriers (EN 12101-1)
+
+| Smoke Barrier Subsystem | Material Specification & Fire Rating | Drop Speed / Deployment | Smoke Reservoir & Evacuation Dynamics |
+| :--- | :--- | :---: | :--- |
+| **Woven Glass Fiber Fabric** | Continuous filament glass fabric with polyurethane coating | Class D120 ($> 600^\circ\text{C}$ for $120\text{ min}$) | Retains toxic hot smoke layer in ceiling reservoir without rupture |
+| **Gravity Fail-Safe Motor** | 24 V DC electromagnetic brake release mechanism | Controlled descent speed $0.15\text{ m/s} – 0.25\text{ m/s}$ | Drops safely under gravity even during total station AC power blackout |
+| **Draft Air Bleed Sealing** | Flexible bottom ballast bars with silicone side channel seals | Lateral smoke leakage strictly $\le 10\text{ m}^3\text{/(h}\cdot\text{m)}$ | Confines smoke spread between retail concourses and escalator wells |
+| **FAS Interlock Trigger** | Double-knock smoke sensor loop or optical beam trip | Full deployment within **$< 30\text{ seconds}$** | Creates stratified smoke-free evacuation zone ($h \ge 2.1\text{ m}$) above floor |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
