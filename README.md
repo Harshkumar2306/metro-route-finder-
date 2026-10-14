@@ -1565,6 +1565,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **High-Pressure Water Mist (HPWM)**| Micro-droplet atomization nozzles ($100–140\text{ bar}$) | Traction transformer ASS bays & high-voltage rooms | Rapid thermal cooling & oxygen displacement with minimal water draw |
 | **Pressurized Fire Hydrant Ring**| Wet riser main system with dual electric jockey pumps | Station platforms, concourses & cross-passages | Maintains continuous $10\text{ bar}$ pressure for fire brigade coupling |
 
+#### 🧯 High-Pressure Water Mist (HPWM) Micro-Droplet Tunnel Deluge Grid
+
+| Water Mist Parameter | Hydraulic Sizing & Atomization Spec | Discharge Pressure / Density | Thermal Cooling & Oxygen Starvation |
+| :--- | :--- | :---: | :--- |
+| **High-Pressure Positive Displacement**| Multi-stage stainless-steel radial piston pump skid | System pressure $120\text{ bar} – 140\text{ bar}$ | High atomization velocity penetrates rising fire thermal plumes |
+| **Micro-Droplet Atomization** | AISI 316L swirl micro-nozzles ($100\ \mu\text{m}$ orifices) | Droplet size $D_{32} \le 80\ \mu\text{m}$ | Expands **$1,700\times$** into steam, suffocating fire while rapidly cooling gas |
+| **Zoned Deluge Section Valves**| Fast-acting pneumatic-actuated ball deluge valves | Opens zone in **$< 3.0\text{ seconds}$** | Floods localized $50\text{ m}$ tunnel block without depleting reservoir reserves |
+| **Water Conservation Efficiency** | Uses **$> 80\%$ less water** than traditional deluge | Flow rate $2.5\text{ L/min/m}^2$ | Prevents tunnel trackbed flooding and avoids short-circuiting $25\text{ kV}$ catenary |
+
 #### 🧯 Gas-Based Clean Agent Fire Suppression (IG-541 Inergen & Novec 1230)
 
 | Clean Agent Parameter | Inergen (IG-541 Blend) | Novec 1230 (FK-5-1-12 Fluid) | Safety & Environmental Standard |
