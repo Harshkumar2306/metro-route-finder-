@@ -854,6 +854,15 @@ flowchart TD
 | **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
 | **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
 
+#### 🚊 Pantograph Copper-Impregnated Carbon Strips & Dynamic Uplift Foil Aero-Wings
+
+| Pantograph Component | Material Composition & Aerodynamics | Contact Force / Electrical Spec | High-Speed Current Collection & Protection |
+| :--- | :--- | :---: | :--- |
+| **Metal-Impregnated Carbon Strip**| High-purity synthetic graphite infused with molten copper ($25\% \text{ Cu}$) | Electrical resistivity $\rho \le 15\ \mu\Omega\cdot\text{m}$ | Low friction coefficient ($\mu \le 0.15$); suppresses copper contact wire wear |
+| **Dynamic Aerofoil Uplift Wings**| Symmetrical NACA inverted carbon-fiber aerodynamic foils | Dynamic lift equation $F_u = F_0 + k v^2$ | Enforces constant contact uplift force ($80\text{ N} \pm 10\text{ N}$) at speeds up to $130\text{ km/h}$ |
+| **Auto-Drop Device (ADD)** | Pressurized pneumatic channel inside collector carbon profile | Rapid exhaust tripping in **$< 100\text{ ms}$** | Auto-drops pantograph immediately upon strip fracture, preventing dewirement |
+| **Plunger Suspension Springs** | Dual independent coil springs with internal elastomeric stops | Contact strip travel stroke $\pm 25\text{ mm}$ | Absorbs micro-irregularities and dropper stitch vibrations without arc sparking |
+
 #### 🛡️ Optical Defect Detection System (ODDS) & Pantograph Profiling Cameras
 
 | Pantograph Inspection Subsystem | Optoelectronic Sensor Architecture | Scanning Rate & Resolution | Defect Detection & Catenary Protection |
