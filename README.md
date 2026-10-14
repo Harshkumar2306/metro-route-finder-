@@ -575,6 +575,15 @@ flowchart TD
 | **Retractable Electrical Contact Head**| Top/side mounted gold-plated multi-pin contact blocks | $110\text{ V DC}$ control lines + 100 Mbps WTB | Auto-deploys protective dust cover when uncoupled; seals against monsoon rain |
 | **Deformable Energy Absorber** | Reversible gas-hydraulic buffer ($150\text{ kJ}$) + shear bolts | Triggers on collision force $> 800\text{ kN}$ | Absorbs low-speed yard impact shocks; protects carbody cab underframe from buckling |
 
+#### 🚊 Semi-Permanent Inter-Car Couplers & Elastomeric Draft Gear Buffers
+
+| Intermediate Coupler Subsystem | Metallurgical & Mechanical Standard | Load Capacity / Deflection | Articulation Dynamics & Damping |
+| :--- | :--- | :---: | :--- |
+| **Machined Coupler Shank** | High-tensile forged alloy steel (EN 10083-3 42CrMo4) | Tensile limit $\ge 1,000\text{ kN}$ | Rigid bar coupling inter-car units within 6-car and 8-car rakes |
+| **Multi-Tier Elastomeric Draft Pads**| Vulcanized natural rubber interleaved with steel plates | Buffing capacity **$\ge 1,200\text{ kN}$** | Absorbs inter-car longitudinal acceleration and braking buffing shocks |
+| **Mechanical Shear Pin Fuse** | Precision-calibrated shear bolts in draft pocket | Calibrated fracture threshold $900\text{ kN}$ | Controlled collapse mechanism preventing carbody climbing during severe collisions |
+| **Spherical Articulation Bush** | Maintenance-free PTFE lined radial spherical plain bearing | Angular deflection $\pm 6^\circ$ | Accommodates relative inter-coach pitch, roll and yaw during sharp switch curves |
+
 #### 🔌 Traction Power Systems: 25 kV AC Overhead vs. 750 V DC Third Rail Comparative Topology
 
 | Electrification Dimension | 25 kV AC Overhead Catenary (OHE / ROCS) | 750 V DC Third Rail (Bottom-Contact) | Network System Implementation |
