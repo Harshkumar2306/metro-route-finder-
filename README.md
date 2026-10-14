@@ -1401,6 +1401,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Central Clearing House (CCH)**| Automated multi-operator fare reconciliation | Nightly batch clearing via NPCI backbone | Apportions split revenues across inter-agency transit routes |
 | **Bank Account Integration** | Direct linkage to commercial bank savings accounts | Automatic top-up threshold triggers at $< ₹100$ | Eliminates physical token vending and ticket counter queues |
 
+#### 🎫 AFC Contactless RFID Token Hopper Dispenser & Ultra-Fast Coin Validator
+
+| Token & Coin Subsystem | Electro-Mechanical Architecture | Processing Throughput / Speed | Anti-Jam & Security Management |
+| :--- | :--- | :---: | :--- |
+| **High-Speed Token Hopper** | Centrifugal spinning disc bowl with optical singulation | Dispensing speed **$\ge 4.0\text{ tokens/second}$** | High capacity ($2,500\text{ tokens}$); dispenses single-journey RFID discs in TVMs |
+| **Contactless Token R/W Module**| Integrated $13.56\text{ MHz}$ ISO 14443 Type A antenna | Encoding cycle **$< 80\text{ ms}$** | Encodes origin, timestamp, destination and encrypted cryptographic checksum |
+| **Exit Gate Token Capture Chute**| Motorized escrow divert flap with solenoid capture gate | Reads and drops token in $< 120\text{ ms}$ | Swallows reusable token into locked vault while recycling valid media |
+| **Multi-Frequency Coin Validator**| Inductive sensor eddy current frequency shift profiling | Validates 6 coins/second | Rejects counterfeit slugs, foreign coins and metallic washers with $99.8\%$ accuracy |
+
 #### 🎫 Automatic Fare Collection (AFC) Gate Turnstiles & Tailgating Sensor Curtains
 
 | AFC Gate Dimension | Technical Engineering Profile | Operational Metric | Commuter Safety & Fraud Prevention |
