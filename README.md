@@ -962,6 +962,15 @@ flowchart TD
 | **Phase Current Unbalance** | $< 2.0\%$ negative sequence | Scott-connected & V-connected 66/25 kV transformers | Prevents generator rotor overheating at regional power plants |
 | **Transient Surge Suppression** | Lightning impulse withstand $170\text{ kV}$ | Heavy-duty gapless metal-oxide varistor (**MOV**) arresters | Diverts atmospheric lightning strikes away from train rakes |
 
+#### ⚡ Traction Substation Active Power Filters (APF) & Current Harmonic Cancellation
+
+| Active Filter Subsystem | Circuit Topology & Inverter Control | Response Time / Rating | Grid Compensation & IEEE 519 Invariant |
+| :--- | :--- | :---: | :--- |
+| **Shunt APF Converter Bridge** | 3-level Neutral-Point Clamped (NPC) IGBT inverter stack | Current injection capacity $600\text{ A}$ | Injects anti-phase compensating currents, canceling non-linear traction rectifiers |
+| **Instantaneous $p-q$ Theory**| Clarke-Park $\alpha-\beta-0$ transformation algorithm | Closed-loop DSP calculation $< 2.5\ \mu\text{s}$| Dynamically extracts harmonic and reactive components in real time |
+| **Harmonic Suppression Level**| Selective cancellation of 3rd, 5th, 7th, 11th & 13th harmonics | Lowers current distortion **$THD_i \le 2.5\%$** | Strictly conforms to IEEE 519 and CEA grid interconnect standards |
+| **Dynamic Resonant Snubbers** | High-efficiency LCL output filter with passive damping resistor | Attenuates switching ripples ($f_{sw} = 20\text{ kHz}$) | Prevents high-frequency resonance oscillation between substation and catenary |
+
 #### ⚡ Neutral Grounding Resistor (NGR) & Earth Leakage Current Protection
 
 | Grounding Protection Layer | Electrical Topology & Components | Thermal Withstand Rating | Fault Sensing & Grid Disconnection Dynamic |
