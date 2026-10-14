@@ -1655,6 +1655,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **16-Stone Rail Grinder Train** | Tangential electric motor-driven vitrified grinding stones | Forward speed $8\text{ km/h} – 15\text{ km/h}$ | Reprofiles head-hardened UIC-60 rail with micro-cut depth of $0.2\text{ mm/pass}$ |
 | **Anti-Head-Check Profiling** | Asymmetric gauge-corner target grinding pattern | Target profile conformity $\pm 0.3\text{ mm}$ | Removes rolling contact fatigue (RCF) micro-cracks before spalling failure |
 
+#### 🌡️ Wayside Hot Axle Box Detectors (HABD) & Hot Wheel Pyroelectric Scanners
+
+| Wayside Diagnostic Subsystem | Sensor Physics & Optoelectronics | Detection Threshold / Speed | Bearing Protection & Train Stoppage |
+| :--- | :--- | :---: | :--- |
+| **Broadband Infrared Pyro-Array**| Multi-channel nitrogen-cooled pyroelectric infrared detectors | Scan response at speeds up to $130\text{ km/h}$ | Scans inboard/outboard roller bearing raceway temperature profiles per axle |
+| **Hot Axle Alarm Threshold** | Dynamic differential over-ambient calculation ($\Delta T$) | Alarm 1: $\Delta T \ge 45^\circ\text{C}$; Critical: $\ge 70^\circ\text{C}$ | Flags bearing race cage galling or grease breakdown before catastrophic seizure |
+| **Hot Wheel Rim Thermometry** | Low-angle trackbed pyrometers scanning wheel tread rim | Brake drag threshold $T_{rim} \ge 350^\circ\text{C}$ | Instantly detects stuck pneumatic caliper pads causing severe wheel thermal damage |
+| **Wayside CBTC Telegram Feed** | Direct fiber-optic telemetry loop to nearest wayside ATC | Injects trip command in **$< 1.5\text{ seconds}$** | Automatically commands OCC ATS to stop train at next platform for inspection |
+
 #### 🚇 Precast Ballastless Track Slab (RHEDA City / Porr Slab Track)
 
 | Track Slab Subsystem | Structural Architecture & Concrete Grade | Geometric Installation Tolerance | Vibration Damping & Lifespan Standard |
