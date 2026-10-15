@@ -1464,6 +1464,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Anti-Tailgating Lockout** | Immediate reverse flap clamping upon unauthorized intrusion | Flap actuation response **$< 250\text{ ms}$** | Physically intercepts second passenger attempting unpaid entry on single fare tap |
 | **Directional Fraud Reversal**| Dual-direction cross-beam time-sequence verification | 100% detects counter-flow intrusion | Triggers localized audio buzzer and flags Station Control Room CCTV camera |
 
+#### 👤 AFC Turnstile 3D Structured-Light Biometric Facial Verification Gates
+
+| Biometric Authentication Layer | Optoelectronic & Sensor Spec | Matching Speed / FAR Metric | Commuter Flow & Privacy Invariant |
+| :--- | :--- | :---: | :--- |
+| **3D Structured-Light Projector**| Near-infrared ($850\text{ nm}$) speckle projector ($30,000\text{ dots}$) | Depth accuracy $\le 0.5\text{ mm}$ | Impervious to 2D photograph spoofing, video replays, and silicone 3D masks |
+| **Dual Infrared CMOS Sensors** | Synchronized monochrome NIR cameras with global shutter | Shutter exposure time $< 2\text{ ms}$ | Crystal-clear facial frame capture even when commuter walks at $1.2\text{ m/s}$ |
+| **On-Premise Edge Matching** | Neural processing unit (NPU) vector engine ($512\text{-dim}$ embedding) | Matching latency strictly **$< 200\text{ ms}$** | Ultra-low False Acceptance Rate ($\text{FAR} \le 10^{-6}$ at $\text{FRR} \le 0.1\%$) |
+| **Zero-PII Feature Tokenization**| Irreversible encrypted cryptographic template hash | Discards raw facial RGB images | Zero retention of facial geometry; strict compliance with ISO/IEC 19794-5 |
+
 #### 📱 AFC Fare Gate Contactless NFC Antenna Matching & EMV Level-1 Tuning
 
 | RF Front-End Subsystem | PCB Geometry & Matching Network | Operating Carrier & Field Metric | Contactless Transaction Standard |
