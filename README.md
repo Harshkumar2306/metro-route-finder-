@@ -611,6 +611,15 @@ flowchart TD
 | **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
 | **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
 
+#### 🛞 Bogie Hydraulic Yaw Dampers & High-Speed Hunting Motion Attenuators
+
+| Yaw Damper Dimension | Mechanical Architecture & Hydraulics | Damping Rating / Capacity | Ride Stability & Hunting Prevention |
+| :--- | :--- | :---: | :--- |
+| **Linear Hydraulic Actuator** | Hard-chrome plated induction-hardened piston rod ($36\text{ mm}$ dia) | Damping coefficient $C_y \approx 180\text{ kN}\cdot\text{s/m}$ | Mounts diagonally between bogie frame and carbody underframe bolster |
+| **Symmetric Blow-Off Valves** | Dual high-pressure internal spring-loaded relief valves | Blow-off threshold force $F_{blow} = 16\text{ kN}$ | Limits maximum shear load during sharp switch negotiation, protecting mounts |
+| **Critical Hunting Suppression**| Attenuates bogie kinematic sinusoidal hunting oscillations | Critical stability speed **$v_{crit} \ge 160\text{ km/h}$** | Maintains horizontal Sperling ride comfort index strictly **$W_z \le 1.85$** |
+| **Elastomeric Spherical Joints**| High-stiffness natural rubber silentbloc vulcanized bushings | Radial stiffness $k_r \ge 12\text{ kN/mm}$ | Guarantees play-free dynamic response without mechanical metallic backlash |
+
 #### 🛞 Train Bogie Axle Grounding Carbon Brushes & Stray Current Pathing
 
 | Grounding Return Subsystem | Metallurgy & Spring Architecture | Contact Resistance & Ampacity | Bearing Protection & Return Path Dynamic |
