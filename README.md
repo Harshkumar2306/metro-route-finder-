@@ -1574,6 +1574,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Subterranean Walkways** | Continuous 800mm raised concrete pedestrian pathway | 100% of underground running tunnels | Photoluminescent directional arrows & emergency lights |
 | **Tunnel Invert Sump Pumps** | Heavy-duty dual submersible pumps with float transducers | Sump pits located at tunnel dip points | Rapid monsoon flood clearance up to **20,000 L/min** |
 
+#### 🌪️ Subterranean TVS High-Temperature Reversible Tunnel Jet Fans (EN 12101-3)
+
+| Jet Fan Subsystem | Aerodynamic & Motor Specification | Thrust / Temperature Rating | Emergency Smoke Evacuation Function |
+| :--- | :--- | :---: | :--- |
+| **High-Temperature Motor** | Class H insulation with cast-iron IP55 motor frame | Certified Class F400 ($400^\circ\text{C}$ for $120\text{ min}$) | Sustains continuous tunnel smoke purging during severe subterranean train fires |
+| **Symmetrical Aerofoil Blades**| Cast aluminum-silicon alloy high-thrust aerofoil impellers | Dynamic forward thrust **$F_{th} \ge 1,150\text{ N}$** | 100% reversible thrust in $< 25\text{ s}$ to push smoke away from evacuation paths |
+| **Acoustic Pod Silencers** | Integrated inlet/outlet acoustic pods with perforated mineral wool | Sound attenuation to **$< 82\text{ dBA}$ at $3\text{ m}$** | Maintains audible intelligibility of emergency cross-passage evacuation sirens |
+| **Anti-Vibration Drop Brackets**| Stainless-steel drop hangers with seismic safety wire tether | Dynamic load test $> 5.0\text{ g}$ | Prevents fan detachment under train aerodynamic piston pressure wave pulses |
+
 #### ❄️ Tunnel Under-Platform Exhaust (UPE) & Over-Track Exhaust (OTE) Plenums
 
 | Ventilation Exhaust Subsystem | Aerodynamic Ductwork Architecture | Air Extraction Rate / Velocity | Platform Thermal Control Dynamic |
