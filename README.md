@@ -1826,6 +1826,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Sanding System Dispersion Limit**| Calibrated wheel-flange pneumatic sand injectors | Micro-dosing rate $\le 400\text{ g/min}$ | Prevents thick non-conductive sand insulation layer between wheel and rail |
 | **Fail-Safe Axle Counter Backup** | Clamped multi-frequency inductive wheel sensor heads | 100% immune to rail surface contaminants | Retains vital block interlocking if high contact impedance disrupts track circuits |
 
+#### ⚡ Audio Frequency Track Circuit (AFTC) Resonant LC Tuning Units & Cross-Talk Guards
+
+| Tuning Unit Subsystem | Electrical Circuit & Resonant Physics | Frequency Carrier / Modulation | Cross-Talk Immunity & Boundary Termination |
+| :--- | :--- | :---: | :--- |
+| **Resonant LC End-Tuning Units** | Parallel-tuned air-core inductor and metallized polypropylene capacitors | Resonant frequencies $1.7\text{ kHz} – 2.6\text{ kHz}$ | Establishes electrical block boundary without physical insulated rail joints |
+| **FSK Audio Carrier Modulator**| Frequency Shift Keying (FSK) digital bitstream ($15\text{ Hz} – 25\text{ Hz}$) | Carrier separation $\Delta f = 100\text{ Hz}$ | Eliminates stray $50\text{ Hz}$ traction current harmonics from false block pickup |
+| **Adjacent Track Cross-Talk Guard**| Transverse spatial phase-cancellation earthing bonding | Cross-talk attenuation **$\ge 40\text{ dB}$** | Prevents electromagnetic induction bleed across parallel double-track viaducts |
+| **High-Current Impedance Bonds**| Heavy-duty laminated electrical iron center-tapped transformer | Traction return rating **$2,000\text{ A}$ continuous** | Allows seamless traction rail return currents while choking high-frequency signaling |
+
 #### 🚄 High-Speed Turnout Geometry & Thick-Web Switch Blades
 
 | Turnout Subsystem | Profile Standard & Metallurgy | Divergence Speed Capacity | Reliability & Maintenance Enhancement |
