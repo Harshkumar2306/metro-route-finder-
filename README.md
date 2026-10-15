@@ -2407,6 +2407,15 @@ The application integrates **HarshPay**, a simulated smart ticketing system:
 | **Unattended Baggage Analytics**| Object dwell-time threshold tracking ($> 90\text{ s}$) | Concourse scanner cameras | Automated visual alert dispatch to CISF quick-reaction teams |
 | **Virtual Track Tripwires** | Infrared perimeter tripwires on trackbed approaches | Platform end-gate boundaries | Failsafe warning alert to driver cab if track intrusion detected |
 
+#### 📹 Concourse Multi-Camera Edge AI Tracking & Re-Identification (Re-ID)
+
+| Vision AI Tracking Layer | Neural Network Architecture & Inference | Latency & Resolution Metric | Security Dispatch & Station Operations |
+| :--- | :--- | :---: | :--- |
+| **Spatiotemporal Re-ID Backbone**| Deep residual visual embedding extractor ($128\text{-dim}$ vector) | Cross-camera association latency **$< 80\text{ ms}$** | Re-identifies missing children or flagged persons across non-overlapping views |
+| **Virtual Perimeter Tripwire** | Edge-computed polygonal intrusion bounding boundary | Alarm dispatch time strictly **$< 50\text{ ms}$** | Instantly alerts CISF QRT if passenger enters unauthorized track or tunnel portal |
+| **Ultra-Low Light Sensibility** | $1/1.8\text{"}$ progressive scan CMOS with back-illuminated sensor | Sensitivity down to **$0.001\text{ lux}$ (Color)** | Crystal-clear forensic facial identification under degraded emergency lighting |
+| **Privacy Edge Scrubbing** | On-chip automated real-time dynamic face blurring | Real-time 30 FPS anonymization | Conforms to international transit privacy standards; unmasks only on legal warrant |
+
 #### 🛡️ Physical Security Screening Grid, DFMD & CISF Rapid Deployment Matrix
 
 | Screening Subsystem | Detection Technology & Physics | Passenger Flow Throughput | Contraband Interception Capability |
