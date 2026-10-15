@@ -1583,6 +1583,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **SCADA Duty-Standby Cycling**| Lead-lag alternating starter with auto-failover contactor | Starts lag pump if level $> 75\%$ | Auto-rotates duty hours every $24\text{ hours}$ to equalize mechanical wear |
 | **Non-Return Surge Check Valves**| Resilient-seated dual-plate wafer check valves with dampers | Rated pressure $PN\ 25$ ($25\text{ bar}$) | Eliminates reverse water hammer shockwaves during sudden pump de-energization |
 
+#### 🌊 Mid-Tunnel Dip Pumping Stations & Dual High-Head Dewatering Mains
+
+| Deep Sump Infrastructure | Mechanical Sizing & Piping Standard | Static Head / Flow Rate | Flood Ingress & Pressure Surges |
+| :--- | :--- | :---: | :--- |
+| **Twin Rising Dewatering Mains**| Dual $DN\ 150$ epoxy-coated ductile iron pressure pipes | Discharge velocity $v \approx 1.8\text{ m/s}$ | Parallel pipe redundancy guarantees continuous discharge if one pipe fractures |
+| **High-Head Multistage Pumps** | Dual-impeller submersible centrifugal pumps ($37\text{ kW}$) | Total dynamic head $H_{tdh} \ge 65\text{ m}$ | Overcomes deep tunnel gradient to lift floodwaters up to surface drainage networks |
+| **Anti-Vortex Suction Strainer** | Perforated conical 316 stainless-steel suction basket | Aperture size $\le 10\text{ mm}$ | Prevents air entrainment vortices and pump cavitation during low-water operation |
+| **Air Release & Vacuum Valves** | Combination kinetic air release and vacuum breaker valves | Inrush venting at $0.2\text{ bar}$ differential | Prevents negative pressure pipe collapse during rapid pump shutdown cycles |
+
 #### 🧯 Fire Detection & Suppression Architecture (NFPA 130 Compliance)
 
 | Fire Life-Safety Subsystem | Detection & Suppressant Agent | Target Station / Tunnel Zone | Activation & Containment Benchmark |
