@@ -1070,6 +1070,15 @@ flowchart TD
 | **Electronic Expansion Valve (EEV)**| 500-step stepper motor needle valve regulator | Superheat regulation $\pm 0.5\text{ K}$ | Continuously throttles refrigerant mass flow, preventing liquid floodback |
 | **Dual Centrifugal Plug Blowers**| Backward-curved centrifugal fans with EC motor drives | Saloon air circulation $> 4,800\text{ m}^3\text{/h}$ | Modulates airflow smoothly based on onboard passenger crush load sensors |
 
+#### 💨 Saloon HVAC Bipolar Plasma Ionization & Germicidal Photocatalytic Purifiers
+
+| Air Purification Layer | Physico-Chemical Mechanism | Ion Density / Inactivation Rate | Airborne Contaminant Mitigation |
+| :--- | :--- | :---: | :--- |
+| **Bipolar Needlepoint Ionization**| High-voltage Dielectric Barrier Discharge (DBD) electrodes | Ion generation $\ge 2.5 \times 10^6\text{ ions/cm}^3$ | Clusters airborne micro-droplets and smog aerosols for easy mechanical trapping |
+| **Photocatalytic $\text{TiO}_2$ Grid**| Nano-titanium dioxide honeycomb substrate under UV-A LED | Hydroxyl radical ($\cdot\text{OH}$) oxidation | Decomposes commuter-generated odors, volatile organic compounds (VOCs) and ozone |
+| **Viral & Bacterial Inactivation**| Pathogen membrane protein denaturation | Inactivation rate **$> 99.4\%$** in $30\text{ mins}$ | Neutralizes airborne influenza, COVID-19 aerosol droplets and bacterial spores |
+| **Differential Pressure Telemetry**| Micro-differential piezoresistive pressure drop transmitters | Pre-filter alarm at $\Delta P \ge 180\text{ Pa}$ | Continuously alerts train maintenance depot to clogged return-air duct filters |
+
 #### 🚄 Traction Motor Stator VPI Insulation & Thermal Class 200 System
 
 | Motor Insulation Layer | Material Formulation & Standard | Dielectric & Thermal Rating | Inverter Stress & Overload Resilience |
