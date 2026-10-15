@@ -1106,6 +1106,15 @@ flowchart TD
 | **TCMS CANopen Telemetry** | High-speed isolated serial CANopen bus to coach TCMS | Refresh update rate $\le 100\text{ ms}$ | Real-time thermal gradient logging & preventive fault annunciator alerts |
 | **Thermal Emergency Trip** | Vital hardware comparator circuit in traction inverter | Trip threshold $T_{trip} \ge 205^\circ\text{C}$ | Cuts IGBT gate pulses in **$< 10\ \mu\text{s}$**, preventing irreversible coil burnout |
 
+#### ⚙️ Traction Motor Hybrid Ceramic Ball Bearings & Anti-Fluting Insulation
+
+| Bearing Component | Material Specification & Metallurgy | Speed Rating / Breakdown Voltage | Bearing Longevity & Anti-Fluting Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Silicon Nitride ($\text{Si}_3\text{N}_4$) Balls**| Hot Isostatic Pressed (HIP) high-grade ceramic rolling elements | Dielectric breakdown resistance **$> 2.5\text{ G}\Omega$** | 100% immune to high-frequency inverter PWM micro-current bearing frosting |
+| **Deep-Groove Bearing Rings** | Vacuum-degassed chrome steel (100Cr6 / SAE 52100) | Hardness $58 – 62\text{ HRC}$ | Sustains heavy dynamic radial loads during high-speed traction acceleration |
+| **High-Speed Boundary Factor** | $n \cdot d_m$ speed factor index $\ge 850,000\text{ mm}\cdot\text{rpm}$ | Operating limit up to $6,000\text{ RPM}$ | Eliminates centrifugal cage fracture and micro-weld smearing during field weakening |
+| **Synthetic Polyurea Grease** | High-temperature polyurea-thickened synthetic ester lubricant | Operating temperature $-40^\circ\text{C} – +180^\circ\text{C}$| Extended relubrication intervals exceeding **$1.2 \times 10^6\text{ km}$** running service |
+
 ---
 
 ## 🧠 Graph Theory & Pathfinding Algorithms
