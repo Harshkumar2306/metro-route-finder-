@@ -854,6 +854,15 @@ flowchart TD
 | **Solid-State Static Transfer (STS)**| Dual SCR semiconductor transfer switches | Transfer latency **$< 4\text{ ms}$** | Seamless zero-break switchover between primary and secondary feeds |
 | **AFC Battery Buffer Backup** | Individual 24 V DC internal gate capacitor packs | Sustains **15 emergency gate cycles** | Automatically releases and parks flap barriers in open position on blackout |
 
+#### 💡 Central Battery System (CBS) & Emergency Ingress Illumination (EN 50171)
+
+| Central Battery Subsystem | Battery Chemistry & Architecture | Autonomy / Illumination Standard | Evacuation Safety & Circuit Monitoring |
+| :--- | :--- | :---: | :--- |
+| **Pure Lead Tin (PLT) Cells** | Valve-Regulated Lead-Acid ($230\text{ V DC}$ battery bank) | Autonomy duration **$\ge 180\text{ minutes}$** | High discharge rate; 15-year design life under floating charge ($2.27\text{ V/cell}$) |
+| **Emergency Concourse Lighting**| DALI-2 addressable LED emergency luminaires | Minimum illuminance **$\ge 15\text{ lux}$** | Provides glare-free directional egress lighting along stairs, turnstiles and platforms |
+| **Sub-Circuit Individual Sensing**| Automated individual lamp monitoring modules (ISO 30061) | Fault reporting latency $< 2.0\text{ s}$ | Detects open/short lamp circuits and reports exact location to Station Control Room |
+| **Deep-Discharge Cutoff Unit** | Microprocessor low-voltage disconnect (LVD) contactor | Disconnect threshold $1.75\text{ V/cell}$ | Prevents irreversible battery plate sulfation during prolonged station grid outages |
+
 #### ⚡ Overhead Equipment (OHE) Stagger & Pantograph Dynamics
 
 | Electrification Component | Structural Engineering Specification | Mechanical Dynamics | Commuter Reliability & Lifespan |
