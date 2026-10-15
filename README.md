@@ -1043,6 +1043,15 @@ flowchart TD
 | **Cross-Car Bus Tie Contactor** | Motorized bidirectional tie contactor switch | Automatic cross-feed if single SIV fails | Bus-tie closes in **$< 50\text{ ms}$**; prevents HVAC loss on degraded trainsets |
 | **Galvanic Isolation Transformer** | High-frequency ferrite isolation core ($2.5\text{ kV}$ test) | Isolates high-voltage catenary surges from coach passenger equipment | Prevents ground fault propagation between $25\text{ kV}$ traction and auxiliary circuits |
 
+#### 🔋 Traction Battery Box Flameproof Isolation & Thermal Runaway Suppression
+
+| Battery Safety Dimension | Material Standard & Containment | Pressure / Thermal Threshold | Fire Suppression & Degassing Channel |
+| :--- | :--- | :---: | :--- |
+| **Flameproof Underframe Box**| Welded 316 stainless-steel IP66 sealed casing ($3.0\text{ mm}$) | Hydrostatic burst rating $> 100\text{ kPa}$ | Protects carbody passenger saloon floor from explosive underframe battery fires |
+| **Overpressure Blast Burst Discs**| Calibrated bi-directional graphite rupture membrane | Rupture threshold $P_{burst} \approx 40\text{ kPa}$ | Directs high-temperature electrolyte gases laterally outward away from passenger doors |
+| **Micro-Aerosol Extinguishers**| Potassium-based condensed aerosol fire extinguishing units | Auto-activation trigger $T \ge 175^\circ\text{C}$ | Discharges ultrafine solid particles ($< 2\ \mu\text{m}$) in $< 5\text{ s}$, quenching thermal runaway |
+| **Ceramic Thermal Barriers** | High-purity alumina-silica refractory ceramic paper | Thermal insulation to $1,200^\circ\text{C}$ | Prevents cell-to-cell cascading thermal propagation across the $110\text{ V DC}$ pack |
+
 #### ⚡ Auxiliary Power SIV Resonant DC-DC Converter & Soft-Switching ZVS Topology
 
 | Resonant Converter Dimension | Circuit Topology & Semiconductor Spec | Switching Frequency / Efficiency | Thermal Management & Output Regulation |
