@@ -1772,6 +1772,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Curve Squeal Acoustic Damping** | Wheel-mounted tuned mass acoustic ring dampers | Tightly curved viaducts & turnouts | Suppresses high-frequency stick-slip squeal by **12–15 dBA** |
 | **Automated Axle Sensor Trigger** | Inductive wheel-detector pulse counter at rail foot | Pre-curve approach tangent track | Calibrates micro-dosing per axle count, avoiding slip |
 
+#### 🚆 Wayside Electronic Rail Flange Lubricators & Dual-Port High-Pressure Jet Nozzles
+
+| Wayside Lubrication Element | Dispenser Technology & Mechanics | Micro-Dosing Volumetrics | Friction Control & Track Protection |
+| :--- | :--- | :---: | :--- |
+| **Dual-Port High-Pressure Bars** | Rail-web mounted high-pressure steel applicator blades | Spray pressure $180\text{ bar} – 210\text{ bar}$ | Injects pinpoint grease beads directly onto high-rail gauge corner |
+| **Progressive Piston Metering**| Electro-hydraulic displacement pump with pulse controller | Precise shot volume **$0.15\text{ cm}^3/\text{axle}$** | Eliminates excessive pooling and completely prevents lubricant migration to rail crown |
+| **Biodegradable Synthetic Ester**| Non-toxic calcium-sulfonate thickener with ester base (OECD 301B)| Kinematic viscosity $460\text{ mm}^2\text{/s}$ | Flash point $> 240^\circ\text{C}$; water washout resistant during intense monsoon downpours |
+| **Direction-Selective Sensor**| Dual bidirectional wheel proximity inductive sensor clamp | Differentiates inbound vs. outbound trains | Only activates for curve-approaching trains, reducing grease consumption by $50\%$ |
+
 #### 🛞 Wheel Flange Lubrication Sticks & Solid Polymer Compound Applicators
 
 | Solid Stick Lubricator Spec | Chemical Formulation & Matrix | Mechanical Mount & Contact Force | Tribological & Environmental Benefit |
