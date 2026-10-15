@@ -980,6 +980,15 @@ flowchart TD
 | **Suspension Cantilever Arms** | Articulated composite fiberglass cantilever brackets | Spacing every $10\text{ m} – 12\text{ m}$ in tunnels | Dynamic pantograph uplift strictly bounded to **$< 20\text{ mm}$** at $120\text{ km/h}$ |
 | **Rigid-to-Flexible Transition** | Tapered overlap transition span ($35\text{ m}$ length) | Smooth mechanical stiffness gradient | Seamless high-speed pantograph passage between tunnel portal and open viaduct |
 
+#### ⚡ Rigid Overhead Catenary (ROCS) Sliding Expansion Joints & Section Breaks
+
+| ROCS Joint Subsystem | Structural Architecture & Metallurgical Spec | Thermal Stroke / Current Spec | Pantograph Transition & Mechanical Continuity |
+| :--- | :--- | :---: | :--- |
+| **Sliding Finger Blades** | Overlapping machined 6101B-T6 aluminum conductor beams | Thermal expansion stroke **$\Delta L = \pm 125\text{ mm}$** | Compensates structural viaduct and tunnel expansion joint movements smoothly |
+| **Flexible Copper Shunt Braids**| Multi-strand tinned electrolytic copper flexible jumpers | Cross-section $2 \times 120\text{ mm}^2$ ($1,200\text{ A}$) | Guarantees uninterrupted traction current path without arcing across slide gap |
+| **Contact Wire Transition Clamp**| Dual CuAg grooved contact wire clamping jaws | Clamping torque strictly $45\text{ N}\cdot\text{m}$ | Ensures seamless coplanar contact wire surface with zero pantograph strike bounce |
+| **Air-Gap Dielectric Isolator** | High-creepage epoxy fiberglass insulating bar divider | Dielectric withstand **$> 95\text{ kV}$ impulse** | Provides physical and electrical sectionalizing between adjacent electrical zones |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
