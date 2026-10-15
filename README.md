@@ -1889,6 +1889,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Switch Point Roller Devices**| Sealed stainless-steel low-friction roller bearings | Switch throw force $< 2.5\text{ kN}$ | Eliminates environmental graphite grease lubricants on switch chairs |
 | **Point Machine Clamping & Lock**| Internal clamp lock with independent detector slides | Throw stroke completed in $< 2.5\text{ s}$ | Detects rail gap $< 2\text{ mm}$; prevents route locking if obstructed |
 
+#### 🚊 Electro-Hydraulic Point Machine Internal Locking & Trailable Drive Mechanisms
+
+| Point Machine Component | Electro-Hydraulic Architecture & Standard | Operating Force / Stroke Time | Track Safety & Derailment Protection |
+| :--- | :--- | :---: | :--- |
+| **Electro-Hydraulic Power Unit**| Dual-direction hydraulic gear pump with 3-phase motor ($380\text{ V}$)| Throwing force **$F_{throw} \ge 6.5\text{ kN}$** | High throwing force overcomes track debris, dense frost and switch rail resistance |
+| **Rapid Throw Stroke Cycle** | Linear double-acting hydraulic cylinder ($220\text{ mm}$ stroke)| Throw stroke time strictly **$< 2.2\text{ s}$** | Accelerates route clearance at busy terminal crossover switches during peak service |
+| **Internal Clamp Locking Slide**| Independent detector slides verifying switch blade closure | Residual tip gap tolerance **$\le 1.5\text{ mm}$** | Electrically breaks SIL-4 interlocking circuit if foreign stone obstructs switch rail |
+| **Trailable Friction Clutch** | Pre-loaded spring friction disc clutch | Trailing force limit $9.0\text{ kN} \pm 1.0\text{ kN}$ | Absorbs mechanical run-through shocks during accidental trailing, preventing damage |
+
 #### 🚏 Turnout Heating & De-Icing Systems for Winter Operations
 
 | Switch Heating Subsystem | Electrical Heating Architecture | Power Density / Temp Range | Winter Cold Snap & Anti-Freeze Dynamic |
