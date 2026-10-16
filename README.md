@@ -1025,6 +1025,15 @@ flowchart TD
 | **Harmonic Suppression Level**| Selective cancellation of 3rd, 5th, 7th, 11th & 13th harmonics | Lowers current distortion **$THD_i \le 2.5\%$** | Strictly conforms to IEEE 519 and CEA grid interconnect standards |
 | **Dynamic Resonant Snubbers** | High-efficiency LCL output filter with passive damping resistor | Attenuates switching ripples ($f_{sw} = 20\text{ kHz}$) | Prevents high-frequency resonance oscillation between substation and catenary |
 
+#### ⚡ Substation 66 kV Gas-Insulated Switchgear (GIS) $\text{SF}_6$ Density Telemetry & Laser Gas Spectroscopy
+
+| GIS Subsystem Component | Electrical Rating & Chamber Mechanics | Diagnostic Metric / Threshold | Arc Extinction & Environmental Standard |
+| :--- | :--- | :---: | :--- |
+| **Hermetic Aluminum GIS Enclosure**| Three-phase encapsulated cast aluminum alloy vessels | Rated voltage $72.5\text{ kV}$ ($I_k = 31.5\text{ kA}$) | Gas leakage rate strictly bounded to **$< 0.1\%\text{ per year}$** (IEC 62271-203) |
+| **Piezoresistive Density Sensor** | Temperature-compensated quartz micro-sensor ($4–20\text{ mA}$) | Nominal filling density $\rho = 6.0\text{ kg/m}^3$ | Real-time SCADA pressure tracking with density alarm at $P_{stage1} \le 0.52\text{ MPa}$ |
+| **Laser Photoacoustic Spectroscopy**| Infrared tunable diode laser absorption spectroscopy (TDLAS) | Detects $\text{SO}_2$ & $\text{HF}$ byproducts down to $1\text{ ppm}$ | Diagnoses microscopic internal partial discharge (PD) arcs before breaker trip |
+| **High-Speed Earthing Switch (FES)**| Spring-loaded motorized switch with copper-tungsten contacts | Peak making current $I_{peak} \ge 82\text{ kA}$ | Closes in $< 80\text{ ms}$ onto live busbar, safely earthing line during emergency maintenance |
+
 #### ⚡ Neutral Grounding Resistor (NGR) & Earth Leakage Current Protection
 
 | Grounding Protection Layer | Electrical Topology & Components | Thermal Withstand Rating | Fault Sensing & Grid Disconnection Dynamic |
