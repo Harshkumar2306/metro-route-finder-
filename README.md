@@ -268,6 +268,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Automated Jam Re-Open Sequence**| Auto-reverses door by $200\text{ mm}$ upon obstacle resistance | Re-opening response in **$< 120\text{ ms}$** | Cycles up to 3 times before entering safe acoustic alarm lockout state |
 | **Tooth-Belt Synchronous Drive**| Steel-cord reinforced polyurethane synchronous timing belt | Service life $> 1.5 \times 10^6\text{ cycles}$ | High-tensile drive guarantees synchronized movement of bi-parting glass leaves |
 
+#### 🚪 Platform Screen Door Multi-Beam Infrared Obstacle Detection & Anti-Entrapment Photometrics
+
+| Detection Subsystem | Optical Architecture & Sensor Spec | Response Time / Resolution | Commuter Safety & Interlock Function |
+| :--- | :--- | :---: | :--- |
+| **Multi-Beam IR Light Curtain** | 64-channel modulated infrared array ($940\text{ nm}$ wavelength) | Height coverage $1,800\text{ mm}$ (15 mm pitch) | 100% detects opaque thin profile obstacles down to **$\ge 5\text{ mm}$** |
+| **Cross-Scanning Optical Matrix**| Alternating synchronized emitter-receiver triangulation | Scan repetition frequency **$\ge 80\text{ Hz}$** | Microsecond obstruction recognition immune to external ambient strobe lights |
+| **Dynamic Door-Pinch Reversal** | Automatic motor deceleration upon optical break | Reaction latency strictly **$< 45\text{ ms}$** | Reverses door leaves instantly before physical contact force exceeds $50\text{ N}$ |
+| **SIL-4 Optical Interlock Relay**| Redundant fail-safe force-guided relay contacts (EN 50129) | Mean Time Between Failures ($> 10^7\text{ h}$) | Withholds train departure authorization if any beam across door aperture is occluded |
+
 #### 🚪 Platform Screen Door Emergency Egress Doors (EED) & Mechanical Breakout Locks
 
 | EED Egress Parameter | Mechanical Architecture & Hardware | Opening Spec / Clearance | NFPA 130 Compliance & Vital Interlock |
