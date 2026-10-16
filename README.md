@@ -1889,6 +1889,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Track-Braking Retardation** | Complies with full emergency braking rate ($a \ge 1.3\text{ m/s}^2$) | Zero stopping distance penalty | Safely applies to station approach tracks and steep viaduct grade transitions |
 | **Acoustic Curve Squeal Attenuation**| Eliminates high-frequency lateral resonance modes | Lowers tonal squeal by **$> 16\text{ dBA}$** | Drastically cuts transit noise pollution along curved residential alignments |
 
+#### 🚆 Track Rail Corrugation Optical Profilometry & High-Speed Rotational Grinding
+
+| Rail Metrology & Grinding Layer | Laser Optical Architecture & Mechanics | Processing Metric / Speed | Acoustic Mitigation & Rail Life Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Laser Chord Triangulation** | High-speed multi-laser displacement optical triangulation heads | Sampling interval $\le 5\text{ mm}$ at $80\text{ km/h}$ | Maps short-pitch rail corrugation wavelengths ($\lambda = 30\text{ mm} – 100\text{ mm}$) |
+| **Digital Acoustic Roughness** | EN ISO 3095 compliant spectral acoustic roughness analyzer | Wavelength spectrum filter $1.0\text{ mm} – 200\text{ mm}$ | Pinpoints micro-indentations exceeding acoustic threshold $L_r \ge 10\ \mu\text{m}$ |
+| **48-Stone Peripheral Grinder** | High-power electric grinding heads with continuous angle tilt | Operating speed $12\text{ km/h} – 18\text{ km/h}$ | Restores transverse UIC 60 rail profile with metal removal depth $\sim 0.15\text{ mm}$ |
+| **Rolling Contact Fatigue (RCF)**| Removes micro-cracked plastified head-hardened steel layer | Depth removal tolerance strictly $\pm 0.05\text{ mm}$ | Eliminates deep squat propagation, extending continuous welded rail life by **$> 40\%$** |
+
 #### ⚡ Track Circuitry & Axle Counter Train Detection Systems
 
 | Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
