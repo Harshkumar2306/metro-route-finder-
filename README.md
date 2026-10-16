@@ -629,6 +629,15 @@ flowchart TD
 | **Critical Hunting Suppression**| Attenuates bogie kinematic sinusoidal hunting oscillations | Critical stability speed **$v_{crit} \ge 160\text{ km/h}$** | Maintains horizontal Sperling ride comfort index strictly **$W_z \le 1.85$** |
 | **Elastomeric Spherical Joints**| High-stiffness natural rubber silentbloc vulcanized bushings | Radial stiffness $k_r \ge 12\text{ kN/mm}$ | Guarantees play-free dynamic response without mechanical metallic backlash |
 
+#### 🛞 Bogie Axle Box Spherical Roller Bearings & Wayside Hot Box Detection (HBD)
+
+| Axle Bearing & Thermal Layer | Mechanical Topology & Metallurgy | Operating Rating / Threshold | Tribological Life & Wayside Monitoring |
+| :--- | :--- | :---: | :--- |
+| **Double-Row Spherical Rollers**| Premium vacuum-melted case-hardened alloy steel (100CrMo7-4) | Dynamic radial rating $C_r \ge 540\text{ kN}$ | Accommodates axle bending deflections up to $\pm 1.5^\circ$ without stress concentrations |
+| **Embedded Pt100 RTD Sensors** | 4-wire platinum resistance probes sealed in axle box casting | Measurement range $-40^\circ\text{C} – +200^\circ\text{C}$| Real-time TCMS bearing temperature logging with $0.1^\circ\text{C}$ resolution |
+| **Wayside Multi-Beam Pyrometers**| Trackside high-speed infrared pyrometric thermal cameras | Vehicle scan speed up to $130\text{ km/h}$ | Scans every axle box profile as train passes; flags hot boxes within $< 25\text{ ms}$ |
+| **Differential Thermal Alarm** | Dual-threshold algorithm ($\Delta T_{axle} \ge 35^\circ\text{C}$ or $T_{abs} \ge 90^\circ\text{C}$) | Automated OCC alert dispatch | Instantly alerts driver cab to initiate controlled braking before catastrophic bearing seizure |
+
 #### 🛞 Train Bogie Axle Grounding Carbon Brushes & Stray Current Pathing
 
 | Grounding Return Subsystem | Metallurgy & Spring Architecture | Contact Resistance & Ampacity | Bearing Protection & Return Path Dynamic |
