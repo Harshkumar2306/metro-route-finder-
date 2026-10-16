@@ -737,6 +737,15 @@ flowchart TD
 | **Sacrificial Anti-Vandal Film** | Multi-ply peelable optically clear polyester film | $100\ \mu\text{m}$ surface barrier | Protects against glass scratching, acid etching & spray graffiti |
 | **Emergency Window Breakout** | Tempered glass breakout panels with red striker hammer | Marked with photoluminescent rings | Provides immediate passenger egress pathway during derailment |
 
+#### 🪟 Driver Cab High-Impact Heated Laminated Windshield & De-Misting Thermals (EN 15152)
+
+| Cab Glazing Dimension | Material Composition & Metallurgy | Impact & Thermal Benchmark | Operator Protection & Optical Clarity |
+| :--- | :--- | :---: | :--- |
+| **Curved Multi-Ply Silicate Glass**| 4-layer chemically prestressed mineral glass with PVB interlayers | Total thickness $24\text{ mm} \pm 1.0\text{ mm}$ | Sustains $1.0\text{ kg}$ aluminum projectile impact at **$v \ge 160\text{ km/h}$** (EN 15152) |
+| **Micro-Wire Heating Grid** | Embedded ultrafine tungsten heating filaments ($15\ \mu\text{m}$ dia) | Electrical heating load $450\text{ W/m}^2$ ($110\text{ V DC}$) | Instantaneous defrosting and de-icing across $-20^\circ\text{C} – +50^\circ\text{C}$ range |
+| **Internal Anti-Spall Liner** | High-elongation optical polycarbonate backing sheet ($3.0\text{ mm}$) | Zero glass fragment detachment on impact | 100% protects train operator from flying glass splinters during bird strike |
+| **Anti-Reflective Solar Coating** | Magnetron sputtered multi-layer titanium oxide nanocoating | Visible light transmittance (VLT) **$\ge 75\%$** | Eliminates tunnel headlamp reflections and ghosting during night-time operation |
+
 #### 🚇 Inter-Car Articulated Gangway Bellows & Passenger Walkthrough Acoustic Decoupling
 
 | Gangway Engineering Layer | Mechanical Material & Profile | Kinematic Travel / Acoustic Rating | Passenger Transit & Thermal Barrier |
