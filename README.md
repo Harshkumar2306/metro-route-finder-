@@ -2024,6 +2024,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Thermal Expansion Clearance** | Diametrical bore thermal expansion $\Delta d \approx +1.8\text{ mm}$ | Shrink-fit interference $1.2\text{ mm}$ | Allows effortless zero-friction wheel mounting onto cold EA4T axle seat |
 | **Controlled Ambient Cooling** | Natural air cooling in temperature-controlled bay | Cooling rate $\le 2^\circ\text{C/min}$ | Conforms to EN 13262; prevents martensitic micro-cracking and residual stress |
 
+#### 🛠️ Depot Bogie Drop Table & Synchronized Underfloor Screw Lifting Jacks
+
+| Workshop Overhaul Subsystem | Mechanical Architecture & Drives | Payload Capacity / Travel Stroke | Turnaround Efficiency & Maintenance Safety |
+| :--- | :--- | :---: | :--- |
+| **Pit-Mounted Bogie Drop Table**| Electro-mechanical scissor-lift platform with transverse rails | Lifting capacity **$Q \ge 25\text{ tonnes}$** | Lowers complete 8-tonne motor bogie without uncoupling multi-car train rake |
+| **Synchronized Carbody Jacks** | 4-post electromechanical trapezoidal machine screw jacks | Synchronous height tolerance strictly **$\le \pm 2.0\text{ mm}$** | Elevates coupled 6-car/8-car rakes smoothly to allow bogie clearance below frame |
+| **Subterranean Transverse Shuttle**| Rail-guided electric shuttle cart moving through pit tunnel | Traversing stroke $35\text{ m}$ at $0.15\text{ m/s}$ | Delivers spent bogie directly to overhaul cleanroom bay for motor/gearbox renewal |
+| **Rapid Overhaul Swap Cycle** | Dual hydraulic alignment dowels and automatic locking pawls | Complete bogie exchange time **$< 90\text{ minutes}$** | Eliminates 48-hour crane lift cycles, maximizing revenue fleet rolling stock availability |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
