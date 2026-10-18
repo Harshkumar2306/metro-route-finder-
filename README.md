@@ -1700,6 +1700,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Epoxy Shear Key Joints** | Thixotropic structural epoxy bonding adhesive | Joint thickness `1.0 mm – 1.5 mm` | 100% watertight hermetic sealing preventing moisture ingress to steel |
 | **Internal Post-Tensioning Tendons**| High-tensile low-relaxation 7-wire steel strands | Prestressing force `1,200 kN/tendon` | Conforms to IRC:18 design codes; verified design lifespan **$> 120\text{ years}$** |
 
+#### 🏛️ Station Box Structure Lead-Rubber Seismic Isolators & Kinematic Damping Joints
+
+| Seismic Isolation Layer | Structural Architecture & Elastomer Metallurgy | Design Metric / Standard | Seismic Zone-IV Resilience & Safety Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Lead-Rubber Bearings (LRB)** | Alternating vulcanized chloroprene rubber and steel shim plates | Lead core diameter $120\text{ mm} – 180\text{ mm}$ | Shifts natural structural vibration period to $T \ge 2.5\text{ s}$, cutting shear forces by $60\%$ |
+| **Hysteretic Plastic Damping** | High-purity ($99.9\%$) central lead core yielding plastically | Equivalent damping ratio strictly **$\xi \ge 25\%$** | Dissipates peak kinetic earthquake energy through plastic shear deformation cycles |
+| **Maximum Design Shear Strain** | Lateral shear displacement capacity (IS 1893 / EN 15129) | Total horizontal stroke **$\Delta x \ge \pm 250\text{ mm}$** | Protects elevated concourses and station portals from brittle concrete joint shear failure |
+| **Viscous Fluid Dampers (VFD)** | High-pressure silicone fluid piston dampers across joints | Peak damping force $F_d \ge 1,500\text{ kN}$ | Controls differential displacements between underground station box and viaduct ramps |
+
 #### 🚇 Viaduct Noise Barriers & Resilient Acoustic Absorptive Panels
 
 | Acoustic Mitigation Layer | Material Composition & Dimensions | Acoustic Insertion Loss (EN 1793) | Structural Wind Load & Urban Integration |
