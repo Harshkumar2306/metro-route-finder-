@@ -764,6 +764,15 @@ flowchart TD
 | **Acoustic Transmission Loss** | Dual-wall decoupling barrier ($R'_w \ge 34\text{ dB}$) | Suppresses tunnel reverberation | Drops saloon interior background noise to **$< 68\text{ dBA}$** at $80\text{ km/h}$ |
 | **HVAC Thermal Insulation** | Polyurethane microcellular foam core within bellow folds | Thermal conductance $U \le 1.8\text{ W/(m}^2\cdot\text{K)}$| Prevents conditioned cold air leakage between coaches during peak summer |
 
+#### 🖥️ Saloon Dynamic Stretched LCD Passenger Route Displays (PIS) & Ethernet Backbone
+
+| Passenger Information Subsystem | Display Physics & Optical Spec | Resolution & Network Standard | Dynamic Commuter Guidance Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Ultra-Wide Stretched Bar LCD**| $37\text{-inch}$ bar-type TFT-LCD with high-efficiency edge LED | Aspect ratio $16:3$ ($1920 \times 360\text{ px}$) | Displays dynamic multi-color metro line schematics and upcoming interchange nodes |
+| **High Ambient Brightness** | Optical bonding with anti-glare anti-reflective (AG/AR) glass | Luminance **$\ge 1,000\text{ cd/m}^2$** | Ultra-clear visibility even under intense afternoon direct sunlit elevated runs |
+| **Ethernet Train Backbone (ETB)**| Redundant M12 X-coded automotive Gigabit Ethernet link | Data rate $1.0\text{ Gbps}$ (IEC 61375-2-5) | Real-time map rendering and synchronous audio-visual announcements across rakes |
+| **Dynamic Platform Door Indicator**| Animated graphic arrows indicating platform side of egress | Refresh update rate strictly **$< 50\text{ ms}$** | Pre-warns commuters on correct exit side before train comes to full platform standstill |
+
 #### 🚦 Automatic Train Control (ATC), Protection (ATP) & Operation (ATO) Levels
 
 | Automation Dimension | System Architecture & Standard | Target Metro Corridors | Operational Safety & Capacity Impact |
