@@ -854,6 +854,15 @@ flowchart TD
 | **Heavy Monsoon Rain-Fade Margin**| High-gain directional beam shaping ($16\text{ dBi}$ forward gain) | Link margin reserve $> 25\text{ dB}$ | Sustains continuous vital train communications during $100\text{ mm/h}$ cloudbursts |
 | **Dual Redundant Optical Uplink** | Redundant SFP fiber Ethernet tranceivers tied to ring backbone | Dual-homed to alternating wayside switch | 0 frame loss if any single trackside switch or fiber strand is severed |
 
+#### 🚊 CBTC Vehicle On-Board Controller (VOBC) 2-out-of-3 (2oo3) Hardware Architecture
+
+| VOBC Hardware Subsystem | Computing Topology & Redundancy | Cycle Time / Safety Standard | Fail-Safe Train Control Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Triple Modular Redundancy (TMR)**| Three independent fail-safe processor boards (CPU-A, B, C) | Hardware voting logic strictly **2-out-of-3 (2oo3)** | Executes identical ATP vital software; isolates single faulty channel without braking |
+| **Fail-Safe Vital Output Relays** | Force-guided safety relays with dynamic pulse monitoring | Relay drop response strictly **$< 18\text{ ms}$** | Requires continuous oscillating square wave; de-energizes instantly into safe clamp on freeze |
+| **Dynamic ATP Cycle Period** | Deterministic real-time operating system (RTOS) tick loop | Execution cycle $\tau_{cycle} \le 100\text{ ms}$ | Re-computes dynamic braking curves and distance-to-go 10 times every second |
+| **CENELEC SIL-4 Certification** | Certified according to EN 50126, EN 50128, and EN 50129 | Tolerable Hazard Rate **$\text{THR} < 10^{-9}\text{/hour}$** | Absolute fail-safe guarantee: hardware fault forces immediate emergency brake intervention |
+
 #### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
 
 | Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
