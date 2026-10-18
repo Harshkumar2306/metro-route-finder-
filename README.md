@@ -141,6 +141,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Duplex Drive Roller Chains** | Alloy steel induction-hardened link plates & pins | Breaking load tenacity $> 320\text{ kN}$ | Transmits smooth torque from planetary gearbox to top sprocket assembly |
 | **Seismic Swivel Floor Bearings**| PTFE sliding spherical bearings on concrete abutments | Dynamic displacement allowance $\pm 35\text{ mm}$ | Absorbs differential station structural shifts during Zone-IV seismic events |
 
+#### 🪜 Transit Escalator Comb Plate Optical Matrix & Skirt Guard Deflector Brushes
+
+| Escalator Safety Subsystem | Mechanical Architecture & Sensor Spec | Actuation Metric / Standard | Passenger Entrapment Prevention & EN 115 |
+| :--- | :--- | :---: | :--- |
+| **Comb Plate Impact Trip Switches**| Bi-directional horizontal and vertical contact micro-switches | Tripping force strictly **$F \le 400\text{ N}$** | Trips auxiliary safety brake in $< 100\text{ ms}$ if foreign object jams comb teeth |
+| **Continuous Skirt Deflector Brushes**| Dual-row anti-static virgin nylon filaments in aluminum casing | Deflection stand-off clearance $30\text{ mm}$ | Physically deflects soft footwear (crocs, canvas shoes) away from skirt panel gap |
+| **Optical Step-Missing Sensors** | Redundant inductive proximity sensors under comb approach | Detection speed up to $0.75\text{ m/s}$ | Immediately halts drive before open step void reaches passenger boarding landing |
+| **Skirt Clearance Gap Standard** | Precision ground low-friction molybdenum-coated skirt panels | Lateral step gap strictly **$\le 4.0\text{ mm}$** | Conforms to EN 115-1; eliminates pinch hazards along high-speed escalator runs |
+
 #### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
 
 | Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
