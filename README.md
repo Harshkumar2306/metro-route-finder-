@@ -1781,6 +1781,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **High-Pressure Water Mist (HPWM)**| Micro-droplet atomization nozzles ($100–140\text{ bar}$) | Traction transformer ASS bays & high-voltage rooms | Rapid thermal cooling & oxygen displacement with minimal water draw |
 | **Pressurized Fire Hydrant Ring**| Wet riser main system with dual electric jockey pumps | Station platforms, concourses & cross-passages | Maintains continuous $10\text{ bar}$ pressure for fire brigade coupling |
 
+#### 🧯 Station Platform Wet-Pipe Sprinkler Alarm Valves & Flow Switch Telemetry
+
+| Sprinkler Subsystem Layer | Mechanical Hardware & Sizing | Operating Pressure / Metric | Life Safety & SCADA Alarm Dispatch |
+| :--- | :--- | :---: | :--- |
+| **Variable Pressure Alarm Valve** | Ductile iron flanged check valve with external retard chamber | Static working pressure $12.0\text{ bar} – 16.0\text{ bar}$ | Mechanically sounds water motor gong klaxon upon sprinkler head fusion |
+| **Vane-Type Waterflow Detector** | Flexible elastomeric paddle switch with pneumatic retard | Adjustable retard delay strictly **$20\text{ s} – 45\text{ s}$** | Prevents false fire alarms from water supply line surges and pressure waves |
+| **Quick-Response Glass Bulbs** | Fast-response $3\text{ mm}$ frangible borosilicate bulbs (NFPA 13) | Response Time Index **$\text{RTI} \le 50\text{ (m}\cdot\text{s)}^{0.5}$** | Thermal rating $68^\circ\text{C}$; discharges $80\text{ L/min}$ directly over seat/trash fire |
+| **OS&Y Supervisory Tamper Switch**| Double SPDT micro-switch tracking valve stem position | Reports stem travel $> 2\text{ revolutions}$ | Detects unauthorized closure of zone control valves within $< 2.0\text{ s}$ on SCADA |
+
 #### 🧯 High-Pressure Water Mist (HPWM) Micro-Droplet Tunnel Deluge Grid
 
 | Water Mist Parameter | Hydraulic Sizing & Atomization Spec | Discharge Pressure / Density | Thermal Cooling & Oxygen Starvation |
