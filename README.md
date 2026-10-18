@@ -944,6 +944,15 @@ flowchart TD
 | **Auto-Tensioning Balance (ATD)**| 3:1 ratio mechanical counterweight pulley wheels | Regulates constant wire tension `10 kN–12 kN` | Compensates thermal expansion from **4°C to 48°C** |
 | **Rigid Conductor Bar (ROCS)** | High-grade extruded aluminum bar with copper contact wire | Continuous mounting in underground tunnel ceilings | Eliminates wire snap risk in restricted tunnel clearances |
 
+#### 🚡 Contact Wire Wind Blow-Off Modeling & Maximum Permissible Sway Limits (EN 50119)
+
+| Catenary Wind Dynamic Layer | Mathematical Formulation & Physics | Maximum Metric / Benchmark | Safe Current Collection & Dewirement Prevention |
+| :--- | :--- | :---: | :--- |
+| **Wind Blow-Off Deflection ($b_w$)**| $b_w = \frac{q \cdot d_c \cdot L^2}{8 T}$ where $q = \frac{1}{2}\rho v_w^2$ | Wind pressure $q \ge 600\text{ N/m}^2$ ($v_w = 110\text{ km/h}$) | Calculates lateral wire shift at mid-span under extreme storm gusts |
+| **Combined Mid-Span Sway ($d_{tot}$)**| $d_{tot} = \frac{|s_1 + s_2|}{2} + b_w$ with stagger $s_i = \pm 200\text{ mm}$ | Total lateral deviation **$d_{tot} \le 400\text{ mm}$** | Strictly bounds lateral wire position within pantograph flat collector table |
+| **Span Length Optimization ($L$)**| Mast span reduction on curves ($L = 36\text{ m} – 45\text{ m}$)| Tangent span maximum $L_{\max} = 65\text{ m}$ | Prevents excessive blow-off across high elevated Yamuna viaduct spans |
+| **Steady Arm Retainer Tubes** | Articulated aluminum steady arms with anti-wind lift stops | Permissible uplift $\Delta z \le 80\text{ mm}$ | Holds contact wire securely on stagger point, resisting upward wind gust flutter |
+
 #### 🚊 Pantograph Copper-Impregnated Carbon Strips & Dynamic Uplift Foil Aero-Wings
 
 | Pantograph Component | Material Composition & Aerodynamics | Contact Force / Electrical Spec | High-Speed Current Collection & Protection |
