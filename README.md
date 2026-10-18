@@ -971,6 +971,15 @@ flowchart TD
 | **Auto-Drop Device (ADD)** | Pressurized pneumatic channel inside collector carbon profile | Rapid exhaust tripping in **$< 100\text{ ms}$** | Auto-drops pantograph immediately upon strip fracture, preventing dewirement |
 | **Plunger Suspension Springs** | Dual independent coil springs with internal elastomeric stops | Contact strip travel stroke $\pm 25\text{ mm}$ | Absorbs micro-irregularities and dropper stitch vibrations without arc sparking |
 
+#### 🚊 Pantograph Dynamic Contact Force Telemetry & Optical Fiber Bragg Grating (FBG) Load Cells
+
+| Pantograph Metrology Layer | Optoelectronic Sensor Physics | Dynamic Range & Standard | Catenary Health & Current Arcing Mitigation |
+| :--- | :--- | :---: | :--- |
+| **Collector Head FBG Load Cells**| Optical strain sensors embedded in carbon strip carrier shoes | Dynamic force range $0\text{ N} – 300\text{ N}$ | 100% immune to $25\text{ kV}$ catenary EMI; measures vertical contact force |
+| **Statistical Force Standard**| Mean contact force $F_m = 80\text{ N} \pm 10\text{ N}$ (EN 50317)| Standard deviation strictly **$\sigma \le 0.25 F_m$** | Prevents excessive contact wire mechanical uplift and carbon strip chatter |
+| **Dynamic Loss of Contact (NQ)**| High-speed optical arc sensor detecting microsecond flashes | Arc percentage strictly **$\text{NQ} \le 0.1\%$** | Suppresses destructive electrical arcing that causes contact wire localized melt pits |
+| **Rooftop Optical Interrogator**| Sealed IP67 spectrometer digitizing FBG wavelength shift | Sampling frequency **$f_s \ge 2.0\text{ kHz}$** | Feeds real-time catenary stiffness profile directly to TCMS maintenance bus |
+
 #### 🛡️ Optical Defect Detection System (ODDS) & Pantograph Profiling Cameras
 
 | Pantograph Inspection Subsystem | Optoelectronic Sensor Architecture | Scanning Rate & Resolution | Defect Detection & Catenary Protection |
