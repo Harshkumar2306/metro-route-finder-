@@ -656,6 +656,15 @@ flowchart TD
 | **Wayside Multi-Beam Pyrometers**| Trackside high-speed infrared pyrometric thermal cameras | Vehicle scan speed up to $130\text{ km/h}$ | Scans every axle box profile as train passes; flags hot boxes within $< 25\text{ ms}$ |
 | **Differential Thermal Alarm** | Dual-threshold algorithm ($\Delta T_{axle} \ge 35^\circ\text{C}$ or $T_{abs} \ge 90^\circ\text{C}$) | Automated OCC alert dispatch | Instantly alerts driver cab to initiate controlled braking before catastrophic bearing seizure |
 
+#### 🎧 Wayside Acoustic Bearing Defect Detection (TADS) & Ultrasonic Wheel Flat Profiling
+
+| Wayside Acoustic Sensing Layer | Acoustic Sensor Array & Processing | Sampling Speed / Frequency Band | Defect Interception & Wheel Flat Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Microphone Phased Array** | 16-channel ultrasonic directional condenser microphone array | Bandwidth $20\text{ kHz} – 80\text{ kHz}$ | Isolates rolling bearing ultrasonic friction clicks from background wheel squeal |
+| **Raceway Spall Spectral Analysis**| Envelope FFT demodulation extracting bearing defect frequencies | Detects micro-spalls down to **$\ge 2.0\text{ mm}^2$** | Flags outer ring (BPFO), inner ring (BPFI) and ball (BSF) flaws weeks before heat rise |
+| **Piezoelectric Rail-Web Accelerometers**| High-g quartz shear accelerometers bolted to rail neutral axis | Impact shock peak force **$F_{peak} \ge 350\text{ kN}$** | Detects wheel flats and polygonized treads exceeding condemning threshold ($> 30\text{ mm}$) |
+| **Automated Depot Maintenance Ticket**| Real-time edge compute linking vehicle RFID tag with sound map | Diagnostic latency strictly **$< 1.5\text{ s}$** | Automatically schedules overnight wheel truing or axle box bearing replacement |
+
 #### 🛞 Train Bogie Axle Grounding Carbon Brushes & Stray Current Pathing
 
 | Grounding Return Subsystem | Metallurgy & Spring Architecture | Contact Resistance & Ampacity | Bearing Protection & Return Path Dynamic |
