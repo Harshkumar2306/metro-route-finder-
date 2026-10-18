@@ -286,6 +286,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **SIL-3 Closed-Loop Switch** | Redundant magnetic safety interlock contact switches | Loop interrupt latency $< 50\text{ ms}$ | Instantly reports door breakout to CBTC, holding track signals at stop |
 | **Fire-Rated Laminated Glass**| Double-laminated toughened borosilicate glass panels | Fire integrity classification **E60 / EW30** | Sustains $1,000^\circ\text{C}$ radiant tunnel flashover fires for $> 60\text{ minutes}$ |
 
+#### 🛑 Platform Emergency Stop Plunger (ESP) SIL-4 Vital Hardwired Interlock Loop
+
+| Emergency Stop Component | Electrical Architecture & Hardware | Actuation Metric / Standard | Safety Intervention & Signal Hold |
+| :--- | :--- | :---: | :--- |
+| **Mushroom Strike Plunger** | Palm-operated latching twist-to-reset switch ($60\text{ mm}$ red cap) | Mechanical actuation force $\approx 35\text{ N}$ | Rapid passenger/staff manual trigger during track falls or entrapments |
+| **Vital Hardwired Safety Loop** | Dual-channel normally-closed dry contacts ($24\text{ V DC}$) | Loop interruption latency strictly **$< 15\text{ ms}$** | Cuts Movement Authority (MA) to inbound trains within $1,200\text{ m}$ approach |
+| **SIL-4 Interlocking Interface** | Direct hardwired interface to CBI (Computer-Based Interlocking) | Safety Integrity Level **SIL-4** (CENELEC EN 50129)| Imposes immediate red signal aspect; commands train emergency brake application |
+| **Audible & Optical Flagging** | Strobe beacon on platform headwall + $110\text{ dBA}$ siren | Station Control Room annunciator trigger | Directs station controller to exact platform sector; prevents remote reset without key |
+
 #### 🚇 Curved Platform Gap Fillers & Under-Platform Safety Refuge
 
 | Safety Engineering Mechanism | Dimensional Benchmark / Tolerance | Target Station Implementations | Commuter Protection & Accessibility Function |
