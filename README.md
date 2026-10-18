@@ -683,6 +683,15 @@ flowchart TD
 | **Driver Cab Survival Cell** | High-strength austenitic stainless-steel (EN 1.4301 / AISI 304) | Longitudinal static load $> 1,500\text{ kN}$ | Strictly preserves $> 1.8\text{ m}$ residual driver cab survival space without intrusion |
 | **Intermediate Coach Shear Pins**| Calibrated energy-absorbing tube draft links between cars | Controlled plastic stroke $\sim 150\text{ mm}$ | Evenly distributes deceleration pulse ($a_{mean} \le 5.0\text{ g}$) across all rakes |
 
+#### 🔗 Automatic Mechanical Scharfenberg Type 10 Coupler & Electric Head Contacts
+
+| Coupler Subsystem Component | Mechanical Topology & Metallurgy | Dynamic Rating / Capacity | Multi-Unit Train Operation & Safety |
+| :--- | :--- | :---: | :--- |
+| **Scharfenberg Type 10 Head** | Rigid latched cone-and-funnel coupler body (quenched cast steel) | Tensile draft load **$\ge 1,000\text{ kN}$** | Automatic instantaneous mechanical coupling upon vehicle approach ($v \le 3.0\text{ km/h}$) |
+| **Side-Mounted Electric Heads** | Retractable gold-plated multi-pin electrical connectors ($120\text{ poles}$)| Continuous current rating $16\text{ A/pin}$ | Automatically couples trainline signals, Ethernet bus, and TCMS lines without manual jumper cables |
+| **Main Reservoir Air Coupler** | Integrated automatic face-sealing elastomeric pneumatic valves | Main reservoir pressure $8.5\text{ bar} – 10.0\text{ bar}$ | Bridges brake pipe (BP) and main reservoir (MR) pneumatics seamlessly upon mechanical lock |
+| **Hydro-Pneumatic Draft Gear** | Dual-stage hydraulic buffer with elastomeric elastomer spring | Buffing absorption capacity **$\ge 120\text{ kJ}$** | Smoothly absorbs train starting draft snatch forces and coupling impact shocks |
+
 #### ⚙️ Traction Single-Stage Helical Gearbox & Torque Reaction Arm Dynamics
 
 | Gearbox & Drivetrain Subsystem | Mechanical Configuration & Tolerancing | Gear Ratio / Rating | Dynamic Damping & Powertrain Integrity |
