@@ -2415,6 +2415,15 @@ To ensure travelers with color vision deficiencies can navigate seamlessly, ever
 | **Fire Alarm Voice Override** | Redundant Class-D EN 54-16 certified amplifier racks | Automated priority preemption | Overrides regular announcements with localized evacuation directives |
 | **Bilingual Station Chimes** | Dual bell harmonious major-third synthesizer tone | Standard DMRC chime frequency | Precedes routine security alerts & approaching train advisories |
 
+#### 📢 Station Concourse Digital Steerable Phased Array PA & Speech Transmission Index (STI)
+
+| PA Acoustic Processing Layer | Electro-Acoustic Beamforming & Hardware | Target Metric / Benchmark | Acoustic Reverberation & Speech Clarity |
+| :--- | :--- | :---: | :--- |
+| **DSP Phased Array Columns** | Vertical 16-channel Class-D amplified neodymium drivers | Vertical beam dispersion strictly $\pm 12^\circ$ | Focuses direct acoustic wave packets onto floor level, bypassing reverberant ceilings |
+| **Speech Transmission Index (STI)**| Modulated envelope transfer function (IEC 60268-16) | Target intelligibility strictly **$\text{STI} \ge 0.62$** | Guarantees crystal-clear spoken words even in cavernous granite concourses ($T_{60} \ge 2.8\text{ s}$) |
+| **Real-Time Dynamic Ambient Gain**| Omnidirectional sensing capsules sampling continuous background | Modulates broadcast $+10\text{ dBA}$ above ambient | Prevents audio clipping or ear fatigue while maintaining emergency message clarity |
+| **Dante / AES67 Audio-Over-IP**| Redundant gigabit Ethernet audio networking (dual SFP ports)| Transmission latency strictly **$< 1.5\text{ ms}$** | Synchronous multi-zone digital audio distribution with zero analog ground hum |
+
 #### 💡 Transit Power-User Pro Tips
 - **1-Click Heritage Routing**: In the *Tourist Guide* tab, clicking **"Plan Route →"** on monuments like *India Gate* automatically populates the destination and calculates the quickest path.
 - **Map Origin/Destination Pinning**: Clicking any station on the map first sets the Origin; clicking a second station sets the Destination and immediately renders the route highlight.
