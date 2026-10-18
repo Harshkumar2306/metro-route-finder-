@@ -1772,6 +1772,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Anti-Vortex Suction Strainer** | Perforated conical 316 stainless-steel suction basket | Aperture size $\le 10\text{ mm}$ | Prevents air entrainment vortices and pump cavitation during low-water operation |
 | **Air Release & Vacuum Valves** | Combination kinetic air release and vacuum breaker valves | Inrush venting at $0.2\text{ bar}$ differential | Prevents negative pressure pipe collapse during rapid pump shutdown cycles |
 
+#### 🛢️ Subterranean Sump Hydrocarbon Skimmers & Coalescing Plate Oil Separators
+
+| Hydrocarbon Separation Layer | Mechanical Architecture & Media | Separation Standard / Efficiency | Environmental Compliance & Sump Safety |
+| :--- | :--- | :---: | :--- |
+| **Oleophilic Tube Skimmer** | Continuous closed-loop floating hydrocarbon collector tube | Oil removal rate **$\ge 45\text{ L/hour}$** | Strips floating traction motor gear grease and compressor oil slicks from sump |
+| **Coalescing Plate Matrix (CPS)**| Corrugated cross-flow polypropylene plate pack ($60^\circ$ incline)| Effluent oil content strictly **$\le 5\text{ mg/L}$** | Conforms to EN 858-1 Class 1; intercepts oil droplets down to $20\ \mu\text{m}$ |
+| **Optical Oil Layer Detector** | High-frequency optical refraction / conductivity interface sensor | Thickness sensitivity $\pm 1.0\text{ mm}$ | Automatically triggers skimmer motor upon detecting $> 5\text{ mm}$ free surface oil |
+| **Automatic Float Shut-Off Valve**| High-density polyethylene fail-safe buoyant shut-off float | Specific gravity $\rho = 0.90\text{ g/cm}^3$ | Closes discharge port instantly if oil storage chamber reaches capacity, preventing spillage |
+
 #### 🧯 Fire Detection & Suppression Architecture (NFPA 130 Compliance)
 
 | Fire Life-Safety Subsystem | Detection & Suppressant Agent | Target Station / Tunnel Zone | Activation & Containment Benchmark |
