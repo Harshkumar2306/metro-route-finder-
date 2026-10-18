@@ -719,6 +719,15 @@ flowchart TD
 | **Rail Skin Depth Heating** | High-frequency surface eddy current circulation | Skin depth $\delta = \sqrt{2 / (\omega \mu \sigma)}$ | Rail head temp rise strictly bounded to **$\Delta T \le 25^\circ\text{C}$** to prevent track buckling |
 | **Monsoon Adhesion Immunity** | Contact-free electrodynamic electromagnetic flux linkage | Wheel-rail friction coefficient $\mu$-independent | Delivers guaranteed $1.2\text{ m/s}^2$ braking even over wet leaf-mulch or oily rail |
 
+#### 🛑 Microprocessor Electro-Pneumatic Brake Control Unit (EBCU) & Wheel Slide Protection (WSP)
+
+| Brake Control Architecture | Microprocessor & Solenoid Hardware | Response Time / Standard | Adhesion Control & Wheel Protection |
+| :--- | :--- | :---: | :--- |
+| **Electro-Pneumatic Converter**| Dual closed-loop PWM pressure regulation valves (EP-valves) | Output pressure precision strictly **$\le \pm 0.05\text{ bar}$** | Blends electrical regenerative and pneumatic friction braking seamlessly |
+| **Wheel Slide Protection (WSP)** | 80-pulse inductive phonic wheel speed pickups on each axle | Reaction time strictly **$< 20\text{ ms}$** (EN 15595) | Modulates cylinder pressure individually to prevent wheel flats during emergency stops |
+| **Crush Load Mass Compensation**| Pneumatic air spring pressure transducer analog feedback ($4–20\text{ mA}$) | Continuous tare-to-crush load curve | Dynamically scales braking effort to guarantee uniform $-1.2\text{ m/s}^2$ service deceleration |
+| **Redundant Safety Brake Loop**| Dual-channel energized-to-release safety brake pipe ($5.0\text{ bar}$) | Direct hardware venting in **$< 120\text{ ms}$** | 100% fail-safe: automatic emergency stop if brake pipe pressure drops below $3.2\text{ bar}$ |
+
 #### 🚪 Passenger Coach Sliding Plug Doors & Sensitive Edge Interlocking
 
 | Door Safety Mechanism | Actuation & Sensing Profile | Threshold Specification | Commuter Protection & Traction Interlock |
