@@ -1943,6 +1943,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **48-Stone Peripheral Grinder** | High-power electric grinding heads with continuous angle tilt | Operating speed $12\text{ km/h} – 18\text{ km/h}$ | Restores transverse UIC 60 rail profile with metal removal depth $\sim 0.15\text{ mm}$ |
 | **Rolling Contact Fatigue (RCF)**| Removes micro-cracked plastified head-hardened steel layer | Depth removal tolerance strictly $\pm 0.05\text{ mm}$ | Eliminates deep squat propagation, extending continuous welded rail life by **$> 40\%$** |
 
+#### 🌡️ Continuous Welded Rail (CWR) Stress-Free Neutral Temperature & FBG Strain Telemetry
+
+| CWR Thermal Stability Layer | Sensor Physics & Calibration | Temperature & Stress Threshold | Track Buckling & Rail Fracture Prevention |
+| :--- | :--- | :---: | :--- |
+| **Rail Neutral Temperature ($T_0$)**| Design stress-free temperature calibration ($T_0 = 38^\circ\text{C} \pm 2^\circ\text{C}$)| Annual range $-5^\circ\text{C} – +68^\circ\text{C}$ (Delhi NCR)| Prevents summer compressive buckling (sun kinks) and winter tensile fracture |
+| **Fiber Bragg Grating (FBG) Strain**| Rail-web spot-welded hermetic optical fiber strain gauges | Micro-strain resolution strictly **$\le 1.0\ \mu\varepsilon$** | Continuous real-time measurement of longitudinal thermal stresses $\sigma_{th} = E\alpha\Delta T$ |
+| **Track Lateral Resistance ($W$)** | Continuous ballast shoulder / plinth keeper shear resistance | Critical lateral threshold $W_{\min} \ge 8.5\text{ kN/sleeper}$ | Maintains spatial alignment against lateral buckling forces at peak rail temperatures |
+| **Automated Slow Order Trigger** | Integrated IoT wayside solar sensor hub tied to OCC SCADA | Alarm triggers at $T_{rail} \ge 60^\circ\text{C}$ | Automatically restricts train speed from $80\text{ km/h}$ to $40\text{ km/h}$ to suppress track vibration |
+
 #### ⚡ Track Circuitry & Axle Counter Train Detection Systems
 
 | Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
