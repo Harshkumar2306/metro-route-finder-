@@ -1097,6 +1097,15 @@ flowchart TD
 | **Laser Photoacoustic Spectroscopy**| Infrared tunable diode laser absorption spectroscopy (TDLAS) | Detects $\text{SO}_2$ & $\text{HF}$ byproducts down to $1\text{ ppm}$ | Diagnoses microscopic internal partial discharge (PD) arcs before breaker trip |
 | **High-Speed Earthing Switch (FES)**| Spring-loaded motorized switch with copper-tungsten contacts | Peak making current $I_{peak} \ge 82\text{ kA}$ | Closes in $< 80\text{ ms}$ onto live busbar, safely earthing line during emergency maintenance |
 
+#### ⚡ Traction Substation Biodegradable Synthetic Ester Fluid & Transformer Fire Safety (IEC 61039)
+
+| Dielectric Fluid Subsystem | Chemical Formulation & Standard | Thermal & Breakdown Benchmark | Fire Safety & Environmental Protection |
+| :--- | :--- | :---: | :--- |
+| **Synthetic Pentaerythritol Ester**| Readily biodegradable saturated synthetic ester (IEC 61099) | Fire point strictly **$\ge 316^\circ\text{C}$** (K3 Class) | 100% self-extinguishing; eliminates requirement for massive fire blast walls |
+| **Dielectric Breakdown Voltage** | Mineral oil replacement in 66 kV / 25 kV traction transformers | Breakdown voltage **$> 75\text{ kV}$** ($2.5\text{ mm}$ gap) | Superior moisture tolerance; retains $> 50\text{ kV}$ breakdown at $400\text{ ppm}$ water |
+| **Cellulose Paper Longevity** | Water-scavenging molecular structure drying solid insulation | Doubles thermal paper lifespan | Extends traction transformer winding operating life to **$> 45\text{ years}$** |
+| **Eco-Toxicity & Containment** | Non-toxic aquatic hazard classification (OECD 301B) | Biodegradation rate **$> 85\%$ in 28 days** | Eliminates groundwater contamination risk during accidental subterranean spillage |
+
 #### ⚡ Neutral Grounding Resistor (NGR) & Earth Leakage Current Protection
 
 | Grounding Protection Layer | Electrical Topology & Components | Thermal Withstand Rating | Fault Sensing & Grid Disconnection Dynamic |
