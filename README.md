@@ -2114,6 +2114,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Subterranean Transverse Shuttle**| Rail-guided electric shuttle cart moving through pit tunnel | Traversing stroke $35\text{ m}$ at $0.15\text{ m/s}$ | Delivers spent bogie directly to overhaul cleanroom bay for motor/gearbox renewal |
 | **Rapid Overhaul Swap Cycle** | Dual hydraulic alignment dowels and automatic locking pawls | Complete bogie exchange time **$< 90\text{ minutes}$** | Eliminates 48-hour crane lift cycles, maximizing revenue fleet rolling stock availability |
 
+#### 🚜 Depot Battery-Electric Shunting Tug Vehicles & Rail-Wheel Friction Drives
+
+| Shunting Tug Subsystem | Powertrain Architecture & Mechanics | Tractive Effort / Towing Metric | Stabling Yard Efficiency & Safety Dynamic |
+| :--- | :--- | :---: | :--- |
+| **All-Wheel Electric Drive** | 4-wheel independent AC permanent-magnet synchronous motors | Maximum tractive effort **$F_t \ge 65\text{ kN}$** | Effortlessly shunts dead 8-car rakes ($350\text{ tonnes}$) across depot sidings |
+| **High-Friction Polyurethane Tyres**| High-adhesion polyurethane friction wheels with steel flanged guide | Adhesion coefficient **$\mu \ge 0.70$** on dry rail | Eliminates tractive wheel slip on depot incline turnouts without track sanding |
+| **Lithium Iron Phosphate Pack**| $80\text{ V} / 600\text{ Ah}$ $\text{LiFePO}_4$ battery with BMS thermal control | Continuous operation $\ge 12\text{ hours}$ | Zero emissions inside enclosed maintenance sheds; rapid recharge in $90\text{ mins}$ |
+| **Radio Remote Control Belly-Pack**| 2.4 GHz spread-spectrum transmitter with SIL-3 tilt sensor | Shunting speed strictly $\le 5.0\text{ km/h}$ | Allows single depot operator to supervise mechanical coupler latching safely |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
