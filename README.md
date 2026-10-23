@@ -998,6 +998,15 @@ flowchart TD
 | **Solid-State Static Transfer (STS)**| Dual SCR semiconductor transfer switches | Transfer latency **$< 4\text{ ms}$** | Seamless zero-break switchover between primary and secondary feeds |
 | **AFC Battery Buffer Backup** | Individual 24 V DC internal gate capacitor packs | Sustains **15 emergency gate cycles** | Automatically releases and parks flap barriers in open position on blackout |
 
+#### ⚡ Station Auxiliary Power Sandwich Busduct Trunking & Epoxy Cast-Resin Feeders (IEC 61439-6)
+
+| Busduct Subsystem Layer | Metallurgical & Insulation Engineering | Electrical Rating & Standard | Subterranean Reliability & Energy Efficiency |
+| :--- | :--- | :---: | :--- |
+| **Sandwich Copper Conductors** | High-conductivity electrolytic tough pitch copper ($99.9\%\text{ Cu}$) | Rated ampacity **$2,500\text{ A} – 4,000\text{ A}$** | Compact non-ventilated sandwich casing cuts voltage drop by **$> 30\%$** |
+| **Class F Mylar/Epoxy Film** | Multi-layer polyester film with epoxy resin powder coating | Insulation withstand strictly **$> 5.0\text{ kV AC}$** | Class F ($155^\circ\text{C}$) thermal rating; halogen-free and non-toxic during fires |
+| **Short-Circuit Withstand ($I_{cw}$)**| Heavy-duty extruded aluminum housing resisting dynamic magnetic forces | 1-second short-circuit **$I_{cw} \ge 65\text{ kA}$** | Conforms to IEC 61439-6; prevents mechanical busbar deformation on dead shorts |
+| **IP68 Submersible Cast-Resin** | Cast-resin encapsulated feeders for lowest basement tunnel sumps | Certified waterproof to $3.0\text{ m}$ head | 100% operable during flash station inundations and high groundwater seepage |
+
 #### 💡 Central Battery System (CBS) & Emergency Ingress Illumination (EN 50171)
 
 | Central Battery Subsystem | Battery Chemistry & Architecture | Autonomy / Illumination Standard | Evacuation Safety & Circuit Monitoring |
