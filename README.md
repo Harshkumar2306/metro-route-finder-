@@ -665,6 +665,15 @@ flowchart TD
 | **Piezoelectric Rail-Web Accelerometers**| High-g quartz shear accelerometers bolted to rail neutral axis | Impact shock peak force **$F_{peak} \ge 350\text{ kN}$** | Detects wheel flats and polygonized treads exceeding condemning threshold ($> 30\text{ mm}$) |
 | **Automated Depot Maintenance Ticket**| Real-time edge compute linking vehicle RFID tag with sound map | Diagnostic latency strictly **$< 1.5\text{ s}$** | Automatically schedules overnight wheel truing or axle box bearing replacement |
 
+#### ⚖️ Wayside Wheel Impact Load Detector (WILD) & Dynamic Peak Force Telemetry
+
+| Wheel Impact Metrology Layer | Sensor Instrumentation & Physics | Trigger Threshold & Dynamic Range | Track Infrastructure & Bogie Protection |
+| :--- | :--- | :---: | :--- |
+| **Rail-Crib Strain Sensor Arrays**| Welded micro-shear strain gauge bridges on neutral rail axis | Sampling frequency $f_s \ge 100\text{ kHz}$ | Measures vertical dynamic wheel force ($P_{dyn}$) across multiple wheel rotations |
+| **Dynamic Impact Factor (DIF)**| $DIF = \frac{P_{dyn}}{P_{stat}}$ normalized against static axle load | Alarm threshold strictly **$DIF \ge 2.20$** | Flags abnormal dynamic pounding forces that shatter ballastless track plinths |
+| **Peak Impact Load Sizing** | Dual piezoelectric quartz force washers under baseplates | Measured force range $0\text{ kN} – 600\text{ kN}$ | Critical emergency trip at $P_{\max} \ge 380\text{ kN}$ commands immediate slow order |
+| **Automated Speed Restitution** | Fiber SCADA uplink to nearest signalling interlock and OCC | Telegram latency strictly **$< 500\text{ ms}$** | Restricts defective rake to $30\text{ km/h}$ crawling speed into depot truing bay |
+
 #### 🛞 Train Bogie Axle Grounding Carbon Brushes & Stray Current Pathing
 
 | Grounding Return Subsystem | Metallurgy & Spring Architecture | Contact Resistance & Ampacity | Bearing Protection & Return Path Dynamic |
