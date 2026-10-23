@@ -1871,6 +1871,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Chilled Water Delta-T ($\Delta T$)**| Supply $7.0^\circ\text{C}$ / Return $13.0^\circ\text{C}$ across cooling coils | System temperature differential $\Delta T = 6.0^\circ\text{C}$ | Reduces primary circulating water pump flow rate and electrical pumping energy |
 | **Pressure Independent Valves**| Motorized 2-way pressure independent control valves (PICV) | Dynamic balancing across $20\text{ kPa} – 400\text{ kPa}$ | Modulates chilled water flow precisely to match concourse crowd thermal loads |
 
+#### 💨 Station Entrance High-Velocity Aerodynamic Air Curtains & Thermal Barrier Efficiency
+
+| Air Curtain Engineering Layer | Aerodynamic Fan & Nozzle Architecture | Discharge Velocity / Incline | Thermal Separation & Environmental Barrier |
+| :--- | :--- | :---: | :--- |
+| **Tangential Cross-Flow Impellers**| High-output EC backward-curved aluminum tangential blowers | Discharge volume $Q \ge 6,500\text{ m}^3\text{/h}$ | Covers $3.5\text{ m}$ high wide passenger concourse entrance portals seamlessly |
+| **Vector-Adjustable Air Nozzle** | Continuous discharge slit with directional aerofoil vanes | Discharge angle $\alpha = 15^\circ – 20^\circ$ toward street | Opposes external wind pressure and train aerodynamic piston air currents |
+| **Discharge Velocity Profile**| Linear core discharge air velocity strictly **$v_0 \ge 16\text{ m/s}$** | Floor-level arrival velocity $v_{floor} \ge 3.5\text{ m/s}$ | Prevents outdoor $+48^\circ\text{C}$ summer heat ingress with **$\ge 82\%$ efficiency** |
+| **Aerosol & Particulate Blocker**| Downward dynamic planar laminar air momentum shield | Blocks PM2.5, dust and diesel soot | Cuts station HVAC refrigeration cooling demand by **$> 25\%$** during peak summer |
+
 #### ❄️ Tunnel Cross-Passage Pressurization & Blast Damper Aerodynamics
 
 | Cross-Passage Subsystem | Aerodynamic & Structural Architecture | Differential Pressure / Rating | Life Safety & Smoke Barrier Function |
