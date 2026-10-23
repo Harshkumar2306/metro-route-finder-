@@ -1808,6 +1808,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Motorized Plenums Dampers** | Heavy-duty aerofoil blade dampers with 24 V DC modulated actuators | Closes/opens in **$< 15\text{ seconds}$** | Reconfigures automatically from heat extraction to emergency smoke purging |
 | **Platform Thermal Shielding** | Barrier aerodynamic flow isolates track thermal convection from PSDs | Cuts platform cooling load by **$30\%$** | Maintains public passenger platform concourse at stable $+25^\circ\text{C}$ comfort |
 
+#### ❄️ Subterranean Station Chilled Water Plant & Oil-Free Magnetic Bearing Chillers
+
+| Chilled Water Subsystem | Mechanical Compression & Refrigerant | Performance Metric / COP | Station Concourse Thermal Control |
+| :--- | :--- | :---: | :--- |
+| **Magnetic Levitation Compressor**| Twin oil-free centrifugal impellers on active magnetic bearings | Rotational speed up to $48,000\text{ RPM}$ | Eliminates oil fouling of heat transfer tubes; cuts maintenance by $50\%$ |
+| **Eco-Refrigerant Thermals** | Low-GWP hydrofluoroolefin fluid (R-1233zd(E) / GWP $< 1$) | Integrated Part Load Value strictly **$\text{COP} \ge 7.20$** | High thermodynamic efficiency under extreme Delhi summer condensing temperatures |
+| **Chilled Water Delta-T ($\Delta T$)**| Supply $7.0^\circ\text{C}$ / Return $13.0^\circ\text{C}$ across cooling coils | System temperature differential $\Delta T = 6.0^\circ\text{C}$ | Reduces primary circulating water pump flow rate and electrical pumping energy |
+| **Pressure Independent Valves**| Motorized 2-way pressure independent control valves (PICV) | Dynamic balancing across $20\text{ kPa} – 400\text{ kPa}$ | Modulates chilled water flow precisely to match concourse crowd thermal loads |
+
 #### ❄️ Tunnel Cross-Passage Pressurization & Blast Damper Aerodynamics
 
 | Cross-Passage Subsystem | Aerodynamic & Structural Architecture | Differential Pressure / Rating | Life Safety & Smoke Barrier Function |
