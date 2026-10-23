@@ -2096,6 +2096,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Track Lateral Resistance ($W$)** | Continuous ballast shoulder / plinth keeper shear resistance | Critical lateral threshold $W_{\min} \ge 8.5\text{ kN/sleeper}$ | Maintains spatial alignment against lateral buckling forces at peak rail temperatures |
 | **Automated Slow Order Trigger** | Integrated IoT wayside solar sensor hub tied to OCC SCADA | Alarm triggers at $T_{rail} \ge 60^\circ\text{C}$ | Automatically restricts train speed from $80\text{ km/h}$ to $40\text{ km/h}$ to suppress track vibration |
 
+#### 🚆 Continuous Welded Rail (CWR) Flash-Butt Welding & Thermite Aluminothermic Joint Metallurgy
+
+| Rail Welding Technology | Metallurgical Process & Chemistry | Clamping Force / Temperature | Structural Strength & NDT Verification |
+| :--- | :--- | :---: | :--- |
+| **Mobile Flash-Butt Welding (FBW)**| Electrical resistance flashing arc followed by hydraulic forging | Forging upset force **$F_{upset} \ge 600\text{ kN}$** | 100% parent-metal fusion; eliminates foreign casting filler for long viaduct strings |
+| **Thermite Field Reactions** | Exothermic reaction: $\text{Fe}_2\text{O}_3 + 2\text{Al} \to \text{Al}_2\text{O}_3 + 2\text{Fe} + 850\text{ kJ}$ | Pouring temperature $T \approx 2,400^\circ\text{C}$ | Utilized for turnout frog closures and restricted tunnel track closure welds |
+| **Hardness Gradient Control** | Micro-alloyed vanadium/titanium steel grain refining | Hardness across weld $320 – 380\text{ HBW}$ | Enforces hardness match within $\pm 20\text{ HBW}$ of parent rail to prevent cupping |
+| **Ultrasonic Phased Array NDT**| 32-element angle-beam shear wave probe ($45^\circ / 70^\circ$) | Zero defect tolerance ($\ge 0.5\text{ mm}$) | Conforms to EN 14730-1; certifies zero porosity, slag inclusion or lack of fusion |
+
 #### ⚡ Track Circuitry & Axle Counter Train Detection Systems
 
 | Train Detection Subsystem | Operational Technology | Operating Frequency & Interface | Fail-Safe & Immunity Feature |
