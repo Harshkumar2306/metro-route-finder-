@@ -782,6 +782,15 @@ flowchart TD
 | **Crush Load Mass Compensation**| Pneumatic air spring pressure transducer analog feedback ($4–20\text{ mA}$) | Continuous tare-to-crush load curve | Dynamically scales braking effort to guarantee uniform $-1.2\text{ m/s}^2$ service deceleration |
 | **Redundant Safety Brake Loop**| Dual-channel energized-to-release safety brake pipe ($5.0\text{ bar}$) | Direct hardware venting in **$< 120\text{ ms}$** | 100% fail-safe: automatic emergency stop if brake pipe pressure drops below $3.2\text{ bar}$ |
 
+#### 🛑 Wheel Tread Brake Units (TBU) & Pneumatic Tread Cleaning Friction Scrubber Blocks
+
+| Tread Cleaning Subsystem | Actuation & Mechanical Sizing | Contact Force / Pressure | Rail-Wheel Shunting & Adhesion Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Integrated Tread Brake Actuator**| Spring-loaded pneumatic cylinder mounted on bogie transom | Maximum service stroke $45\text{ mm}$ | Compact monobloc unit incorporating automatic mechanical slack adjuster |
+| **Composite Cleaning Blocks** | Phosphorus-alloyed grey cast iron with organic friction modifier | Light cleaning pressure **$P_{clean} \approx 0.5\text{ bar}$** | Cleans wheel tread without imposing significant parasitic deceleration drag |
+| **Shunting Oxide Layer Removal** | Strips microscopic rust, compressed leaf mulch and resin film | Rail-wheel contact resistance **$R \le 0.05\ \Omega$** | Guarantees reliable AFTC track circuit electrical dropouts even after overnight rain |
+| **Micro-Roughness Conditioning** | Restores optimal wheel tread micro-texture ($R_a \approx 3.2\ \mu\text{m}$) | Wheel-rail adhesion coefficient **$\mu \ge 0.38$** | Suppresses micro-slip vibrations and prevents polygonization flat-spot propagation |
+
 #### 🚪 Passenger Coach Sliding Plug Doors & Sensitive Edge Interlocking
 
 | Door Safety Mechanism | Actuation & Sensing Profile | Threshold Specification | Commuter Protection & Traction Interlock |
