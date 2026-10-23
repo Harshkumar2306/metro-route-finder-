@@ -647,6 +647,15 @@ flowchart TD
 | **Critical Hunting Suppression**| Attenuates bogie kinematic sinusoidal hunting oscillations | Critical stability speed **$v_{crit} \ge 160\text{ km/h}$** | Maintains horizontal Sperling ride comfort index strictly **$W_z \le 1.85$** |
 | **Elastomeric Spherical Joints**| High-stiffness natural rubber silentbloc vulcanized bushings | Radial stiffness $k_r \ge 12\text{ kN/mm}$ | Guarantees play-free dynamic response without mechanical metallic backlash |
 
+#### 🛞 Bogie Torsion Anti-Roll Bar (ARB) & Roll Stiffness Kinematic Sizing
+
+| Anti-Roll Subsystem Layer | Mechanical Metallurgy & Geometry | Stiffness Metric / Threshold | Dynamic Roll Stability & Cant Compensation |
+| :--- | :--- | :---: | :--- |
+| **Hollow Alloy Torsion Tube**| Quenched and tempered spring steel (51CrV4 / DIN 17221) | Torsional shear stress $\tau \le 450\text{ MPa}$ | Resists asymmetric vertical bogie displacement while permitting symmetric bounce |
+| **Kinematic Roll Stiffness ($C_{\phi}$)**| Dual vertical link rods coupled to carbody underframe bolster | Total roll stiffness **$C_{\phi} \ge 1.85\text{ MN}\cdot\text{m/rad}$** | Restricts carbody lateral tilt strictly to **$\phi \le 1.5^\circ$** under peak cant deficiency |
+| **Spherical End Silentblocs** | Maintenance-free vulcanized rubber-metal spherical bearings | Angular articulation $\pm 8^\circ$ | Eliminates mechanical joint play, friction binding and lubrication maintenance |
+| **Safety Drop Catch Brackets** | Welded high-strength steel containment loop straps | Dynamic clearance $25\text{ mm}$ | Physically catches fractured torsion bar, preventing trackbed ballast obstruction |
+
 #### 🛞 Bogie Axle Box Spherical Roller Bearings & Wayside Hot Box Detection (HBD)
 
 | Axle Bearing & Thermal Layer | Mechanical Topology & Metallurgy | Operating Rating / Threshold | Tribological Life & Wayside Monitoring |
