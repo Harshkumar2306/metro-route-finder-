@@ -2267,6 +2267,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Lithium Iron Phosphate Pack**| $80\text{ V} / 600\text{ Ah}$ $\text{LiFePO}_4$ battery with BMS thermal control | Continuous operation $\ge 12\text{ hours}$ | Zero emissions inside enclosed maintenance sheds; rapid recharge in $90\text{ mins}$ |
 | **Radio Remote Control Belly-Pack**| 2.4 GHz spread-spectrum transmitter with SIL-3 tilt sensor | Shunting speed strictly $\le 5.0\text{ km/h}$ | Allows single depot operator to supervise mechanical coupler latching safely |
 
+#### ⚡ Depot Overhead Maintenance Platform Interlocking & Automatic Roof Fall Arrest Systems
+
+| Depot Safety Subsystem | Electro-Mechanical Architecture & Interlock | Operating Standard / Capacity | Technician Safety & HV Isolation |
+| :--- | :--- | :---: | :--- |
+| **Castell Key Trapped Interlock**| Sequential trapped-key interlocking with $25\text{ kV}$ catenary switch | Zero-bypass mechanical sequencing | 100% prevents opening roof-access gangway gates while catenary is energized |
+| **Integral Fast Grounding Blade**| Heavy-duty copper earth switch shorting line to running rail | Grounding time strictly **$< 0.8\text{ s}$** | Safely drains residual electrostatic charge before depot gantry doors unlatch |
+| **Inertia Reel Fall Arrest Rig**| Overhead stainless-steel lifeline cable ($15\text{ kN}$ dynamic anchor) | Locks within $< 100\text{ mm}$ vertical drop | Retractable dual inertia-reels allow continuous mobility along 8-car rake roofs |
+| **Optical Intrusion Light Curtain**| Dual-beam infrared optical barrier guarding catenary zone | Reaction time strictly **$< 30\text{ ms}$** | Auto-trips depot traction feeder breaker if unauthorized personnel enter roof zone |
+
 #### 💧 Automated Train Wash Plant (ATWP) & Closed-Loop Recycling Infrastructure
 
 | Wash Plant Subsystem | Engineering Mechanism & Chemistry | Operational Speed / Cycle | Resource Conservation & Ecological Standard |
