@@ -2177,6 +2177,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Complete 6-Car Standard Rake**| 284 seated | 1,560 standees | 2,210 standees (Peak) | **~2,494 commuters** |
 | **Complete 8-Car Broad Rake** | 384 seated | 2,060 standees | 2,920 standees (Peak) | **~3,304 commuters** |
 
+#### 👥 Station Concourse Egress Pedestrian Flow & Crowd Dynamic Bottleneck Simulation (NFPA 130)
+
+| Egress Simulation Parameter | Mathematical Formulation & Rule | Transit Regulation (NFPA 130) | Crowd Bottleneck & Evacuation Safeguard |
+| :--- | :--- | :---: | :--- |
+| **Platform Clearance Standard**| Total platform egress time $t_{plat} \le 4.0\text{ minutes}$ | Crush peak crowd ($8\text{ pax/m}^2$) | Clears 100% platform passenger volume to safety zone within 240 seconds |
+| **Station Point-of-Safety Egress**| Full station evacuation time $t_{stat} \le 6.0\text{ minutes}$ | Simultaneous 2-train crush dump | Evacuates all passengers to open exterior atmosphere or pressurized refuge |
+| **Specific Flow Boundary ($J_s$)**| $J_s = v \cdot \rho$ with specific capacity bounds | Max flow $J_s \le 1.33\text{ persons/(m}\cdot\text{s)}$ | Dictates stair and corridor sizing; prevents crowd turbulence and surge crushing |
+| **Boundary Layer Deductions** | Net effective corridor width $W_{eff} = W_{gross} - 2\delta$ | Wall boundary reduction $\delta = 0.15\text{ m}$ | Handrail deduction $\delta = 0.10\text{ m}$; models pedestrian hesitation along walls |
+
 #### 🚆 Rolling Stock Depot Maintenance & Preventive Overhaul Tiers
 
 | Maintenance Tier | Inspection Interval / Frequency | Key Mechanical & Electrical Tasks | Turnaround Dwell Time |
