@@ -1835,6 +1835,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Acoustic Pod Silencers** | Integrated inlet/outlet acoustic pods with perforated mineral wool | Sound attenuation to **$< 82\text{ dBA}$ at $3\text{ m}$** | Maintains audible intelligibility of emergency cross-passage evacuation sirens |
 | **Anti-Vibration Drop Brackets**| Stainless-steel drop hangers with seismic safety wire tether | Dynamic load test $> 5.0\text{ g}$ | Prevents fan detachment under train aerodynamic piston pressure wave pulses |
 
+#### 🌪️ TVS Jet Fan Piezoelectric Tri-Axial Vibration Monitoring & ISO 10816 Alarm Thresholds
+
+| Vibration Diagnostic Layer | Sensor Hardware & Signal Conditioning | Vibration Velocity Threshold | Mechanical Integrity & Fan Drop Safeguard |
+| :--- | :--- | :---: | :--- |
+| **Tri-Axial ICP Accelerometer**| Hermetically sealed 316L stainless steel shear piezoelectric probes | Sensitivity $100\text{ mV/g}$ ($0.5\text{ Hz} – 10\text{ kHz}$) | Monitors radial, tangential and axial vibration vectors on jet fan bearings |
+| **RMS Vibration Velocity ($v_{rms}$)**| Integrated true-RMS analog velocity converter ($10\text{ Hz} – 1\text{ kHz}$) | Normal operation strictly **$v_{rms} \le 4.5\text{ mm/s}$** | Conforms to ISO 10816-3 (Group 2 rigid machines); detects early unbalance |
+| **Emergency Trip Limit (Zone D)**| Hardware comparator circuit tied directly to motor VFD trip loop | Alarm threshold strictly **$v_{trip} \ge 7.1\text{ mm/s}$** | Cuts motor power in **$< 50\text{ ms}$** before aerodynamic blade fatigue fracture |
+| **Fast Fourier Transform (FFT)**| 1024-bin edge spectral vibration processing on RS-485 bus | Transmits harmonic telemetry to OCC | Differentiates aerodynamic blade-pass frequencies from bearing raceway defects |
+
 #### ❄️ Tunnel Under-Platform Exhaust (UPE) & Over-Track Exhaust (OTE) Plenums
 
 | Ventilation Exhaust Subsystem | Aerodynamic Ductwork Architecture | Air Extraction Rate / Velocity | Platform Thermal Control Dynamic |
