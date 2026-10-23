@@ -845,6 +845,15 @@ flowchart TD
 | **Creep-Control Phase** | Constant creep velocity regulator ($v \le 3.5\text{ km/h}$) | Final $3.0\text{ m}$ travel segment | Eliminates aggressive braking jerks while ensuring precise stopping mark |
 | **Jerk Limitation Transition** | Smooth cubic spline jerk filter ($j \le 0.75\text{ m/s}^3$) | Traction motor current ramp limits | Maximizes passenger standing balance without abrupt deceleration transitions |
 
+#### 👁️ Driverless GoA4 Autonomous Obstacle Detection System (ODS) & Millimeter-Wave Radar
+
+| Autonomous Sensing Layer | Sensor Physics & Frequency Band | Detection Range / Refresh Rate | Fail-Safe Collision Avoidance Dynamic |
+| :--- | :--- | :---: | :--- |
+| **$77\text{ GHz}$ FMCW Radar**| High-frequency Frequency Modulated Continuous Wave radar array | Detection range **$0\text{ m} – 250\text{ m}$** | Penetrates dense subterranean dust, smoke, fog and unlit tunnel voids |
+| **Stereo Optical Triangulation**| Dual synchronized HDR CMOS global-shutter optical cameras | Frame refresh rate strictly **$\ge 60\text{ FPS}$** | Reconstructs dense 3D point cloud of track alignment and structural envelope |
+| **Foreign Object Interception** | Detects obstacles $\ge 150\text{ mm}$ height on ballast / slab track | Classification latency strictly **$< 40\text{ ms}$** | Discriminated by edge neural inference; ignores harmless ballast gravel and birds |
+| **Autonomous EB Injection Loop**| Hardwired fail-safe relay directly tripping Emergency Brake (EB)| Movement Authority revoked immediately | Injects $-1.3\text{ m/s}^2$ emergency stop before obstacle reaches kinematic envelope |
+
 #### 🚄 Train Collision Avoidance System (TCAS / Kavach) Interoperability Layer
 
 | TCAS / Kavach Interop Layer | Radio Frequency & Protocol Architecture | Operational Metric / Standard | Safety Action & Cross-Network Safeguard |
