@@ -1151,6 +1151,15 @@ flowchart TD
 | **Cellulose Paper Longevity** | Water-scavenging molecular structure drying solid insulation | Doubles thermal paper lifespan | Extends traction transformer winding operating life to **$> 45\text{ years}$** |
 | **Eco-Toxicity & Containment** | Non-toxic aquatic hazard classification (OECD 301B) | Biodegradation rate **$> 85\%$ in 28 days** | Eliminates groundwater contamination risk during accidental subterranean spillage |
 
+#### ⚡ Traction Substation Scott-Connected Transformer & Negative-Phase Sequence Cancellation
+
+| Transformer Architecture Layer | Magnetic Circuit & Winding Spec | Phase Shift / Unbalance Metric | Regional Grid Protection & Power Quality |
+| :--- | :--- | :---: | :--- |
+| **Main & Teaser Windings** | Primary $66\text{ kV}$ 3-phase to secondary dual $25\text{ kV}$ single-phase | Secondary outputs in strict **$90^\circ$ quadrature** | Feeds adjacent track sectors (M-phase & T-phase) with balanced electromagnetic loading |
+| **Turns Ratio Symmetry** | Teaser turns $N_T = \frac{\sqrt{3}}{2} N_M \approx 0.866 N_M$ | Voltage balance strictly $\le \pm 0.5\%$ | Delivers identical open-circuit secondary voltages under fluctuating 3-phase grid supplies |
+| **Negative-Phase Sequence ($I_2$)**| Cancels reverse magnetic rotating flux on regional power plant rotors | Unbalance factor strictly **$I_2 / I_1 \le 2.0\%$** | Complies with IEEE 519 and CEA grid interconnect regulations under heavy rush-hour rakes |
+| **Oil-Immersed High-Z Design** | High leakage impedance ($Z\% \approx 10.5\% – 12.0\%$) | Withstands prospective $I_{sc} \ge 31.5\text{ kA}$ | Naturally limits catenary short-circuit fault current without requiring external line reactors |
+
 #### ⚡ Neutral Grounding Resistor (NGR) & Earth Leakage Current Protection
 
 | Grounding Protection Layer | Electrical Topology & Components | Thermal Withstand Rating | Fault Sensing & Grid Disconnection Dynamic |
