@@ -1880,6 +1880,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Zoned Deluge Section Valves**| Fast-acting pneumatic-actuated ball deluge valves | Opens zone in **$< 3.0\text{ seconds}$** | Floods localized $50\text{ m}$ tunnel block without depleting reservoir reserves |
 | **Water Conservation Efficiency** | Uses **$> 80\%$ less water** than traditional deluge | Flow rate $2.5\text{ L/min/m}^2$ | Prevents tunnel trackbed flooding and avoids short-circuiting $25\text{ kV}$ catenary |
 
+#### 🚒 Tunnel Dry/Wet Standpipe Fire Mains & Siamese Fire Department Connections (NFPA 14)
+
+| Standpipe Component | Hydraulic Sizing & Materials | Working Pressure / Testing | Firefighting Coupling & Water Supply |
+| :--- | :--- | :---: | :--- |
+| **Tunnel Riser Water Main** | Hot-dip galvanized seamless carbon steel pipe ($DN\ 150$) | Operating pressure $12.0\text{ bar} – 16.0\text{ bar}$ | Tested hydrostatically to $PN\ 25$ ($25\text{ bar}$) for structural burst resistance |
+| **Instantaneous Landing Valves**| Dual-headed oblique pattern bronze valves ($65\text{ mm}$ coupling) | Spaced every **$50\text{ m}$** in tunnels | Conforms to BS 336 / NFPA 14; rapid 1-second twist connection for fire brigade hose |
+| **Siamese Breeching Inlets** | 4-way street-level fire department connections (FDC) | Inflow capacity **$\ge 4,000\text{ L/min}$** | Allows external city fire tenders to pump pressurized water into subterranean tubes |
+| **Motorized Section Isolators** | SCADA-controlled supervised butterfly valves with limit switches | Isolation closing time strictly **$< 15\text{ s}$** | Isolates ruptured tunnel pipe sections without dropping water pressure in adjacent zones |
+
 #### 🧯 Gas-Based Clean Agent Fire Suppression (IG-541 Inergen & Novec 1230)
 
 | Clean Agent Parameter | Inergen (IG-541 Blend) | Novec 1230 (FK-5-1-12 Fluid) | Safety & Environmental Standard |
