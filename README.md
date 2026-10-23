@@ -656,6 +656,15 @@ flowchart TD
 | **Spherical End Silentblocs** | Maintenance-free vulcanized rubber-metal spherical bearings | Angular articulation $\pm 8^\circ$ | Eliminates mechanical joint play, friction binding and lubrication maintenance |
 | **Safety Drop Catch Brackets** | Welded high-strength steel containment loop straps | Dynamic clearance $25\text{ mm}$ | Physically catches fractured torsion bar, preventing trackbed ballast obstruction |
 
+#### 🛞 Bogie Primary Suspension Chevron Rubber Springs & Multi-Axis Dynamic Stiffness
+
+| Chevron Spring Dimension | Mechanical Architecture & Polymer Spec | Dynamic Stiffness / Deflection | Track Guiding & Wheelset Compliance |
+| :--- | :--- | :---: | :--- |
+| **V-Shaped Chevron Interleaves**| Alternating natural rubber layers vulcanized to mild steel plates | Vertical static deflection $\Delta z \approx 32\text{ mm}$ | Direct axle box to bogie frame mount; carries full carbody and payload tare |
+| **Longitudinal Dynamic Stiffness**| High longitudinal stiffness $k_x \approx 18\text{ kN/mm}$ | Yaw deflection tolerance $\pm 2.0\text{ mm}$ | Guarantees high-speed running stability without bogie hunting oscillation |
+| **Lateral Compliance ($k_y$)** | Calibrated lateral stiffness $k_y \approx 12\text{ kN/mm}$ | Lateral displacement $\Delta y \le \pm 15\text{ mm}$ | Allows passive wheelset steering on tight curves ($R \le 200\text{ m}$), reducing flange wear |
+| **Extreme Heat Aging Resistance**| Ozone and oil-resistant natural rubber blend (EN 13913 Class A)| Service temperature $-25^\circ\text{C} – +70^\circ\text{C}$| Sustains $> 1.2 \times 10^6\text{ km}$ operating cycles without polymer hardening or delamination |
+
 #### 🛞 Bogie Axle Box Spherical Roller Bearings & Wayside Hot Box Detection (HBD)
 
 | Axle Bearing & Thermal Layer | Mechanical Topology & Metallurgy | Operating Rating / Threshold | Tribological Life & Wayside Monitoring |
