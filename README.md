@@ -818,6 +818,15 @@ flowchart TD
 | **Acoustic Transmission Loss** | Dual-wall decoupling barrier ($R'_w \ge 34\text{ dB}$) | Suppresses tunnel reverberation | Drops saloon interior background noise to **$< 68\text{ dBA}$** at $80\text{ km/h}$ |
 | **HVAC Thermal Insulation** | Polyurethane microcellular foam core within bellow folds | Thermal conductance $U \le 1.8\text{ W/(m}^2\cdot\text{K)}$| Prevents conditioned cold air leakage between coaches during peak summer |
 
+#### 🔇 Saloon Floor Constrained Layer Damping (CLD) & Acoustic Floating Floor Isolation
+
+| Acoustic Damping Layer | Material Formulation & Structure | Mechanical Loss Factor / Metric | Noise Mitigation & Passenger Comfort |
+| :--- | :--- | :---: | :--- |
+| **Viscoelastic CLD Core** | Polymeric shear damping resin sandwiched between aluminum plates | Composite loss factor strictly **$\eta \ge 0.28$** | Dissipates vibrational energy into microscopic heat via cyclic shear strain |
+| **Sylomer Floating Elastomer** | Microcellular polyurethane elastomeric decoupling strips | Static deflection $\Delta z \approx 2.5\text{ mm}$ | Resiliently suspends entire passenger floor deck above corrugated underframe |
+| **Bogie Rumble Attenuation** | Decouples structure-borne bogie motor and gear mesh vibrations | Insertion loss **$\ge 18\text{ dBA}$** ($100\text{ Hz} – 1\text{ kHz}$)| Drops interior floor vibration below ISO 2631 human exposure comfort criteria |
+| **EN 45545-2 HL3 Fire Barrier**| Halogen-free flame-retardant cork-rubber composite sub-base | Critical heat flux $CHF \ge 8.0\text{ kW/m}^2$ | Provides 30-minute thermal insulation barrier against subterranean underfloor fires |
+
 #### 🖥️ Saloon Dynamic Stretched LCD Passenger Route Displays (PIS) & Ethernet Backbone
 
 | Passenger Information Subsystem | Display Physics & Optical Spec | Resolution & Network Standard | Dynamic Commuter Guidance Dynamic |
