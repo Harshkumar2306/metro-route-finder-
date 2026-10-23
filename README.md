@@ -1007,6 +1007,15 @@ flowchart TD
 | **Short-Circuit Withstand ($I_{cw}$)**| Heavy-duty extruded aluminum housing resisting dynamic magnetic forces | 1-second short-circuit **$I_{cw} \ge 65\text{ kA}$** | Conforms to IEC 61439-6; prevents mechanical busbar deformation on dead shorts |
 | **IP68 Submersible Cast-Resin** | Cast-resin encapsulated feeders for lowest basement tunnel sumps | Certified waterproof to $3.0\text{ m}$ head | 100% operable during flash station inundations and high groundwater seepage |
 
+#### 🔋 Station Critical Dynamic UPS High-Speed Flywheel Kinetic Energy Storage
+
+| Flywheel Storage Subsystem | Rotor Mechanics & Magnetic Levitation | Power Rating / Discharge Time | Ride-Through Dynamic & Battery Conservation |
+| :--- | :--- | :---: | :--- |
+| **Carbon-Fiber Composite Rotor**| High-tensile filament-wound carbon fiber prepreg cylinder | Operating speed $24,000 – 36,000\text{ RPM}$ | Kinetic energy capacity $E_k = \frac{1}{2}I\omega^2 \approx 25\text{ MJ}$ ($7\text{ kWh}$) |
+| **Active Magnetic Bearings (AMB)**| Permanent-magnet biased electromagnetic homopolar bearings | Standby parasitic loss strictly **$< 1.5\text{ kW}$** | Rotor levitates in $10^{-3}\text{ mbar}$ vacuum chamber; zero mechanical friction wear |
+| **Instantaneous Power Delivery** | Integrated permanent magnet motor/generator on rotor shaft | Power output **$250\text{ kVA}$** ($\Delta t = 0\text{ ms}$) | Seamless instantaneous ride-through bridging auxiliary power grid sags |
+| **Unlimited Duty Cycling** | Solid-state IGBT bidirectional inverter interface | Service lifespan **$> 1.0 \times 10^6\text{ cycles}$** | Bridges 15-second gap until backup diesel generators synchronize without battery wear |
+
 #### 💡 Central Battery System (CBS) & Emergency Ingress Illumination (EN 50171)
 
 | Central Battery Subsystem | Battery Chemistry & Architecture | Autonomy / Illumination Standard | Evacuation Safety & Circuit Monitoring |
