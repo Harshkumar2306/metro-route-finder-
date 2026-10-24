@@ -2303,6 +2303,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Internal Clamp Locking Slide**| Independent detector slides verifying switch blade closure | Residual tip gap tolerance **$\le 1.5\text{ mm}$** | Electrically breaks SIL-4 interlocking circuit if foreign stone obstructs switch rail |
 | **Trailable Friction Clutch** | Pre-loaded spring friction disc clutch | Trailing force limit $9.0\text{ kN} \pm 1.0\text{ kN}$ | Absorbs mechanical run-through shocks during accidental trailing, preventing damage |
 
+#### 🚊 Turnout Hydraulic Clamp-Lock Point Machine & Detector Rod Locking Tolerance
+
+| Clamp-Lock Component | Mechanical Architecture & Metallurgy | Operational Metric / Standard | Locking Invariant & Interlocking Verification |
+| :--- | :--- | :---: | :--- |
+| **Direct Rail Clamp-Lock** | Cast alloy steel clamping arms gripping switch blade directly | Clamping holding force **$F_{hold} \ge 10.0\text{ kN}$** | Prevents switch blade tip lift or vibration flutter during high-speed train traversal |
+| **Detector Rod Micrometer Check**| Micro-adjustable dual-channel detection rods (IRS S-24) | Stroke detection tolerance **$\le 1.5\text{ mm}$** | Verifies zero rail-gap seating between switch tongue and stock rail gauge face |
+| **Switch Throw Thrust Cylinder**| Hydraulic actuator with dual-stage relief damping | Throw stroke $S = 160\text{ mm} \pm 2\text{ mm}$ | Smooth terminal deceleration prevents mechanical shock damage to slide chairs |
+| **SIL-4 Closed Contact Detection**| Heavy-duty silver-plated snap-action contact fingers | Switch contact break time strictly **$< 15\text{ ms}$** | Immediately opens vital signaling line if switch rail unlocks or drifts $> 2.0\text{ mm}$ |
+
 #### 🚏 Turnout Heating & De-Icing Systems for Winter Operations
 
 | Switch Heating Subsystem | Electrical Heating Architecture | Power Density / Temp Range | Winter Cold Snap & Anti-Freeze Dynamic |
