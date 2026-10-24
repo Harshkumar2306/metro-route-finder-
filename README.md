@@ -1079,6 +1079,15 @@ flowchart TD
 | **Auto-Drop Device (ADD)** | Pressurized pneumatic channel inside collector carbon profile | Rapid exhaust tripping in **$< 100\text{ ms}$** | Auto-drops pantograph immediately upon strip fracture, preventing dewirement |
 | **Plunger Suspension Springs** | Dual independent coil springs with internal elastomeric stops | Contact strip travel stroke $\pm 25\text{ mm}$ | Absorbs micro-irregularities and dropper stitch vibrations without arc sparking |
 
+#### 🚡 Catenary Pantograph Aerodynamic Lifting Force & Uplift Contact Pressure Modeling
+
+| Uplift Modeling Parameter | Aerodynamic Formulation & Mechanics | Standard Specification (EN 50367) | High-Speed Pantograph Current Stability |
+| :--- | :--- | :---: | :--- |
+| **Total Dynamic Contact Force ($F_c$)**| $F_c = F_{stat} + a \cdot v + b \cdot v^2$ with calibrated aero-coefficients | Target mean $F_m = 70\text{ N} – 90\text{ N}$ | Balances pneumatic cylinder preload with aerodynamic aerofoil wing lift |
+| **Static Upward Preload ($F_{stat}$)** | Precision air bellows regulator pressure $P_{bellow} \approx 3.2\text{ bar}$ | Static force $F_{stat} = 70\text{ N} \pm 5\text{ N}$ | Ensures positive contact seating during standstill or low-speed shunting |
+| **Permissible Uplift at Support ($S_u$)**| Maximum vertical contact wire displacement at mast steady arm | Allowable uplift strictly **$S_u \le 80\text{ mm}$** | Prevents steady arm hook binding and excessive fatigue on catenary droppers |
+| **Aerodynamic Wing Pitch Trim**| Inverted camber aerofoil angle adjustment ($\alpha = -2.5^\circ – +1.0^\circ$) | Wind tunnel validated up to $140\text{ km/h}$ | Suppresses aerofoil stall and aerodynamic lift divergence across viaducts |
+
 #### 🚊 Pantograph Dynamic Contact Force Telemetry & Optical Fiber Bragg Grating (FBG) Load Cells
 
 | Pantograph Metrology Layer | Optoelectronic Sensor Physics | Dynamic Range & Standard | Catenary Health & Current Arcing Mitigation |
