@@ -1943,6 +1943,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Aerodynamic Blast Relief Dampers**| Heavy-duty counterbalanced gravity stainless-steel blades | Opens in $< 0.1\text{ s}$ on overpressure | Relieves high-speed train aerodynamic shockwaves into relief shafts |
 | **Evacuation Corridor Lighting**| Sealed IP67 low-glare LED luminaires with battery packs | Continuous illumination $\ge 150\text{ lux}$ | Features floor-level photoluminescent egress markers guiding passengers |
 
+#### 💨 Train Piston Effect & Tunnel Aerodynamic Pressure Relief Shaft (PRS) Acoustics
+
+| Aerodynamic Relief Component | Fluid Dynamic Formulation & Geometry | Pressure Gradient / Metric | Passenger Aural Comfort & Portal Acoustics |
+| :--- | :--- | :---: | :--- |
+| **Piston Transient Overpressure**| $\Delta P = \pm \frac{1}{2}\rho v^2 \frac{1 - \beta^2}{\beta^2}$ where $\beta = \frac{A_{train}}{A_{tunnel}}$ | Peak pressure $\Delta P \approx \pm 2.5\text{ kPa}$ | Compresses air column ahead of high-speed train entering bored tunnel single tube |
+| **Pressure Relief Shafts (PRS)** | Vertical shafts ($A_{prs} \ge 12.0\text{ m}^2$) at tunnel portal throats | Relieves **$> 65\%$** shockwave amplitude | Vents compression wave upward before reflecting back as tensile expansion pulse |
+| **Aural Comfort Index (UIC 779-11)**| Dynamic pressure change rate: $\frac{dP}{dt} \le 1.25\text{ kPa/s}$ | 3-second cumulative limit $\Delta P_{3s} \le 1.5\text{ kPa}$ | Prevents commuter ear discomfort, tympanic membrane pain and Eustachian pop |
+| **Acoustic Silencer Splitters**| Parallel perforated acoustic baffles packed with stone mineral wool | Transmission loss strictly **$\ge 25\text{ dBA}$** | Attenuates sonic micro-boom noise emitted at urban street-level vent grilles |
+
 #### 🌊 Subterranean Flood Defense Gates & Ingress Dewatering Telemetry
 
 | Flood Defense Layer | Engineering Mechanism & Capacity | Deployment Zone | Operational Trigger & Resilience |
