@@ -1250,6 +1250,15 @@ flowchart TD
 | **Unity Power Factor Operation**| Dynamic active quadrant phase angle alignment | Bidirectional $\cos \phi = 1.0$ | Eliminates reactive current circulating back to 25 kV catenary |
 | **Acoustic Noise Mitigation**| Random frequency jitter pulse modulation (RPWM) | Spreads motor stator magnetic noise | Eliminates annoying high-pitched tonal whine inside passenger coaches |
 
+#### ⚡ Traction Inverter Space Vector Pulse Width Modulation (SVPWM) & DC Bus Utilization
+
+| SVPWM Modulation Layer | Vector Geometry & Algorithmic Principle | Performance Metric / Benchmark | Traction Drive Efficiency Dynamic |
+| :--- | :--- | :---: | :--- |
+| **$\alpha\beta$ Stationary Vector Plane**| 8 basic switching vectors ($V_0–V_7$) synthesized via volt-second balance | Sector dwelling angle $\theta = 60^\circ$ | Synthesizes pure circular rotating stator magnetic flux linkage vector |
+| **DC Bus Voltage Utilization** | Linear range upper limit $V_{L-L,\max} = \frac{V_{dc}}{\sqrt{3}}$ | **$+15.47\%$ higher** than carrier SPWM | Maximizes output line-to-line voltage before entering non-linear overmodulation |
+| **Zero-Vector Symmetrical Placement**| $V_0(000)$ and $V_7(111)$ null vectors distributed evenly in half-period | Switching loss reduction $\approx 33\%$ | Minimizes switching commutations while suppressing common-mode leakage currents |
+| **Current Ripple Minimization** | Dual digital signal processor (DSP) sampling with dead-time compensation | Output current $\text{THD}_i \le 3.5\%$ | Complies with IEEE 519; reduces parasitic harmonic rotor heating and torque ripple |
+
 #### ⚡ Regenerative Braking Energy Inverter (HES / Hesop Substation Converter)
 
 | Substation Inverter Layer | Electrical Rating & Power Electronics | Grid Re-Injection Dynamic | Energy Recovery Efficiency & Benefits |
