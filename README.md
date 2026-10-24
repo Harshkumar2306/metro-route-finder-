@@ -2186,6 +2186,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Continuous Elastic Rail Boot** | Extruded microcellular polyurethane elastomeric boot | Static bed stiffness $C_{stat} \approx 60\text{ kN/mm}$ | Attenuates structural rail vibrations by **$> 14\text{ dB}$** in underground tubes |
 | **Self-Compacting Cement Mortar** | Non-shrink high-flow cementitious asphalt grout under-layer | Compressive strength $\ge 30\text{ MPa}$ | Provides uniform monolithic load transfer to tunnel invert or viaduct deck |
 
+#### 🚊 Track Fastening System Elastic Rail Pads & Dynamic High-Attenuation Elastomers
+
+| Fastening Component Layer | Material Formulation & Geometry | Dynamic Metric / Standard | Ground Vibration Attenuation & Track Life |
+| :--- | :--- | :---: | :--- |
+| **Microcellular Polyurethane Pad**| Studded high-damping polyurethane elastomer ($10\text{ mm}$ thickness) | Static stiffness $k_{stat} \approx 60\text{ kN/mm}$ | Decouples UIC-60 rail from precast sleeper, absorbing dynamic wheel pounding |
+| **Dynamic-to-Static Ratio ($\frac{k_{dyn}}{k_{stat}}$)**| Frequency-dependent dynamic testing at $20\text{ Hz} – 50\text{ Hz}$ | Dynamic ratio strictly **$\frac{k_{dyn}}{k_{stat}} \le 1.35$** | Preserves resilient cushioning elasticity without stiffening under train speed |
+| **Acoustic Insertion Loss** | Laboratory test bench transmission loss (EN 13146-4 / 9) | Insertion loss strictly **$\ge 14\text{ dBA}$** | Attenuates secondary structure-borne noise radiated into residential buildings |
+| **Electrical Track Insulation** | Integrated high-dielectric polymer foot insulator toe pads | Volume resistivity $\rho_e \ge 10^9\ \Omega\cdot\text{cm}$ | Prevents AFTC signaling shunting current leakage to concrete track slab |
+
 #### 🚆 Wheel-Rail Interface Lubrication & Friction Modification
 
 | Tribology Mechanism | Application Technology & Dispenser | Target Track Location | Mechanical & Acoustic Benefit |
