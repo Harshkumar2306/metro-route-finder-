@@ -701,6 +701,15 @@ flowchart TD
 | **Insulated Axle Bearing Housing** | Ceramic plasma-sprayed aluminum oxide ($\text{Al}_2\text{O}_3$) barrier | Breakdown voltage $U_{bd} > 3.0\text{ kV DC}$ | Prevents current flowing through roller bearings, eliminating fluting erosion |
 | **Flexible Copper Shunt Braids** | Ultra-flexible stranded electrolytic tinned copper jumpers | Ampacity $1,200\text{ A}$ continuous | Bypasses mechanical suspension joints, ensuring 100% fail-safe rail return |
 
+#### 🛞 Wheel Flange Profile Optical Laser Scanning & EN 15313 Back-to-Back Gauge Verification
+
+| Wheel Inspection Metric | Optical Measurement Architecture | Permissible Tolerance / Standard | Kinematic Safety & Derailment Guard |
+| :--- | :--- | :---: | :--- |
+| **Flange Thickness ($S_d$)** | Multi-point 2D laser triangulation displacement sensors | Nominal $32.0\text{ mm}$ (Limit $S_d \ge 22.0\text{ mm}$) | Conforms to EN 15313; flags knife-edge thin flanges before switch split |
+| **Flange Height ($S_h$)** | Calibrated optical profile scanning at $80\text{ km/h}$ pass | Standard $28.0\text{ mm} \le S_h \le 36.0\text{ mm}$ | Prevents excessive flange height bottoming out on frog flangeways |
+| **Flange Slope Angle ($q_R$)** | Coordinate calculation: $q_R = S_{h=2\text{mm}} - S_{h=10\text{mm}}$ | Critical threshold strictly **$q_R \ge 6.5\text{ mm}$** | Guarantees compliance with Nadal wheel climb criterion ($Y/Q \le 1.2$) |
+| **Back-to-Back Gauge ($I_{b2b}$)**| Dual opposing wayside laser distance gauges | Standard $I_{b2b} = 1,360\text{ mm} \pm 1.0\text{ mm}$ | Verifies wheelset axial seating integrity on axle seats under dynamic tare |
+
 #### 🛞 Bogie Frame Structural Metallurgy & Low-Alloy High-Tensile Steel Welds
 
 | Bogie Structural Parameter | Metallurgy Standard & Fabrication | Mechanical Property / Heat Treatment | Fatigue Testing & Dynamic Longevity |
