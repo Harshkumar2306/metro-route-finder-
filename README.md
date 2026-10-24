@@ -1340,6 +1340,15 @@ flowchart TD
 | **Viral & Bacterial Inactivation**| Pathogen membrane protein denaturation | Inactivation rate **$> 99.4\%$** in $30\text{ mins}$ | Neutralizes airborne influenza, COVID-19 aerosol droplets and bacterial spores |
 | **Differential Pressure Telemetry**| Micro-differential piezoresistive pressure drop transmitters | Pre-filter alarm at $\Delta P \ge 180\text{ Pa}$ | Continuously alerts train maintenance depot to clogged return-air duct filters |
 
+#### 🚇 Saloon Air Conditioning Carbon Dioxide ($CO_2$) Demand-Controlled Ventilation (DCV)
+
+| Ventilation Control Parameter | Sensor Physics & Calibration | Dynamic Threshold / Spec | Energy Optimization & Indoor Air Quality |
+| :--- | :--- | :---: | :--- |
+| **Dual-Channel NDIR Sensors** | Non-Dispersive Infrared optical absorption ($4.26\ \mu\text{m}$ wavelength) | Measurement range $400\text{ PPM} – 5,000\text{ PPM}$ | Dual-beam auto-calibration compensates for optical dust and emitter drift |
+| **ASHRAE / EN 14750 Air Standard**| Indoor Air Quality (IAQ) target threshold | Saloon limit strictly **$\le 1,000\text{ PPM}$** | Automatically protects passengers from lethargy, headaches and air stuffiness |
+| **Fresh Air Damper Modulation** | Proportional modulating actuator ($0\% – 100\%$ opening stroke) | Modulates from $15\text{ m}^3\text{/h/pax}$ to $35\text{ m}^3\text{/h/pax}$ | Increases outside airflow as coach fills up from empty tare to crush load |
+| **Compressor Power Reduction** | Cuts unconditioned ambient hot air intake during low-occupancy off-peak | Auxiliary energy savings **$\ge 22\%$** | Prevents cooling coils wasting energy chilling unnecessary outside air in summer |
+
 #### 🚄 Traction Motor Stator VPI Insulation & Thermal Class 200 System
 
 | Motor Insulation Layer | Material Formulation & Standard | Dielectric & Thermal Rating | Inverter Stress & Overload Resilience |
