@@ -1349,6 +1349,15 @@ flowchart TD
 | **TCMS CANopen Telemetry** | High-speed isolated serial CANopen bus to coach TCMS | Refresh update rate $\le 100\text{ ms}$ | Real-time thermal gradient logging & preventive fault annunciator alerts |
 | **Thermal Emergency Trip** | Vital hardware comparator circuit in traction inverter | Trip threshold $T_{trip} \ge 205^\circ\text{C}$ | Cuts IGBT gate pulses in **$< 10\ \mu\text{s}$**, preventing irreversible coil burnout |
 
+#### ⚡ Traction Motor Flux Weakening Control & Constant Power Speed Ratio (CPSR)
+
+| Flux Weakening Parameter | Vector Control Formulation & Physics | Operational Threshold / Bound | High-Speed Traction Performance |
+| :--- | :--- | :---: | :--- |
+| **Negative d-Axis Demagnetization**| Direct-axis current injection: $i_d < 0$ counteracting rotor permanent flux | Demagnetization current $|i_d| \le I_{\max}$ | Prevents stator back-EMF exceeding inverter terminal DC voltage limit ($V_{dc}$) |
+| **Voltage Ellipse Boundary** | $v_d^2 + v_q^2 = (\omega L_q i_q)^2 + (\omega \psi_{pm} + \omega L_d i_d)^2 \le V_{\max}^2$ | Max stator voltage $V_{\max} = \frac{V_{dc}}{\sqrt{3}}$ | Dynamically contracts current trajectory along Maximum Torque Per Volt (MTPV) locus |
+| **Base Speed Transition ($\omega_{base}$)**| Crossover from Maximum Torque Per Ampere (MTPA) | Base speed $\omega_{base} \approx 2,100\text{ RPM}$ | Transitions smoothly from constant torque to wide constant power regime |
+| **CPSR Speed Ratio ($k_{cpsr}$)** | Extended speed ratio: $k_{cpsr} = \frac{\omega_{\max}}{\omega_{base}} \ge 2.85$ | Maximum operating speed $6,000\text{ RPM}$ | Maintains full $200\text{ kW}$ traction power up to line design speed ($100\text{ km/h}$) |
+
 #### ⚙️ Traction Motor Hybrid Ceramic Ball Bearings & Anti-Fluting Insulation
 
 | Bearing Component | Material Specification & Metallurgy | Speed Rating / Breakdown Voltage | Bearing Longevity & Anti-Fluting Dynamic |
