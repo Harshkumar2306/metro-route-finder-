@@ -971,6 +971,15 @@ flowchart TD
 | **Dynamic ATP Cycle Period** | Deterministic real-time operating system (RTOS) tick loop | Execution cycle $\tau_{cycle} \le 100\text{ ms}$ | Re-computes dynamic braking curves and distance-to-go 10 times every second |
 | **CENELEC SIL-4 Certification** | Certified according to EN 50126, EN 50128, and EN 50129 | Tolerable Hazard Rate **$\text{THR} < 10^{-9}\text{/hour}$** | Absolute fail-safe guarantee: hardware fault forces immediate emergency brake intervention |
 
+#### 📡 CBTC Zone Controller (ZC) Vital Movement Authority Limit (MAL) Computation
+
+| Zone Controller Function | Algorithmic Formulation & Protocol | Cycle Time / Safety Standard | Headway Compression & Interlocking Protection |
+| :--- | :--- | :---: | :--- |
+| **Dynamic MAL Vector Projection** | $\text{MAL} = P_{rear}(T_{lead}) - d_{safe} - d_{margin}$ | Calculation cycle $\tau \le 100\text{ ms}$ | Continually updates vital distance-to-go boundary transmitted via LTE-M |
+| **Safety Distance Margin ($d_{safe}$)**| $d_{safe} = v \cdot t_{reaction} + \frac{v^2}{2 a_{eb}} + M_{slip}$ | Certified worst-case adhesion $\mu_{min} = 0.05$ | Guarantees train comes to full stop before reaching rear coupler of preceding train |
+| **Interlocking Route Reservation** | SIL-4 vital geographic interlocking with point locking | 100% vital overlap protection | Prevents switch blade movement while within approaching train dynamic stopping envelope |
+| **Redundant Hot-Standby Architecture**| 2-out-of-2 (2oo2) processor pairs in 1+1 hot-standby | Failover latency strictly **$< 50\text{ ms}$** | Seamless zero-interruption handover preventing spurious emergency brake applications |
+
 #### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
 
 | Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
