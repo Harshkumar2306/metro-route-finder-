@@ -1970,6 +1970,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Perforated Sub-Drain Collector**| Heavy-duty slotted corrugated HDPE pipe ($200\text{ mm}$ dia) | Slot width $1.5\text{ mm} \pm 0.2\text{ mm}$ | Depressurizes hydrostatic groundwater pressure behind bored tunnel invert |
 | **Anti-Incrustation Flushing Pits**| Stainless-steel rodding eyes and inspection cleanouts every $50\text{ m}$ | High-pressure jetting access | Prevents calcium carbonate sinter buildup and chemical calcification blockages |
 
+#### 🌊 Tunnel Dewatering Centrifugal Slurry Pumps & Invert Solid Muck Settling Basins
+
+| Slurry Pumping Component | Hydrodynamic & Mechanical Architecture | Flow Metric / Head Rating | Grit Separation & Sump Longevity |
+| :--- | :--- | :---: | :--- |
+| **High-Chrome Vortex Impeller** | High-chromium white iron ($27\%\text{ Cr}$ alloy, $650\text{ HBW}$) | Solids passage clearance $\le 35\text{ mm}$ | Resists abrasive erosion from pulverized track ballast fines and sand |
+| **Dual-Chamber Settling Basin** | Reinforced concrete weir basin with baffle sediment traps | Surface overflow rate $v_o \le 1.2\text{ m/h}$ | Settles dense particulate via Stokes' law before entering pump suction chamber |
+| **Pumping Discharge Duty** | Centrifugal end-suction slurry pump skid with silicon carbide seals | Flow rate $Q \ge 120\text{ m}^3\text{/h}$ ($H \ge 45\text{ m}$) | Evacuates high-density silted tunnel groundwater up to street municipal drainage |
+| **Ultrasonic Sludge Blanket Gauge**| Non-invasive echo-ranging acoustic suspended solids detector | Sludge depth accuracy $\pm 10\text{ mm}$ | Automatically triggers pneumatic bottom sludge blowdown valve when bed $> 0.5\text{ m}$ |
+
 #### 🌊 Subterranean Sump Pump Stations & Automatic Invert Dewatering Telemetry
 
 | Dewatering Subsystem | Electro-Mechanical Sizing & Materials | Flow Capacity / Head | Duty Cycling & SCADA Inundation Telemetry |
