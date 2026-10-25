@@ -2141,6 +2141,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Draft Air Bleed Sealing** | Flexible bottom ballast bars with silicone side channel seals | Lateral smoke leakage strictly $\le 10\text{ m}^3\text{/(h}\cdot\text{m)}$ | Confines smoke spread between retail concourses and escalator wells |
 | **FAS Interlock Trigger** | Double-knock smoke sensor loop or optical beam trip | Full deployment within **$< 30\text{ seconds}$** | Creates stratified smoke-free evacuation zone ($h \ge 2.1\text{ m}$) above floor |
 
+#### 🧯 Subterranean Station Smoke Exhaust Shaft Axial Vane Fans & High-Temperature F400 Rating
+
+| Smoke Extraction Component | Aerodynamic Impeller & Motor Topology | Flow Rate / Temperature Rating | Fire Mode Aerodynamics & Life Safety |
+| :--- | :--- | :---: | :--- |
+| **High-Temperature Axial Fan** | Cast aluminum-alloy aerofoil blades with guide vane casing | Certified Class F400 ($400^\circ\text{C}$ for $120\text{ min}$) | Complies with EN 12101-3; exhausts dense smoke from concourse reservoirs |
+| **Smoke Extraction Capacity** | Dual parallel axial fans in mid-station ventilation shaft | Combined volume **$Q \ge 160\text{ m}^3\text{/s}$** | Generates negative pressure suction, preventing smoke backlayering to stairs |
+| **Variable Frequency Drive (VFD)**| Inverter bypass contactor ensuring direct online (DOL) fire run | Full speed ramp-up strictly **$< 20\text{ s}$** | Automatically overrides thermal overload protections during confirmed fire alarm |
+| **Aerodynamic Sound Attenuator**| Cylindrical pod silencers with non-combustible basalt wool | Pressure drop $\Delta P \le 120\text{ Pa}$ | Limits discharge noise to $< 85\text{ dBA}$, maintaining evacuation audibility |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
