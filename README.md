@@ -2510,6 +2510,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Automatic Protection (ATP)** | Onboard computer enforces electronic dynamic braking profile | Continuous fail-safe | Automatic overspeed prevention | 100% active on all passenger trains |
 | **Solid-State Interlocking** | Microprocessor-based dual-redundant SSI logic | Real-time switch control | OCC centralized computer control | All terminal crossovers & junctions |
 
+#### 🔒 Signaling Interlocking Geographic Virtual Block Track Overlaps & Flank Protection
+
+| Interlocking Safety Dimension | Mathematical Formulation & Principle | Safety Parameter / Timing | Collision Guard & Route Release Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Vital Overlap Length ($L_{ov}$)**| $L_{ov} = \frac{v_{app}^2}{2 a_{eb}} + v_{app} \cdot t_{reaction} + d_{margin}$ | Full approach speed stopping buffer | Guarantees train halting past stop signal will not foul cross-junction route |
+| **Automatic Flank Protection** | Trailing turnout points locked in diverging protective posture | SIL-4 vital geographic logic | Deflects unauthorized runaway trains or shunting overruns away from main line |
+| **Time-Delay Overlap Release** | Dynamic occupancy release timer: $t_{timer} \ge 120\text{ s}$ | Zero-speed confirmation ($v = 0\text{ km/h}$)| Releases track section ahead of stationary train to clear conflicting moves |
+| **Swinging Overlap Switching** | Dynamic selection between normal and alternate turnout overlap | Overlap changeover cycle $< 1.5\text{ s}$ | Maximizes platform approach throughput at congested terminus stations |
+
 ---
 
 ## 🚀 Quick Start & Installation
