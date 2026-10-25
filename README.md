@@ -719,6 +719,15 @@ flowchart TD
 | **Post-Weld Stress Relief** | Thermal annealing furnace soaking at $580^\circ\text{C} \pm 15^\circ\text{C}$ | Soaking time $\ge 2.5\text{ hours}$ | Relieves residual welding stresses, preventing stress-corrosion cracking |
 | **Multi-Axial Fatigue Bench** | Full-scale hydraulic multi-actuator bogie test rig | Tested to **$> 1.0 \times 10^7\text{ cycles}$** | Complies with UIC 615-4 & EN 13749; guarantees 35-year fatigue design life |
 
+#### 🛞 Bogie Center Pivot Pin Elastomeric Spherical Bearing & Traction Rod Kinematics
+
+| Pivot & Traction Rod Component | Mechanical Metallurgy & Elastomer Architecture | Stiffness Metric / Articulation | Traction Transmission & Bogie Yaw Compliance |
+| :--- | :--- | :---: | :--- |
+| **Center Pivot Kingpin** | High-tensile forged alloy steel (42CrMo4 quenched & tempered) | Longitudinal shear load **$F_x \ge 85\text{ kN}$** | Transmits longitudinal traction and braking forces directly to carbody underframe |
+| **Spherical Elastomeric Bushing**| Natural rubber-metal vulcanized laminated spherical bearing | Longitudinal stiffness **$k_x \ge 45\text{ kN/mm}$** | Provides high longitudinal stiffness while permitting free angular cardan rotations |
+| **Traction Rod Push-Pull Link** | Dual diagonal Watt's linkage traction rods with silentblocs | Pitch/roll angular play $\pm 4.5^\circ$ | Maintains parallel axle guiding and eliminates bogie frame pitching during braking |
+| **Maintenance-Free Articulation**| Completely grease-free polymer elastomer matrix | Service lifespan **$> 1.2 \times 10^6\text{ km}$** | Eliminates metallic sliding wear plates, grease contamination and periodic lubrication |
+
 #### 🛡️ Carbody Crashworthiness Sizing & Progressive Deformation Energy Absorbers (EN 15227)
 
 | Crashworthiness Element | Structural Material & Standards (EN 15227 / C-I) | Energy Absorption / Force | Survival Space & Collision Kinematics |
