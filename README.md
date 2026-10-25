@@ -1925,6 +1925,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Hydrophilic Polyacrylate Gel** | Low-viscosity multi-component elastic water-swelling gel | Viscosity near water ($\approx 5\text{ mPa}\cdot\text{s}$)| Penetrates micro-fissures ($< 0.1\text{ mm}$); seals leaking segment gasket joints |
 | **Tamper-Proof Grout Check Valves**| Threaded stainless-steel internal non-return check valves | Embedded in each precast segment core | Prevents backflow of high hydrostatic pressure ($> 3.5\text{ bar}$) under Yamuna |
 
+#### 🛡️ Tunnel Segmental Lining EPDM Elastomeric Gaskets & Hydrostatic Joint Tightness
+
+| Gasket Engineering Component | Polymer Metallurgy & Multi-Cell Profile | Hydrostatic Rating / Tolerance | Subterranean Groundwater Sealing Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Co-Extruded EPDM Gasket** | Vulcanized ethylene propylene diene monomer with cellular cavities | Shore A hardness $65 \pm 5$ (DIN 7715) | Multi-chamber profile collapses under TBM hydraulic shove, forming dual seal |
+| **Hydrostatic Proof Pressure** | Laboratory pressure bench test simulating joint gap + offset | Proof pressure strictly **$P_{hydro} \ge 6.0\text{ bar}$** | Sustains $> 60\text{ m}$ head without leakage under Yamuna riverbed alluvial strata |
+| **Corner Injection Moldings** | Thermally vulcanized 4-corner monolithic frame transitions | Tensile strength at weld $\ge 90\%$ parent | Eliminates planar joint corner shear tears and water bypass at segment corners |
+| **Hydrophilic Swelling Cord** | Polyurethane water-swellable cord co-extruded in gasket groove | Volumetric expansion **$\ge 250\%$** | Swells upon contact with moisture, providing fail-safe second-line barrier |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
