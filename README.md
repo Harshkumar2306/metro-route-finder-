@@ -620,6 +620,15 @@ flowchart TD
 | **Substation Spacing** | Every **10 km – 15 km** (Receiving Substations) | Every **1.5 km – 2.5 km** (Traction Rectifiers) | DC systems require dense substations due to $I^2 R$ drop |
 | **Stray Current Mitigation**| Return current through bonded running rails + OPGW | Dedicated negative return rail & stray collection mats | Isolates DC leakage currents preventing structural rebar corrosion |
 
+#### ⚡ 25 kV AC Auto-Transformer (AT) Feeding System & 2x25 kV Transmission Efficiency
+
+| AT Feeding Parameter | Electrical Topology & Vector Transformation | Voltage Profile / Rating | Transmission Efficiency & EMI Suppression |
+| :--- | :--- | :---: | :--- |
+| **$2 \times 25\text{ kV}$ Feeding Circuit**| Center-tapped auto-transformers connected between catenary and feeder | Total transmission $V_{F-C} = 50\text{ kV}$ | Transmits power at $50\text{ kV}$, halving feeder currents ($I_{line} = \frac{I_{train}}{2}$) |
+| **Line-to-Rail Traction Voltage**| Catenary-to-rail $V_{C-R} = +25\text{ kV}$; Feeder-to-rail $V_{F-R} = -25\text{ kV}$ | Phase angle displacement $180^\circ$ | Train pantograph receives standard $25\text{ kV}$ while rails carry only difference current |
+| **Auto-Transformer (AT) Spacing**| Trackside oil-immersed ONAN transformers ($10\text{ MVA} – 15\text{ MVA}$)| Spaced every **$10\text{ km} – 12\text{ km}$** | Equalizes catenary-feeder currents and cuts catenary impedance voltage drops |
+| **Electromagnetic Interference (EMI)**| Magnetic field cancellation between opposing feeder and catenary | Shielding factor strictly **$\eta_{emi} \ge 75\%$** | Neutralizes inductive hum in parallel telecommunications and signaling lines |
+
 #### 🔌 Third Rail Shroud Insulation & Stinger System Depot Test Track Power
 
 | Subsystem Component | Electrical & Mechanical Specification | Safety Clearances & Standards | Depot Workshop & Trackside Operation |
