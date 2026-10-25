@@ -647,6 +647,15 @@ flowchart TD
 | **Critical Hunting Suppression**| Attenuates bogie kinematic sinusoidal hunting oscillations | Critical stability speed **$v_{crit} \ge 160\text{ km/h}$** | Maintains horizontal Sperling ride comfort index strictly **$W_z \le 1.85$** |
 | **Elastomeric Spherical Joints**| High-stiffness natural rubber silentbloc vulcanized bushings | Radial stiffness $k_r \ge 12\text{ kN/mm}$ | Guarantees play-free dynamic response without mechanical metallic backlash |
 
+#### 🚆 Semi-Active Bogie Magnetorheological (MR) Lateral Dampers & Skyhook Control
+
+| MR Damper Subsystem | Rheological Physics & Coil Architecture | Dynamic Force / Response Time | Vibration Attenuation & Ride Quality |
+| :--- | :--- | :---: | :--- |
+| **Magnetorheological Fluid** | Micron-sized carbonyl iron particles suspended in synthetic oil | Yield shear stress $\tau_y \propto B^2 \approx 50\text{ kPa}$ | Reversible millisecond phase transition from Newtonian liquid to plastic solid |
+| **Electromagnetic Piston Coil** | Low-inductance copper winding embedded in damper piston head | Excitation current $0\text{ A} – 2.5\text{ A}$ ($12\text{ V DC}$) | Response latency strictly **$\tau_{resp} < 15\text{ ms}$**; real-time force modulation |
+| **Skyhook Control Algorithm** | $F_{damp} = C_{sky} \dot{x}_{body}$ when $\dot{x}_{body} (\dot{x}_{body} - \dot{x}_{bogie}) \ge 0$ | Force adjustment range $2.5\text{ kN} – 28.0\text{ kN}$ | Emulates virtual damper connected to stationary sky, eliminating body sway |
+| **Lateral Sperling Index ($W_z$)**| Real-time accelerometer feedback driving DSP H-bridge | Horizontal comfort index **$W_z \le 1.65$** | Cuts lateral acceleration root-mean-square ($a_{rms}$) by **$> 35\%$** over curves |
+
 #### 🛞 Bogie Torsion Anti-Roll Bar (ARB) & Roll Stiffness Kinematic Sizing
 
 | Anti-Roll Subsystem Layer | Mechanical Metallurgy & Geometry | Stiffness Metric / Threshold | Dynamic Roll Stability & Cant Compensation |
