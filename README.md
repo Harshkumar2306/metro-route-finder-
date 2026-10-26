@@ -1043,6 +1043,15 @@ flowchart TD
 | **Interlocking Route Reservation** | SIL-4 vital geographic interlocking with point locking | 100% vital overlap protection | Prevents switch blade movement while within approaching train dynamic stopping envelope |
 | **Redundant Hot-Standby Architecture**| 2-out-of-2 (2oo2) processor pairs in 1+1 hot-standby | Failover latency strictly **$< 50\text{ ms}$** | Seamless zero-interruption handover preventing spurious emergency brake applications |
 
+#### 🔐 CBTC Signaling Network Deep Packet Inspection (DPI) & IEC 62443 Security Conduit Zones
+
+| Cyber Security Layer | Firewall Architecture & Cryptographic Spec | Inspection Latency / Standard | Intrusion Prevention & Safety Isolation |
+| :--- | :--- | :---: | :--- |
+| **Hardware Stateful DPI Engine** | Industrial FPGA-accelerated multi-core firewall security gateway | Packet processing latency **$\tau_{dpi} < 500\ \mu\text{s}$**| Inspects Layer 7 rail protocols (Euroradio / safeCBTC / Modbus TCP) |
+| **IEC 62443-3-3 SL-3 Zones** | Strict logical zone & conduit separation (Signaling vs. PIS vs. CCTV)| Zero unauthorized cross-zone routing | Quarantines commercial passenger Wi-Fi from safety-critical interlocking buses |
+| **HMAC-SHA256 Authentication** | Cryptographic message authentication on all Movement Authority packets | Nonce timestamp window $\Delta t \le 50\text{ ms}$ | Rejects replayed, injected or spoofed ATS speed restriction telegrams |
+| **Fail-Close Optical Bypass** | Multi-mode optical fiber bypass switches with auto-reversion | Bypass switching speed strictly **$< 8.0\text{ ms}$** | Preserves physical fiber network ring continuity if security appliance loses power |
+
 #### ⏰ Master Clock System (MCS) & NTP Stratum-1 Network Time Synchronization
 
 | Clock Hierarchy Tier | Reference Standard & Oscillator | Physical Location | Synchronization Scope & Commuter Function |
