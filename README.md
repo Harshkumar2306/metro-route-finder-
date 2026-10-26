@@ -737,6 +737,15 @@ flowchart TD
 | **Post-Weld Stress Relief** | Thermal annealing furnace soaking at $580^\circ\text{C} \pm 15^\circ\text{C}$ | Soaking time $\ge 2.5\text{ hours}$ | Relieves residual welding stresses, preventing stress-corrosion cracking |
 | **Multi-Axial Fatigue Bench** | Full-scale hydraulic multi-actuator bogie test rig | Tested to **$> 1.0 \times 10^7\text{ cycles}$** | Complies with UIC 615-4 & EN 13749; guarantees 35-year fatigue design life |
 
+#### 🛞 Bogie Frame Cast Steel Transom & Motor Nose Suspension Bracket Fatigue Sizing
+
+| Bogie Transom Component | Mechanical Architecture & Casting Metallurgy | Dynamic Load / Fatigue Limit | Traction Motor Reaction & Durability |
+| :--- | :--- | :---: | :--- |
+| **Cast Steel Center Transom** | High-toughness cast alloy steel (G20Mn5 / EN 10293 normalized) | Yield strength $R_{eH} \ge 300\text{ MPa}$ | Integral cast tubular beam connecting sideframes; accommodates secondary air springs |
+| **Motor Nose Suspension Brackets**| Heavy-duty welded cantilever lugs with gusset stiffeners | Dynamic torque reaction $T_{mot} \ge 1,450\text{ N}\cdot\text{m}$ | Absorbs motor pitching reaction during maximum rate service braking ($-1.2\text{ m/s}^2$) |
+| **Haigh Fatigue Endurance Bound** | Goodman/Haigh fatigue diagram with stress ratio $R = -1$ | Alternating stress limit $\sigma_a \ge 125\text{ MPa}$ | Enforces infinite fatigue life under continuous track vibration excitation |
+| **Magnetic Particle NDT (MPI)** | 100% surface magnetic particle testing (EN ISO 9934) | Permissible flaw size $\le 1.0\text{ mm}$ | Verifies zero micro-cracks in high-stress cast fillet transitions and weld toes |
+
 #### 🛞 Bogie Center Pivot Pin Elastomeric Spherical Bearing & Traction Rod Kinematics
 
 | Pivot & Traction Rod Component | Mechanical Metallurgy & Elastomer Architecture | Stiffness Metric / Articulation | Traction Transmission & Bogie Yaw Compliance |
