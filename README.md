@@ -998,6 +998,15 @@ flowchart TD
 | **On-Board Mobile Radio Units**| Dual redundant transceivers (MRU-A / MRU-B) | Mounted in leading and trailing cabs | Automatic hot-failover ensures continuous movement authority (MA) |
 | **Tunnel Slotted Leaky Feeder**| Low-loss coaxial cables with periodic aperture slots | Suspended along bored tunnel crown | Uniform RF field strength $\ge -75\text{ dBm}$ throughout subterranean network |
 
+#### 📡 Train-to-Ground LTE-M Dedicated Mission-Critical Video & QoS Priority Queuing (3GPP Rel-14)
+
+| LTE-M Transmission Layer | Spectrum Architecture & 3GPP Standard | Latency / Throughput Benchmark | Quality of Service (QoS) & Operational Role |
+| :--- | :--- | :---: | :--- |
+| **Dedicated Spectrum Band** | $1.8\text{ GHz}$ paired FDD licensed transit spectrum ($2 \times 5\text{ MHz}$) | Uplink throughput $\ge 15\text{ Mbps}$ per train | 100% isolated from public cellular congestion; immune to passenger hotspot load |
+| **QoS Class Identifier (QCI)**| 3GPP Rel-14 strict QoS scheduling ($QCI-65$ CBTC / $QCI-69$ Video) | Guaranteed Bit Rate (GBR) for vital packets | Prioritizes vital ATP/ATO packets over live CCTV streaming under channel load |
+| **Real-Time Video Latency** | H.265 encoded HD saloon/cab CCTV live streaming | End-to-end latency strictly **$< 150\text{ ms}$** | Dispatches real-time forward track view and saloon panic-button feeds to OCC |
+| **Dual eNodeB Ring Topology** | Dual-homed redundant base stations with overlapping coverage | Handover interruption time **$< 25\text{ ms}$** | Zero video packet loss or CBTC communication timeout down to $130\text{ km/h}$ |
+
 #### 🛰️ CBTC Free-Propagation Leaky Feeder Coaxial Cable & Waveguide Antennas
 
 | RF Propagation Component | Structural Mechanics & Waveguide Spec | Operating Frequency & Polarization | Underground Signal Propagation Dynamic |
