@@ -150,6 +150,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Optical Step-Missing Sensors** | Redundant inductive proximity sensors under comb approach | Detection speed up to $0.75\text{ m/s}$ | Immediately halts drive before open step void reaches passenger boarding landing |
 | **Skirt Clearance Gap Standard** | Precision ground low-friction molybdenum-coated skirt panels | Lateral step gap strictly **$\le 4.0\text{ mm}$** | Conforms to EN 115-1; eliminates pinch hazards along high-speed escalator runs |
 
+#### 🛗 Heavy-Duty Transit Escalator Auxiliary Reverse-Rotation Brake & Step Sag Monitors
+
+| Escalator Safety Subsystem | Electro-Mechanical Architecture & Physics | Actuation Speed / Standard | Runaway Deceleration & Passenger Protection |
+| :--- | :--- | :---: | :--- |
+| **Auxiliary Mainshaft Pawl Brake** | Multi-disc electromechanical brake mounted directly on step mainshaft | Interception response strictly **$< 120\text{ ms}$**| Arrests steps immediately if main drive chain ruptures, bypassing reduction gear |
+| **Electronic Reverse-Phase Monitor**| Dual optical rotary encoders on main drive and step band | Trips upon accidental reversal $< 50\text{ mm}$ | 100% prevents catastrophic downward runaways on crowded ascending escalators |
+| **Step Sag Sensing Switches** | Micro-contact safety switches positioned beneath track curves | Detects step sag **$\Delta z \ge 4.0\text{ mm}$** | De-energizes drive circuit before damaged step impacts comb plate teeth |
+| **Controlled Deceleration Dynamic** | Dynamic hydraulic/mechanical braking profile regulator | Deceleration bounded: $0.5\text{ m/s}^2 \le a \le 1.0\text{ m/s}^2$| Conforms to EN 115-1; brings loaded escalator to stop without tumbling passengers |
+
 #### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
 
 | Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
