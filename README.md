@@ -800,6 +800,15 @@ flowchart TD
 | **Integrated Noise Shroud** | Acoustically insulated stainless-steel underframe box | Operating noise level **$< 66\text{ dBA}$** | Resilient anti-vibration rubber mounts suppress low-frequency carbody thrum |
 | **Pneumatic Condensate Purge** | Automatic solenoid drain valve with heating element | Heated against freezing at $-10^\circ\text{C}$ | Purges accumulated water droplets every compression cycle automatically |
 
+#### 💨 Train Main Air Reservoir Micro-Pressure Transducers & Dual-Check Safety Relief Valves
+
+| Reservoir Subsystem Layer | Mechanical Sizing & Vessel Standard | Operating Pressure / Limit | Pneumatic Brake Integrity & Protection |
+| :--- | :--- | :---: | :--- |
+| **Stainless Main Air Reservoirs (MR)**| Dual AISI 304L stainless-steel pressure tanks ($2 \times 250\text{ L}$)| Operating pressure $8.5\text{ bar} – 10.0\text{ bar}$ | Stores clean compressed air supply for service brakes, air springs and doors |
+| **Piezoresistive Transducers** | Dual redundant silicon micro-machined pressure transmitters | Measurement precision strictly $\pm 0.05\text{ bar}$| TCMS monitors main reservoir pressure; auto-cycles compressor load/unload |
+| **Spring Safety Relief Valve** | Brass-bodied spring-loaded safety pop valve (EN 286-3 / ASME) | Pop-off setpoint strictly **$P_{relief} = 10.5\text{ bar}$** | Mechanically relieves excess pneumatic pressure if unloader governor freezes |
+| **Dual Check Isolator Valves** | High-flow non-return valves with integrated manual cut-out | Differential cracking pressure $\Delta P \le 0.1\text{ bar}$| Prevents reverse air loss back to compressor unloader during de-energization |
+
 #### 🛑 Axle-Mounted Ventilated Disc Brakes & Sintered Metallic Brake Pads
 
 | Disc Brake Component | Metallurgy & Mechanical Standard | Thermal Dissipation / Friction | Braking Force & Wear Dynamic |
