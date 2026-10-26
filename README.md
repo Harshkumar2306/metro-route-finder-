@@ -2429,6 +2429,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Adjacent Track Cross-Talk Guard**| Transverse spatial phase-cancellation earthing bonding | Cross-talk attenuation **$\ge 40\text{ dB}$** | Prevents electromagnetic induction bleed across parallel double-track viaducts |
 | **High-Current Impedance Bonds**| Heavy-duty laminated electrical iron center-tapped transformer | Traction return rating **$2,000\text{ A}$ continuous** | Allows seamless traction rail return currents while choking high-frequency signaling |
 
+#### 🚊 Track Insulated Rail Joint (IRJ) Polyurethane Encapsulation & High-Tension Huckbolts
+
+| IRJ Component Layer | Material Engineering & Metallurgy | Mechanical / Electrical Rating | Track Boundary Isolation & Fatigue Life |
+| :--- | :--- | :---: | :--- |
+| **Polyurethane-Bonded Fishplates**| 6-hole micro-alloyed steel fishplates with hot-cast polyurethane | Insulation resistance **$R_{iso} \ge 10\text{ M}\Omega$** ($1.0\text{ kV DC}$)| Dielectrically isolates adjacent track circuit blocks at turnouts and cross-overs |
+| **High-Tension Swaged Huckbolts** | Grade 10.9 vibration-proof swaged lockbolts ($25\text{ mm}$ dia) | Preload clamping force strictly **$F_p \ge 140\text{ kN}$** | Eliminates bolt loosening and fatigue shear under high-frequency wheel pounding |
+| **Composite End-Post Spacer** | Cyanoacrylate-bonded fiberglass/polyurethane composite spacer | Compressive strength $\ge 250\text{ MPa}$ ($6\text{ mm}$ width) | Resists thermal rail expansion forces ($\Delta T = \pm 40^\circ\text{C}$), preventing bridge shorts |
+| **Wheel Impact Attenuation** | End-post chamfered at $45^\circ$ angle with polyurethane crown | Impact deflection $\le 0.2\text{ mm}$ | Suppresses dynamic wheel impact shockwaves, preventing rail-end metal lip flow |
+
 #### 🚄 High-Speed Turnout Geometry & Thick-Web Switch Blades
 
 | Turnout Subsystem | Profile Standard & Metallurgy | Divergence Speed Capacity | Reliability & Maintenance Enhancement |
