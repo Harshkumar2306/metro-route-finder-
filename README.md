@@ -1259,6 +1259,15 @@ flowchart TD
 | **Harmonic Suppression Level**| Selective cancellation of 3rd, 5th, 7th, 11th & 13th harmonics | Lowers current distortion **$THD_i \le 2.5\%$** | Strictly conforms to IEEE 519 and CEA grid interconnect standards |
 | **Dynamic Resonant Snubbers** | High-efficiency LCL output filter with passive damping resistor | Attenuates switching ripples ($f_{sw} = 20\text{ kHz}$) | Prevents high-frequency resonance oscillation between substation and catenary |
 
+#### ⚡ Traction Substation Metal-Oxide Surge Arresters (MOSA) & IEC 60099-4 Class 4 Discharge
+
+| Surge Arrester Dimension | Zinc Oxide Metallurgy & Housing | Electrical Rating / Impulse | Lightning Protection & Insulation Coordination |
+| :--- | :--- | :---: | :--- |
+| **$\text{ZnO}$ Varistor Microstructure**| Non-linear sintered bismuth/manganese-doped zinc oxide blocks | Continuous operating voltage $U_c = 30\text{ kV}$ | Extreme non-linear $V-I$ exponent ($\alpha \ge 40$); passes micro-amps in standby |
+| **Class 4 Energy Absorption** | Thermal energy rating under repetitive impulses (IEC 60099-4)| Energy capacity strictly **$W \ge 8.0\text{ kJ/kV}$** | Absorbs high-energy catenary switching surges without thermal puncture failure |
+| **Nominal Discharge Current ($I_n$)**| High-current impulse rating ($8/20\ \mu\text{s}$ wave shape) | Nominal current **$I_n \ge 10\text{ kA}$** (Peak $100\text{ kA}$)| Safely diverts direct atmospheric lightning strikes on elevated viaduct OHE |
+| **Silicone Polymeric Housing** | Hydrophobic liquid silicone rubber (LSR) shed casing | Specific creepage strictly **$> 31\text{ mm/kV}$** | Eliminates explosive ceramic shattering; immune to Delhi dust and pollution tracking |
+
 #### ⚡ Substation 66 kV Gas-Insulated Switchgear (GIS) $\text{SF}_6$ Density Telemetry & Laser Gas Spectroscopy
 
 | GIS Subsystem Component | Electrical Rating & Chamber Mechanics | Diagnostic Metric / Threshold | Arc Extinction & Environmental Standard |
