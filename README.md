@@ -1979,6 +1979,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Corner Injection Moldings** | Thermally vulcanized 4-corner monolithic frame transitions | Tensile strength at weld $\ge 90\%$ parent | Eliminates planar joint corner shear tears and water bypass at segment corners |
 | **Hydrophilic Swelling Cord** | Polyurethane water-swellable cord co-extruded in gasket groove | Volumetric expansion **$\ge 250\%$** | Swells upon contact with moisture, providing fail-safe second-line barrier |
 
+#### 🌊 Deep Station Diaphragm Wall (D-Wall) Inter-Panel Waterstops & Hydrophilic Grout Injection
+
+| D-Wall Engineering Component | Civil Architecture & Slurry Mechanics | Hydrostatic Metric / Tolerance | Deep Basement Groundwater Cutoff |
+| :--- | :--- | :---: | :--- |
+| **RCC Diaphragm Wall Panels** | Monolithic tremie-poured C35/45 concrete ($1.0\text{ m} – 1.2\text{ m}$ thickness)| Excavation depth $25\text{ m} – 35\text{ m}$ | Forms permanent deep structural retaining wall for underground station boxes |
+| **End-Stop Waterstop Belts** | Center-bulb vulcanized elastomeric waterstop profiles ($350\text{ mm}$)| Hydrostatic head resistance **$\ge 5.0\text{ bar}$** | Seals vertical cold joint between primary and secondary excavated D-wall panels |
+| **Bentonite Slurry Hydrostatics**| Premium Wyoming sodium bentonite thixotropic suspension | Slurry density $\rho = 1.05 – 1.15\text{ g/cm}^3$ | Exerts positive hydrostatic cake pressure, preventing trench wall caving during grab dig |
+| **Hydrophilic Re-Injection Tubes**| Perforated micro-mesh resin re-injection hoses embedded in joints | Post-grouting pressure $15\text{ bar} – 25\text{ bar}$ | Allows targeted chemical polyurethane/acrylate resin injection to seal joint leaks |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
