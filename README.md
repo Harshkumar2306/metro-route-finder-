@@ -1241,6 +1241,15 @@ flowchart TD
 | **Contact Wire Transition Clamp**| Dual CuAg grooved contact wire clamping jaws | Clamping torque strictly $45\text{ N}\cdot\text{m}$ | Ensures seamless coplanar contact wire surface with zero pantograph strike bounce |
 | **Air-Gap Dielectric Isolator** | High-creepage epoxy fiberglass insulating bar divider | Dielectric withstand **$> 95\text{ kV}$ impulse** | Provides physical and electrical sectionalizing between adjacent electrical zones |
 
+#### 🚊 Overhead Rigid Catenary (ROCS) Section Overlap Gliding Transitions & Cantilever Struts
+
+| ROCS Overlap Component | Mechanical Metallurgy & Suspension Architecture | Geometric Clearance / Travel | Aerodynamic Current Collection Stability |
+| :--- | :--- | :---: | :--- |
+| **Parallel Gliding Transition** | Dual parallel overlapping aluminum conductor bars ($12\text{ m}$ overlap)| Air gap clearance **$G \ge 250\text{ mm}$** | Seamless transfer of pantograph carbon strip without mechanical chipping or arcing |
+| **Articulated Cantilever Struts**| Stainless steel (AISI 316) drop tubes with spherical uniball joints | Vertical load capacity $F_v \ge 12\text{ kN}$ | Accommodates longitudinal thermal breathing ($\Delta L = \pm 120\text{ mm}$) without bending |
+| **Profile Clamping Jaws** | Spring-steel grooved profile gripping fingers (CuAg 0.1%) | Clamping torque $M_t = 30\text{ N}\cdot\text{m} \pm 2\text{ N}\cdot\text{m}$ | Eliminates contact wire creeping or longitudinal extrusion under high current heating |
+| **Dynamic Uplift Boundary** | Calibrated vertical suspension damper springs | Maximum vertical uplift strictly **$\le 15\text{ mm}$** | Prevents conductor bar bounce and excessive wear on pantograph horn end-horns |
+
 #### ⚡ Traction Power Quality, STATCOM & Harmonic Distortion Mitigation
 
 | Power Quality Dimension | Regulated Engineering Benchmark | Compensation Hardware & Topology | Utility Grid Stability Role |
