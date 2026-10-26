@@ -286,6 +286,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Automated Jam Re-Open Sequence**| Auto-reverses door by $200\text{ mm}$ upon obstacle resistance | Re-opening response in **$< 120\text{ ms}$** | Cycles up to 3 times before entering safe acoustic alarm lockout state |
 | **Tooth-Belt Synchronous Drive**| Steel-cord reinforced polyurethane synchronous timing belt | Service life $> 1.5 \times 10^6\text{ cycles}$ | High-tensile drive guarantees synchronized movement of bi-parting glass leaves |
 
+#### 🚪 Platform Screen Door Brushless DC Drive Micro-Torque Anti-Pinch Dynamics
+
+| BLDC Drive Control Layer | Vector Control Electronics & Feedback | Torque Limit / Precision | Anti-Entrapment Kinematics & EN 14752 |
+| :--- | :--- | :---: | :--- |
+| **Field-Oriented Control (FOC)**| Direct quadrature-axis torque current regulation ($i_q \propto T_{em}$)| Dynamic torque sampling rate $\ge 10\text{ kHz}$| Precise closed-loop force regulation across entire travel stroke without hunting |
+| **Optical Rotary Encoder** | 2,048-pulse incremental optical shaft encoder with quadrature A/B | Position resolution strictly **$\le 0.1\text{ mm}$** | Continuous velocity trajectory tracking with smooth parabolic deceleration curve |
+| **Anti-Pinch Kinetic Threshold**| EN 14752 peak kinetic energy limit ($E_k \le 10\text{ J}$) | Static clamping force strictly **$\le 150\text{ N}$**| Auto-reverses door leaf in **$< 80\text{ ms}$** if obstruction exceeds $100\text{ N}$ |
+| **Micro-Obstacle Drag Test** | Evaluates differential motor drag current during final latching | Detects thin entrapped straps $\ge 5\text{ mm} \times 10\text{ mm}$ | Retracts door leaf immediately, preventing train dispatch with trapped garments |
+
 #### 🚪 Platform Screen Door Multi-Beam Infrared Obstacle Detection & Anti-Entrapment Photometrics
 
 | Detection Subsystem | Optical Architecture & Sensor Spec | Response Time / Resolution | Commuter Safety & Interlock Function |
