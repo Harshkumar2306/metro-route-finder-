@@ -1430,6 +1430,15 @@ flowchart TD
 | **Nanocrystalline Isolation Core**| High-permeability nanocrystalline planar transformer | Breakdown isolation $> 5.0\text{ kV DC}$ | Compact high-frequency step-down providing galvanic isolation to $110\text{ V DC}$ bus |
 | **Closed-Loop Voltage Regulation**| Digital DSP voltage-mode feedback with feedforward | Line/load regulation strictly **$\le \pm 0.5\%$** | Prevents voltage sag during heavy simultaneous door actuator opening surges |
 
+#### ⚡ Saloon Emergency Auxiliary Inverter (SIV) Static Automatic Bus Transfer (ABT)
+
+| Bus Transfer Subsystem | Power Semiconductor Architecture | Switching Time / Rating | Auxiliary Power Reliability & Ride-Through |
+| :--- | :--- | :---: | :--- |
+| **Solid-State Static Switch (ABT)**| Antiparallel thyristor pairs (SCR) with fast optical gate drivers | Transfer time strictly **$t_{trans} \le 5.0\text{ ms}$** | Seamless transfer between Master SIV and Slave SIV without contactor arc wear |
+| **Phase-Angle Synchronization**| Digital phase-locked loop (PLL) tracking grid frequency and vector | Phase error angle $\Delta \theta \le 3.5^\circ$ | Eliminates inrush magnetizing surges during hot transfer to healthy 3-phase bus |
+| **Essential 415 V AC Bus Sizing**| 3-phase 4-wire $415\text{ V AC} \pm 2\%$, $50\text{ Hz}$ distribution | Rated continuous capacity **$250\text{ kVA}$** | Sustains vital trainloads: cab air compressor, saloon ventilation blowers & TCMS |
+| **Automatic Load Shedding Logic**| Microprocessor prioritizes critical loads under single SIV failure | Shedding response $< 20\text{ ms}$ | Sheds $50\%$ saloon air conditioning compressors, retaining emergency fans and lights |
+
 #### ❄️ Saloon Rooftop HVAC Microchannel Condensers & Electronic Expansion Valves (EEV)
 
 | Saloon HVAC Subsystem | Mechanical Architecture & Spec | Thermal Duty / Cooling Capacity | Refrigerant Cycle & Efficiency Dynamic |
