@@ -737,6 +737,15 @@ flowchart TD
 | **Insulated Axle Bearing Housing** | Ceramic plasma-sprayed aluminum oxide ($\text{Al}_2\text{O}_3$) barrier | Breakdown voltage $U_{bd} > 3.0\text{ kV DC}$ | Prevents current flowing through roller bearings, eliminating fluting erosion |
 | **Flexible Copper Shunt Braids** | Ultra-flexible stranded electrolytic tinned copper jumpers | Ampacity $1,200\text{ A}$ continuous | Bypasses mechanical suspension joints, ensuring 100% fail-safe rail return |
 
+#### 🛞 Bogie Axle-Mounted Grounding Earth Return Assembly & Current Siphon Slip Rings
+
+| Earth Return Component | Metallurgical Composition & Geometry | Contact Dynamic / Resistance | Bearing Current Bypass & Siphon Integrity |
+| :--- | :--- | :---: | :--- |
+| **Bronze-Graphite Slip Ring** | Centrifugally cast tin-bronze ring with embedded graphite plugs | Contact resistance $R_c \le 1.8\text{ m}\Omega$ | Forms dedicated low-impedance circular slip path mounted on rotating axle |
+| **Twin Radial Brush Holders** | Double-arm articulated brass holders with constant-force springs | Brush contact pressure $P_b \approx 22\text{ kPa}$ | Prevents high-frequency brush bounce during rough track cross-level irregularities |
+| **Current Sharing Equalizer**| Dual braided tinned copper shunts ($2 \times 95\text{ mm}^2$)| Ampacity $I_{cont} \ge 1,400\text{ A}$ | Splits traction current evenly between twin brush paths to prevent localized overheating |
+| **Bearing Shaft Potential Limit**| Dynamic potential clamp between axle journal and bogie frame | Shaft voltage strictly **$V_{shaft} \le 1.5\text{ V}$** | Conforms to IEC 60349-2; completely suppresses EDM fluting across roller bearings |
+
 #### 🛞 Wheel Flange Profile Optical Laser Scanning & EN 15313 Back-to-Back Gauge Verification
 
 | Wheel Inspection Metric | Optical Measurement Architecture | Permissible Tolerance / Standard | Kinematic Safety & Derailment Guard |
