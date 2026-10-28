@@ -1214,6 +1214,15 @@ flowchart TD
 | **Dynamic Loss of Contact (NQ)**| High-speed optical arc sensor detecting microsecond flashes | Arc percentage strictly **$\text{NQ} \le 0.1\%$** | Suppresses destructive electrical arcing that causes contact wire localized melt pits |
 | **Rooftop Optical Interrogator**| Sealed IP67 spectrometer digitizing FBG wavelength shift | Sampling frequency **$f_s \ge 2.0\text{ kHz}$** | Feeds real-time catenary stiffness profile directly to TCMS maintenance bus |
 
+#### 🚊 Pantograph Carbon Collector Strip High-Current Arc Discharge Erosion Telemetry
+
+| Arc Sensing Metrology Layer | Optoelectronic Physics & Spectroscopy | Sampling Speed / Resolution | Carbon Strip Longevity & Contact Integrity |
+| :--- | :--- | :---: | :--- |
+| **UV Solar-Blind Phototubes** | Gas-discharge phototubes sensitive to $185\text{ nm} – 260\text{ nm}$ spectrum | Response time strictly **$< 10\ \mu\text{s}$** | 100% blind to direct sunlight; detects microsecond electrical arc flashes |
+| **Arc Duration Percentage ($NQ$)**| Continuous calculation: $NQ = \frac{\sum t_{arc}}{t_{total}} \times 100\%$ | EN 50317 standard limit **$NQ \le 0.1\%$** | Triggers catenary maintenance warning if continuous arcing exceeds threshold |
+| **Carbon Loss Profiling Algorithm**| Integration of arc energy: $E_{arc} = \int v_{arc} \cdot i_{arc} \, dt$ | Mass loss estimation $\pm 5\%$ precision | Predicts carbon strip condemning thickness ($S_{min} \le 5.0\text{ mm}$) remotely |
+| **Wayside Pyrometric Thermal Camera**| High-speed infrared scanning of pantograph head at station entry | Scan rate $1,000\text{ Hz}$ at line speed | Pinpoints localized hot spots ($T \ge 180^\circ\text{C}$) caused by uneven carbon wear |
+
 #### 🛡️ Optical Defect Detection System (ODDS) & Pantograph Profiling Cameras
 
 | Pantograph Inspection Subsystem | Optoelectronic Sensor Architecture | Scanning Rate & Resolution | Defect Detection & Catenary Protection |
