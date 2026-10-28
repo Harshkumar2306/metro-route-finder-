@@ -2411,6 +2411,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Acoustic Insertion Loss** | Laboratory test bench transmission loss (EN 13146-4 / 9) | Insertion loss strictly **$\ge 14\text{ dBA}$** | Attenuates secondary structure-borne noise radiated into residential buildings |
 | **Electrical Track Insulation** | Integrated high-dielectric polymer foot insulator toe pads | Volume resistivity $\rho_e \ge 10^9\ \Omega\cdot\text{cm}$ | Prevents AFTC signaling shunting current leakage to concrete track slab |
 
+#### 🚊 Precast Slab Track Concrete Plinth Core Fastener Drilling & Chemical Anchoring
+
+| Plinth Anchor Component | Chemical Formulation & Drilling Standard | Pull-Out Force / Metric | Track Plinth Dynamic Fixation & Shear |
+| :--- | :--- | :---: | :--- |
+| **Pure Epoxy Chemical Mortar** | Two-component pure epoxy injection adhesive (ETA Option 1) | Pull-out tensile capacity **$F_{pull} \ge 120\text{ kN}$** | Bonds threaded holding-down anchor studs into high-strength C40/50 plinth concrete |
+| **Diamond Core Precision Drilling**| Automated multi-spindle diamond core drill rig | Hole diameter tolerance $\pm 0.5\text{ mm}$ | Diamond coring preserves internal plinth steel rebar cages without micro-fracturing |
+| **Vibration Dynamic Shear Load** | Grade 8.8 galvanized high-tensile anchor dowel ($M24$ thread)| Dynamic shear endurance $> 45\text{ kN}$ | Absorbs continuous lateral wheel flange forces over $> 3.0 \times 10^6$ load cycles |
+| **High Moisture & Temperature Aging**| Heat deflection temperature $HDT \ge 80^\circ\text{C}$ | Service temperature $-10^\circ\text{C} – +75^\circ\text{C}$| Sustains full bond strength during extreme Delhi summer rail thermal cycles |
+
 #### 🚆 Wheel-Rail Interface Lubrication & Friction Modification
 
 | Tribology Mechanism | Application Technology & Dispenser | Target Track Location | Mechanical & Acoustic Benefit |
