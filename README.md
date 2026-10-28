@@ -908,6 +908,15 @@ flowchart TD
 | **Partial Retraction Recycling** | Auto-reverses doors to $150\text{ mm}$ partial clearance opening | Recycles within **$< 350\text{ ms}$** | Allows passengers to free trapped items without exposing entire doorway deck |
 | **Acoustic Warning Chime Cycle** | Synchronized psychoacoustic dual-tone audio alarm + red LED flash | Pulses at $1.5\text{ Hz}$ for $3\text{ seconds}$ | Conforms to EN 14752; provides audible and visual alert before final re-closure |
 
+#### 🚊 Train Door Linear Recirculating Ball-Bearing Guide Mechanism & Friction Tribology
+
+| Door Guide Component | Mechanical Topology & Metallurgy | Operating Stroke / Load | Friction Tribology & Jam Prevention |
+| :--- | :--- | :---: | :--- |
+| **Hardened Linear Guide Rail** | Induction-hardened chrome alloy steel (58CrV4 / $60\text{ HRC}$) | Straightness tolerance $\le 0.05\text{ mm/m}$ | Forms precision track for top hanger bracket bearing carriages |
+| **Recirculating Ball Carriages**| Synthetic POM return channels with ceramic/steel ball matrix | Dynamic load rating **$C_{dyn} \ge 12\text{ kN}$** | Four-point angular contact sustains high commuter outward lean forces |
+| **Integral Lubrication Reservoir**| High-density porous polyolefin oil-impregnated wiper pads | Service maintenance interval **$> 1.0 \times 10^6\text{ cycles}$**| Delivers microscopic lubricant film; eliminates grease contamination and sticking |
+| **Double-Lip Dust Scrapers** | Fluoroelastomer (FKM) vulcanized wiper seals on both carriage ends | Ingress protection IP54 mechanical | Scrapes away airborne sand, lint and brake dust before it enters ball raceways |
+
 #### 🪟 Coach Laminated Safety Glazing & Solar Heat Rejection Films
 
 | Glazing Component | Material Standard & Specification | Optical & Thermal Metric | Commuter Safety & Security Function |
