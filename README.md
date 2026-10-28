@@ -881,6 +881,15 @@ flowchart TD
 | **Motor Current Surge Detection** | Microprocessor current monitoring on door drive H-bridge | Triggers at peak load resistance | Auto-recycles door opening 3 times before locking out faulty leaf |
 | **Traction-Door Interlock (TDI)** | SIL-4 closed-loop series interlock circuit | Hardwired to traction controller | 100% prevents train acceleration if any coach door is open $> 5\text{ mm}$ |
 
+#### 🚪 Passenger Coach External Emergency Door Unlatching Cable & Mechanical Overrides
+
+| Emergency Egress Hardware | Mechanical Architecture & Cable Route | Actuation Force / Travel | Passenger Evacuation & Interlock Protocol |
+| :--- | :--- | :---: | :--- |
+| **External Bowden Cable Pull** | Flexible stainless-steel aircraft cable in Teflon-lined conduit | Pull force threshold **$F_{pull} \le 90\text{ N}$** | Manually unlatches door lock mechanism from trackbed side without electrical power |
+| **Recessed Bodyshell Flap** | Flush-mounted red exterior access flap with tamper seal | Seal breaking force $\le 20\text{ N}$ | Clearly labeled with photoluminescent pictorial instructions for rescue personnel |
+| **Mechanical Pneumatic Exhaust**| Direct mechanical dump valve venting door locking cylinder | Exhaust venting time **$< 0.5\text{ s}$** | Neutralizes pneumatic clamping force, allowing manual sliding of door leaf by hand |
+| **Traction Inhibit Safety Contact**| Hardwired safety micro-switch tied to train safety loop | Trip response strictly **$< 25\text{ ms}$** | Instantly revokes Movement Authority and clamps emergency brakes if pulled during roll |
+
 #### 🛗 Automatic Train Door Obstruction Sensing & Sensitive Pneumatic Contact Strips
 
 | Door Obstruction Subsystem | Electro-Mechanical & Pneumatic Sensing | Sensitivity Threshold / Parameter | Obstacle Clearance & Safety Re-Cycle |
