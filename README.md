@@ -2564,6 +2564,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Switch Point Roller Devices**| Sealed stainless-steel low-friction roller bearings | Switch throw force $< 2.5\text{ kN}$ | Eliminates environmental graphite grease lubricants on switch chairs |
 | **Point Machine Clamping & Lock**| Internal clamp lock with independent detector slides | Throw stroke completed in $< 2.5\text{ s}$ | Detects rail gap $< 2\text{ mm}$; prevents route locking if obstructed |
 
+#### 🚊 Turnout Fixed Heel Switch Elastic Bending & Lateral Deflection Kinematics
+
+| Switch Blade Bending Layer | Mechanical Metallurgy & Beam Formulation | Dynamic Deflection / Geometry | High-Speed Turnout Switch Kinematics |
+| :--- | :--- | :---: | :--- |
+| **Fixed Heel Elastic Cantilever**| Asymmetric head-hardened steel profile (Zu1-60 / EN 13674-2) | Elastic flexure bending formulation $E I \frac{d^4 w}{dx^4} = q(x)$| Elastic deflection eliminates mechanical heel joints, ensuring continuous rail support |
+| **Switch Tongue Throw Stroke** | Point machine drive rod throw at switch toe: $S_{toe} = 160\text{ mm}$ | Minimum flangeway opening $W_{fl} \ge 60\text{ mm}$ | Guarantees clear unobstructed wheel flange clearance on through route |
+| **Slide Chair Roller Bearings** | Low-maintenance elastic baseplate rollers lifting switch blade during throw | Lifting stroke $2.5\text{ mm} \pm 0.5\text{ mm}$ | Cuts switch throwing force by **$> 60\%$**; eliminates messy switch oiling |
+| **Residual Stress & Fatigue** | Controlled hot roller straightening with residual stress relief | Flexure fatigue limit $> 2.0 \times 10^6\text{ throws}$ | Sustains repetitive high-speed commuter train reversals without tongue fracture |
+
 #### 🚊 Electro-Hydraulic Point Machine Internal Locking & Trailable Drive Mechanisms
 
 | Point Machine Component | Electro-Hydraulic Architecture & Standard | Operating Force / Stroke Time | Track Safety & Derailment Protection |
