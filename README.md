@@ -2213,6 +2213,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **SCADA Duty-Standby Cycling**| Lead-lag alternating starter with auto-failover contactor | Starts lag pump if level $> 75\%$ | Auto-rotates duty hours every $24\text{ hours}$ to equalize mechanical wear |
 | **Non-Return Surge Check Valves**| Resilient-seated dual-plate wafer check valves with dampers | Rated pressure $PN\ 25$ ($25\text{ bar}$) | Eliminates reverse water hammer shockwaves during sudden pump de-energization |
 
+#### 🌊 Station Invert Ground Pressure Relief Valves (PVR) & Hydrostatic Heave Prevention
+
+| Hydrostatic Relief Subsystem | Mechanical Hydraulics & Materials | Cracking Pressure / Flow Rate | Civil Foundation Heave Prevention |
+| :--- | :--- | :---: | :--- |
+| **Spring-Loaded PVR Unit** | Stainless steel (AISI 316) body with EPDM elastomeric sealing disc | Cracking pressure differential **$\Delta P \ge 15\text{ kPa}$** | Relieves excess groundwater pressure trapped beneath bottom station slab |
+| **Non-Return Backflow Barrier**| Heavy-duty dual flap valve preventing reverse flooding | Back-pressure sealing rating $PN\ 10$ ($10\text{ bar}$) | Prevents station sump water from discharging into subterranean aquifer |
+| **Graded Granular Filter Well** | Multi-layer pea gravel and geotextile filter envelope around valve | Permeability $k \ge 10^{-2}\text{ m/s}$ | Filters subsoil fines, preventing soil migration and void formation below slab |
+| **Floor Heave Safeguard** | Maintains net upward hydrostatic buoyant pressure within design limits | Factor of safety against uplift **$FOS \ge 1.25$** | Eliminates risk of structural floor cracking and track alignment distortion |
+
 #### 🌊 Mid-Tunnel Dip Pumping Stations & Dual High-Head Dewatering Mains
 
 | Deep Sump Infrastructure | Mechanical Sizing & Piping Standard | Static Head / Flow Rate | Flood Ingress & Pressure Surges |
