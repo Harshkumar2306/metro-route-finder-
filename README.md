@@ -1277,6 +1277,15 @@ flowchart TD
 | **Vacuum Interrupter Load Break** | Sealed vacuum bottle arc quenching chamber ($800\text{ A}$ break) | Rated for 10,000 full-load break cycles | Permits breaking under full train auxiliary loads without atmospheric arcing |
 | **Castell Key Mechanical Interlock**| Trapped-key interlocking system with TSS substation switchboard | Zero-bypass mechanical sequencing | 100% physically prevents closing earth switch while line disconnector is energized |
 
+#### 🚊 Overhead Catenary System (OCS) Motorized Earthing Switch & SCADA Key Interlock
+
+| Earthing Switch Subsystem | Mechanical Linkage & Contact Spec | Electrical Rating / Timing | Maintenance Safety & Grounding Invariant |
+| :--- | :--- | :---: | :--- |
+| **Motorized Fast Earthing Blade**| High-conductivity copper contact blade with spring toggle | Closing stroke time **$t_{close} \le 1.2\text{ s}$** | Directly shorts catenary section to traction rail return circuit for line maintenance |
+| **Peak Short-Circuit Making**| Silver-plated tulip contacts resisting electrodynamic forces | Short-circuit making strictly **$\ge 65\text{ kA}$ peak**| Conforms to IEC 62271-102; withstands accidental closing onto fully energized $25\text{ kV}$ |
+| **Trapped-Key Mechanical Interlock**| Castell mechanical sequential key interlock system | Zero-bypass interlocking | 100% physically blocks closing earthing switch until line isolator is open and locked |
+| **Auxiliary Limit Switch Telemetry**| Heavy-duty double SPDT limit switches in weatherproof IP67 box | Feedback latency to SCADA $< 50\text{ ms}$ | Provides positive open/closed status confirmation to Central OCC dispatch console |
+
 #### ⚡ Overhead Rigid Catenary System (ROCS) Aluminum Profile & Clamping
 
 | Rigid Catenary Component | Metallurgical & Structural Profile | Mechanical Tension & Clearance | Tunnel Integration & High-Speed Dynamic |
