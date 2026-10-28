@@ -159,6 +159,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Step Sag Sensing Switches** | Micro-contact safety switches positioned beneath track curves | Detects step sag **$\Delta z \ge 4.0\text{ mm}$** | De-energizes drive circuit before damaged step impacts comb plate teeth |
 | **Controlled Deceleration Dynamic** | Dynamic hydraulic/mechanical braking profile regulator | Deceleration bounded: $0.5\text{ m/s}^2 \le a \le 1.0\text{ m/s}^2$| Conforms to EN 115-1; brings loaded escalator to stop without tumbling passengers |
 
+#### 🏛️ Station Platform Escalator Variable Frequency Eco-Drive & Standby Crawl Energy Recovery
+
+| Eco-Drive Subsystem | Power Electronics & Optical Radar | Operational Mode / Velocity | Energy Conservation & Mechanical Longevity |
+| :--- | :--- | :---: | :--- |
+| **Closed-Loop VVVF Inverter** | 4-quadrant regenerative IGBT inverter with regenerative bridge | Rated speed $v_{run} = 0.65\text{ m/s}$ | Smooth stepless speed modulation eliminating aggressive starting torque surges |
+| **Optical Passenger Approach Radar**| Dual optical light curtains detecting approaching commuters | Detection range $2.5\text{ m}$ ahead | Accelerates from crawl to full speed in **$1.8\text{ s}$** before passenger boards step |
+| **Standby Crawl Speed Mode** | Automatic speed deceleration when escalator is unoccupied for $> 60\text{ s}$ | Crawl velocity $v_{crawl} = 0.15\text{ m/s}$ | Lowers standby electrical power consumption by **$> 55\%$** during off-peak hours |
+| **Regenerative Braking Recovery**| Inverts potential energy during heavy downward passenger flows | Active regeneration efficiency $\ge 88\%$ | Feeds electricity back into station auxiliary 415 V grid, reducing net cooling load |
+
 #### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
 
 | Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
