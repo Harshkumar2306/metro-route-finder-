@@ -1151,6 +1151,15 @@ flowchart TD
 | **Instantaneous Power Delivery** | Integrated permanent magnet motor/generator on rotor shaft | Power output **$250\text{ kVA}$** ($\Delta t = 0\text{ ms}$) | Seamless instantaneous ride-through bridging auxiliary power grid sags |
 | **Unlimited Duty Cycling** | Solid-state IGBT bidirectional inverter interface | Service lifespan **$> 1.0 \times 10^6\text{ cycles}$** | Bridges 15-second gap until backup diesel generators synchronize without battery wear |
 
+#### ⚡ Station Emergency Diesel Generator (DG) Synchronizing Switchboard & Load Shedding
+
+| Standby Generator Dimension | Engine Mechanics & Alternator Spec | Synchronization Time / Rating | Station Emergency Grid Islanding |
+| :--- | :--- | :---: | :--- |
+| **Twin Turbocharged DG Skid** | 12-cylinder V-type electronic fuel injection diesel engine | Prime power rating **$1,500\text{ kVA}$** ($415\text{ V}, 50\text{ Hz}$)| Starts and reaches rated voltage and frequency within strictly **$< 10\text{ s}$** |
+| **Auto-Mains Failure (AMF) Board**| Microprocessor synchronizer with motorized drawout air circuit breakers | Automatic close time $< 15\text{ s}$ from blackout | Seamlessly takes over emergency station bus upon utility 33 kV grid trip |
+| **Synchrocheck Verification ($\Delta V, \Delta f$)**| Voltage difference $\Delta V \le 2\%$, frequency difference $\Delta f \le 0.1\text{ Hz}$ | Phase window angle $\Delta \phi \le 5^\circ$ | Parallels multiple generators smoothly without reverse-power tripping |
+| **Sequential Step Load Sizer**| Microprocessor 4-stage load application timer | Stage spacing strictly **$\Delta t = 3.0\text{ s}$** | Prevents engine stalling under simultaneous motor start of TVS and dewatering pumps |
+
 #### 💡 Central Battery System (CBS) & Emergency Ingress Illumination (EN 50171)
 
 | Central Battery Subsystem | Battery Chemistry & Architecture | Autonomy / Illumination Standard | Evacuation Safety & Circuit Monitoring |
