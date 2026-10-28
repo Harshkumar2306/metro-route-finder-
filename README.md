@@ -2609,6 +2609,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Flange Thickness ($Sd$)** | Standard `28 mm – 32 mm` | Min safe limit `22 mm` | Eliminates razor-sharp gauge-face edge wear on curved rails |
 | **Flange Slope Factor ($q_R$)**| Safe criterion **$q_R \ge 6.5\text{ mm}$** | Critical threshold $< 6.5\text{ mm}$ | Strictly complies with EN 15313 to prevent wheel climb derailments |
 
+#### 🛞 Underfloor Wheel Truing Machine Floating Hydraulic Axle Hold-Down Clamps
+
+| Hold-Down Subsystem Layer | Mechanical Hydraulics & Clamping Spec | Holding Force / Precision | Wheel Reprofiling Concentricity Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Hydraulic Hold-Down Hooks** | Dual articulating forged alloy steel clamp arms on axle boxes | Clamping holding force strictly **$F_h \ge 75\text{ kN}$** | Holds wheelset firmly down against drive rollers without axle deflection |
+| **Friction Drive Rollers** | Induction-hardened serrated alloy drive rollers ($58 – 62\text{ HRC}$)| Synchronized peripheral drive speed $0.8\text{ m/s}$| Rotates entire 16-tonne loaded wheelset against CNC carbide cutting toolholders |
+| **Radial Runout Precision ($\Delta R$)**| Laser sensor measuring finished wheel tread concentricity | Radial runout strictly **$\Delta R \le 0.10\text{ mm}$** | Eliminates wheel out-of-roundness and polygonization defects causing cabin rumble |
+| **Automatic Caliper In-feed** | Closed-loop servo ballscrew toolhead with dynamic depth control | Depth cut increment $\Delta d = 0.5\text{ mm} – 2.0\text{ mm}$| Minimizes removed steel mass, maximizing remaining wheel lifespan for revenue service |
+
 #### 🛞 Wheelset Axle Press-Fit & Ultrasonic Non-Destructive In-Service Testing
 
 | Wheelset Assembly & NDT Dynamic | Mechanical Engineering Specification | Testing Standard & Metric | Structural Integrity & Defect Threshold |
