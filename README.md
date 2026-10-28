@@ -2294,6 +2294,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Variable Frequency Drive (VFD)**| Inverter bypass contactor ensuring direct online (DOL) fire run | Full speed ramp-up strictly **$< 20\text{ s}$** | Automatically overrides thermal overload protections during confirmed fire alarm |
 | **Aerodynamic Sound Attenuator**| Cylindrical pod silencers with non-combustible basalt wool | Pressure drop $\Delta P \le 120\text{ Pa}$ | Limits discharge noise to $< 85\text{ dBA}$, maintaining evacuation audibility |
 
+#### 🌪️ Station Concourse Jet Fan Smoke Pressurization & Draft Plume Entrainment Modeling
+
+| Concourse Smoke Dynamics | Aerodynamic Architecture & Plume Physics | Critical Velocity / Thrust | Stratified Smoke Containment (NFPA 130) |
+| :--- | :--- | :---: | :--- |
+| **Concourse Induction Jet Fans**| Ultra-low profile centrifugal impulse induction fans | Discharge thrust $F_t \ge 85\text{ N}$ | Entrains surrounding air layer ($10\times$ fan volume), directing smoke to extract shaft |
+| **Critical Anti-Backlayering Velocity**| $v_{crit} = \left( \frac{g \dot{Q} H}{\rho_0 C_p T_{avg} W} \right)^{1/3}$ formulation | Critical air speed strictly **$v_{crit} \ge 2.2\text{ m/s}$** | Prevents buoyant hot smoke layer from creeping backward up public egress stairs |
+| **F400 Thermal Endurance** | Cast aluminum impellers with Class H ceramic motor winding | Certified $400^\circ\text{C}$ for $120\text{ min}$ (EN 12101-3)| Sustains continuous concourse smoke scouring during violent electrical retail fires |
+| **Optical Laser Opacity Sensor**| In-situ infrared obscuration beam smoke optical density meters | Obscuration threshold $D \ge 0.05\text{ m}^{-1}$| Auto-triggers designated smoke evacuation zone fans within $< 15\text{ s}$ of alarm |
+
 #### ❄️ Underground Station Environmental Control (ECS) & Air Quality (IAQ)
 
 | Environmental Control Layer | Target Indoor Metric | Engineering Mechanism | Health & Comfort Benchmark |
