@@ -186,6 +186,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Overspeed Centrifugal Governor** | Bi-directional weighted flyball / centrifugal pawl trigger | Trip speed $1.4\text{ m/s} – 1.8\text{ m/s}$ | Tripping rope actuates safety jaw switches, killing motor drive power instantly |
 | **Hydraulic Oil Energy Buffers** | Nitrogen-charged stroke piston cylinder | Stroke length $S \ge 0.0674 v^2$ ($180\text{ mm}$) | Absorbs terminal free-fall impact kinetic energy with controlled uniform deceleration |
 
+#### 🛗 Transit Elevator Bi-Directional Overspeed Governor Rope Tensioners & Pit Buffer Hydraulics
+
+| Pit Safety Component | Mechanical Architecture & Spec | Dynamic Threshold / Stroke | Deceleration Dynamic & Safety Invariant (EN 81-20) |
+| :--- | :--- | :---: | :--- |
+| **Weighted Pit Tension Pulley**| Cast-iron guided pulley with safety slack-rope electrical switch | Tensioning mass $M_t \ge 35\text{ kg}$ | Maintains constant rope tractive friction, preventing governor slippage |
+| **Telescopic Hydraulic Buffers**| Self-contained nitrogen-oil dissipating cylinder under car & counterweight | Minimum buffer stroke strictly **$S_b \ge 0.0674 v^2$** | Retards fully laden car ($150\%$ duty) with peak deceleration $a_{\max} \le 1.0\text{ g}$ |
+| **Seismic Submersible Pit Switch**| IP68 hermetically sealed bistable magnetic float sensor | Water ingress trigger height $\Delta h \ge 100\text{ mm}$ | Instantly recalls car to upper concourse and locks drive if pit floods |
+| **Safety Gear Tripping Linkage** | High-tensile preformed steel wire rope ($6 \times 19\text{ Seale}, 8\text{ mm}$) | Breaking tenacity $F_{break} \ge 38\text{ kN}$ | Transmits upward wedging pull force to instantaneous safety clamps without stretch |
+
 #### 📦 Lost & Found Property Custody Chain & Automated Ledger Tracking
 
 | Custody Lifecycle Stage | Protocol & Time Window | Custodian Authority | Security Verification & Claim Procedure |
