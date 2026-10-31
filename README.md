@@ -2852,6 +2852,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Lithium Iron Phosphate Pack**| $80\text{ V} / 600\text{ Ah}$ $\text{LiFePO}_4$ battery with BMS thermal control | Continuous operation $\ge 12\text{ hours}$ | Zero emissions inside enclosed maintenance sheds; rapid recharge in $90\text{ mins}$ |
 | **Radio Remote Control Belly-Pack**| 2.4 GHz spread-spectrum transmitter with SIL-3 tilt sensor | Shunting speed strictly $\le 5.0\text{ km/h}$ | Allows single depot operator to supervise mechanical coupler latching safely |
 
+#### 🚜 Depot Automatic Train Puller Rope Winch & Bogie Axle Guide Shunting Systems
+
+| Train Puller Subsystem | Mechanical Architecture & Cable Route | Continuous Tractive Pull / Speed | Wheel Lathe & Wash Plant Positioning |
+| :--- | :--- | :---: | :--- |
+| **Capstan Winch Drive Unit** | Heavy-duty helical-bevel motor gearbox with magnetic fail-safe brake | Continuous pulling force **$F_{pull} \ge 40\text{ kN}$** | Effortlessly pulls unpowered 8-car trainset through maintenance sheds |
+| **Endless Wire Rope Loop** | Galvanized compacted steel wire rope ($6 \times 26\text{ Warrington-Seale}$) | Tensioning take-up stroke $\Delta L = 1.2\text{ m}$ | Recirculating continuous cable loop running through covered trackbed guide trough |
+| **Articulated Axle Pusher Dolly**| Low-profile trackbed carriage with retractable polyurethane rollers | Roller engaging stroke time $< 8.0\text{ s}$ | Pushes against wheelset axle journal without scratching paint or bearing seals |
+| **Precision Inverter Crawl Control**| Closed-loop vector VVVF inverter with laser distance telemetry | Shunting creep speed **$v = 0.05 – 0.50\text{ m/s}$** | Precision $\pm 2.0\text{ mm}$ wheelset positioning onto underfloor CNC reprofiling lathes |
+
 #### ⚡ Depot Overhead Maintenance Platform Interlocking & Automatic Roof Fall Arrest Systems
 
 | Depot Safety Subsystem | Electro-Mechanical Architecture & Interlock | Operating Standard / Capacity | Technician Safety & HV Isolation |
