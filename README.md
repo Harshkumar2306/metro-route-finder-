@@ -2103,6 +2103,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Anti-Tailgating Lockout** | Immediate reverse flap clamping upon unauthorized intrusion | Flap actuation response **$< 250\text{ ms}$** | Physically intercepts second passenger attempting unpaid entry on single fare tap |
 | **Directional Fraud Reversal**| Dual-direction cross-beam time-sequence verification | 100% detects counter-flow intrusion | Triggers localized audio buzzer and flags Station Control Room CCTV camera |
 
+#### 🎫 AFC Flap-Door Barrier High-Speed Servo Brushless Actuation & Optical Anti-Pinch Profiles
+
+| Flap Barrier Subsystem | Electro-Mechanical Architecture & Servo Drive | Actuation Timing / Torque | Passenger Safety & Pinch Prevention (EN 16005) |
+| :--- | :--- | :---: | :--- |
+| **Brushless DC Servo Actuator**| Direct-drive permanent magnet synchronous motor with planetary gear | Opening stroke time strictly **$t_{open} \le 180\text{ ms}$** | Rapid flap retraction prevents commuter impact even at high transit walk speeds |
+| **Micro-Torque Current Limiter**| Real-time digital current sensing on motor H-bridge driver | Clamping force strictly **$F_{clamp} \le 80\text{ N}$** | Immediately cuts motor torque upon minor mechanical obstruction resistance |
+| **Optical Shadow Safety Zone**| Multi-beam through-beam array covering internal flap sweep volume | Beam response latency $< 15\text{ ms}$ | 100% blocks flap closure if passenger limbs or trailing bags occupy sweep path |
+| **Polyurethane Cushioned Wings**| Tear-resistant high-density microcellular integral skin polyurethane | Durometer hardness $65 – 70\text{ Shore A}$ | Soft impact edge ensures zero bruising or injury during accidental passenger contact |
+
 #### 👤 AFC Turnstile 3D Structured-Light Biometric Facial Verification Gates
 
 | Biometric Authentication Layer | Optoelectronic & Sensor Spec | Matching Speed / FAR Metric | Commuter Flow & Privacy Invariant |
