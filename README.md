@@ -710,6 +710,15 @@ flowchart TD
 | **Auto-Levelling Differential Valves**| Mechanical height sensing rotary lever valves | Compensates tare weight to crush load | Enforces constant coach floor height within **$\pm 5\text{ mm}$** of platform |
 | **Hydraulic Yaw Dampers** | Double-acting linear telescopic fluid dampers | Mounted between bogie bolster and carbody | Suppresses high-speed bogie hunting oscillations up to $130\text{ km/h}$ |
 
+#### 🛞 Bogie Secondary Air Spring Emergency Auxiliary Rubber Bumper & Deflated Deflection Kinematics
+
+| Auxiliary Suspension Layer | Elastomeric Formulation & Profile | Deflection Dynamic / Stiffness | Emergency Deflated Ride & Safety Bound |
+| :--- | :--- | :---: | :--- |
+| **Internal Conical Bump Stop** | Layered chloroprene rubber vulcanized to mild steel conical plates | Vertical bump stiffness $k_{aux} \ge 1.8\text{ kN/mm}$ | Directly supports carbody bolster upon complete air bellows deflation |
+| **Deflated Height Deflection ($\Delta z$)**| Static settling under full crush loading (AW3 condition) | Deflection drop strictly **$\Delta z \le 35\text{ mm}$** | Maintains vital structural clearance above railhead and platform copings |
+| **Differential Side-Tilt Limit** | Asymmetric single-side burst air spring failure condition | Maximum body roll angle **$\theta_{roll} \le 1.2^\circ$** | Prevents carbody kinematic envelope encroachment into tunnel walls |
+| **Emergency Crawl Restriction** | Automatic TCMS pneumatic pressure transducer trip | Speed restriction $v_{defl} \le 45\text{ km/h}$ | Guarantees safe transit to nearest depot without wheel flange derailment |
+
 #### 🛞 Bogie Hydraulic Yaw Dampers & High-Speed Hunting Motion Attenuators
 
 | Yaw Damper Dimension | Mechanical Architecture & Hydraulics | Damping Rating / Capacity | Ride Stability & Hunting Prevention |
