@@ -331,6 +331,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **SIL-3 Closed-Loop Switch** | Redundant magnetic safety interlock contact switches | Loop interrupt latency $< 50\text{ ms}$ | Instantly reports door breakout to CBTC, holding track signals at stop |
 | **Fire-Rated Laminated Glass**| Double-laminated toughened borosilicate glass panels | Fire integrity classification **E60 / EW30** | Sustains $1,000^\circ\text{C}$ radiant tunnel flashover fires for $> 60\text{ minutes}$ |
 
+#### 🛡️ Platform Screen Door (PSD) Emergency Egress Push-Bar Breakout Mechanism & Mechanical Latch Physics
+
+| Breakout Subsystem | Mechanical Linkage & Cam Profile | Actuation Force / Travel | Passenger Egress Dynamics & Traction Interlock |
+| :--- | :--- | :---: | :--- |
+| **Panic Crash Push-Bar** | Full-width brushed 316 stainless-steel tubular push-bar (EN 1125)| Actuation trip force strictly **$F_{push} \le 80\text{ N}$** | Provides immediate intuitive unlatching from trackside without electrical power |
+| **Dual Rotary Latch Dogs** | Hardened alloy steel latch dogs ($52\text{ HRC}$) with bronze roller cams | Latch throw retraction stroke $\Delta x = 18\text{ mm}$| Disengages top and bottom frame lock points in a single synchronized motion |
+| **Adjustable Hydraulic Door Closer**| Rack-and-pinion overhead oil check damper with latching action | Closing speed control $3.0\text{ s} – 5.0\text{ s}$ | Prevents violent door slamming while ensuring positive mechanical re-latching |
+| **Dual Auxiliary Microswitches**| IP67 sealed positive-break safety contacts wired in series loop | Contact separation strictly **$< 20\text{ ms}$** | Revokes traction interlocking clearance and flags Central OCC console instantly |
+
 #### 🛑 Platform Emergency Stop Plunger (ESP) SIL-4 Vital Hardwired Interlock Loop
 
 | Emergency Stop Component | Electrical Architecture & Hardware | Actuation Metric / Standard | Safety Intervention & Signal Hold |
