@@ -2222,6 +2222,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Corner Injection Moldings** | Thermally vulcanized 4-corner monolithic frame transitions | Tensile strength at weld $\ge 90\%$ parent | Eliminates planar joint corner shear tears and water bypass at segment corners |
 | **Hydrophilic Swelling Cord** | Polyurethane water-swellable cord co-extruded in gasket groove | Volumetric expansion **$\ge 250\%$** | Swells upon contact with moisture, providing fail-safe second-line barrier |
 
+#### 🛡️ Tunnel Segmental Precast Ring Steel Fiber Reinforced Concrete (SFRC) Ductility
+
+| SFRC Segment Dimension | Mix Formulation & Metallurgy (EN 14651) | Residual Strength / Ductility | TBM Thrust Bearing & Spalling Resistance |
+| :--- | :--- | :---: | :--- |
+| **Hooked-End Steel Wire Fibers**| Cold-drawn high-tensile carbon steel fibers ($l/d \approx 65$, length $60\text{ mm}$)| Dosage density $\rho_f \ge 45\text{ kg/m}^3$ | Disperses tensile stresses 3D omnidirectionally, eliminating micro-cracking |
+| **Residual Flexural Strength ($f_{R,1k}$)**| Beam 3-point notch bending test at $CMOD_1 = 0.5\text{ mm}$ | Residual strength **$f_{R,1k} \ge 3.8\text{ MPa}$** | Sustains post-cracking tensile capacity without catastrophic brittle shear failure |
+| **TBM Hydraulic Ram Pad Bearing**| Concrete compressive class C50/60 with high fiber matrix | Thrust shoe contact pressure $\ge 12.5\text{ MPa}$| Resists severe point loads from 3,500-tonne TBM advance rams without corner spalling |
+| **Corrosion Durability & Life** | Stray-current tested matrix with synthetic micro-synthetic hybrid blend | Design service life **$> 120\text{ years}$** | Prevents galvanic corrosion paths under high groundwater electrolyte concentrations |
+
 #### 🌊 Deep Station Diaphragm Wall (D-Wall) Inter-Panel Waterstops & Hydrophilic Grout Injection
 
 | D-Wall Engineering Component | Civil Architecture & Slurry Mechanics | Hydrostatic Metric / Tolerance | Deep Basement Groundwater Cutoff |
