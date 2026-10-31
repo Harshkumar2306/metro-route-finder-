@@ -1349,6 +1349,15 @@ flowchart TD
 | **Cast-Iron Balance Weights** | Modular cylindrical weights stacked inside vertical guide cage | $W = 10\text{ kN} – 12\text{ kN}$ nominal | Maintains contact wire horizontal tension within **$\pm 3\%$** tolerance |
 | **Anti-Falling Drop Brake** | Centrifugal ratchet safety cam brake on main pulley | Triggers on sudden slack / wire snap | Locks weight stack instantly; prevents catastrophic mast collapse on wire tear |
 
+#### 🚊 Overhead Catenary System (OCS) Auto-Tensioning Gas-Hydraulic Compensators (ATD)
+
+| Gas-Hydraulic ATD Layer | Electro-Hydraulic Mechanics & Fluid Spec | Tension Capacity / Stroke | Dynamic Wire Response & Wire-Break Arrest |
+| :--- | :--- | :---: | :--- |
+| **Nitrogen Gas Accumulator** | High-pressure nitrogen bladder accumulator ($P_0 \approx 140\text{ bar}$) | Linear force output **$F_T = 20\text{ kN} \pm 2.0\%$** | Completely replaces heavy unsightly counterweight stacks on viaduct masts |
+| **Thermal Expansion Stroke ($\Delta L$)**| Double-acting chrome-plated hydraulic piston rod | Total compensation stroke **$\Delta L = \pm 350\text{ mm}$** | Seamlessly compensates wire thermal breathing across $-10^\circ\text{C} – +65^\circ\text{C}$ range |
+| **Integrated Velocity Limiter** | Directional hydraulic orifice check valve (Lock-Up Snubber) | Triggers on wire velocity $v \ge 0.5\text{ m/s}$ | Hydraulic lock arrests wire recoil instantly upon catenary break, saving masts |
+| **Synthetic Biodegradable Oil**| Synthetic polyol ester hydraulic fluid (ISO VG 32 / OECD 301B)| Kinematic viscosity index $> 150$ | Non-toxic to groundwater; retains fluid damping across harsh seasonal swings |
+
 #### 🚡 OHE Section Insulators & Air-Gap Overlap Anchors
 
 | Catenary Transition Type | Structural & Electrical Topology | Span Architecture | Electrical Isolation & Continuity Dynamic |
