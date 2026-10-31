@@ -1493,6 +1493,15 @@ flowchart TD
 | **Residual Current Sensor (RCT)** | Core-balance current transformers encompassing 3-phase feeders | $30\text{ mA} – 300\text{ mA}$ trip threshold | Detects creeping track insulation degradation before full dead-ground flashover |
 | **Equipotential Copper Earth Mat** | Interconnected $50 \times 6\text{ mm}$ electrolytic bare copper mesh | Grid resistance **$< 0.5\ \Omega$** | Safely drains line surge energy, maintaining step and touch potentials below IEEE 80 limits |
 
+#### ⚡ Traction Substation Neutral Grounding Reactor (NGR) & Zero-Sequence Current Limiting
+
+| Grounding Reactor Parameter | Magnetic Core & Coil Architecture | Reactance / Thermal Rating | Zero-Sequence Fault Limitation (IEEE C57.21) |
+| :--- | :--- | :---: | :--- |
+| **Air-Core Dry-Type Reactor** | Cast-resin encapsulated copper winding with fiberglass armoring | Insulation class strictly **Class H ($180^\circ\text{C}$)** | 100% linear zero-sequence impedance without magnetic core saturation |
+| **Short-Time Thermal Rating ($I_{sc}$)**| 3-second short-circuit current withstand rating | Fault current $I_{sc} \ge 1,200\text{ A}$ for $3.0\text{ s}$ | Absorbs severe line-to-earth flashover surges without winding distortion |
+| **Zero-Sequence Reactance ($X_0$)**| Calibrated inductive impedance at fundamental frequency ($50\text{ Hz}$)| Reactance $X_0 \approx 12.5\ \Omega \pm 5\%$ | Limits prospective ground fault current, protecting traction transformer windings |
+| **Earth Potential Rise (EPR) Clamp**| Coordinated earthing grid return with surge spark gaps | Maximum touch potential $V_{touch} \le 65\text{ V}$ | Conforms to EN 50122-1; eliminates lethal touch potential along station tracks |
+
 #### ⚡ Track Ground Bonding, Spark Gaps & Voltage Limiting Devices (VLD)
 
 | Touch Voltage Protection Layer | Electrical Hardware Profile | Trip Threshold & Standard (EN 50122-1) | Commuter Safety & Stray Current Isolation |
