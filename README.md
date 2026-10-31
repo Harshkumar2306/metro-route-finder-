@@ -1124,6 +1124,15 @@ flowchart TD
 | **Bi-Directional In-Line Line Amplifiers** | Ultra-low-noise gallium arsenide (GaAs) RF booster repeaters | Spaced every $350\text{ m} – 500\text{ m}$ in tunnels | Compensates for longitudinal attenuation, guaranteeing link margin $> 18\text{ dB}$ |
 | **Train Cab Shark-Fin Dual Diversity** | Low-profile aerodynamic rooftop antenna pods (MIMO 2x2) | Dual redundant feeds to VOBC chassis | Prevents multi-path fading nulls during high-speed $80\text{ km/h}$ tube transit |
 
+#### 🛰️ CBTC Free-Propagation Leaky Coaxial Cable (LCX) Slot Radiation Dynamics & Coupling Loss
+
+| LCX Engineering Parameter | Geometric Architecture & Metallurgy | Frequency / Metric Threshold | RF Propagation & Link Stability (IEC 61196) |
+| :--- | :--- | :---: | :--- |
+| **Periodic Angled Slot Apertures**| Corrugated outer copper tube with laser-milled inclination angle ($\theta \approx 30^\circ$)| Pitch spacing $p = \frac{\lambda_g}{1 - \cos \phi}$ | Produces controlled radiated mode leakage, converting coaxial wave to free space |
+| **Coupling Loss Metric ($C_{L95}$)**| $95\%$ probability coupling loss measured at $2.0\text{ m}$ distance | Coupling loss strictly **$C_{L95} \le 68\text{ dB}$** ($5.8\text{ GHz}$) | Guarantees strong continuous field strength along curved single-track bored tunnels |
+| **Longitudinal Attenuation ($\alpha$)**| High-purity cellular polyethylene dielectric foam insulation | Attenuation strictly **$\alpha \le 8.5\text{ dB/100m}$** | Limits RF signal dissipation over $500\text{ m}$ amplifier repeater intervals |
+| **Flame-Retardant LSZH Sheath** | Low-smoke zero-halogen polyolefin jacket (EN 50267 / IEC 60332)| Flame spread index $< 25$ | Emits zero toxic halogen gases and preserves structural sheath integrity during fire |
+
 #### 📡 CBTC Trackside Radio Access Unit (TAU) Spatial Diversity & MIMO Antennas
 
 | Radio Access Unit (TAU) Parameter | Hardware Profile & Antenna Mechanics | Operating Band & RF Standard | Environmental Resilience & Redundancy |
