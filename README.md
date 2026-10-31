@@ -2717,6 +2717,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Slide Chair Roller Bearings** | Low-maintenance elastic baseplate rollers lifting switch blade during throw | Lifting stroke $2.5\text{ mm} \pm 0.5\text{ mm}$ | Cuts switch throwing force by **$> 60\%$**; eliminates messy switch oiling |
 | **Residual Stress & Fatigue** | Controlled hot roller straightening with residual stress relief | Flexure fatigue limit $> 2.0 \times 10^6\text{ throws}$ | Sustains repetitive high-speed commuter train reversals without tongue fracture |
 
+#### 🚊 Turnout Fixed Manganese Frog Explosive Depth Hardening & Nose Impact Dynamics
+
+| Frog Crossing Component | Metallurgy & Explosive Hardening Standard | Hardness / Geometric Profile | Wheel Overpass Dynamic & Wear Longevity |
+| :--- | :--- | :---: | :--- |
+| **Austenitic Hadfield Steel** | Cast austenitic manganese steel ($12\% – 14\%\text{ Mn}, 1.2\%\text{ C}$) | Yield strength $R_{p0.2} \ge 350\text{ MPa}$ | Extreme work-hardening capability under heavy continuous wheel pounding |
+| **Explosive Pre-Hardening Depth**| Controlled sheet explosive detonation creating plastic shockwaves | Hardness depth strictly **$\ge 350\text{ HBW}$ to $25\text{ mm}$ depth**| Eliminates plastic flow and metal mushing during initial revenue service traffic |
+| **Frog Nose Transition Slope**| Precision CNC machined wheel transfer ramp slope ($1:20$) | Wing rail elevation $\Delta z = +2.0\text{ mm}$ | Smoothly transfers wheel tread load across flangeway gap without shock impact |
+| **Ultrasonic Volume Inspection**| Multi-angle immersion ultrasonic inspection (EN 13674-4) | Flaw detection threshold $\le 2.0\text{ mm}$ | Verifies zero internal shrink cavities, micro-gas pores, or cold shuts in casting |
+
 #### 🚊 Electro-Hydraulic Point Machine Internal Locking & Trailable Drive Mechanisms
 
 | Point Machine Component | Electro-Hydraulic Architecture & Standard | Operating Force / Stroke Time | Track Safety & Derailment Protection |
