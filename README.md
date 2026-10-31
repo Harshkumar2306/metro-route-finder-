@@ -430,6 +430,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Kinetic Flywheel Storage Systems**| Carbon-composite rotors in vacuum housing ($30,000\text{ RPM}$) | Delivers high-current launch boost for departing rakes | Eliminates peak acceleration voltage sags across substations |
 | **Peak Demand Shaving Telemetry** | Real-time automated SCADA battery dispatch | Dispatches stored energy during morning/evening tariff peaks | Reduces contracted maximum demand charges from discoms by **18%** |
 
+#### 🔋 Wayside Supercapacitor Bidirectional DC-DC Buck-Boost Chopper & Voltage Clamping
+
+| Converter Subsystem Layer | Power Electronics Architecture & Topology | Switching Frequency / Efficiency | Voltage Clamping Dynamic & Energy Capture |
+| :--- | :--- | :---: | :--- |
+| **Interleaved Multi-Phase Chopper**| 4-phase interleaved bidirectional IGBT DC-DC buck-boost converter | Carrier frequency $f_{sw} = 8.0\text{ kHz}$ | Cancels inductor current ripples, reducing thermal stress on ultracapacitors |
+| **DC-Bus Overvoltage Clamping** | Closed-loop voltage clamp triggering at $V_{dc} \ge 850\text{ V DC}$ | Voltage stabilization window $\pm 10\text{ V}$ | Absorbs regenerative surge energy within **$< 2.5\text{ ms}$**, preventing rheostat burn |
+| **Active Charge/Discharge Control** | Digital signal processor (DSP) sliding-mode current controller | Continuous peak power **$1,200\text{ kW}$** | Discharges stored energy back to departing train accelerating out of platform |
+| **Active Cell Voltage Balancing** | Switched-shunt dynamic equalizer on 125 V capacitor modules | Balance error strictly **$\Delta V_{cell} \le 15\text{ mV}$** | Maximizes cycle longevity ($> 1.0 \times 10^6\text{ cycles}$) under rapid stop-go duty |
+
 #### ⚡ Regenerative Braking Inverters & Onboard Supercapacitor Peak-Shaving
 
 | Energy Storage Subsystem | Electrical Rating & Topology | Charge/Discharge Dynamic | Traction Energy & Peak Shaving Metric |
