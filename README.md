@@ -1637,6 +1637,15 @@ flowchart TD
 | **TCMS CANopen Telemetry** | High-speed isolated serial CANopen bus to coach TCMS | Refresh update rate $\le 100\text{ ms}$ | Real-time thermal gradient logging & preventive fault annunciator alerts |
 | **Thermal Emergency Trip** | Vital hardware comparator circuit in traction inverter | Trip threshold $T_{trip} \ge 205^\circ\text{C}$ | Cuts IGBT gate pulses in **$< 10\ \mu\text{s}$**, preventing irreversible coil burnout |
 
+#### ⚡ Traction Motor Thermal Model Observer & Real-Time Stator Core Estimator Algorithms
+
+| Thermal Observer Layer | Mathematical Physics & State-Space Equation | Estimation Accuracy / Cycle | Over-Temperature Protection Dynamic |
+| :--- | :--- | :---: | :--- |
+| **Lumped Parameter Network (LPTN)**| 8-node state-space matrix: $\mathbf{C}_{th} \frac{d\mathbf{T}}{dt} = \mathbf{P}_{loss} - \mathbf{G}_{th} \mathbf{T}$ | Execution period $\Delta t \le 10\text{ ms}$ | Real-time estimation of rotor magnet and stator tooth hotspots inaccessible to RTDs |
+| **Copper & Iron Loss Segregation** | Separates $I^2 R(T)$ Joule heating from frequency-dependent iron eddy loss ($f^{1.6}$)| Model error strictly **$\le \pm 2.0\text{ K}$** | Accurately models localized thermal rise under continuous field-weakening cruise |
+| **Dynamic Derating Threshold** | Dual-tier progressive torque derating: $\tau_{cmd} = \tau_{nom} \cdot f(T_{est})$ | Derating onset at $T_{est} \ge 175^\circ\text{C}$ | Smoothly scales back tractive effort by $2.5\%/\text{K}$ before reaching hardware trip |
+| **Cooling Air Mass Flow Estimator**| Observer inputs blower motor RPM and duct static pressure ($\Delta P$)| Air velocity $v_{air} \ge 18\text{ m/s}$ | Flags dirty intake filters or blower failure prior to motor thermal escalation |
+
 #### ⚡ Traction Motor Flux Weakening Control & Constant Power Speed Ratio (CPSR)
 
 | Flux Weakening Parameter | Vector Control Formulation & Physics | Operational Threshold / Bound | High-Speed Traction Performance |
