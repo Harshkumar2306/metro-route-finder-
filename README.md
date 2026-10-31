@@ -2276,6 +2276,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Motorized Plenums Dampers** | Heavy-duty aerofoil blade dampers with 24 V DC modulated actuators | Closes/opens in **$< 15\text{ seconds}$** | Reconfigures automatically from heat extraction to emergency smoke purging |
 | **Platform Thermal Shielding** | Barrier aerodynamic flow isolates track thermal convection from PSDs | Cuts platform cooling load by **$30\%$** | Maintains public passenger platform concourse at stable $+25^\circ\text{C}$ comfort |
 
+#### 🌪️ Tunnel Over-Track Exhaust (OTE) Motorized Fire Smoke Dampers & High-Temperature Actuators
+
+| Smoke Damper Component | Metallurgy & Mechanical Architecture | Air Leakage / Thermal Rating | Smoke Evacuation Dynamics (NFPA 130) |
+| :--- | :--- | :---: | :--- |
+| **Opposed Airfoil Damper Blades**| Heavy-duty 316L stainless steel hollow airfoil extruded blades | Operating temperature **$400^\circ\text{C}$ for $120\text{ min}$** | High structural rigidity resists aerodynamic train piston pulses ($\pm 3.0\text{ kPa}$) |
+| **Spring-Return Modulating Actuator**| Fast-acting IP66 spring-return 24 V DC electric actuator | Full opening stroke time strictly **$t_{stroke} \le 15\text{ s}$** | Automatically drives blades to open fire extraction mode upon thermal fuse break |
+| **Air Tightness & Leakage Rate** | Flexible stainless-steel side jamb seals with nickel-alloy blade tips | Class 3 leakage (EN 1751) **$\le 10\text{ L/(s}\cdot\text{m}^2\text{)}$** | Prevents parasitic loss of air conditioning during normal passenger service |
+| **SCADA Position Feedback Loop** | Dual heavy-duty hermetically sealed microswitch contacts | Feedback signal latency $< 100\text{ ms}$ | Transmits verified open/closed state directly to TVS emergency fan automation |
+
 #### ❄️ Subterranean Station Chilled Water Plant & Oil-Free Magnetic Bearing Chillers
 
 | Chilled Water Subsystem | Mechanical Compression & Refrigerant | Performance Metric / COP | Station Concourse Thermal Control |
