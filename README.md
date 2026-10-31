@@ -863,6 +863,15 @@ flowchart TD
 | **Rubber-Bushed Torque Reaction Arm**| Spherical elastomeric silentbloc bushings on cast ductile iron torque link | $\pm 8\text{ mm}$ torsional compliance | Isolates motor stator and bogie frame from harsh acceleration/braking torque spikes |
 | **Synthetic PAO Gear Lubricant** | ISO VG 220 full synthetic polyalphaolefin with EP & anti-foaming additives | $4.5\text{ L}$ sump splash lubrication | Sustains continuous hydrodynamic film under $-10^\circ\text{C}$ to $55^\circ\text{C}$ ambient extremes |
 
+#### ⚙️ Traction Motor Cardan Curved-Tooth Gear Coupling & Angular Misalignment Kinematics
+
+| Cardan Coupling Dimension | Metallurgy & Kinematic Architecture | Angular / Axial Capability | Powertrain Dynamics & Torsional Resilience |
+| :--- | :--- | :---: | :--- |
+| **Crowned-Tooth Involute Hub** | Gas-nitrided alloy steel (42CrMo4 / $60\text{ HRC}$) barrel tooth profile | Pressure angle $\alpha = 20^\circ$ | Eliminates tooth edge contact loading during dynamic bogie pitching |
+| **Angular Misalignment Angle ($\Delta \theta$)**| Dual articulating crowned gear hubs linked by floating sleeve | Maximum angular flexure **$\Delta \theta \le 1.5^\circ$** | Accommodates 3D wheelset deflection over curved tracks and cross-level dips |
+| **Axial Thermal Plunge ($\Delta x$)**| Internal spline axial sliding engagement | Axial travel stroke $\Delta x = \pm 12\text{ mm}$ | Absorbs motor rotor thermal elongation and bogie frame flexure smoothly |
+| **Centrifugal O-Ring Grease Seal** | Precision synthetic fluoroelastomer (FKM) double-lip seals | Continuous speed up to $4,500\text{ RPM}$ | Retains EP synthetic grease without oil expulsion under high g centrifugal field |
+
 #### 🛑 Electro-Pneumatic Emergency Braking (EBS) & Wheel Slide Protection (WSP)
 
 | Braking System Layer | Engineering Architecture & Standards | Braking Rate / Response | Safety Fail-Safe & Wheel Integrity |
