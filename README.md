@@ -692,6 +692,15 @@ flowchart TD
 | **Overhead Workshop Stinger** | Movable suspended overhead trolley conductor rail with reeling cables | $750\text{ V DC}$ isolated workshop test bays | Plugs into carbody test socket to power traction in inspection pits without live third rails |
 | **Deadman Interlock & Warning Siren** | Dual keyed Castell interlocks and flashing amber beacons | Activated during depot bay energization | Auto-trips depot substation DC feeder breakers if workshop access gates open |
 
+#### 🔌 Third Rail Bottom-Contact Conductor Rail Stainless Steel Cladding & Thermal Expansion Joint Anchors
+
+| Conductor Rail Component | Metallurgy & Structural Geometry | Mechanical & Electrical Rating | Trackbed Alignment & Current Integrity |
+| :--- | :--- | :---: | :--- |
+| **Co-Extruded Aluminum-Steel Profile**| Extruded 6101B aluminum core with co-rolled 316L stainless steel cap | Specific resistance $\rho \le 0.032\ \Omega/\text{km}$ | Combines high conductivity with high abrasion wear resistance ($> 30\text{ years}$) |
+| **Sliding Finger Expansion Joints** | Machined overlapping finger blades with flexible copper bridging straps | Thermal stroke capacity **$\Delta L = \pm 50\text{ mm}$** | Accommodates diurnal rail thermal expansion without contact shoe interruption |
+| **Mid-Point Rigid Anchor (MPA)** | High-strength fiberglass reinforced epoxy clamp pinned to track slab | Longitudinal slip resistance $F_{res} \ge 35\text{ kN}$ | Fixes center point of $600\text{ m}$ conductor sections, directing thermal expansion to ends |
+| **Electrodynamic Short-Circuit Force**| Glass-fiber reinforced polyester (GRP) insulator brackets spaced at $5.0\text{ m}$ | Short-circuit withstand strictly **$\ge 120\text{ kA}$ peak**| Resists violent electrodynamic repulsive forces during dead short-circuit faults |
+
 #### 🛞 Train Bogie Dynamic Suspension & Air Spring Auto-Levelling Valves
 
 | Suspension Component | Structural Mechanism & Materials | Operating Pressure / Range | Ride Comfort & Safety Dynamic |
