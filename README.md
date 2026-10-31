@@ -998,6 +998,15 @@ flowchart TD
 | **Acoustic Transmission Loss** | Dual-wall decoupling barrier ($R'_w \ge 34\text{ dB}$) | Suppresses tunnel reverberation | Drops saloon interior background noise to **$< 68\text{ dBA}$** at $80\text{ km/h}$ |
 | **HVAC Thermal Insulation** | Polyurethane microcellular foam core within bellow folds | Thermal conductance $U \le 1.8\text{ W/(m}^2\cdot\text{K)}$| Prevents conditioned cold air leakage between coaches during peak summer |
 
+#### 🚇 Inter-Car Articulated Gangway Center Pivot Ring & Radial Centering Shear Spring Bushings
+
+| Pivot Ring Component | Mechanical Metallurgy & Bearing Spec | Kinematic Articulation / Load | Centering Dynamic & Anti-Pinch Standard |
+| :--- | :--- | :---: | :--- |
+| **Slewing Ring Ball Bearing** | Induction-hardened forged chrome steel (42CrMo4 / $58\text{ HRC}$) | Four-point contact bearing ($D_{ring} = 1,100\text{ mm}$)| Smooth low-friction yaw articulation ($\pm 10^\circ$) across tight depot curve loops |
+| **Radial Centering Shear Blocks**| Vulcanized natural rubber chevron shear spring bumpers | Centering stiffness $k_c \approx 8.5\text{ kN/m}$ | Automatically restores gangway frame to coach centerline after exiting curved track |
+| **Torsional Roll Decoupler** | Polyurethane spherical bushings at upper roof link mountings | Torsional roll allowance **$\Delta \phi \le \pm 4.0^\circ$** | Decouples coach roll vibrations, preventing bellow twist damage during cross-level twists |
+| **Anti-Pinch Sliding Cover Plates**| Segmented aluminum alloy deck plates with low-friction POM guides | Gap tolerance strictly **$\le 5.0\text{ mm}$** (EN 16286)| Completely eliminates foot pinch and tripping hazards under heavy crush commuter loading |
+
 #### 🔇 Saloon Floor Constrained Layer Damping (CLD) & Acoustic Floating Floor Isolation
 
 | Acoustic Damping Layer | Material Formulation & Structure | Mechanical Loss Factor / Metric | Noise Mitigation & Passenger Comfort |
