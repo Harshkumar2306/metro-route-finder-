@@ -313,6 +313,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Automated Jam Re-Open Sequence**| Auto-reverses door by $200\text{ mm}$ upon obstacle resistance | Re-opening response in **$< 120\text{ ms}$** | Cycles up to 3 times before entering safe acoustic alarm lockout state |
 | **Tooth-Belt Synchronous Drive**| Steel-cord reinforced polyurethane synchronous timing belt | Service life $> 1.5 \times 10^6\text{ cycles}$ | High-tensile drive guarantees synchronized movement of bi-parting glass leaves |
 
+#### 🚪 Platform Screen Door (PSD) Optical Synchronous Toothed Belt Drive & Tension Metrology
+
+| Toothed Belt Drive Layer | Material Architecture & Metallurgy | Pretension Force / Pitch | Synchronous Kinematics & Durability |
+| :--- | :--- | :---: | :--- |
+| **Steel-Cord Polyurethane Timing Belt**| Thermoplastic polyurethane matrix with high-strength helical steel tensile cords | Tooth pitch standard **AT10 ($10.0\text{ mm}$)**| High longitudinal modulus; zero permanent elongation under 2 million door cycles |
+| **Acoustic Belt Tension Metrology** | Non-contact optical/acoustic natural resonant frequency measurement | Calibrated frequency **$f_0 = 72\text{ Hz} \pm 4\text{ Hz}$** | Enforces precise initial pretension $F_0 = 450\text{ N}$, preventing tooth jumping |
+| **Bidirectional Stroke Repeatability**| Closed-loop bi-parting carriage guide pulleys on anodized track | Positioning repeatability **$\le \pm 0.5\text{ mm}$** | Ensures perfect flush alignment of double door leaves at platform center mark |
+| **Self-Tracking Pulley Flanges** | Induction-hardened aluminum timing pulleys with crowned tooth profile | Side flange clearance $\le 1.0\text{ mm}$ | Prevents edge fraying and lateral belt wander under high-speed emergency reversals |
+
 #### 🚪 Platform Screen Door Brushless DC Drive Micro-Torque Anti-Pinch Dynamics
 
 | BLDC Drive Control Layer | Vector Control Electronics & Feedback | Torque Limit / Precision | Anti-Entrapment Kinematics & EN 14752 |
