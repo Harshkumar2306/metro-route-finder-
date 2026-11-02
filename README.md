@@ -1322,6 +1322,15 @@ flowchart TD
 | **Span Length Optimization ($L$)**| Mast span reduction on curves ($L = 36\text{ m} – 45\text{ m}$)| Tangent span maximum $L_{\max} = 65\text{ m}$ | Prevents excessive blow-off across high elevated Yamuna viaduct spans |
 | **Steady Arm Retainer Tubes** | Articulated aluminum steady arms with anti-wind lift stops | Permissible uplift $\Delta z \le 80\text{ mm}$ | Holds contact wire securely on stagger point, resisting upward wind gust flutter |
 
+#### 🚡 Catenary Steady Arm Articulation Swivel Link & Contact Wire Lift Freedom
+
+| Steady Arm Component | Mechanical Metallurgy & Joint Geometry | Kinematic Travel / Load | Contact Wire Lift Dynamics (EN 50119) |
+| :--- | :--- | :---: | :--- |
+| **Drop-Forged Aluminum Arm** | Corrosion-resistant aluminum-magnesium-silicon alloy (EN AW-6082-T6) | Mass minimization ($M_{arm} \le 1.8\text{ kg}$) | Low inertia reduces dynamic hard-spot impact force during pantograph passage |
+| **Swivel Clevis Articulation**| Double-swivel articulated pin joint with stainless-steel shackle | Angular pitch freedom $\pm 25^\circ$ | Accommodates 3D pantograph uplift without bending or mechanical binding |
+| **Unrestricted Vertical Lift**| Vertical uplift travel envelope at mast support bracket | Vertical clearance **$\Delta z_{lift} \ge 120\text{ mm}$** | Allows natural elastic wave propagation without rigid point impact sparks |
+| **Anti-Torsion Grooved Clamp**| Copper-alloy (CuNi2Si) contact wire steady clamp shoe | Lateral holding force **$F_{lat} \ge 3.5\text{ kN}$** | Prevents contact wire angular twist ($< 3^\circ$), keeping flat contact face coplanar |
+
 #### 🚊 Pantograph Copper-Impregnated Carbon Strips & Dynamic Uplift Foil Aero-Wings
 
 | Pantograph Component | Material Composition & Aerodynamics | Contact Force / Electrical Spec | High-Speed Current Collection & Protection |
