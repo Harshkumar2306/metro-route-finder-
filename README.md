@@ -1691,6 +1691,15 @@ flowchart TD
 | **Interference Shrink Retainer**| Precision ground cylindrical carbon sleeve press-fit | Radial interference $\Delta r = 0.25\text{ mm}$ | Prevents rotor magnet slippage during severe dynamic braking torque reversals |
 | **Eddy Current Shielding Layer**| Micro-thin copper eddy current shielding foil ($0.2\text{ mm}$)| Minimizes high-frequency rotor losses | Clamps rotor surface temperature rise, preventing NdFeB magnet demagnetization |
 
+#### ⚡ Traction Motor Rotor End-Ring Laser Beam Welding & Bar Slot Inductive Brazing
+
+| Rotor Joint Subsystem | Metallurgy & Joining Architecture | Electrical Conductivity / Shear | Thermal Cycling & Centrifugal Retention |
+| :--- | :--- | :---: | :--- |
+| **OFHC Copper Rotor Bars** | Oxygen-free high-conductivity copper bars (Cu-OF / ASTM B170) | Electrical conductivity $\ge 101.5\%\text{ IACS}$ | Minimizes bar $I^2 R$ resistive heating under high starting slip frequencies |
+| **Medium-Frequency Induction Brazing**| High-frequency silver-copper alloy induction fluxless brazing (AWS BAg-8)| Joint shear strength **$\tau_{shear} \ge 220\text{ MPa}$** | Withstands severe thermal expansion differentials without joint fatigue fracture |
+| **Fiber Laser End-Ring Welding**| Multi-kilowatt fiber laser beam welding rotor bar-to-ring joints | Full weld penetration depth **$d_{pen} \ge 6.0\text{ mm}$** | Narrow heat-affected zone (HAZ) prevents annealing softening of copper ring |
+| **Centrifugal Retaining Shroud** | High-tensile non-magnetic forged alloy steel end-ring sleeve | Yield strength $R_{p0.2} \ge 850\text{ MPa}$ | Prevents centrifugal radial outward extrusion of copper end-rings at $6,000\text{ RPM}$ |
+
 #### 🚄 Traction Motor Stator RTD & Fiber Bragg Grating (FBG) Real-Time Thermometry
 
 | Thermometry Subsystem | Sensor Physics & Calibration | Sampling Rate & Precision | Thermal Protection & Torque Derating |
