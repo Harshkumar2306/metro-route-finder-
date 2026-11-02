@@ -863,6 +863,15 @@ flowchart TD
 | **Traction Rod Push-Pull Link** | Dual diagonal Watt's linkage traction rods with silentblocs | Pitch/roll angular play $\pm 4.5^\circ$ | Maintains parallel axle guiding and eliminates bogie frame pitching during braking |
 | **Maintenance-Free Articulation**| Completely grease-free polymer elastomer matrix | Service lifespan **$> 1.2 \times 10^6\text{ km}$** | Eliminates metallic sliding wear plates, grease contamination and periodic lubrication |
 
+#### 🛞 Bogie Axle Solid Carbothermic Forged EA1N Steel & In-Service Rotary Bending Fatigue
+
+| Axle Metallurgy Layer | Material Processing & Microstructure | Fatigue Endurance / Yield | NDT Structural Integrity & EN 13261 |
+| :--- | :--- | :---: | :--- |
+| **Forged Normalized EA1N Steel**| Vacuum-degassed carbothermic plain carbon steel ($0.35\% – 0.40\%\text{ C}$)| Tensile yield strength **$R_{eH} \ge 320\text{ MPa}$** | Fine ferritic-pearlitic grain size (ASTM $\ge 6$), high impact toughness ($KU \ge 30\text{ J}$) |
+| **Rotating Bending Fatigue Limit**| Full-scale rotary bending fatigue test ($10^7\text{ cycles}$ at $R = -1$)| Dynamic fatigue limit strictly **$\sigma_D \ge 240\text{ MPa}$** | Eliminates risk of catastrophic wheel-seat axle fatigue fracture under revenue crush loads |
+| **Deep-Rolled Transition Fillets**| Cold deep rolling of wheel seat and gear seat transition fillets | Residual compressive stress **$\sigma_{comp} \ge -350\text{ MPa}$** | Retards fatigue micro-crack initiation in high stress-concentration transition zones |
+| **Axial Bore PAUT Ultrasonic Scan**| Central longitudinal hollow inspection bore ($D_{bore} = 60\text{ mm}$)| Flaw interception sensitivity $\ge 0.5\text{ mm}$| In-service ultrasonic probe scan detects subsurface micro-defects without wheel demounting |
+
 #### 🛡️ Carbody Crashworthiness Sizing & Progressive Deformation Energy Absorbers (EN 15227)
 
 | Crashworthiness Element | Structural Material & Standards (EN 15227 / C-I) | Energy Absorption / Force | Survival Space & Collision Kinematics |
