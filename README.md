@@ -1178,6 +1178,15 @@ flowchart TD
 | **Longitudinal Attenuation ($\alpha$)**| High-purity cellular polyethylene dielectric foam insulation | Attenuation strictly **$\alpha \le 8.5\text{ dB/100m}$** | Limits RF signal dissipation over $500\text{ m}$ amplifier repeater intervals |
 | **Flame-Retardant LSZH Sheath** | Low-smoke zero-halogen polyolefin jacket (EN 50267 / IEC 60332)| Flame spread index $< 25$ | Emits zero toxic halogen gases and preserves structural sheath integrity during fire |
 
+#### 📡 CBTC Free-Propagation Slotted Waveguide Antenna Directivity & Polarization Isolation
+
+| Waveguide Antenna Layer | Structural Architecture & Cavity Spec | Operating Frequency / Gain | Radiation Directivity & Tunnel Link Reliability |
+| :--- | :--- | :---: | :--- |
+| **Slotted Waveguide Array (SWA)**| Extruded marine-grade aluminum rectangular guide (WR-159) | Operating band $5.725\text{ GHz} – 5.875\text{ GHz}$ | Narrow beam suppresses side reflections off curved concrete tunnel segment walls |
+| **Main Lobe Directivity ($H/E$)** | Longitudinal offset radiating broadwall slot matrix | Horizontal beamwidth $12^\circ$, Vertical $65^\circ$| Concentrates forward boresight energy along train path, maximizing reach ($> 450\text{ m}$) |
+| **Cross-Polarization Isolation** | High cross-polarization discrimination (XPD) tuning | Isolation ratio strictly **$XPD \ge 25\text{ dB}$** | Prevents polarization depolarization loss caused by irregular wet tunnel wall contours |
+| **Pressurized Nitrogen Radome** | Low-loss PTFE radome window with silicone gasket sealing | Voltage Standing Wave Ratio strictly **$VSWR \le 1.25$**| Completely immune to conductive brake carbon dust deposition and humidity condensation |
+
 #### 📡 CBTC Trackside Radio Access Unit (TAU) Spatial Diversity & MIMO Antennas
 
 | Radio Access Unit (TAU) Parameter | Hardware Profile & Antenna Mechanics | Operating Band & RF Standard | Environmental Resilience & Redundancy |
