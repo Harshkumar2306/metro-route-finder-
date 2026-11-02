@@ -2690,6 +2690,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Vibration Dynamic Shear Load** | Grade 8.8 galvanized high-tensile anchor dowel ($M24$ thread)| Dynamic shear endurance $> 45\text{ kN}$ | Absorbs continuous lateral wheel flange forces over $> 3.0 \times 10^6$ load cycles |
 | **High Moisture & Temperature Aging**| Heat deflection temperature $HDT \ge 80^\circ\text{C}$ | Service temperature $-10^\circ\text{C} – +75^\circ\text{C}$| Sustains full bond strength during extreme Delhi summer rail thermal cycles |
 
+#### 🚊 Ballastless Track High-Attenuation Fastening Baseplate Dynamic Tie-Plate Clamping
+
+| Baseplate Clamping Layer | Metallurgy & Elastomeric Profile | Clamping Force / Deflection | Track Geometry & Creep Resistance (EN 13146) |
+| :--- | :--- | :---: | :--- |
+| **Ductile Cast-Iron Baseplate** | Spheroidal graphite cast iron (EN-GJS-500-7 / ISO 1083) | Baseplate rail cant angle strictly **$1:20$ inward** | Directs resultant dynamic wheel contact vectors along rail neutral bending axis |
+| **Spring Tension Clamp (Skl-12)** | Silicon-chromium spring steel ($60\text{SiCr7}$ / $44 – 48\text{ HRC}$) | Clamping toe preload **$F_{clamp} = 10.5\text{ kN} \pm 1.0\text{ kN}$**| Maintains positive rail foot retention without loosening under severe vibration |
+| **Longitudinal Rail Creep Restraint**| High-friction grooved composite rail pad interface | Longitudinal slip resistance **$F_{slip} \ge 9.0\text{ kN}$** | Prevents rail longitudinal expansion creeping under repetitive train braking traction |
+| **Micro-Adjustment Cam Bushings**| Eccentric polyamide collar inserts in holding-down holes | Lateral gauge adjustment stroke **$\pm 4.0\text{ mm}$** | Allows fine track gauge restoration ($1,435\text{ mm}$) without redrilling concrete plinths |
+
 #### 🚆 Wheel-Rail Interface Lubrication & Friction Modification
 
 | Tribology Mechanism | Application Technology & Dispenser | Target Track Location | Mechanical & Acoustic Benefit |
