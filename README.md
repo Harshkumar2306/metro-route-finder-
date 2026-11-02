@@ -457,6 +457,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Active Charge/Discharge Control** | Digital signal processor (DSP) sliding-mode current controller | Continuous peak power **$1,200\text{ kW}$** | Discharges stored energy back to departing train accelerating out of platform |
 | **Active Cell Voltage Balancing** | Switched-shunt dynamic equalizer on 125 V capacitor modules | Balance error strictly **$\Delta V_{cell} \le 15\text{ mV}$** | Maximizes cycle longevity ($> 1.0 \times 10^6\text{ cycles}$) under rapid stop-go duty |
 
+#### 🔋 Wayside Flywheel Energy Storage Magnetic Unbalance & Homopolar Stator Cooling
+
+| Flywheel Subsystem Layer | Electro-Mechanical & Thermal Architecture | Control Bandwidth / Force | Dynamic Stability & Vacuum Isolation |
+| :--- | :--- | :---: | :--- |
+| **Active Magnetic Bearing (AMB)**| 5-axis digital homopolar electromagnetic levitation coils | Control loop sampling rate **$f_s \ge 10\text{ kHz}$** | Levitation air gap maintained at $0.8\text{ mm} \pm 10\ \mu\text{m}$ across entire speed range |
+| **Dynamic Unbalance Compensation**| Active current harmonic injection canceling synchronous runout | Dynamic force capacity **$F_{comp} \ge 5.0\text{ kN}$** | Allows high-speed rotor to spin around its inertial mass axis without casing vibration |
+| **Liquid-Cooled Stator Jacket** | Helical stainless-steel water-glycol cooling channels inside casing | Continuous heat dissipation **$\ge 25\text{ kW}$** | Clamps stator slot temperature below $110^\circ\text{C}$ during repetitive braking regeneration |
+| **Turbomolecular Vacuum Pumping**| Internal drag pump maintaining high vacuum envelope | Vacuum chamber pressure strictly **$P_{vac} \le 10^{-4}\text{ mbar}$**| Reduces aerodynamic rotor windage drag losses to $< 0.8\%$ of stored kinetic energy |
+
 #### ⚡ Regenerative Braking Inverters & Onboard Supercapacitor Peak-Shaving
 
 | Energy Storage Subsystem | Electrical Rating & Topology | Charge/Discharge Dynamic | Traction Energy & Peak Shaving Metric |
