@@ -2321,6 +2321,15 @@ The application models the core backbone of the Delhi Metro transit network:
 | **Bentonite Slurry Hydrostatics**| Premium Wyoming sodium bentonite thixotropic suspension | Slurry density $\rho = 1.05 – 1.15\text{ g/cm}^3$ | Exerts positive hydrostatic cake pressure, preventing trench wall caving during grab dig |
 | **Hydrophilic Re-Injection Tubes**| Perforated micro-mesh resin re-injection hoses embedded in joints | Post-grouting pressure $15\text{ bar} – 25\text{ bar}$ | Allows targeted chemical polyurethane/acrylate resin injection to seal joint leaks |
 
+#### 🌊 Deep Station Diaphragm Wall (D-Wall) Tremie Concrete Hydrostatic Displacement & Slump Flow
+
+| Tremie Pouring Parameter | Concrete Rheology & Piping Mechanics | Metric Specification / Head | Subterranean Concrete Integrity (EN 1538) |
+| :--- | :--- | :---: | :--- |
+| **Self-Compacting Slump Flow**| High-flow C35/45 mix with polycarboxylate superplasticizer | Slump flow diameter strictly **$600\text{ mm} – 650\text{ mm}$** | Flows easily around dense rebar cages ($> 200\text{ kg/m}^3$) without mechanical vibration |
+| **Tremie Pipe Embedment Depth**| Seamless steel tremie pipe ($DN\ 250$) with O-ring sealed joints | Pipe embedment depth strictly **$2.0\text{ m} \le h_{emb} \le 4.0\text{ m}$**| Prevents bentonite slurry entrapment and cold-joint inclusions in structural wall |
+| **Positive Concrete Head Margin**| Differential hydrostatic pressure between concrete and slurry | Head margin strictly **$\Delta P \ge 40\text{ kPa}$** | Continuously displaces dense bentonite slurry upward without trench wall collapse |
+| **Bleeding & Segregation Index** | Micro-silica and fly-ash pozzolanic matrix (DIN 1045 / EN 206)| Free bleeding rate **$w_b \le 0.2\%$** | Prevents aggregate sedimentation and water pocketing, ensuring watertight jointing |
+
 #### 🧯 Subterranean Tunnel Ventilation & Emergency Evacuation Cross-Passages
 
 | Safety Subsystem | Technical Engineering Mechanism | Physical Deployment Interval | Emergency Evacuation Standard |
