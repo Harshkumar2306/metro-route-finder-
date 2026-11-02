@@ -926,6 +926,15 @@ flowchart TD
 | **Integrated Noise Shroud** | Acoustically insulated stainless-steel underframe box | Operating noise level **$< 66\text{ dBA}$** | Resilient anti-vibration rubber mounts suppress low-frequency carbody thrum |
 | **Pneumatic Condensate Purge** | Automatic solenoid drain valve with heating element | Heated against freezing at $-10^\circ\text{C}$ | Purges accumulated water droplets every compression cycle automatically |
 
+#### 💨 Train Brake Pipe Unloader Valve & Dual-Chamber Centrifugal Desiccant Water Separators
+
+| Pneumatic Separation Layer | Mechanical Architecture & Fluid Dynamics | Efficiency / Dew Point Rating | Valve Protection & ISO 8573-1 Quality |
+| :--- | :--- | :---: | :--- |
+| **Centrifugal Water Pre-Separator**| High-velocity helical cyclonic swirl chamber with baffle plates | Water droplet separation **$\ge 98.5\%$** | Strips bulk liquid water condensate before entering desiccant absorption towers |
+| **Heated Solenoid Blowdown Valve** | Pulse-actuated pilot solenoid dump valve with PTC heating jacket | Dump cycle latency strictly **$< 150\text{ ms}$** | Ejects water muck every compressor idle cycle; 100% freeze-proof down to $-25^\circ\text{C}$ |
+| **Pressure Dew Point (PDP) Class** | Micro-porous sodium aluminosilicate zeolite molecular sieve bed | Pressure dew point strictly **$PDP \le -20^\circ\text{C}$** | Exceeds ISO 8573-1 Class 2.2.1; guarantees zero moisture condensation in brake pipes |
+| **Automatic Dual-Tower Regeneration**| Counter-flow dry purge air desorption with shuttle check valve | Purge air consumption strictly $\le 12\%$ | Continuously regenerates off-line desiccant tower without interruption to train supply |
+
 #### 💨 Train Main Air Reservoir Micro-Pressure Transducers & Dual-Check Safety Relief Valves
 
 | Reservoir Subsystem Layer | Mechanical Sizing & Vessel Standard | Operating Pressure / Limit | Pneumatic Brake Integrity & Protection |
