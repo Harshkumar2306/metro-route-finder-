@@ -168,6 +168,15 @@ Originally built as a foundational C++ data structures and algorithms project, i
 | **Standby Crawl Speed Mode** | Automatic speed deceleration when escalator is unoccupied for $> 60\text{ s}$ | Crawl velocity $v_{crawl} = 0.15\text{ m/s}$ | Lowers standby electrical power consumption by **$> 55\%$** during off-peak hours |
 | **Regenerative Braking Recovery**| Inverts potential energy during heavy downward passenger flows | Active regeneration efficiency $\ge 88\%$ | Feeds electricity back into station auxiliary 415 V grid, reducing net cooling load |
 
+#### 🛗 Transit Escalator Step Roller Polyurethane Band & High-Load Needle Bearing Tribology
+
+| Step Roller Component | Mechanical Metallurgy & Polymer Tribology | Dynamic Load / Hardness | Fatigue Longevity & Commuter Acoustic Isolation |
+| :--- | :--- | :---: | :--- |
+| **Vulkollan Polyurethane Tyre**| Cast polyurethane elastomer bonded directly onto steel hub | Durometer hardness $93 – 95\text{ Shore A}$ | High dynamic rebound resilience; suppresses rolling track vibration noise ($< 55\text{ dBA}$) |
+| **Sealed Deep-Groove Ball Bearing**| High-carbon chromium bearing steel (100Cr6 / ISO 683-17) | Dynamic load rating **$C_{dyn} \ge 18.5\text{ kN}$** | Resists severe step eccentric loads during heavy two-passenger-per-step rush hour flows |
+| **Labyrinth Contactless Seals** | Dual non-rubbing labyrinth seals with synthetic polyurea grease | Water & dust proofing to IP55 | 100% blocks ingress of escalator wash-water, abrasive grit and floor polish residues |
+| **Rolling Tread Wear Rate** | High wear-resistance formulation under continuous revenue cycles | Tread flatting wear strictly **$\le 0.05\text{ mm} / 10^7\text{ rev}$**| Conforms to EN 115-1; prevents step tilt and comb plate interference over 15-year life |
+
 #### 🛗 Heavy-Duty Transit Elevators & Machine-Room-Less (MRL) Traction VVVF
 
 | Elevator Subsystem | Engineering Specification (EN 81-20/50) | Mechanical & Motion Profile | Universal Accessibility & Emergency Dynamics |
